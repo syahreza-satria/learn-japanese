@@ -1,0 +1,1875 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Learn Japanese</title>
+		<link rel="stylesheet" href="/styles/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+		/>
+	</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg fixed-top bg-black navbar-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand fw-semibold" href="/index.html"
+					>Belajar Nippon</a
+				>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNavDropdown"
+					aria-controls="navbarNavDropdown"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="/index.html"
+								>Beranda</a
+							>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#jenis-karakter"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								Jenis Karakter
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a class="dropdown-item" href="#hiragana"
+										>Hiragana (ひらがな)</a
+									>
+								</li>
+								<li>
+									<a class="dropdown-item" href="#katakana"
+										>Katakana (カタカナ)</a
+									>
+								</li>
+								<li>
+									<a class="dropdown-item" href="#kanji">Kanji (漢字)</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#struktur-kata">Struktur Kata</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#kaiwa">Kaiwa</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="mt-5 w-75 mx-auto">
+			<!-- Hero Section -->
+			<div class="text-center py-4">
+				<h1 class="fw-bold">Halo Semuanya!</h1>
+				<p class="text-secondary fw-light">
+					Aku membuat website ini untuk membantuku belajar bahasa jepang, kalau
+					kamu ingin ikut belajar juga silahkan pakai website ini sepuas kamu.
+					Aku tidak akan mengambil biaya
+					<span class="fw-bold">apapun</span> untuk ilmu yang ini.
+				</p>
+			</div>
+
+			<!-- Content -->
+			<section>
+				<div class="container">
+					<div class="row row-cols-1 row-cols-md-3 g-4">
+						<div class="col">
+							<div class="card h-100">
+								<h5 class="card-header">Hiragana (ひらがな)</h5>
+								<img
+									src="/public/img/hiragana.jpg"
+									alt="Hiragana"
+									class="card-img-top h-50 object-fit-cover rounded-0"
+								/>
+								<div class="card-body">
+									<p class="card-text">
+										Hiragana dipakai untuk kata asli Jepang, partikel, dan
+										konjugasi kata kerja, dengan bentuk lebih melingkar dan
+										halus.
+									</p>
+								</div>
+								<div class="card-footer">
+									<a href="#hiragana" class="btn btn-primary"
+										>Belajar ini <i class="bi bi-arrow-up-right-square ms-1"></i
+									></a>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card h-100">
+								<h5 class="card-header">Katakana (カタカナ)</h5>
+								<img
+									src="/public/img/katakana.jpg"
+									alt="Katakana"
+									class="card-img-top rounded-0 h-50 object-fit-cover"
+								/>
+								<div class="card-body">
+									<p class="card-text">
+										Katakana digunakan untuk menulis kata serapan asing, nama
+										orang luar, atau penekanan.
+									</p>
+								</div>
+								<div class="card-footer">
+									<a href="#hiragana" class="btn btn-primary"
+										>Belajar ini <i class="bi bi-arrow-up-right-square ms-1"></i
+									></a>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card h-100">
+								<h5 class="card-header">Kanji (漢字)</h5>
+								<img
+									src="/public/img/kanji.jpg"
+									alt="Kanji"
+									class="card-img-top rounded-0 h-50 object-fit-cover"
+								/>
+								<div class="card-body">
+									<p class="card-text">
+										Kanji adalah aksara Tionghoa yang diadaptasi, mewakili makna
+										& bunyi, digunakan untuk kata dasar & kompleks.
+									</p>
+								</div>
+								<div class="card-footer">
+									<a href="#hiragana" class="btn btn-primary"
+										>Belajar ini <i class="bi bi-arrow-up-right-square ms-1"></i
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<hr class="my-5" />
+
+				<!-- Jenis Karakter -->
+				<div class="container" id="jenis-karakter">
+					<div class="mb-4">
+						<h2 class="fw-bold">Jenis Karakter</h2>
+						<h3 class="fw-bold fs-5" id="hiragana">1. Hiragana (ひらがな)</h3>
+						<p class="text-secondary">
+							Huruf hiragana standar terdiri atas 46 huruf. Huruf hiragana
+							dipakai untuk menuliskan nama-nama dan kata-kata asli bahasa
+							jepang. Hiragana dapat digunakan sebagai <i>furigana</i> (cara
+							baca kanji yang ditulis di atas huruf kanji).
+						</p>
+						<div
+							class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center fw-light"
+						>
+							<div class="col">
+								<table class="text-center table fs-6">
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">あ</span>
+											<br />
+											a
+										</td>
+										<td>
+											<span class="fw-bold fs-2">い</span>
+											<br />
+											i
+										</td>
+										<td>
+											<span class="fw-bold fs-2">う</span>
+											<br />
+											u
+										</td>
+										<td>
+											<span class="fw-bold fs-2">え</span>
+											<br />
+											e
+										</td>
+										<td>
+											<span class="fw-bold fs-2">お</span>
+											<br />
+											o
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">か</span>
+											<br />
+											ka
+										</td>
+										<td>
+											<span class="fw-bold fs-2">き</span>
+											<br />
+											ki
+										</td>
+										<td>
+											<span class="fw-bold fs-2">く</span>
+											<br />
+											ku
+										</td>
+										<td>
+											<span class="fw-bold fs-2">け</span>
+											<br />
+											ke
+										</td>
+										<td>
+											<span class="fw-bold fs-2">こ</span>
+											<br />
+											ko
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">さ</span>
+											<br />
+											sa
+										</td>
+										<td>
+											<span class="fw-bold fs-2">し</span>
+											<br />
+											shi
+										</td>
+										<td>
+											<span class="fw-bold fs-2">す</span>
+											<br />
+											su
+										</td>
+										<td>
+											<span class="fw-bold fs-2">せ</span>
+											<br />
+											se
+										</td>
+										<td>
+											<span class="fw-bold fs-2">そ</span>
+											<br />
+											so
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">た</span>
+											<br />
+											ta
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ち</span>
+											<br />
+											chi
+										</td>
+										<td>
+											<span class="fw-bold fs-2">つ</span>
+											<br />
+											tsu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">て</span>
+											<br />
+											te
+										</td>
+										<td>
+											<span class="fw-bold fs-2">と</span>
+											<br />
+											to
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">な</span>
+											<br />
+											na
+										</td>
+										<td>
+											<span class="fw-bold fs-2">に</span>
+											<br />
+											ni
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ぬ</span>
+											<br />
+											nu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ね</span>
+											<br />
+											ne
+										</td>
+										<td>
+											<span class="fw-bold fs-2">の</span>
+											<br />
+											no
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">は</span>
+											<br />
+											ha
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ひ</span>
+											<br />
+											hi
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ふ</span>
+											<br />
+											fu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">へ</span>
+											<br />
+											he
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ほ</span>
+											<br />
+											ho
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ま</span>
+											<br />
+											ma
+										</td>
+										<td>
+											<span class="fw-bold fs-2">み</span>
+											<br />
+											mi
+										</td>
+										<td>
+											<span class="fw-bold fs-2">む</span>
+											<br />
+											mu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">め</span>
+											<br />
+											me
+										</td>
+										<td>
+											<span class="fw-bold fs-2">も</span>
+											<br />
+											mo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">や</span>
+											<br />
+											ya
+										</td>
+										<td></td>
+										<td>
+											<span class="fw-bold fs-2">ゆ</span>
+											<br />
+											yu
+										</td>
+										<td></td>
+										<td>
+											<span class="fw-bold fs-2">よ</span>
+											<br />
+											yo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ら</span>
+											<br />
+											ra
+										</td>
+										<td>
+											<span class="fw-bold fs-2">り</span>
+											<br />
+											ri
+										</td>
+										<td>
+											<span class="fw-bold fs-2">る</span>
+											<br />
+											ru
+										</td>
+										<td>
+											<span class="fw-bold fs-2">れ</span>
+											<br />
+											re
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ろ</span>
+											<br />
+											ro
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">わ</span>
+											<br />
+											wa
+										</td>
+										<td></td>
+										<td>
+											<span class="fw-bold fs-2">ん</span>
+											<br />
+											n
+										</td>
+										<td></td>
+										<td>
+											<span class="fw-bold fs-2">を</span>
+											<br />
+											wo
+										</td>
+									</tr>
+								</table>
+							</div>
+							<div class="col">
+								<table class="text-center table fs-6">
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">が</span>
+											<br />
+											ga
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ぎ</span>
+											<br />
+											gi
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ぐ</span>
+											<br />
+											gu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">げ</span>
+											<br />
+											ge
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ご</span>
+											<br />
+											go
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ざ</span>
+											<br />
+											za
+										</td>
+										<td>
+											<span class="fw-bold fs-2">じ</span>
+											<br />
+											zi
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ず</span>
+											<br />
+											zu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ぜ</span>
+											<br />
+											ze
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ぞ</span>
+											<br />
+											zo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">だ</span>
+											<br />
+											da
+										</td>
+										<td>
+											<span class="fw-bold fs-2">じ</span>
+											<br />
+											ji
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ず</span>
+											<br />
+											zu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">で</span>
+											<br />
+											de
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ど</span>
+											<br />
+											do
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ば</span>
+											<br />
+											ba
+										</td>
+										<td>
+											<span class="fw-bold fs-2">び</span>
+											<br />
+											bi
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ぶ</span>
+											<br />
+											bu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">べ</span>
+											<br />
+											be
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ぼ</span>
+											<br />
+											bo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ぱ</span>
+											<br />
+											pa
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ぴ</span>
+											<br />
+											pi
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ぷ</span>
+											<br />
+											pu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ぺ</span>
+											<br />
+											pe
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ぽ</span>
+											<br />
+											po
+										</td>
+									</tr>
+								</table>
+								<table
+									class="text-center table fs-6 d-none d-md-table d-lg-none"
+								>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">キャ</span>
+											<br />
+											kya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">きゅ</span>
+											<br />
+											kyu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">きょ</span>
+											<br />
+											kyo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">しゃ</span>
+											<br />
+											sha
+										</td>
+										<td>
+											<span class="fw-bold fs-2">しゅ</span>
+											<br />
+											shu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">しょ</span>
+											<br />
+											sho
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ちゃ</span>
+											<br />
+											cha
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ちゅ</span>
+											<br />
+											chu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ちょ</span>
+											<br />
+											cho
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">にゃ</span>
+											<br />
+											nya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">にゅ</span>
+											<br />
+											nyu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">にょ</span>
+											<br />
+											nyo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ひゃ</span>
+											<br />
+											hya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ひゅ</span>
+											<br />
+											hyu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ひょ</span>
+											<br />
+											hyo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">みゃ</span>
+											<br />
+											mya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">みゅ</span>
+											<br />
+											myu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">みょ</span>
+											<br />
+											myo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">りゃ</span>
+											<br />
+											rya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">りゅ</span>
+											<br />
+											ryu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">りょ</span>
+											<br />
+											ryo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ぎゃ</span>
+											<br />
+											gya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ぎゅ</span>
+											<br />
+											gyu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ぎょ</span>
+											<br />
+											gyo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">じゃ</span>
+											<br />
+											ja
+										</td>
+										<td>
+											<span class="fw-bold fs-2">じゅ</span>
+											<br />
+											ju
+										</td>
+										<td>
+											<span class="fw-bold fs-2">じょ</span>
+											<br />
+											jo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">びゃ</span>
+											<br />
+											bya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">びゅ</span>
+											<br />
+											byu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">びょ</span>
+											<br />
+											byo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ぴゃ</span>
+											<br />
+											pya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ぴゅ</span>
+											<br />
+											pyu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ぴょ</span>
+											<br />
+											pyo
+										</td>
+									</tr>
+								</table>
+							</div>
+							<div class="col d-block d-md-none d-lg-block">
+								<table class="text-center table fs-6">
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">きゃ</span>
+											<br />
+											kya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">きゅ</span>
+											<br />
+											kyu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">きょ</span>
+											<br />
+											kyo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">しゃ</span>
+											<br />
+											sha
+										</td>
+										<td>
+											<span class="fw-bold fs-2">しゅ</span>
+											<br />
+											shu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">しょ</span>
+											<br />
+											sho
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ちゃ</span>
+											<br />
+											cha
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ちゅ</span>
+											<br />
+											chu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ちょ</span>
+											<br />
+											cho
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">にゃ</span>
+											<br />
+											nya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">にゅ</span>
+											<br />
+											nyu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">にょ</span>
+											<br />
+											nyo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ひゃ</span>
+											<br />
+											hya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ひゅ</span>
+											<br />
+											hyu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ひょ</span>
+											<br />
+											hyo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">みゃ</span>
+											<br />
+											mya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">みゅ</span>
+											<br />
+											myu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">みょ</span>
+											<br />
+											myo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">りゃ</span>
+											<br />
+											rya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">りゅ</span>
+											<br />
+											ryu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">りょ</span>
+											<br />
+											ryo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ぎゃ</span>
+											<br />
+											gya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ぎゅ</span>
+											<br />
+											gyu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ぎょ</span>
+											<br />
+											gyo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">じゃ</span>
+											<br />
+											ja
+										</td>
+										<td>
+											<span class="fw-bold fs-2">じゅ</span>
+											<br />
+											ju
+										</td>
+										<td>
+											<span class="fw-bold fs-2">じょ</span>
+											<br />
+											jo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">びゃ</span>
+											<br />
+											bya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">びゅ</span>
+											<br />
+											byu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">びょ</span>
+											<br />
+											byo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ぴゃ</span>
+											<br />
+											pya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ぴゅ</span>
+											<br />
+											pyu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ぴょ</span>
+											<br />
+											pyo
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+
+					<!-- Katakana -->
+					<div class="mb-4">
+						<h3 class="fw-bold fs-5" id="katakana">2. Katakana (カタカナ)</h3>
+						<p class="text-secondary">
+							Huruf katakana standar terdiri atas 46 huruf. Huruf katakana
+							dipakai untuk menuliskan nama-nama dan kata-kata serapan dari
+							bahasa asing. Katakana dapat digunakan sebagai <i>furigana</i>
+							(cara baca kanji yang ditulis di atas huruf kanji).
+						</p>
+						<div
+							class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center fw-light"
+						>
+							<div class="col">
+								<table class="text-center table fs-6">
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ア</span>
+											<br />
+											a
+										</td>
+										<td>
+											<span class="fw-bold fs-2">イ</span>
+											<br />
+											i
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ウ</span>
+											<br />
+											u
+										</td>
+										<td>
+											<span class="fw-bold fs-2">エ</span>
+											<br />
+											e
+										</td>
+										<td>
+											<span class="fw-bold fs-2">オ</span>
+											<br />
+											o
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">カ</span>
+											<br />
+											ka
+										</td>
+										<td>
+											<span class="fw-bold fs-2">キ</span>
+											<br />
+											ki
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ク</span>
+											<br />
+											ku
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ケ</span>
+											<br />
+											ke
+										</td>
+										<td>
+											<span class="fw-bold fs-2">コ</span>
+											<br />
+											ko
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">サ</span>
+											<br />
+											sa
+										</td>
+										<td>
+											<span class="fw-bold fs-2">シ</span>
+											<br />
+											shi
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ス</span>
+											<br />
+											su
+										</td>
+										<td>
+											<span class="fw-bold fs-2">セ</span>
+											<br />
+											se
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ソ</span>
+											<br />
+											so
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">タ</span>
+											<br />
+											ta
+										</td>
+										<td>
+											<span class="fw-bold fs-2">チ</span>
+											<br />
+											chi
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ツ</span>
+											<br />
+											tsu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">テ</span>
+											<br />
+											te
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ト</span>
+											<br />
+											to
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ナ</span>
+											<br />
+											na
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ニ</span>
+											<br />
+											ni
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ヌ</span>
+											<br />
+											nu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ネ</span>
+											<br />
+											ne
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ノ</span>
+											<br />
+											no
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ハ</span>
+											<br />
+											ha
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ヒ</span>
+											<br />
+											hi
+										</td>
+										<td>
+											<span class="fw-bold fs-2">フ</span>
+											<br />
+											fu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ヘ</span>
+											<br />
+											he
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ホ</span>
+											<br />
+											ho
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">マ</span>
+											<br />
+											ma
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ミ</span>
+											<br />
+											mi
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ム</span>
+											<br />
+											mu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">メ</span>
+											<br />
+											me
+										</td>
+										<td>
+											<span class="fw-bold fs-2">モ</span>
+											<br />
+											mo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ヤ</span>
+											<br />
+											ya
+										</td>
+										<td></td>
+										<td>
+											<span class="fw-bold fs-2">ユ</span>
+											<br />
+											yu
+										</td>
+										<td></td>
+										<td>
+											<span class="fw-bold fs-2">ヨ</span>
+											<br />
+											yo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ラ</span>
+											<br />
+											ra
+										</td>
+										<td>
+											<span class="fw-bold fs-2">リ</span>
+											<br />
+											ri
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ル</span>
+											<br />
+											ru
+										</td>
+										<td>
+											<span class="fw-bold fs-2">レ</span>
+											<br />
+											re
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ロ</span>
+											<br />
+											ro
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ワ</span>
+											<br />
+											wa
+										</td>
+										<td></td>
+										<td>
+											<span class="fw-bold fs-2">ン</span>
+											<br />
+											n
+										</td>
+										<td></td>
+										<td>
+											<span class="fw-bold fs-2">ヲ</span>
+											<br />
+											wo
+										</td>
+									</tr>
+								</table>
+							</div>
+							<div class="col">
+								<table class="text-center table fs-6">
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ガ</span>
+											<br />
+											ga
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ギ</span>
+											<br />
+											gi
+										</td>
+										<td>
+											<span class="fw-bold fs-2">グ</span>
+											<br />
+											gu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ゲ</span>
+											<br />
+											ge
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ゴ</span>
+											<br />
+											go
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ザ</span>
+											<br />
+											za
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ジ</span>
+											<br />
+											zi
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ズ</span>
+											<br />
+											zu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ゼ</span>
+											<br />
+											ze
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ゾ</span>
+											<br />
+											zo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ダ</span>
+											<br />
+											da
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ジ</span>
+											<br />
+											ji
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ズ</span>
+											<br />
+											zu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">デ</span>
+											<br />
+											de
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ド</span>
+											<br />
+											do
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">バ</span>
+											<br />
+											ba
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ビ</span>
+											<br />
+											bi
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ブ</span>
+											<br />
+											bu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ベ</span>
+											<br />
+											be
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ボ</span>
+											<br />
+											bo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">パ</span>
+											<br />
+											pa
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ピ</span>
+											<br />
+											pi
+										</td>
+										<td>
+											<span class="fw-bold fs-2">プ</span>
+											<br />
+											pu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ペ</span>
+											<br />
+											pe
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ポ</span>
+											<br />
+											po
+										</td>
+									</tr>
+								</table>
+								<table
+									class="text-center table fs-6 d-none d-md-table d-lg-none"
+								>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">キャ</span>
+											<br />
+											kya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">きゅ</span>
+											<br />
+											kyu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">きょ</span>
+											<br />
+											kyo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">しゃ</span>
+											<br />
+											sha
+										</td>
+										<td>
+											<span class="fw-bold fs-2">しゅ</span>
+											<br />
+											shu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">しょ</span>
+											<br />
+											sho
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ちゃ</span>
+											<br />
+											cha
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ちゅ</span>
+											<br />
+											chu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ちょ</span>
+											<br />
+											cho
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">にゃ</span>
+											<br />
+											nya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">にゅ</span>
+											<br />
+											nyu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">にょ</span>
+											<br />
+											nyo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ひゃ</span>
+											<br />
+											hya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ひゅ</span>
+											<br />
+											hyu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ひょ</span>
+											<br />
+											hyo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">みゃ</span>
+											<br />
+											mya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">みゅ</span>
+											<br />
+											myu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">みょ</span>
+											<br />
+											myo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">りゃ</span>
+											<br />
+											rya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">りゅ</span>
+											<br />
+											ryu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">りょ</span>
+											<br />
+											ryo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ぎゃ</span>
+											<br />
+											gya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ぎゅ</span>
+											<br />
+											gyu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ぎょ</span>
+											<br />
+											gyo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">じゃ</span>
+											<br />
+											ja
+										</td>
+										<td>
+											<span class="fw-bold fs-2">じゅ</span>
+											<br />
+											ju
+										</td>
+										<td>
+											<span class="fw-bold fs-2">じょ</span>
+											<br />
+											jo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">びゃ</span>
+											<br />
+											bya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">びゅ</span>
+											<br />
+											byu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">びょ</span>
+											<br />
+											byo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ぴゃ</span>
+											<br />
+											pya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ぴゅ</span>
+											<br />
+											pyu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ぴょ</span>
+											<br />
+											pyo
+										</td>
+									</tr>
+								</table>
+							</div>
+							<div class="col d-block d-md-none d-lg-block">
+								<table class="text-center table fs-6">
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">キャ</span>
+											<br />
+											kya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">キュ</span>
+											<br />
+											kyu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">キョ</span>
+											<br />
+											kyo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">シャ</span>
+											<br />
+											sha
+										</td>
+										<td>
+											<span class="fw-bold fs-2">シュ</span>
+											<br />
+											shu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ショ</span>
+											<br />
+											sho
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">チャ</span>
+											<br />
+											cha
+										</td>
+										<td>
+											<span class="fw-bold fs-2">チュ</span>
+											<br />
+											chu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">チョ</span>
+											<br />
+											cho
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ニャ</span>
+											<br />
+											nya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ニュ</span>
+											<br />
+											nyu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ニョ</span>
+											<br />
+											nyo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ヒャ</span>
+											<br />
+											hya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ヒュ</span>
+											<br />
+											hyu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ヒョ</span>
+											<br />
+											hyo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ミャ</span>
+											<br />
+											mya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ミュ</span>
+											<br />
+											myu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ミョ</span>
+											<br />
+											myo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">リャ</span>
+											<br />
+											rya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">リュ</span>
+											<br />
+											ryu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">リョ</span>
+											<br />
+											ryo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ギャ</span>
+											<br />
+											gya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ギュ</span>
+											<br />
+											gyu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ギョ</span>
+											<br />
+											gyo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ジャ</span>
+											<br />
+											ja
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ジュ</span>
+											<br />
+											ju
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ジョ</span>
+											<br />
+											jo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ビャ</span>
+											<br />
+											bya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ビュ</span>
+											<br />
+											byu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ビョ</span>
+											<br />
+											byo
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="fw-bold fs-2">ピャ</span>
+											<br />
+											pya
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ピュ</span>
+											<br />
+											pyu
+										</td>
+										<td>
+											<span class="fw-bold fs-2">ピョ</span>
+											<br />
+											pyo
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Struktur Kalimat -->
+				<div class="container">
+					<h2>Stuktur Dasar Kalimat Bahasa Jepang</h2>
+					<p class="text-secondary">
+						Struktur dasar kalimat bahasa Jepang memiliki pola
+						Subjek-Objek-Predikat (S-O-P), berbeda dengan bahasa indonesia yang
+						biasanya meletakkan predikat di antara subjek dan objek. berikut
+						perbandingannya.
+					</p>
+					<table
+						class="table table-bordered text-center"
+						style="table-layout: fixed"
+					>
+						<thead>
+							<th>Bahasa Indonesia</th>
+							<th>Bahasa Jepang</th>
+						</thead>
+						<tbody class="text-start">
+							<tr>
+								<td>Saya Makan</td>
+								<td>
+									わたしわたべます<span style="font-size: 0.8rem"
+										>(Watashi wa tabemasu)</span
+									>
+								</td>
+							</tr>
+							<tr>
+								<td>Saya makan nasi</td>
+								<td>
+									わたしわごはんをたべます<span style="font-size: 0.8rem"
+										>(Watashi wa gohan wo tabemasu)</span
+									>
+								</td>
+							</tr>
+							<tr>
+								<td>Sekarang saya makan nasi</td>
+								<td>
+									わたしがいまわごはんをたべます<span style="font-size: 0.8rem"
+										>(Watashi ga ima wa tabemasu)</span
+									>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<!-- Kaiwa -->
+				<div class="container">
+					<h2>Kaiwa (会話)</h2>
+					<table class="table border-0">
+						<tr>
+							<td>さくら</td>
+							<td>:</td>
+							<td>はいめまして。わたしわさくらです。どぞよろしく。</td>
+						</tr>
+						<tr>
+							<td>マリア</td>
+							<td>:</td>
+							<td>はじめまして。わたしわまりあです。どぞよろしく。</td>
+						</tr>
+						<tr>
+							<td>さくら</td>
+							<td>:</td>
+							<td>これわわたしのめいしです。</td>
+						</tr>
+						<tr>
+							<td>マリア</td>
+							<td>:</td>
+							<td>ありがとございます</td>
+						</tr>
+						<tr>
+							<td>さくら</td>
+							<td>:</td>
+							<td>しつれいですが、おくにわどこですか？</td>
+						</tr>
+						<tr>
+							<td>マリア</td>
+							<td>:</td>
+							<td>スペインです</td>
+						</tr>
+						<tr>
+							<td>さくら</td>
+							<td>:</td>
+							<td>マリアさんわがくせいですか？</td>
+						</tr>
+						<tr>
+							<td>マリア</td>
+							<td>:</td>
+							<td>はい、そおです。</td>
+						</tr>
+						<tr>
+							<td>さくら</td>
+							<td>:</td>
+							<td>よろしくおねがいします</td>
+						</tr>
+						<tr>
+							<td>マリア</td>
+							<td>:</td>
+							<td>こちらこそ。</td>
+						</tr>
+					</table>
+				</div>
+			</section>
+		</div>
+		<!-- JavaScript links -->
+		<script src="/js/script.js"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
