@@ -1,0 +1,226 @@
+/* Manabii — design tokens + Bootstrap overrides */
+
+:root {
+  --jp-paper: #f7f3ea; /* washi — latar terang */
+  --jp-ink: #1f1f1f; /* sumi — teks, latar gelap */
+  --jp-shu: #c8402f; /* vermilion — aksen, tombol utama, hanko */
+  --jp-ai: #264653; /* indigo — link, sekunder */
+  --jp-matcha: #7a9a5a; /* benar / berhasil */
+  --jp-sakura: #f2d7d9; /* highlight lembut, badge */
+  --jp-stone: #8c8578; /* border, ornamen */
+
+  /* Varian untuk teks agar kontras >= 4.5:1 */
+  --jp-shu-text: #a9301f;
+  --jp-stone-text: #615c52;
+  --jp-surface: #fffdf8;
+  --jp-matcha-soft: #e3ecd8;
+  --jp-shu-soft: #f6dcd7;
+
+  --jp-font-serif: "Noto Serif JP", serif;
+  --jp-font-sans: "Inter", "Noto Sans JP", system-ui, sans-serif;
+  --jp-radius: 6px;
+
+  --bs-body-bg: var(--jp-paper);
+  --bs-body-bg-rgb: 247, 243, 234;
+  --bs-body-color: var(--jp-ink);
+  --bs-body-color-rgb: 31, 31, 31;
+  --bs-body-font-family: var(--jp-font-sans);
+  --bs-secondary-color: var(--jp-stone-text);
+  --bs-secondary-bg: #efe9dc;
+  --bs-tertiary-bg: #f1ecdf;
+  --bs-emphasis-color: var(--jp-ink);
+  --bs-border-color: rgba(140, 133, 120, 0.45);
+  --bs-border-radius: var(--jp-radius);
+  --bs-border-radius-sm: 4px;
+  --bs-border-radius-lg: 8px;
+  --bs-primary: var(--jp-shu);
+  --bs-primary-rgb: 200, 64, 47;
+  --bs-primary-text-emphasis: var(--jp-shu-text);
+  --bs-link-color: var(--jp-ai);
+  --bs-link-color-rgb: 38, 70, 83;
+  --bs-link-hover-color: #1a323c;
+  --bs-link-hover-color-rgb: 26, 50, 60;
+  --bs-success: var(--jp-matcha);
+  --bs-success-rgb: 122, 154, 90;
+  --bs-card-bg: var(--jp-surface);
+  --bs-focus-ring-color: rgba(38, 70, 83, 0.35);
+}
+
+[data-bs-theme="dark"] {
+  --jp-paper: #1f1f1f;
+  --jp-ink: #f7f3ea;
+  --jp-shu-text: #ef8a79;
+  --jp-stone-text: #b4ae9f;
+  --jp-surface: #272624;
+  --jp-matcha-soft: #2c3825;
+  --jp-shu-soft: #4a2520;
+  --jp-sakura: #4a3032;
+
+  --bs-body-bg: #1f1f1f;
+  --bs-body-bg-rgb: 31, 31, 31;
+  --bs-body-color: #f7f3ea;
+  --bs-body-color-rgb: 247, 243, 234;
+  --bs-secondary-color: var(--jp-stone-text);
+  --bs-secondary-bg: #2b2a28;
+  --bs-tertiary-bg: #262523;
+  --bs-emphasis-color: #fffdf8;
+  --bs-border-color: rgba(180, 174, 159, 0.28);
+  --bs-link-color: #8fb9cc;
+  --bs-link-color-rgb: 143, 185, 204;
+  --bs-link-hover-color: #b4d3e0;
+  --bs-link-hover-color-rgb: 180, 211, 224;
+  --bs-card-bg: var(--jp-surface);
+  --bs-focus-ring-color: rgba(143, 185, 204, 0.4);
+}
+
+body {
+  font-family: var(--jp-font-sans);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+.mb-serif {
+  font-family: var(--jp-font-serif);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+[lang="ja"] {
+  font-family: "Noto Sans JP", var(--jp-font-sans);
+}
+
+h1[lang="ja"],
+h2[lang="ja"],
+.mb-serif[lang="ja"],
+.mb-serif [lang="ja"],
+h1 [lang="ja"],
+h2 [lang="ja"] {
+  font-family: var(--jp-font-serif);
+}
+
+a {
+  text-underline-offset: 0.2em;
+}
+
+/* Buttons */
+.btn {
+  --bs-btn-border-radius: var(--jp-radius);
+  --bs-btn-font-weight: 500;
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--jp-shu);
+  --bs-btn-border-color: var(--jp-shu);
+  --bs-btn-hover-bg: #ad3424;
+  --bs-btn-hover-border-color: #ad3424;
+  --bs-btn-active-bg: #9a2d1f;
+  --bs-btn-active-border-color: #9a2d1f;
+  --bs-btn-disabled-bg: var(--jp-shu);
+  --bs-btn-disabled-border-color: var(--jp-shu);
+  --bs-btn-focus-shadow-rgb: 200, 64, 47;
+  --bs-btn-color: #fff;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-active-color: #fff;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: var(--jp-shu-text);
+  --bs-btn-border-color: var(--jp-shu);
+  --bs-btn-hover-bg: var(--jp-shu);
+  --bs-btn-hover-border-color: var(--jp-shu);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-active-bg: var(--jp-shu);
+  --bs-btn-active-border-color: var(--jp-shu);
+  --bs-btn-active-color: #fff;
+  --bs-btn-focus-shadow-rgb: 200, 64, 47;
+}
+
+.btn-outline-secondary {
+  --bs-btn-color: var(--bs-body-color);
+  --bs-btn-border-color: var(--bs-border-color);
+  --bs-btn-hover-bg: var(--bs-secondary-bg);
+  --bs-btn-hover-border-color: var(--jp-stone);
+  --bs-btn-hover-color: var(--bs-body-color);
+  --bs-btn-active-bg: var(--bs-secondary-bg);
+  --bs-btn-active-color: var(--bs-body-color);
+  --bs-btn-active-border-color: var(--jp-stone);
+}
+
+.text-primary {
+  color: var(--jp-shu-text) !important;
+}
+
+.text-secondary,
+.text-body-secondary {
+  color: var(--jp-stone-text) !important;
+}
+
+/* Form */
+.form-control,
+.form-select {
+  background-color: var(--jp-surface);
+}
+
+.form-check-input:checked {
+  background-color: var(--jp-shu);
+  border-color: var(--jp-shu);
+}
+
+.form-range::-webkit-slider-thumb {
+  background-color: var(--jp-shu);
+}
+
+.form-range::-moz-range-thumb {
+  background-color: var(--jp-shu);
+}
+
+/* Focus yang selalu terlihat */
+:focus-visible {
+  outline: 3px solid var(--jp-ai);
+  outline-offset: 2px;
+}
+
+[data-bs-theme="dark"] :focus-visible {
+  outline-color: #8fb9cc;
+}
+
+/* Nav pills & progress */
+.nav-pills {
+  --bs-nav-pills-link-active-bg: var(--jp-shu);
+  --bs-nav-pills-border-radius: var(--jp-radius);
+}
+
+.progress {
+  --bs-progress-bg: var(--bs-secondary-bg);
+  --bs-progress-bar-bg: var(--jp-shu);
+  --bs-progress-height: 0.5rem;
+}
+
+.badge.text-bg-sakura {
+  background-color: var(--jp-sakura);
+  color: var(--jp-ink);
+}
+
+.modal-content,
+.offcanvas {
+  background-color: var(--jp-surface);
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0.5rem;
+  z-index: 2000;
+  background: var(--jp-ink);
+  color: var(--jp-paper);
+  padding: 0.5rem 1rem;
+  border-radius: var(--jp-radius);
+}
+
+.skip-link:focus {
+  left: 0.5rem;
+}
