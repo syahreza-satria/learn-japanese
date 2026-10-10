@@ -201,7 +201,7 @@ Parameter URL boleh dipakai untuk deep link, contoh: `kuis.html?source=hiragana&
 - F5.2 Item dianggap **dikuasai** jika `interval >= 21` hari.
 - F5.3 Streak bertambah jika ada ≥ 1 aktivitas belajar di hari itu (zona waktu lokal browser).
 - F5.4 Ekspor semua data `manabii:v1:*` ke file `manabii-backup-YYYY-MM-DD.json`; impor dengan validasi versi; reset dengan konfirmasi modal.
-- F5.5 Pengaturan: mode gelap (auto/terang/gelap), tampilkan romaji, kecepatan TTS (0.6–1.2), target harian.
+- F5.5 Pengaturan: mode gelap (auto/terang/gelap), tampilkan romaji, kecepatan TTS (0.6–1.2), target harian, efek suara kuis (disintesis Web Audio, tanpa berkas audio).
 
 ### F6 — Kanji & tata bahasa (v1.1–v1.2, JANGAN dikerjakan di MVP)
 
@@ -262,7 +262,7 @@ Key (semua berprefix `manabii:v1:`):
 
 | Key           | Isi                                                                      |
 | ------------- | ------------------------------------------------------------------------ |
-| `settings`    | `{ theme, showRomaji, ttsRate, dailyGoal }`                              |
+| `settings`    | `{ theme, showRomaji, ttsRate, dailyGoal, sfx }`                        |
 | `srs`         | `{ [itemId]: { ease, interval, reps, due, lastReviewed } }`              |
 | `quizHistory` | array `{ date, source, mode, total, correct }` (maks 100 entri terakhir) |
 | `activity`    | `{ "YYYY-MM-DD": jumlahReview }`                                         |

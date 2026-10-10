@@ -16,7 +16,9 @@ import {
   modesFor,
   parseQuizParams,
 } from "@/lib/quiz-engine";
-import { addQuizResult, addToSrs, recordActivity, setLastLesson } from "@/lib/storage";
+import { useSettings } from "@/lib/hooks";
+import { playSfx } from "@/lib/sfx";
+import { addQuizResult, addToSrs, recordActivity, setLastLesson, updateSettings } from "@/lib/storage";
 import { speak } from "@/lib/tts";
 
 const TIMER_SECONDS = 10;
@@ -60,6 +62,7 @@ function Prompt({ q }) {
 }
 
 export default function QuizPage() {
+  const [settings] = useSettings();
   const [data, setData] = useState(null);
   const [themes, setThemes] = useState([]);
   const [failed, setFailed] = useState(false);
@@ -129,6 +132,7 @@ export default function QuizPage() {
     if (!session || session.answered) return;
     const q = session.questions[session.index];
     const correct = !timedOut && checkAnswer(q, given);
+    playSfx(correct ? "correct" : timedOut ? "timeout" : "wrong");
     recordActivity();
     if (!correct) addToSrs([q.item.id], { forceDue: true });
     setSession({
@@ -151,6 +155,8 @@ export default function QuizPage() {
         total: session.questions.length,
         correct,
       });
+      const pct = (correct / session.questions.length) * 100;
+      playSfx(pct >= 80 ? "win" : "done");
       setFinished(true);
       return;
     }
@@ -350,6 +356,21 @@ export default function QuizPage() {
               </div>
             </div>
             <div className="col-12">
+              <div className="form-check form-switch">
+                <input
+                  className="form-check-input"
+                  type="checkbox"
+                  role="switch"
+                  id="quizSfx"
+                  checked={settings.sfx}
+                  onChange={(e) => updateSettings({ sfx: e.target.checked })}
+                />
+                <label className="form-check-label" htmlFor="quizSfx">
+                  Efek suara
+                </label>
+              </div>
+            </div>
+            <div className="col-12">
               <button type="submit" className="btn btn-primary" disabled={loading}>
                 Mulai kuis
               </button>
@@ -394,7 +415,18 @@ export default function QuizPage() {
           <span>
             Soal {index + 1} / {questions.length}
           </span>
-          <span>Benar: {correctSoFar}</span>
+          <span className="d-flex align-items-center gap-2">
+            Benar: {correctSoFar}
+            <button
+              type="button"
+              className="btn btn-sm btn-outline-secondary border-0 py-0"
+              aria-pressed={settings.sfx}
+              aria-label={settings.sfx ? "Matikan efek suara" : "Nyalakan efek suara"}
+              onClick={() => updateSettings({ sfx: !settings.sfx })}
+            >
+              <i className={`bi ${settings.sfx ? "bi-volume-up-fill" : "bi-volume-mute"}`} aria-hidden="true" />
+            </button>
+          </span>
         </div>
         <div
           className="progress mb-3"

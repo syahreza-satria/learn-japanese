@@ -228,6 +228,21 @@ export default function ProgressPage() {
                 </div>
               </div>
               <div className="col-md-6">
+                <div className="form-check form-switch mt-md-4">
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    role="switch"
+                    id="setSfx"
+                    checked={settings.sfx}
+                    onChange={(e) => updateSettings({ sfx: e.target.checked })}
+                  />
+                  <label className="form-check-label" htmlFor="setSfx">
+                    Efek suara kuis
+                  </label>
+                </div>
+              </div>
+              <div className="col-md-6">
                 <label className="form-label" htmlFor="setRate">
                   Kecepatan suara: <span id="rateValue">{rateValue.toFixed(1)}</span>×
                 </label>

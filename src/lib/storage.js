@@ -7,6 +7,7 @@ export const DEFAULT_SETTINGS = Object.freeze({
   showRomaji: true,
   ttsRate: 0.9,
   dailyGoal: 10,
+  sfx: true,
 });
 
 const KEYS = ["settings", "srs", "quizHistory", "activity", "lastLesson"];
