@@ -2,14 +2,17 @@
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import Modal from "react-bootstrap/Modal";
+import FavoriteButton from "@/components/FavoriteButton";
 import JaWord from "@/components/JaWord";
 import LoadError from "@/components/LoadError";
 import PageTitle from "@/components/PageTitle";
 import { loadThemes, loadVocab } from "@/lib/data";
 import { normalizeRomaji } from "@/lib/romaji";
-import { addToSrs, getSrs, setLastLesson } from "@/lib/storage";
+import { addToSrs, getFavorites, getSrs, setLastLesson } from "@/lib/storage";
 import { showToast } from "@/lib/toast";
 import { speak } from "@/lib/tts";
+
+const PAGE_SIZE = 100;
 
 export default function VocabPage() {
   const [themes, setThemes] = useState([]);
@@ -18,7 +21,10 @@ export default function VocabPage() {
   const [theme, setThemeState] = useState("");
   const [query, setQuery] = useState("");
   const [inSrs, setInSrs] = useState(() => new Set());
+  const [favs, setFavs] = useState(() => new Set());
+  const refreshFavs = () => setFavs(new Set(getFavorites()));
   const [detailId, setDetailId] = useState(null);
+  const [limit, setLimit] = useState(PAGE_SIZE);
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
@@ -34,9 +40,10 @@ export default function VocabPage() {
           })),
         );
         const initialTheme = params.get("theme") ?? "";
-        setThemeState(themeList.some((t) => t.id === initialTheme) ? initialTheme : "");
+        setThemeState(initialTheme === "fav" || themeList.some((t) => t.id === initialTheme) ? initialTheme : "");
         setQuery(params.get("q") ?? "");
         setInSrs(new Set(Object.keys(getSrs())));
+        setFavs(new Set(getFavorites()));
         setReady(true);
       })
       .catch(() => setFailed(true));
@@ -51,18 +58,21 @@ export default function VocabPage() {
     window.history.replaceState(null, "", `${window.location.pathname}${search}`);
   }, [ready, theme, query]);
 
-  const themeLabel = useCallback((id) => themes.find((t) => t.id === id)?.label ?? id, [themes]);
+  const themeLabel = useCallback((id) => (id === "fav" ? "★ Favorit" : (themes.find((t) => t.id === id)?.label ?? id)), [themes]);
 
   const words = useMemo(() => {
     if (!vocab) return [];
     const q = query.trim().toLowerCase();
     const qr = normalizeRomaji(q);
     return vocab.filter((v) => {
-      if (theme && v.theme !== theme) return false;
+      if (theme === "fav" ? !favs.has(v.id) : theme && v.theme !== theme) return false;
       if (!q) return true;
       return v.hay.includes(q) || (qr && v.romajiKey.includes(qr));
     });
-  }, [vocab, theme, query]);
+  }, [vocab, theme, query, favs]);
+
+  // Daftar panjang dirender bertahap agar pencarian tetap responsif.
+  useEffect(() => setLimit(PAGE_SIZE), [theme, query]);
 
   if (failed) return <LoadError />;
 
@@ -132,6 +142,7 @@ export default function VocabPage() {
             onChange={(e) => chooseTheme(e.target.value)}
           >
             <option value="">Semua tema</option>
+            <option value="fav">★ Favorit saya</option>
             {vocab
               ? themes.map((t) => (
                   <option key={t.id} value={t.id}>
@@ -169,7 +180,7 @@ export default function VocabPage() {
               {theme ? (
                 <Link prefetch={false}
                   className="btn btn-sm btn-outline-secondary"
-                  href={`/kuis?source=vocab&theme=${theme}&mode=mc&count=10`}
+                  href={theme === "fav" ? "/kuis?source=vocab&scope=fav&mode=mc&count=10" : `/kuis?source=vocab&theme=${theme}&mode=mc&count=10`}
                 >
                   <i className="bi bi-patch-question" aria-hidden="true" /> Kuis tema ini
                 </Link>
@@ -186,7 +197,7 @@ export default function VocabPage() {
             </div>
             {words.length ? (
               <div className="mb-card">
-                {words.map((v) => (
+                {words.slice(0, limit).map((v) => (
                   <div className="mb-word-row" key={v.id}>
                     <button type="button" className="mb-word-main" onClick={() => setDetailId(v.id)}>
                       <span className="mb-word">
@@ -202,6 +213,7 @@ export default function VocabPage() {
                     >
                       <i className="bi bi-volume-up" aria-hidden="true" />
                     </button>
+                    <FavoriteButton id={v.id} label={v.word} onChange={refreshFavs} />
                     {addButton(v)}
                   </div>
                 ))}
@@ -209,6 +221,13 @@ export default function VocabPage() {
             ) : (
               <p className="text-secondary">Tidak ada kata yang cocok.</p>
             )}
+            {words.length > limit ? (
+              <div className="text-center mt-3">
+                <button type="button" className="btn btn-outline-secondary" onClick={() => setLimit((n) => n + PAGE_SIZE)}>
+                  Tampilkan {Math.min(PAGE_SIZE, words.length - limit)} kata lagi (sisa {words.length - limit})
+                </button>
+              </div>
+            ) : null}
           </>
         )}
       </div>
@@ -228,6 +247,7 @@ export default function VocabPage() {
                 </div>
                 <div className="text-secondary">{detail.romaji}</div>
                 <div className="h5 mt-2">{detail.meaning}</div>
+                <FavoriteButton id={detail.id} label={detail.word} onChange={refreshFavs} />
               </div>
               <div className="mb-card p-3 mb-3">
                 <div className="small text-secondary mb-1">Contoh kalimat</div>
@@ -236,6 +256,9 @@ export default function VocabPage() {
                 </div>
                 <div>{detail.example.id}</div>
               </div>
+              {detail.reviewed === false ? (
+                <p className="small text-secondary text-center">Materi ini belum ditinjau penutur asli.</p>
+              ) : null}
               <div className="d-flex flex-wrap gap-2 justify-content-center">
                 <button type="button" className="btn btn-outline-secondary" onClick={() => speakWord(detail)}>
                   <i className="bi bi-volume-up" aria-hidden="true" /> Kata

@@ -68,6 +68,19 @@ export function validateAll() {
   for (const char of new Set([...kana.flatMap((c) => [...c]), ...kanji.map((k) => k.char)])) {
     if (!strokes[char]) errors.push(`strokes.json: goresan "${char}" tidak ada`);
   }
+  // Setiap perintah path harus punya jumlah angka yang pas (mencegah path rusak akibat pembulatan).
+  const ARGS = { M: 2, L: 2, H: 1, V: 1, C: 6, S: 4, Q: 4, T: 2, A: 7, Z: 0 };
+  for (const [char, paths] of Object.entries(strokes)) {
+    for (const d of paths) {
+      for (const seg of d.match(/[A-Za-z][^A-Za-z]*/g) ?? []) {
+        const count = (seg.slice(1).match(/-?(?:\d+\.\d+|\.\d+|\d+)/g) ?? []).length;
+        const expected = ARGS[seg[0].toUpperCase()];
+        if (expected === undefined || (expected === 0 ? count !== 0 : count === 0 || count % expected !== 0)) {
+          errors.push(`strokes.json: path rusak pada "${char}" (${seg})`);
+        }
+      }
+    }
+  }
   for (const k of kanji) {
     if (strokes[k.char] && strokes[k.char].length !== k.strokes) {
       errors.push(`kanji-n5.json ${k.id}: strokes ${k.strokes} != ${strokes[k.char].length} di strokes.json`);

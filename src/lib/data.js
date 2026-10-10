@@ -4,6 +4,9 @@ const loaders = {
   katakana: () => import("../../data/katakana.json"),
   "vocab-n5": () => import("../../data/vocab-n5.json"),
   themes: () => import("../../data/themes.json"),
+  "kanji-n5": () => import("../../data/kanji-n5.json"),
+  "grammar-n5": () => import("../../data/grammar-n5.json"),
+  strokes: () => import("../../data/strokes.json"),
 };
 
 export const loadJson = async (name) => (await loaders[name]()).default;
@@ -21,10 +24,27 @@ export async function loadVocab() {
 
 export const loadThemes = () => loadJson("themes");
 
+export async function loadKanji() {
+  const items = await loadJson("kanji-n5");
+  return items.map((item) => ({ ...item, type: "kanji" }));
+}
+
+export const loadGrammar = () => loadJson("grammar-n5");
+
+/** Peta karakter -> daftar path SVG goresan (KanjiVG, viewBox 0 0 109 109). */
+export async function loadStrokes() {
+  return (await loadJson("strokes")).strokes;
+}
+
 /** Map id -> item untuk seluruh materi (dipakai flashcard & progres). */
 export async function loadItemIndex() {
-  const [hira, kata, vocab] = await Promise.all([loadKana("hiragana"), loadKana("katakana"), loadVocab()]);
-  return new Map([...hira, ...kata, ...vocab].map((item) => [item.id, item]));
+  const [hira, kata, vocab, kanji] = await Promise.all([
+    loadKana("hiragana"),
+    loadKana("katakana"),
+    loadVocab(),
+    loadKanji(),
+  ]);
+  return new Map([...hira, ...kata, ...vocab, ...kanji].map((item) => [item.id, item]));
 }
 
 /** Kelompokkan item kana per baris (urutan sesuai file). */
@@ -38,4 +58,8 @@ export function groupRows(items) {
 }
 
 /** Teks yang dibacakan TTS: kana untuk kosakata (bukan kanji), karakter untuk kana. */
-export const speechText = (item) => (item.type === "vocab" ? item.kana : item.char);
+export function speechText(item) {
+  if (item.type === "vocab") return item.kana;
+  if (item.type === "kanji") return item.examples[0].kana;
+  return item.char;
+}

@@ -94,12 +94,39 @@ test("filterPool: baris, kelompok, dan tema", () => {
 
 test("parseQuizParams: deep link & nilai default", () => {
   assert.deepEqual(parseQuizParams("?source=hiragana&row=a&mode=mc&count=10"), {
-    source: "hiragana", mode: "mc", count: 10, row: "a", group: "", theme: "", timer: 0, autostart: true,
+    source: "hiragana", mode: "mc", count: 10, row: "a", group: "", theme: "", scope: "", timer: 0, autostart: true,
   });
   const fallback = parseQuizParams("?source=xx&mode=zzz&count=7");
   assert.equal(fallback.source, "hiragana");
   assert.equal(fallback.mode, "mc");
   assert.equal(fallback.count, 10);
   assert.equal(parseQuizParams("?source=kosakata&mode=type&theme=angka").source, "vocab");
-  assert.equal(parseQuizParams("?source=vocab&mode=mcr").mode, "mc");
+  assert.equal(parseQuizParams("?source=vocab&mode=mcr").mode, "mcr");
+  assert.equal(parseQuizParams("?source=kanji&mode=listen").mode, "mc");
+  assert.equal(parseQuizParams("?source=vocab&scope=weak").scope, "weak");
+  assert.ok(parseQuizParams("?source=vocab&scope=fav").autostart);
+});
+
+const kanji = load("kanji-n5", "kanji");
+
+test("mode baru: arti→kata, mendengar, kanji", () => {
+  for (const q of buildQuiz({ pool: vocab, mode: "mcr", count: 50, rng: seeded(11) })) {
+    assert.equal(q.direction, "meaning-word");
+    assert.ok(q.choices.includes(q.item.word) && new Set(q.choices).size === q.choices.length);
+    assert.ok(checkAnswer(q, q.item.word));
+  }
+  const listen = buildQuiz({ pool: hira, mode: "listen", count: 10, rng: seeded(5) });
+  assert.ok(listen.every((q) => q.direction === "listen-romaji" && q.kind === "mc" && q.choices.includes(q.item.romaji)));
+  const listenVocab = buildQuiz({ pool: vocab, mode: "listen", count: 10, rng: seeded(6) });
+  assert.ok(listenVocab.every((q) => q.direction === "listen-meaning" && q.choices.includes(q.item.meaning)));
+  const kq = buildQuiz({ pool: kanji, mode: "mc", count: 20, rng: seeded(7) });
+  assert.ok(kq.every((q) => q.choices.length === 4 && q.choices.includes(q.item.meaning)));
+  const kr = buildQuiz({ pool: kanji, mode: "mcr", count: 20, rng: seeded(8) });
+  assert.ok(kr.every((q) => q.choices.includes(q.item.char) && new Set(q.choices).size === 4));
+});
+
+test("filterPool: ids terbatas (favorit / item lemah)", () => {
+  const ids = vocab.slice(0, 5).map((v) => v.id);
+  assert.equal(filterPool(vocab, { ids }).length, 5);
+  assert.equal(filterPool(vocab, { ids: [] }).length, 0);
 });

@@ -10,7 +10,9 @@ import { resolveTheme } from "@/lib/theme";
 const NAV_ITEMS = [
   { href: "/", label: "Beranda" },
   { href: "/kana", label: "Kana" },
+  { href: "/kanji", label: "Kanji" },
   { href: "/kosakata", label: "Kosakata" },
+  { href: "/tata-bahasa", label: "Tata bahasa" },
   { href: "/flashcard", label: "Flashcard" },
   { href: "/kuis", label: "Kuis" },
   { href: "/progres", label: "Progres" },
@@ -57,7 +59,7 @@ export default function Navbar() {
 
   return (
     <header>
-      <nav className="navbar navbar-expand-md mb-navbar sticky-top" aria-label="Navigasi utama">
+      <nav className="navbar navbar-expand-lg mb-navbar sticky-top" aria-label="Navigasi utama">
         <div className="container">
           <Link prefetch={false} className="navbar-brand mb-brand" href="/">
             <span className="mb-brand-mark" lang="ja" aria-hidden="true">
@@ -65,11 +67,11 @@ export default function Navbar() {
             </span>
             <span>Manabii</span>
           </Link>
-          <ul className="navbar-nav flex-row ms-md-3 flex-grow-1 d-none d-md-flex">{links()}</ul>
+          <ul className="navbar-nav flex-row ms-lg-3 flex-grow-1 d-none d-lg-flex">{links()}</ul>
           <div className="ms-auto d-flex align-items-center gap-1">
             <ThemeToggle />
             <button
-              className="navbar-toggler border-0 d-md-none"
+              className="navbar-toggler border-0 d-lg-none"
               type="button"
               aria-label="Buka menu"
               aria-haspopup="dialog"
@@ -80,7 +82,7 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
-      <Offcanvas show={open} onHide={() => setOpen(false)} placement="end" id="mbMenu" className="d-md-none">
+      <Offcanvas show={open} onHide={() => setOpen(false)} placement="end" id="mbMenu" className="d-lg-none">
         <Offcanvas.Header closeButton closeLabel="Tutup menu">
           <Offcanvas.Title className="mb-brand">
             <span lang="ja">まなび</span> Manabii

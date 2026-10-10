@@ -7,17 +7,20 @@ import PageTitle from "@/components/PageTitle";
 import { loadItemIndex } from "@/lib/data";
 import { useSettings } from "@/lib/hooks";
 import { speak } from "@/lib/tts";
-import { toDateStr } from "@/lib/srs";
+import { addDays, toDateStr } from "@/lib/srs";
 import { computeStreak, countMastered, totalReviews } from "@/lib/stats";
 import {
   exportData,
   getActivity,
+  getFavorites,
+  getMistakes,
   getQuizHistory,
   getSrs,
   importData,
   resetData,
   updateSettings,
 } from "@/lib/storage";
+import { requestReminderPermission } from "@/lib/reminder";
 import { showToast } from "@/lib/toast";
 
 const SOURCE_LABELS = { hiragana: "Hiragana", katakana: "Katakana", vocab: "Kosakata" };
@@ -36,6 +39,43 @@ function StatCard({ value, label, children }) {
         <div className="mb-stat-label">{label}</div>
         {children}
       </div>
+    </div>
+  );
+}
+
+const itemLabel = (item) => item.word ?? item.char;
+const itemHint = (item) => (item.type === "kana" ? item.romaji : item.type === "kanji" ? item.meaning : `${item.kana} · ${item.meaning}`);
+
+/** Grafik batang aktivitas 30 hari terakhir. */
+function ActivityChart({ activity, today }) {
+  const days = Array.from({ length: 30 }, (_, i) => addDays(today, i - 29));
+  const max = Math.max(1, ...days.map((d) => activity[d] ?? 0));
+  return (
+    <div className="mb-activity" role="img" aria-label={`Aktivitas 30 hari terakhir, tertinggi ${max} review per hari`}>
+      {days.map((d) => {
+        const n = activity[d] ?? 0;
+        return <span key={d} className={n ? "" : "is-empty"} style={n ? { height: `${Math.max(8, (n / max) * 100)}%` } : undefined} title={`${d}: ${n} review`} />;
+      })}
+    </div>
+  );
+}
+
+/** Kalender aktivitas 16 minggu (kolom = minggu, baris = hari Minggu–Sabtu). */
+function StreakCalendar({ activity, today, goal }) {
+  const end = new Date(`${today}T00:00:00`);
+  const weeks = 16;
+  const start = addDays(today, -(weeks * 7 - 1) - 0);
+  const startDow = new Date(`${start}T00:00:00`).getDay();
+  const cells = [];
+  for (let i = 0; i < startDow; i += 1) cells.push(null);
+  for (let d = start; d <= today; d = addDays(d, 1)) cells.push(d);
+  void end;
+  const level = (n) => (n === 0 ? "" : n < goal / 2 ? "l1" : n < goal ? "l2" : "l3");
+  return (
+    <div className="mb-heat" role="img" aria-label="Kalender aktivitas belajar 16 minggu terakhir">
+      {cells.map((d, i) =>
+        d ? <span key={d} className={level(activity[d] ?? 0)} title={`${d}: ${activity[d] ?? 0} review`} /> : <span key={`pad${i}`} style={{ visibility: "hidden" }} />,
+      )}
     </div>
   );
 }
@@ -72,6 +112,12 @@ export default function ProgressPage() {
   const hiraIds = idsOf((i) => i.script === "hiragana");
   const kataIds = idsOf((i) => i.script === "katakana");
   const vocabIds = idsOf((i) => i.type === "vocab");
+  const kanjiIds = idsOf((i) => i.type === "kanji");
+  const mistakes = Object.entries(getMistakes())
+    .filter(([id]) => index.has(id))
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 10);
+  const favCount = getFavorites().filter((id) => index.has(id)).length;
   const srs = getSrs();
   const activity = getActivity();
   const today = toDateStr();
@@ -119,6 +165,8 @@ export default function ProgressPage() {
             <StatCard value={`${countMastered(srs, hiraIds)} / ${hiraIds.length}`} label="Hiragana dikuasai" />
             <StatCard value={`${countMastered(srs, kataIds)} / ${kataIds.length}`} label="Katakana dikuasai" />
             <StatCard value={`${countMastered(srs, vocabIds)} / ${vocabIds.length}`} label="Kata dikuasai" />
+            <StatCard value={`${countMastered(srs, kanjiIds)} / ${kanjiIds.length}`} label="Kanji dikuasai" />
+            <StatCard value={favCount} label="Item favorit" />
             <StatCard value={totalReviews(activity)} label="Total review" />
             <StatCard
               value={
@@ -144,6 +192,52 @@ export default function ProgressPage() {
           <p className="small text-secondary mt-2 mb-0">
             Sebuah item dianggap dikuasai bila interval ulangannya sudah 21 hari atau lebih.
           </p>
+        </section>
+
+        <section aria-labelledby="activityTitle" className="mb-4">
+          <h2 className="h4 mb-3" id="activityTitle">
+            Aktivitas
+          </h2>
+          <div className="mb-card p-3">
+            <div className="small text-secondary mb-2">30 hari terakhir (jumlah review per hari)</div>
+            <ActivityChart activity={activity} today={today} />
+            <div className="small text-secondary mt-3 mb-2">16 minggu terakhir</div>
+            <StreakCalendar activity={activity} today={today} goal={settings.dailyGoal} />
+          </div>
+        </section>
+
+        <section aria-labelledby="weakTitle" className="mb-4">
+          <h2 className="h4 mb-3" id="weakTitle">
+            Item lemah
+          </h2>
+          {mistakes.length ? (
+            <div className="mb-card">
+              <ul className="list-group list-group-flush">
+                {mistakes.map(([id, count]) => {
+                  const item = index.get(id);
+                  return (
+                    <li className="list-group-item d-flex align-items-center gap-3 bg-transparent" key={id}>
+                      <span className="fs-4" lang="ja">
+                        {itemLabel(item)}
+                      </span>
+                      <span className="text-secondary small me-auto">{itemHint(item)}</span>
+                      <span className="badge text-bg-sakura">{count}× salah</span>
+                    </li>
+                  );
+                })}
+              </ul>
+              <div className="p-3 d-flex flex-wrap gap-2">
+                <Link className="btn btn-primary btn-sm" href="/flashcard?deck=weak" prefetch={false}>
+                  Latih dengan flashcard
+                </Link>
+                <Link className="btn btn-outline-secondary btn-sm" href="/kuis?source=vocab&scope=weak&mode=mc&count=10" prefetch={false}>
+                  Kuis item lemah (kosakata)
+                </Link>
+              </div>
+            </div>
+          ) : (
+            <p className="text-secondary">Belum ada. Jawaban salah di kuis dan kartu “Lupa” akan tercatat di sini.</p>
+          )}
         </section>
 
         <section aria-labelledby="historyTitle" className="mb-4">
@@ -240,6 +334,44 @@ export default function ProgressPage() {
                   <label className="form-check-label" htmlFor="setSfx">
                     Efek suara kuis
                   </label>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="form-check form-switch">
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    role="switch"
+                    id="setReminder"
+                    checked={settings.reminder}
+                    onChange={async (e) => {
+                      if (!e.target.checked) return updateSettings({ reminder: false });
+                      const result = await requestReminderPermission();
+                      updateSettings({ reminder: true });
+                      showToast(
+                        result === "granted"
+                          ? "Pengingat aktif: notifikasi muncul saat Manabii terbuka di waktu yang dipilih."
+                          : "Pengingat aktif sebagai banner di dalam aplikasi (izin notifikasi tidak diberikan).",
+                        { type: "info", delay: 7000 },
+                      );
+                    }}
+                  />
+                  <label className="form-check-label" htmlFor="setReminder">
+                    Pengingat belajar harian
+                  </label>
+                </div>
+                <div className="d-flex align-items-center gap-2 mt-2">
+                  <label className="small text-secondary" htmlFor="setReminderTime">
+                    Pukul
+                  </label>
+                  <input
+                    type="time"
+                    id="setReminderTime"
+                    className="form-control form-control-sm w-auto"
+                    value={settings.reminderTime}
+                    disabled={!settings.reminder}
+                    onChange={(e) => e.target.value && updateSettings({ reminderTime: e.target.value })}
+                  />
                 </div>
               </div>
               <div className="col-md-6">

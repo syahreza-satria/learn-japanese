@@ -6,7 +6,7 @@ import Hanko from "@/components/Hanko";
 import JaWord from "@/components/JaWord";
 import LoadError from "@/components/LoadError";
 import PageTitle from "@/components/PageTitle";
-import { groupRows, loadKana, loadThemes, loadVocab } from "@/lib/data";
+import { groupRows, loadKana, loadKanji, loadThemes, loadVocab, speechText } from "@/lib/data";
 import {
   COUNTS,
   answerLabel,
@@ -18,13 +18,30 @@ import {
 } from "@/lib/quiz-engine";
 import { useSettings } from "@/lib/hooks";
 import { playSfx } from "@/lib/sfx";
-import { addQuizResult, addToSrs, recordActivity, setLastLesson, updateSettings } from "@/lib/storage";
+import {
+  addQuizResult,
+  addToSrs,
+  getFavorites,
+  getMistakes,
+  recordActivity,
+  recordMistake,
+  setLastLesson,
+  updateSettings,
+} from "@/lib/storage";
 import { speak } from "@/lib/tts";
 
 const TIMER_SECONDS = 10;
-const SOURCE_LABELS = { hiragana: "Hiragana", katakana: "Katakana", vocab: "Kosakata" };
+const SOURCE_LABELS = { hiragana: "Hiragana", katakana: "Katakana", vocab: "Kosakata", kanji: "Kanji" };
+const LISTEN = ["listen-romaji", "listen-meaning"];
+const JA_CHOICES = ["romaji-kana", "meaning-word", "meaning-kanji"];
+
+/** Daftar id untuk cakupan khusus (favorit / item lemah). */
+const scopeIds = (scope) =>
+  scope === "fav" ? getFavorites() : scope === "weak" ? Object.keys(getMistakes()) : null;
 
 function scopeLabel({ source, filter }, themes) {
+  if (filter.scope === "fav") return "Favorit";
+  if (filter.scope === "weak") return "Item lemah";
   if (filter.theme) return themes.find((t) => t.id === filter.theme)?.label ?? filter.theme;
   if (filter.row) return `Baris ${filter.row === "nn" ? "n" : filter.row}`;
   if (filter.group) return filter.group === "yoon" ? "Yōon" : filter.group === "dakuten" ? "Dakuten" : "Gojūon";
@@ -32,6 +49,7 @@ function scopeLabel({ source, filter }, themes) {
 }
 
 function scopeFromParams(p) {
+  if (p.scope) return `scope:${p.scope}`;
   if (p.theme) return `theme:${p.theme}`;
   if (p.row) return `row:${p.row}`;
   if (p.group) return `group:${p.group}`;
@@ -43,6 +61,7 @@ function Prompt({ q }) {
   switch (q.direction) {
     case "kana-romaji":
     case "kana-type":
+    case "kanji-meaning":
       return (
         <div className="mb-quiz-prompt" lang="ja">
           {item.char}
@@ -56,9 +75,35 @@ function Prompt({ q }) {
           <JaWord word={item.word} kana={item.kana} />
         </div>
       );
+    case "listen-romaji":
+    case "listen-meaning":
+      return (
+        <div className="text-center py-2">
+          <button
+            type="button"
+            className="btn btn-outline-primary btn-lg rounded-circle"
+            style={{ width: "5rem", height: "5rem" }}
+            aria-label="Putar suara soal"
+            onClick={() => speak(speechText(item))}
+          >
+            <i className="bi bi-volume-up-fill fs-1" aria-hidden="true" />
+          </button>
+          <div className="small text-secondary mt-2">Dengarkan, lalu pilih jawabannya</div>
+        </div>
+      );
     default:
+      // meaning-type, meaning-word, meaning-kanji
       return <div className="mb-quiz-prompt is-text">{item.meaning}</div>;
   }
+}
+
+/** Teks ringkas soal untuk daftar jawaban salah. */
+function promptText(q) {
+  const { item } = q;
+  if (LISTEN.includes(q.direction)) return `🔊 ${speechText(item)}`;
+  if (["meaning-type", "meaning-word", "meaning-kanji"].includes(q.direction)) return item.meaning;
+  if (item.type === "vocab") return `${item.word} (${item.kana})`;
+  return item.char;
 }
 
 export default function QuizPage() {
@@ -81,7 +126,12 @@ export default function QuizPage() {
       const universe = data[config.source];
       const qs =
         questions ??
-        buildQuiz({ pool: filterPool(universe, config.filter), universe, mode: config.mode, count: config.count });
+        buildQuiz({
+          pool: filterPool(universe, { ...config.filter, ids: scopeIds(config.filter.scope) }),
+          universe,
+          mode: config.mode,
+          count: config.count,
+        });
       if (!qs.length) {
         setNotice("Tidak ada soal untuk pilihan ini.");
         return;
@@ -102,9 +152,9 @@ export default function QuizPage() {
   );
 
   useEffect(() => {
-    Promise.all([loadKana("hiragana"), loadKana("katakana"), loadVocab(), loadThemes()])
-      .then(([hiragana, katakana, vocab, themeList]) => {
-        setData({ hiragana, katakana, vocab });
+    Promise.all([loadKana("hiragana"), loadKana("katakana"), loadVocab(), loadKanji(), loadThemes()])
+      .then(([hiragana, katakana, vocab, kanji, themeList]) => {
+        setData({ hiragana, katakana, vocab, kanji });
         setThemes(themeList);
       })
       .catch(() => setFailed(true));
@@ -121,7 +171,7 @@ export default function QuizPage() {
         mode: p.mode,
         count: p.count,
         timer: p.timer,
-        filter: { row: p.row, group: p.group, theme: p.theme },
+        filter: { row: p.row, group: p.group, theme: p.theme, scope: p.scope },
       });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -134,7 +184,10 @@ export default function QuizPage() {
     const correct = !timedOut && checkAnswer(q, given);
     playSfx(correct ? "correct" : timedOut ? "timeout" : "wrong");
     recordActivity();
-    if (!correct) addToSrs([q.item.id], { forceDue: true });
+    if (!correct) {
+      addToSrs([q.item.id], { forceDue: true });
+      recordMistake(q.item.id);
+    }
     setSession({
       ...session,
       results: [...session.results, { question: q, given: timedOut ? "" : given, correct, timedOut }],
@@ -185,6 +238,13 @@ export default function QuizPage() {
     }, 100);
     return () => clearInterval(id);
   }, [timerSeconds, questionIndex, isAnswered, finished]);
+
+  // Soal mendengar: putar otomatis saat soal baru muncul
+  useEffect(() => {
+    if (!session || finished) return;
+    const q = session.questions[session.index];
+    if (LISTEN.includes(q.direction)) speak(speechText(q.item));
+  }, [session?.index, finished]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Fokus: input ketik saat soal baru, tombol Lanjut setelah menjawab
   useEffect(() => {
@@ -245,6 +305,7 @@ export default function QuizPage() {
                 row: kind === "row" ? value : "",
                 group: kind === "group" ? value : "",
                 theme: kind === "theme" ? value : "",
+                scope: kind === "scope" ? value : "",
               },
             });
           }}
@@ -277,7 +338,9 @@ export default function QuizPage() {
                 value={form.scope}
                 onChange={(e) => setField({ scope: e.target.value })}
               >
-                {form.source === "vocab" ? (
+                {form.source === "kanji" ? (
+                  <option value="">Semua kanji</option>
+                ) : form.source === "vocab" ? (
                   <>
                     <option value="">Semua tema</option>
                     {themes.map((t) => (
@@ -299,6 +362,8 @@ export default function QuizPage() {
                     ))}
                   </>
                 )}
+                <option value="scope:fav">★ Favorit saya</option>
+                <option value="scope:weak">⚠ Item lemah</option>
               </select>
             </div>
             <div className="col-md-6">
@@ -450,7 +515,7 @@ export default function QuizPage() {
               type="button"
               className="btn btn-sm btn-outline-secondary"
               aria-label="Dengarkan soal"
-              onClick={() => speak(q.item.type === "vocab" ? q.item.kana : q.item.char)}
+              onClick={() => speak(speechText(q.item))}
             >
               <i className="bi bi-volume-up" aria-hidden="true" />
             </button>
@@ -472,7 +537,7 @@ export default function QuizPage() {
                   key={c}
                   className={`mb-choice${state}`}
                   disabled={!!answered}
-                  lang={q.direction === "romaji-kana" ? "ja" : undefined}
+                  lang={JA_CHOICES.includes(q.direction) ? "ja" : undefined}
                   onClick={() => answer(c)}
                 >
                   {c}
@@ -524,7 +589,7 @@ export default function QuizPage() {
             ) : (
               <>
                 <strong>{answered.timedOut ? "Waktu habis." : "Kurang tepat."}</strong> Jawaban:{" "}
-                <strong lang={q.direction === "romaji-kana" ? "ja" : undefined}>{answerLabel(q)}</strong>
+                <strong lang={JA_CHOICES.includes(q.direction) ? "ja" : undefined}>{answerLabel(q)}</strong>
               </>
             )}
           </div>
@@ -560,16 +625,12 @@ export default function QuizPage() {
               <ul className="list-group">
                 {wrong.map(({ question: wq, given, timedOut }) => (
                   <li className="list-group-item d-flex flex-wrap justify-content-between gap-2" key={wq.item.id}>
-                    <span lang={wq.direction === "meaning-type" ? "id" : "ja"}>
-                      {wq.direction === "meaning-type"
-                        ? wq.item.meaning
-                        : wq.item.type === "vocab"
-                          ? `${wq.item.word} (${wq.item.kana})`
-                          : wq.item.char}
+                    <span lang={["meaning-type", "meaning-word", "meaning-kanji"].includes(wq.direction) ? "id" : "ja"}>
+                      {promptText(wq)}
                     </span>
                     <span className="text-secondary small">
                       Anda: {timedOut ? "—" : given} · Benar:{" "}
-                      <strong lang={wq.direction === "romaji-kana" ? "ja" : undefined}>{answerLabel(wq)}</strong>
+                      <strong lang={JA_CHOICES.includes(wq.direction) ? "ja" : undefined}>{answerLabel(wq)}</strong>
                     </span>
                   </li>
                 ))}

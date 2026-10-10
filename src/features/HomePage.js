@@ -8,9 +8,9 @@ import { getActivity, getLastLesson, getSettings, getSrs } from "@/lib/storage";
 
 const PATHS = [
   { href: "/kana", glyph: "あ", title: "Hiragana & Katakana", text: "208 karakter dengan suara dan kuis." },
-  { href: "/kosakata", glyph: "語", title: "Kosakata", text: "±300 kata N5 per tema, lengkap dengan contoh kalimat." },
-  { glyph: "漢", title: "Kanji", text: "±100 kanji dasar N5.", soon: true },
-  { glyph: "文", title: "Tata bahasa", text: "±80 pola kalimat N5.", soon: true },
+  { href: "/kosakata", glyph: "語", title: "Kosakata", text: "±800 kata N5 dalam 22 tema, lengkap dengan contoh kalimat." },
+  { href: "/kanji", glyph: "漢", title: "Kanji", text: "±100 kanji dasar N5 dengan animasi goresan." },
+  { href: "/tata-bahasa", glyph: "文", title: "Tata bahasa", text: "±80 pola kalimat N5 dengan latihan isian." },
 ];
 
 export default function HomePage() {

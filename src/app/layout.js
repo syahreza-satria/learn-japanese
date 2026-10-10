@@ -3,6 +3,8 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "@/styles/theme.css";
 import "@/styles/components.css";
 import Footer from "@/components/Footer";
+import ReminderBanner from "@/components/ReminderBanner";
+import ServiceWorkerRegister from "@/components/ServiceWorkerRegister";
 import Navbar from "@/components/Navbar";
 import ThemeSync from "@/components/ThemeSync";
 import ToastHost from "@/components/ToastHost";
@@ -20,12 +22,14 @@ var l=document.createElement("link");l.rel="stylesheet";l.href=${JSON.stringify(
 export const metadata = {
   metadataBase: new URL(SITE.baseUrl),
   referrer: "no-referrer", // TTS online menolak permintaan yang membawa Referer
+  icons: { apple: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/icons/apple-touch-icon.png` },
+  appleWebApp: { capable: true, title: "Manabii", statusBarStyle: "default" },
   title: { default: "Manabii (まなび) — Belajar Bahasa Jepang N5 Gratis", template: "%s — Manabii" },
   description:
     "Belajar bahasa Jepang dari nol sampai JLPT N5 secara gratis: Hiragana, Katakana, kosakata, flashcard SRS, dan kuis. Tanpa akun.",
 };
 
-export const viewport = { themeColor: "#f7f3ea" };
+export const viewport = { themeColor: "#c8402f" };
 
 export default function RootLayout({ children }) {
   return (
@@ -43,12 +47,14 @@ export default function RootLayout({ children }) {
           Lewati ke konten
         </a>
         <Navbar />
+        <ReminderBanner />
         <main id="main" className="mb-main">
           <div className="container">{children}</div>
         </main>
         <Footer />
         <ToastHost />
         <ThemeSync />
+        <ServiceWorkerRegister />
       </body>
     </html>
   );

@@ -1,5 +1,5 @@
 // Tautan "Lanjutkan belajar" dari data lastLesson (aman terhadap data lama/rusak).
-const ROUTES = ["kana", "kosakata", "flashcard", "kuis", "progres"];
+const ROUTES = ["kana", "kanji", "kosakata", "tata-bahasa", "flashcard", "kuis", "progres"];
 
 export function lessonHref(lesson) {
   if (!lesson?.page) return "/kana";

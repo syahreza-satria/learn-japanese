@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && node scripts/postbuild-sw.mjs",
     "start": "npx serve out",
     "test": "node --test",
     "validate": "node scripts/validate-data.mjs"

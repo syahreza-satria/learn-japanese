@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import LoadError from "@/components/LoadError";
 import PageTitle from "@/components/PageTitle";
+import StrokeAnimator from "@/components/StrokeAnimator";
 import { groupRows, loadKana } from "@/lib/data";
 import { useSettings } from "@/lib/hooks";
 import { setLastLesson, updateSettings } from "@/lib/storage";
@@ -142,6 +143,13 @@ export default function KanaPage() {
           </>
         ) : null}
       </div>
+
+      {selected ? (
+        <div className="mb-card p-3 mb-3">
+          <div className="small text-secondary text-center mb-2">Urutan goresan</div>
+          <StrokeAnimator key={selected.id} text={selected.char} size={selected.char.length > 1 ? 100 : 120} />
+        </div>
+      ) : null}
 
       <div
         id="kanaGrid"

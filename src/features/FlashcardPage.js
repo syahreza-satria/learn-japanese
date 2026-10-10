@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
+import FavoriteButton from "@/components/FavoriteButton";
 import Hanko from "@/components/Hanko";
 import JaWord from "@/components/JaWord";
 import LoadError from "@/components/LoadError";
@@ -9,12 +10,13 @@ import { loadItemIndex, loadThemes, speechText } from "@/lib/data";
 import { useSettings } from "@/lib/hooks";
 import { shuffle } from "@/lib/random";
 import { GRADE, newCard, review, toDateStr } from "@/lib/srs";
-import { getSrs, gradeCard, setLastLesson, updateSettings } from "@/lib/storage";
+import { getFavorites, getMistakes, getSrs, gradeCard, setLastLesson, updateSettings } from "@/lib/storage";
 import { speak } from "@/lib/tts";
 
 const NEW_PER_SESSION = 20;
 const PRACTICE_ALL_LIMIT = 30;
-const DECKS = ["due", "hiragana", "katakana", "vocab"];
+const DECKS = ["due", "hiragana", "katakana", "vocab", "kanji", "fav", "weak"];
+const WEAK_LIMIT = 30;
 
 const GRADES = [
   { grade: GRADE.FORGOT, label: "Lupa", btn: "btn-outline-primary" },
@@ -27,7 +29,21 @@ function deckItems(index, { deck, theme }) {
   const items = [...index.values()];
   if (deck === "hiragana" || deck === "katakana") return items.filter((i) => i.script === deck);
   if (deck === "vocab") return items.filter((i) => i.type === "vocab" && (!theme || i.theme === theme));
+  if (deck === "kanji") return items.filter((i) => i.type === "kanji");
+  if (deck === "fav") {
+    const favs = new Set(getFavorites());
+    return items.filter((i) => favs.has(i.id));
+  }
   return [];
+}
+
+/** Item yang paling sering salah/dilupakan, urut dari yang terbanyak. */
+function weakIds(index) {
+  return Object.entries(getMistakes())
+    .filter(([id]) => index.has(id))
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, WEAK_LIMIT)
+    .map(([id]) => id);
 }
 
 /** Susun antrean kartu: yang jatuh tempo dulu, lalu kartu baru (dibatasi per sesi). */
@@ -38,6 +54,7 @@ function buildQueue(index, spec) {
     const items = spec.deck === "due" ? [...index.values()].filter((i) => srs[i.id]) : deckItems(index, spec);
     return shuffle(items.map((i) => i.id)).slice(0, PRACTICE_ALL_LIMIT);
   }
+  if (spec.deck === "weak") return weakIds(index);
   if (spec.deck === "due") {
     return Object.keys(srs)
       .filter((id) => index.has(id) && srs[id].due <= today)
@@ -49,13 +66,21 @@ function buildQueue(index, spec) {
   return [...shuffle(due), ...fresh.slice(0, NEW_PER_SESSION)];
 }
 
-function CardFront({ item, showRomaji }) {
+function CardFront({ item, showRomaji, reverse }) {
+  if (reverse) {
+    // Arah Indonesia → Jepang: depan menampilkan arti (kana: romaji)
+    return item.type === "kana" ? (
+      <div className="mb-flashcard-big">{item.romaji}</div>
+    ) : (
+      <div className="h2 mb-0">{item.meaning}</div>
+    );
+  }
   return (
     <>
       <div className={`mb-flashcard-big${item.type === "vocab" ? " is-word" : ""}`} lang="ja">
-        {item.type === "kana" ? item.char : item.word}
+        {item.type === "vocab" ? item.word : item.char}
       </div>
-      {showRomaji ? <div className="text-secondary">{item.romaji}</div> : null}
+      {showRomaji && item.romaji ? <div className="text-secondary">{item.romaji}</div> : null}
     </>
   );
 }
@@ -76,6 +101,30 @@ function CardBack({ item }) {
           <span className="text-secondary">({item.example.romaji})</span>
           <br />
           {item.example.meaning}
+        </div>
+      </>
+    );
+  }
+  if (item.type === "kanji") {
+    return (
+      <>
+        <div className="mb-flashcard-big" lang="ja">
+          {item.char}
+        </div>
+        <div className="h4 mb-0">{item.meaning}</div>
+        <div className="small" lang="ja">
+          音 {item.onyomi.join("、") || "—"} ・ 訓 {item.kunyomi.join("、") || "—"}
+        </div>
+        <div className="small text-secondary">Contoh</div>
+        <div>
+          <span lang="ja" className="fs-5">
+            {item.examples[0].word}
+          </span>{" "}
+          <span lang="ja" className="text-secondary">
+            ({item.examples[0].kana})
+          </span>
+          <br />
+          {item.examples[0].meaning}
         </div>
       </>
     );
@@ -112,6 +161,9 @@ export default function FlashcardPage() {
       if (deck === "due") return "Review hari ini";
       if (deck === "hiragana") return "Hiragana";
       if (deck === "katakana") return "Katakana";
+      if (deck === "kanji") return "Kanji";
+      if (deck === "fav") return "Favorit";
+      if (deck === "weak") return "Item lemah";
       return theme ? `Kosakata — ${themes.find((t) => t.id === theme)?.label ?? theme}` : "Kosakata";
     },
     [themes],
@@ -275,17 +327,27 @@ export default function FlashcardPage() {
             onClick={flip}
           >
             <div className="mb-card mb-flashcard-face mb-flashcard-front" aria-hidden={session.flipped}>
-              <CardFront item={current} showRomaji={settings.showRomaji} />
+              <CardFront item={current} showRomaji={settings.showRomaji} reverse={settings.flashDirection === "id-jp"} />
             </div>
             <div className="mb-card mb-flashcard-face mb-flashcard-back" aria-hidden={!session.flipped}>
               <CardBack item={current} />
             </div>
           </div>
 
-          <div className="d-flex justify-content-between align-items-center mt-3 mb-3">
+          <div className="d-flex flex-wrap gap-2 justify-content-between align-items-center mt-3 mb-3">
             <button type="button" className="btn btn-sm btn-outline-secondary" onClick={() => speak(speechText(current))}>
               <i className="bi bi-volume-up" aria-hidden="true" /> Dengarkan
             </button>
+            <FavoriteButton id={current.id} label={current.char ?? current.word} />
+            <select
+              className="form-select form-select-sm w-auto"
+              aria-label="Arah kartu"
+              value={settings.flashDirection}
+              onChange={(e) => updateSettings({ flashDirection: e.target.value })}
+            >
+              <option value="jp-id">Jepang → Indonesia</option>
+              <option value="id-jp">Indonesia → Jepang</option>
+            </select>
             <div className="form-check form-switch mb-0">
               <input
                 className="form-check-input"
@@ -334,6 +396,8 @@ export default function FlashcardPage() {
   void version;
   const dueCount = loading ? 0 : Object.keys(srs).filter((id) => index.has(id) && srs[id].due <= today).length;
   const available = (spec) => (loading ? 0 : buildQueue(index, spec).length);
+  const favCount = loading ? 0 : getFavorites().filter((id) => index.has(id)).length;
+  const weakCount = loading ? 0 : weakIds(index).length;
 
   const deckCard = ({ deck, icon, title, text, extra, disabled }) => (
     <div className="col-md-6" key={deck}>
@@ -405,6 +469,34 @@ export default function FlashcardPage() {
               </>
             ),
             text: `${available({ deck: "katakana" })} kartu tersedia hari ini.`,
+          })}
+          {deckCard({
+            deck: "kanji",
+            icon: "bi-brush",
+            title: (
+              <>
+                <span lang="ja">漢字</span> Kanji
+              </>
+            ),
+            text: `${available({ deck: "kanji" })} kartu tersedia hari ini.`,
+          })}
+          {deckCard({
+            deck: "fav",
+            icon: "bi-star",
+            title: "Favorit",
+            text: favCount ? `${available({ deck: "fav" })} dari ${favCount} item favorit tersedia hari ini.` : "Tandai kata/kanji dengan bintang untuk mengumpulkannya di sini.",
+            disabled: favCount === 0,
+          })}
+          {deckCard({
+            deck: "weak",
+            icon: "bi-exclamation-triangle",
+            title: (
+              <>
+                Item lemah <span className="badge text-bg-sakura">{weakCount}</span>
+              </>
+            ),
+            text: weakCount ? "Item yang paling sering salah atau dilupakan (maks. 30)." : "Belum ada item lemah. Jawaban salah dan “Lupa” akan tercatat di sini.",
+            disabled: weakCount === 0,
           })}
           {deckCard({
             deck: "vocab",
