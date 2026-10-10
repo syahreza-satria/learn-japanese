@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { GRADE, addDays, isDue, isMastered, newCard, review, toDateStr } from "../assets/js/core/srs.js";
-import { computeStreak, countDue, countMastered, totalReviews } from "../assets/js/core/stats.js";
+import { GRADE, addDays, isDue, isMastered, newCard, review, toDateStr } from "../src/lib/srs.js";
+import { computeStreak, countDue, countMastered, totalReviews } from "../src/lib/stats.js";
 
 const TODAY = "2026-03-01";
 

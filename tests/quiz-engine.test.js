@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
-import { answerLabel, buildQuiz, checkAnswer, filterPool, parseQuizParams } from "../assets/js/core/quiz-engine.js";
+import { answerLabel, buildQuiz, checkAnswer, filterPool, parseQuizParams } from "../src/lib/quiz-engine.js";
 
 const load = (name, type, extra = {}) =>
   JSON.parse(readFileSync(new URL(`../data/${name}.json`, import.meta.url), "utf8")).map((item) => ({

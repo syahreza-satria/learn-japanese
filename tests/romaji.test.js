@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { isCorrectRomaji, normalizeRomaji } from "../assets/js/core/romaji.js";
+import { isCorrectRomaji, normalizeRomaji } from "../src/lib/romaji.js";
 
 test("case-insensitive dan trim spasi", () => {
   assert.equal(normalizeRomaji("  KA  "), "ka");

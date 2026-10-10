@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://syahreza-satria.github.io/learn-japanese/sitemap.xml

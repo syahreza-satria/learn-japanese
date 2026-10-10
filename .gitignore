@@ -1,6 +1,9 @@
+node_modules/
+.next/
+out/
 .DS_Store
 Thumbs.db
-node_modules/
 *.log
 .vscode/
 .idea/
+next-env.d.ts
