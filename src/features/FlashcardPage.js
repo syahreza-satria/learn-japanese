@@ -372,7 +372,7 @@ export default function FlashcardPage() {
             </button>
           </div>
         ) : null}
-        <div className="row g-3">
+        <div className="row g-3 mb-stagger">
           {deckCard({
             deck: "due",
             icon: "bi-calendar-check",

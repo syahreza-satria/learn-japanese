@@ -115,7 +115,7 @@ export default function ProgressPage() {
           <h2 className="h4 mb-3" id="statsTitle">
             Statistik
           </h2>
-          <div className="row g-3">
+          <div className="row g-3 mb-stagger">
             <StatCard value={`${countMastered(srs, hiraIds)} / ${hiraIds.length}`} label="Hiragana dikuasai" />
             <StatCard value={`${countMastered(srs, kataIds)} / ${kataIds.length}`} label="Katakana dikuasai" />
             <StatCard value={`${countMastered(srs, vocabIds)} / ${vocabIds.length}`} label="Kata dikuasai" />

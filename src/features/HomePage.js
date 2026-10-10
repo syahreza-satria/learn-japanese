@@ -53,7 +53,7 @@ export default function HomePage() {
         </Link>
       </section>
 
-      <section className="row g-3 mt-1" aria-label="Aktivitas hari ini">
+      <section className="row g-3 mt-1 mb-stagger" aria-label="Aktivitas hari ini">
         <div className="col-md-6">
           <div className="mb-card p-3 h-100">
             <h2 className="h6 text-secondary mb-2">Lanjutkan belajar</h2>
@@ -123,7 +123,7 @@ export default function HomePage() {
         <h2 className="h4 mb-3" id="pathsTitle">
           Jalur belajar
         </h2>
-        <div className="row g-3">
+        <div className="row g-3 mb-stagger">
           {PATHS.map(({ href: to, glyph, title, text, soon }) => {
             const body = (
               <>

@@ -147,7 +147,7 @@ export default function VocabPage() {
         {!vocab ? (
           <p className="text-secondary">Memuat…</p>
         ) : showThemes ? (
-          <div className="row g-3">
+          <div className="row g-3 mb-stagger">
             {themes.map((t) => (
               <div className="col-6 col-lg-4" key={t.id}>
                 <button type="button" className="mb-card mb-theme-card" onClick={() => chooseTheme(t.id)}>

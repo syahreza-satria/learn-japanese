@@ -114,7 +114,7 @@ export default function KanaPage() {
       <div className="mb-card mb-kana-preview mb-3" id="kanaPreview" aria-live="polite">
         {selected ? (
           <>
-            <div className="mb-kana-big" lang="ja">
+            <div className="mb-kana-big mb-pop" lang="ja" key={selected.id}>
               {selected.char}
             </div>
             <div>
@@ -145,7 +145,8 @@ export default function KanaPage() {
 
       <div
         id="kanaGrid"
-        className={`mb-kana-grid${tab === "yoon" ? " is-yoon" : ""}${settings.showRomaji ? "" : " mb-hide-romaji"}`}
+        key={`${script}-${tab}`}
+        className={`mb-kana-grid mb-fade-in${tab === "yoon" ? " is-yoon" : ""}${settings.showRomaji ? "" : " mb-hide-romaji"}`}
         role="group"
         aria-label="Tabel kana"
       >

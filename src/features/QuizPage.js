@@ -389,7 +389,7 @@ export default function QuizPage() {
   return (
     <>
       {header}
-      <div className="mb-fade-in mx-auto" style={{ maxWidth: "36rem" }}>
+      <div className="mb-fade-in mx-auto" key={index} style={{ maxWidth: "36rem" }}>
         <div className="d-flex justify-content-between small text-secondary mb-1">
           <span>
             Soal {index + 1} / {questions.length}
@@ -427,7 +427,7 @@ export default function QuizPage() {
         </div>
 
         {q.kind === "mc" ? (
-          <div className={`mb-choices${long ? " is-long" : ""}`}>
+          <div className={`mb-choices mb-stagger${long ? " is-long" : ""}`}>
             {q.choices.map((c) => {
               let state = "";
               if (answered) {
