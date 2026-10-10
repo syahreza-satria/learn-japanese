@@ -6,7 +6,7 @@ on:
       - "data/**"
       - "scripts/**"
       - "tests/**"
-      - "assets/js/core/**"
+      - "src/lib/**"
   push:
     branches: [main]
 

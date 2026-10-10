@@ -4,13 +4,14 @@
 
 Kode Manabii dilisensikan di bawah [MIT](LICENSE).
 
-## Perangkat lunak pihak ketiga (dimuat lewat CDN)
+## Perangkat lunak pihak ketiga
 
 | Nama | Lisensi | Sumber |
 | ---- | ------- | ------ |
-| Bootstrap 5.3 | MIT | https://getbootstrap.com |
+| Next.js, React | MIT | https://nextjs.org · https://react.dev |
+| Bootstrap 5.3, react-bootstrap | MIT | https://getbootstrap.com · https://react-bootstrap.github.io |
 | Bootstrap Icons 1.11 | MIT | https://icons.getbootstrap.com |
-| Noto Serif JP, Noto Sans JP | SIL Open Font License 1.1 | https://fonts.google.com/noto |
+| Noto Serif JP, Noto Sans JP (Google Fonts, CDN) | SIL Open Font License 1.1 | https://fonts.google.com/noto |
 | Inter | SIL Open Font License 1.1 | https://rsms.me/inter |
 
 ## Materi pelajaran

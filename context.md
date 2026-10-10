@@ -3,6 +3,8 @@
 > Dokumen ini adalah konteks lengkap untuk agent (Claude Code) yang membangun proyek **Manabii**.
 > Baca seluruh file ini sebelum menulis kode. Ikuti instruksi di bagian **"Tugas sekarang"** di akhir dokumen.
 > Tip: simpan juga sebagai `CLAUDE.md` di root repo agar otomatis dibaca Claude Code di setiap sesi.
+>
+> **Revisi v1.1:** stack dimigrasi dari HTML + vanilla JS ke **Next.js (static export)**. Bagian §2, §3, §4, dan §11 sudah disesuaikan; fitur, desain, skema data, dan acceptance criteria (§5–§10) tidak berubah.
 
 ---
 
@@ -21,34 +23,35 @@ Target pengguna: pemula total (mahasiswa, karyawan persiapan JLPT N5, guru eksku
 
 ## 2. Aturan wajib (constraints)
 
-1. **Tech stack terkunci:** HTML + **Bootstrap 5.3** (CDN) + **vanilla JavaScript ES modules**.
-   - DILARANG: React, Vue, Svelte, jQuery, Tailwind, TypeScript, bundler wajib (Vite/Webpack), backend/server, database.
-   - Library tambahan hanya jika benar-benar perlu dan tersedia via CDN; tanyakan dulu sebelum menambah.
-2. **Tanpa build step.** Repo harus bisa langsung dibuka lewat static server (`npx serve .` atau `python -m http.server`).
-   Catatan: `fetch()` file JSON tidak jalan di `file://`, jadi selalu tes via static server.
+1. **Tech stack terkunci:** **Next.js (App Router) dengan `output: 'export'`** + React + **JavaScript** (bukan TypeScript) + **Bootstrap 5.3** (paket npm) + `react-bootstrap` untuk modal/offcanvas/toast.
+   - DILARANG: TypeScript, Tailwind, jQuery, Vue/Svelte, backend/server (route handler, API, SSR dinamis), database.
+   - Situs harus selalu bisa diekspor statis ke `out/` dan di-host di GitHub Pages.
+   - Library tambahan hanya jika benar-benar perlu; tanyakan dulu sebelum menambah.
+2. **Build step diperbolehkan** (`npm run build` → `out/`). Pengembangan lewat `npm run dev`. Hasil build memakai `basePath` `/learn-japanese` (hanya di produksi); untuk mengujinya secara lokal, salin `out/` ke folder bernama `learn-japanese` lalu sajikan folder induknya dengan `npx serve`.
 3. **Tanpa login di v1.** Jangan membuat sistem akun, auth, atau sinkron cloud (itu fitur v2).
 4. **Audio = TTS** lewat Web Speech API (`speechSynthesis`, voice `ja-JP`). Jangan menambahkan file audio MP3/OGG.
 5. **Teks UI berbahasa Indonesia.** Nama file, variabel, fungsi, dan komentar kode dalam bahasa Inggris.
 6. Setiap teks Jepang dibungkus elemen dengan `lang="ja"`.
-7. Materi pelajaran **hanya** di file JSON di folder `data/` — jangan di-hardcode di JS/HTML.
+7. Materi pelajaran **hanya** di file JSON di folder `data/` (di-import oleh `src/lib/data.js`) — jangan di-hardcode di komponen.
 8. Jangan menyalin materi berhak cipta. Gunakan sumber berlisensi terbuka dan cantumkan atribusi.
 
 ---
 
 ## 3. Tech stack
 
-| Lapisan        | Pilihan                                                                        |
-| -------------- | ------------------------------------------------------------------------------ |
-| UI             | Bootstrap 5.3 via jsDelivr (`bootstrap@5.3`) — CSS + `bootstrap.bundle.min.js` |
-| Ikon           | Bootstrap Icons via jsDelivr                                                   |
-| Font           | Google Fonts: Noto Serif JP, Noto Sans JP, Inter (`display=swap`)              |
-| Logika         | Vanilla JS, ES modules (`<script type="module">`)                              |
-| Data           | File JSON statis di `data/`                                                    |
-| Penyimpanan    | `localStorage`, prefix key `manabii:v1:`                                       |
-| Audio          | Web Speech API (`speechSynthesis`, `lang = 'ja-JP'`)                           |
-| Offline (v1.1) | Service worker + `manifest.webmanifest`                                        |
-| Kualitas       | ESLint + Prettier (dev only, opsional dijalankan via `npx`)                    |
-| Hosting        | GitHub Pages + GitHub Actions                                                  |
+| Lapisan        | Pilihan                                                                                          |
+| -------------- | ------------------------------------------------------------------------------------------------ |
+| Framework      | Next.js (App Router, `output: 'export'`) + React, JavaScript                                      |
+| UI             | Bootstrap 5.3 (npm: `bootstrap`) + `react-bootstrap` (Modal, Offcanvas, Toast)                   |
+| Ikon           | `bootstrap-icons` (npm)                                                                          |
+| Font           | Google Fonts: Noto Serif JP, Noto Sans JP, Inter (disisipkan non-blocking dari `layout.js`)       |
+| Logika         | Modul murni di `src/lib/` (SRS, romaji, quiz-engine, stats) + komponen client di `src/features/`  |
+| Data           | File JSON statis di `data/` (di-code-split lewat dynamic `import()`)                             |
+| Penyimpanan    | `localStorage`, prefix key `manabii:v1:`                                                          |
+| Audio          | Web Speech API (`speechSynthesis`, `lang = 'ja-JP'`)                                              |
+| Offline (v1.1) | Service worker + `manifest.webmanifest` (belum dikerjakan)                                        |
+| Kualitas       | `node --test` untuk logika murni; validasi data via `scripts/validate-data.mjs`                  |
+| Hosting        | GitHub Pages + GitHub Actions (build `next build`, unggah `out/`)                                 |
 
 ---
 
@@ -56,53 +59,32 @@ Target pengguna: pemula total (mahasiswa, karyawan persiapan JLPT N5, guru eksku
 
 ```
 manabii/
-├── index.html            # Beranda
-├── kana.html             # Hiragana & Katakana
-├── kosakata.html         # Kosakata per tema
-├── flashcard.html        # Review SRS
-├── kuis.html             # Kuis
-├── progres.html          # Dashboard progres + pengaturan data
-├── 404.html
-├── manifest.webmanifest  # (v1.1)
-├── sw.js                 # (v1.1)
-├── assets/
-│   ├── css/
-│   │   ├── theme.css         # design tokens + override Bootstrap
-│   │   └── components.css    # kana card, flashcard flip, hanko, dsb.
-│   ├── js/
-│   │   ├── core/
-│   │   │   ├── storage.js    # wrapper localStorage + export/import
-│   │   │   ├── tts.js        # wrapper speechSynthesis
-│   │   │   ├── data.js       # loader + cache JSON
-│   │   │   ├── ui.js         # navbar aktif, theme toggle, toast helper
-│   │   │   └── srs.js        # algoritma SM-2 sederhana
-│   │   ├── features/
-│   │   │   ├── home.js
-│   │   │   ├── kana.js
-│   │   │   ├── vocab.js
-│   │   │   ├── flashcard.js
-│   │   │   ├── quiz.js
-│   │   │   └── progress.js
-│   │   └── main.js           # init bersama untuk semua halaman
-│   ├── svg/strokes/          # (v1.1) SVG KanjiVG
-│   └── img/                  # logo, favicon, og-image
+├── next.config.mjs        # output: 'export', basePath produksi
+├── jsconfig.json          # alias @/ → src/
+├── public/                # og-image.svg
+├── src/
+│   ├── app/               # App Router
+│   │   ├── layout.js      # Navbar, Footer, ToastHost, ThemeSync, skrip tema + font
+│   │   ├── page.js        # Beranda
+│   │   ├── kana/ kosakata/ flashcard/ kuis/ progres/   # page.js = metadata + <XxxPage />
+│   │   ├── not-found.js   # → 404.html
+│   │   ├── icon.svg · robots.js · sitemap.js
+│   ├── components/        # Navbar, Footer, ToastHost, ThemeSync, PageTitle, Hanko, JaWord, LoadError
+│   ├── features/          # HomePage, KanaPage, VocabPage, FlashcardPage, QuizPage, ProgressPage ("use client")
+│   ├── lib/               # srs, romaji, stats, quiz-engine, random (murni) · storage, tts, data, toast, hooks, theme, seo, lesson, config
+│   └── styles/            # theme.css (design tokens + override Bootstrap), components.css
 ├── data/
-│   ├── hiragana.json
-│   ├── katakana.json
-│   ├── vocab-n5.json
-│   ├── kanji-n5.json         # (v1.1)
-│   ├── grammar-n5.json       # (v1.2)
-│   └── schema/               # JSON Schema untuk validasi data
-├── .github/
-│   ├── workflows/            # deploy Pages + validasi JSON
-│   └── ISSUE_TEMPLATE/
-├── README.md
-├── CONTRIBUTING.md
-├── LICENSE                   # MIT
-└── ATTRIBUTION.md
+│   ├── hiragana.json · katakana.json · vocab-n5.json · themes.json
+│   ├── kanji-n5.json      # (v1.1)
+│   ├── grammar-n5.json    # (v1.2)
+│   └── schema/            # JSON Schema untuk validasi data
+├── scripts/validate-data.mjs
+├── tests/                 # node --test
+├── .github/               # workflows (validasi data, deploy Pages), ISSUE_TEMPLATE
+├── README.md · CONTRIBUTING.md · LICENSE (MIT) · ATTRIBUTION.md
 ```
 
-Setiap halaman HTML memuat: Bootstrap CSS, Bootstrap Icons, font, `theme.css`, `components.css`, lalu `main.js` + modul fiturnya sendiri.
+Komponen halaman memakai `"use client"`; akses `localStorage`/`window` hanya di dalam effect atau event handler agar prerender statis dan hydration konsisten.
 
 ---
 
@@ -323,12 +305,12 @@ Item baru: `ease = 2.5, interval = 0, reps = 0, due = hari ini`.
 
 ## 11. Konvensi kode
 
-- ES modules, `const`/`let`, tanpa variabel global kecuali yang di-export.
-- DOM: `querySelector`, event delegation, render via template string atau `<template>`. Escape teks dari data sebelum dimasukkan ke `innerHTML` (atau gunakan `textContent`).
-- Satu modul fitur per halaman; logika murni (SRS, pembuatan soal kuis, normalisasi romaji) dipisah agar bisa dites.
-- Penamaan: `camelCase` untuk fungsi/variabel, `kebab-case` untuk file dan class CSS kustom (prefix `mb-`, mis. `.mb-kana-card`).
+- ES modules, `const`/`let`, komponen fungsi + hooks. `"use client"` hanya di komponen yang membutuhkan state/efek/browser API.
+- Render via JSX (React meng-escape teks). Hindari `dangerouslySetInnerHTML`, kecuali skrip init tema di `layout.js`.
+- Satu komponen fitur per halaman (`src/features/`); logika murni (SRS, pembuatan soal kuis, normalisasi romaji, statistik) tetap di `src/lib/` tanpa DOM/React agar bisa dites. Impor relatif dengan ekstensi `.js` di `src/lib/` (dipakai langsung oleh `node --test`).
+- Penamaan: `camelCase` untuk fungsi/variabel, `PascalCase` untuk komponen React, `kebab-case` untuk file di `src/lib/` dan class CSS kustom (prefix `mb-`, mis. `.mb-kana-card`).
 - Commit kecil dengan pesan Conventional Commits (`feat:`, `fix:`, `docs:`, `chore:`).
-- Tes ringan untuk logika murni dengan `node --test` (tanpa dependensi tambahan).
+- Tes ringan untuk logika murni dengan `node --test` (tanpa dependensi tambahan); jalankan juga `npm run build` sebelum merge.
 
 ---
 
@@ -339,7 +321,7 @@ Item baru: `ease = 2.5, interval = 0, reps = 0, due = hari ini`.
 - `CONTRIBUTING.md`: cara menambah/memperbaiki materi JSON, aturan format, cara menjalankan validasi.
 - GitHub Actions:
   1. `validate-data.yml` — validasi semua JSON di `data/` terhadap schema pada setiap PR.
-  2. `deploy.yml` — deploy ke GitHub Pages saat push ke `main`.
+  2. `deploy.yml` — `npm ci`, `next build`, lalu deploy `out/` ke GitHub Pages saat push ke `main`.
 - Template issue: laporan bug, koreksi materi, usulan fitur.
 
 ---
@@ -384,7 +366,7 @@ Kerjakan **Fase 0 lalu Fase 1** secara berurutan. Jangan mengerjakan F6, PWA, at
 ### Cara kerja
 
 1. Buat rencana singkat dulu, lalu kerjakan per checklist di atas; commit setelah setiap item selesai.
-2. Setelah setiap halaman selesai, jalankan static server dan periksa tidak ada error di console.
+2. Setelah setiap halaman selesai, jalankan `npm run dev` (atau build + `npx serve`) dan periksa tidak ada error di console.
 3. Jika ada keputusan yang tidak tercakup dokumen ini, pilih opsi paling sederhana yang konsisten dengan §2, lalu catat di bagian "Catatan keputusan" di `README.md`.
 4. Di akhir Fase 1, laporkan: apa yang selesai, apa yang belum, dan hasil cek terhadap acceptance criteria §7.
 

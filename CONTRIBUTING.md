@@ -4,21 +4,21 @@ Terima kasih sudah membantu! Kontribusi paling berharga saat ini adalah **koreks
 
 ## Aturan dasar
 
-- Tech stack terkunci: HTML + Bootstrap 5.3 (CDN) + vanilla JavaScript ES modules. Tanpa framework, bundler, backend, atau database.
+- Tech stack terkunci: Next.js (App Router, `output: 'export'`) + React + JavaScript + Bootstrap 5.3. Tanpa TypeScript, backend/SSR dinamis, atau database.
 - Teks UI berbahasa Indonesia; nama file, variabel, fungsi, dan komentar kode berbahasa Inggris.
-- Materi pelajaran **hanya** di `data/*.json`, jangan di-hardcode di JS/HTML.
+- Materi pelajaran **hanya** di `data/*.json`, jangan di-hardcode di komponen.
 - Jangan menyalin materi berhak cipta. Gunakan sumber berlisensi terbuka dan catat di [ATTRIBUTION.md](ATTRIBUTION.md).
 - Commit kecil dengan pesan [Conventional Commits](https://www.conventionalcommits.org/) (`feat:`, `fix:`, `docs:`, `chore:`).
 
 ## Menjalankan lokal
 
 ```bash
-npx serve .            # atau: python -m http.server 8000
+npm install
+npm run dev            # http://localhost:3000
+npm run build          # static export ke out/
 node --test            # tes logika murni & data
 node scripts/validate-data.mjs
 ```
-
-`fetch()` JSON tidak berjalan di `file://`; selalu uji lewat static server.
 
 ## Menambah atau memperbaiki materi
 
@@ -66,8 +66,8 @@ Skema ada di `data/schema/`. Validator memeriksa tipe, properti wajib, pola, `id
 
 ## Kode
 
-- ES modules, `const`/`let`, tanpa variabel global.
-- Escape teks dari data sebelum masuk `innerHTML` (`escapeHtml`) atau pakai `textContent`.
-- Logika murni (SRS, pembuatan soal, normalisasi romaji, statistik) dipisah dari DOM dan wajib punya tes `node --test`.
-- Nama file dan class CSS kustom `kebab-case`, class kustom berawalan `mb-`.
-- Pastikan: responsif 360/768/1280 px, mode terang & gelap terbaca, bisa dioperasikan dengan keyboard, tidak ada error di console.
+- Komponen fungsi React + hooks; `"use client"` hanya bila perlu. Akses `localStorage`/`window` hanya di effect atau event handler.
+- Jangan memakai `dangerouslySetInnerHTML` untuk teks dari data.
+- Logika murni (SRS, pembuatan soal, normalisasi romaji, statistik) tinggal di `src/lib/`, tanpa DOM/React, dan wajib punya tes `node --test`.
+- Komponen `PascalCase`; file di `src/lib/` dan class CSS kustom `kebab-case`, class kustom berawalan `mb-`.
+- Pastikan: responsif 360/768/1280 px, mode terang & gelap terbaca, bisa dioperasikan dengan keyboard, tidak ada error di console, dan `npm run build` berhasil.

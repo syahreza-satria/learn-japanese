@@ -3,31 +3,36 @@
 Website gratis dan open source untuk belajar bahasa Jepang dari nol sampai **JLPT N5**, untuk pengguna berbahasa Indonesia.
 
 Jalur belajar: Hiragana → Katakana → Kosakata → Kanji dasar → Tata bahasa N5.
-Tanpa akun; progres disimpan di `localStorage` browser. Situs statis (HTML + Bootstrap 5.3 + vanilla JS ES modules), tanpa build step.
+Tanpa akun; progres disimpan di `localStorage` browser. Dibangun dengan **Next.js (App Router, static export)**, React, JavaScript, dan Bootstrap 5.3; hasilnya situs statis untuk GitHub Pages.
 
 > Status: **v1.0 (MVP)** — Kana, Kosakata, Flashcard SRS, Kuis, Progres. Kanji & tata bahasa menyusul (v1.1–v1.2).
 
 ## Tampilan
 
-| Beranda | Kana | Flashcard | Kuis |
-| ------- | ---- | --------- | ---- |
+| Beranda                                  | Kana                                      | Flashcard                                           | Kuis                                      |
+| ---------------------------------------- | ----------------------------------------- | --------------------------------------------------- | ----------------------------------------- |
 | ![Beranda](docs/screenshots/beranda.png) | ![Kana](docs/screenshots/kana-mobile.png) | ![Flashcard](docs/screenshots/flashcard-mobile.png) | ![Kuis](docs/screenshots/kuis-mobile.png) |
 
 ## Menjalankan secara lokal
 
-`fetch()` JSON tidak berjalan di `file://`, jadi gunakan static server:
+Butuh Node.js 20+.
 
 ```bash
-npx serve .
-# atau
-python -m http.server 8000
+npm install
+npm run dev        # http://localhost:3000
 ```
 
-Lalu buka `http://localhost:3000` (serve) atau `http://localhost:8000` (python).
+Build statis (hasil di `out/`, memakai basePath `/learn-japanese`):
+
+```bash
+npm run build
+# uji lokal: salin out/ ke folder bernama "learn-japanese", lalu sajikan folder induknya
+npx serve <folder-induk>   # buka http://localhost:3000/learn-japanese/
+```
 
 ## Tes & validasi data
 
-Butuh Node.js 20+ (tanpa dependensi tambahan):
+Tes logika murni tidak membutuhkan dependensi tambahan:
 
 ```bash
 node --test                      # tes SRS, romaji, statistik, mesin kuis, dan data
@@ -37,12 +42,13 @@ node scripts/validate-data.mjs   # validasi data/*.json terhadap data/schema/*.j
 ## Struktur folder
 
 ```
-index.html · kana.html · kosakata.html · flashcard.html · kuis.html · progres.html · 404.html
-assets/css/      theme.css (design tokens + override Bootstrap), components.css
-assets/js/core/  storage, tts, data, ui, srs, romaji, stats, quiz-engine, random, config (modul inti; logika murni dipisah dari DOM)
-assets/js/features/  satu modul per halaman
-assets/img/      favicon & og-image (SVG)
+src/app/         rute App Router (/, /kana, /kosakata, /flashcard, /kuis, /progres, not-found)
+src/features/    satu komponen client per halaman
+src/components/  Navbar, Footer, ToastHost, ThemeSync, dll.
+src/lib/         logika murni (srs, romaji, stats, quiz-engine) + storage, tts, data, hooks
+src/styles/      theme.css (design tokens + override Bootstrap), components.css
 data/            hiragana, katakana, vocab-n5, themes (+ schema/)
+public/          og-image.svg
 scripts/         validate-data.mjs
 tests/           tes `node --test`
 .github/         workflow validasi data & deploy GitHub Pages, template issue
@@ -61,15 +67,15 @@ Kode: [MIT](LICENSE).
 Keputusan yang tidak tercakup di `context.md` dan dipilih seperti berikut (opsi paling sederhana):
 
 - **Prototipe lama dihapus.** Repo sebelumnya berisi satu halaman statis ("Belajar Nippon"); diganti total oleh struktur Manabii. Versi lama tetap ada di riwayat git.
-- **Navbar & footer disisipkan lewat JS** (`core/ui.js`) agar hanya ada satu sumber markup tanpa build step. Tinggi placeholder dipesan di CSS supaya tidak ada layout shift.
-- **Base URL:** `https://syahreza-satria.github.io/learn-japanese/` disimpan di `assets/js/core/config.js`. Nilai yang sama juga muncul statis di `<head>` (canonical/OG), `sitemap.xml`, `robots.txt`, dan `<base>` di `404.html`; ganti semuanya saat domain final ditentukan.
+- **Migrasi ke Next.js (v1.1):** App Router dengan `output: 'export'` + JavaScript. Navbar/footer kini komponen React yang ikut di-prerender (tanpa layout shift). `react-bootstrap` dipakai untuk Modal/Offcanvas/Toast agar tidak mengelola JS Bootstrap manual.
+- **Base URL:** `https://syahreza-satria.github.io/learn-japanese/` ada di `src/lib/config.js` (dipakai untuk canonical, Open Graph, sitemap, robots) dan `basePath` di `next.config.mjs`; ganti keduanya saat domain final ditentukan.
 - **Tema kosakata** disimpan di `data/themes.json` (label, ikon, deskripsi) agar materi tetap hanya ada di folder `data/`.
 - **Kana:** `ん` berada di baris `nn` (bukan `n`, yang dipakai baris な). `ぢ/づ` (romaji `ji`/`zu`) punya `alt` (`di`/`du`), dan `を` punya `alt` `o` untuk jawaban ketik. Pada mode romaji→kana, kana yang romajinya ambigu (じ/ぢ, ず/づ) tidak dijadikan soal.
 - **Romaji vokal panjang** ditulis sesuai kana (`ou`, `oo`, `uu`), bukan makron, supaya mudah diketik.
 - **Item SRS dibuat saat pertama kali dinilai**, ditambahkan dari Kosakata ("Tambahkan ke flashcard"), atau saat salah menjawab kuis. Dek Hiragana/Katakana/Kosakata menampilkan item baru dan yang jatuh tempo.
 - **`reviewed: false`** ditandai pada seluruh entri kosakata: materi belum ditinjau penutur asli/guru. Koreksi sangat diharapkan.
-- **Skrip tema kecil di `<head>`** (inline) menerapkan `data-bs-theme` sebelum render agar tidak ada kilatan tema.
-- **Performa:** CSS Google Fonts & Bootstrap Icons dimuat non-blocking (`media="print"` + `onload`), bobot font dibatasi (Inter 400/600, Noto Sans JP 400/700, Noto Serif JP 600), modul & JSON halaman di-`preload`, dan wadah konten dinamis diberi `min-height` untuk menekan layout shift.
+- **Skrip kecil di `<head>`** (inline, di `layout.js`) menerapkan `data-bs-theme` sebelum render dan menyisipkan CSS Google Fonts secara non-blocking.
+- **Data materi di-import dinamis** (`import()` JSON) sehingga ikut code-splitting per halaman; `Link` memakai `prefetch={false}` karena prefetch RSC pada static export menghasilkan 404 di console.
 - **Kartu baru flashcard dibatasi 20 per sesi** agar sesi tetap 5–15 menit; bila tidak ada kartu jatuh tempo tersedia tombol "Latih tetap" (maks. 30 kartu acak, penilaian tetap memperbarui SRS).
 - **Impor data menimpa seluruh data** setelah konfirmasi, dan hanya menerima cadangan Manabii versi ≤ 1.
 - **og-image berformat SVG** sesuai rencana; sebagian platform sosial hanya menampilkan PNG/JPG, jadi ganti bila pratinjau tidak muncul.
