@@ -73,6 +73,7 @@ Keputusan yang tidak tercakup di `context.md` dan dipilih seperti berikut (opsi 
 
 - **Prototipe lama dihapus.** Repo sebelumnya berisi satu halaman statis ("Belajar Nippon"); diganti total oleh struktur Manabii. Versi lama tetap ada di riwayat git.
 - **Migrasi ke Next.js (v1.1):** App Router dengan `output: 'export'` + JavaScript. Navbar/footer kini komponen React yang ikut di-prerender (tanpa layout shift). `react-bootstrap` dipakai untuk Modal/Offcanvas/Toast agar tidak mengelola JS Bootstrap manual.
+- **Hosting:** `next.config.mjs` memilih `basePath` otomatis: `/learn-japanese` untuk GitHub Pages, kosong di Vercel (env `VERCEL` terdeteksi) atau bila `BASE_PATH=""`. Di Vercel biarkan preset Next.js (build `npm run build`, tanpa Output Directory khusus); URL publik diambil dari `VERCEL_PROJECT_PRODUCTION_URL` atau `NEXT_PUBLIC_SITE_URL`.
 - **Base URL:** `https://syahreza-satria.github.io/learn-japanese/` ada di `src/lib/config.js` (dipakai untuk canonical, Open Graph, sitemap, robots) dan `basePath` di `next.config.mjs`; ganti keduanya saat domain final ditentukan.
 - **Tema kosakata** disimpan di `data/themes.json` (label, ikon, deskripsi) agar materi tetap hanya ada di folder `data/`.
 - **Kana:** `ん` berada di baris `nn` (bukan `n`, yang dipakai baris な). `ぢ/づ` (romaji `ji`/`zu`) punya `alt` (`di`/`du`), dan `を` punya `alt` `o` untuk jawaban ketik. Pada mode romaji→kana, kana yang romajinya ambigu (じ/ぢ, ず/づ) tidak dijadikan soal.

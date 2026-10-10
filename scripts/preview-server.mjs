@@ -8,7 +8,7 @@ import { extname, join, normalize } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = fileURLToPath(new URL("../out/", import.meta.url));
-const BASE = "/learn-japanese";
+const BASE = process.env.BASE_PATH ?? "/learn-japanese"; // "" = akar domain (mis. Vercel)
 const port = Number(process.argv[2] ?? process.env.PORT ?? 3000);
 
 const TYPES = {
@@ -36,11 +36,11 @@ function resolveFile(pathname) {
 
 createServer((req, res) => {
   const { pathname } = new URL(req.url, "http://localhost");
-  if (pathname === "/" || pathname === BASE) {
+  if (BASE && (pathname === "/" || pathname === BASE)) {
     res.writeHead(302, { Location: `${BASE}/` }).end();
     return;
   }
-  const inBase = pathname.startsWith(`${BASE}/`);
+  const inBase = !BASE || pathname.startsWith(`${BASE}/`);
   const file = inBase ? resolveFile(pathname.slice(BASE.length)) : null;
   const target = file ?? join(root, "404.html");
   const status = file ? 200 : 404;
