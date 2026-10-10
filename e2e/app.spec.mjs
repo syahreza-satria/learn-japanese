@@ -55,7 +55,7 @@ test("kanji: detail & jumlah goresan, cari, favorit", async ({ page }) => {
 
 test("kosakata: cari, filter tema, tambah ke flashcard", async ({ page }) => {
   await page.goto("kosakata?theme=sekolah");
-  expect(await page.locator(".mb-word-row").count()).toBeGreaterThan(30);
+  await expect.poll(() => page.locator(".mb-word-row").count()).toBeGreaterThan(30);
   await page.getByLabel("Cari kata").fill("gakusei");
   await expect(page.locator(".mb-word-row ruby rt").first()).toHaveText("がくせい");
   await page.locator(".mb-word-row").first().getByRole("button", { name: /^Tambahkan/ }).click();

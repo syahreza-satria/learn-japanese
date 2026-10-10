@@ -59,6 +59,7 @@ export default function KanjiPage() {
         Kanji N5
       </PageTitle>
 
+      {!selected ? <div className="mb-card mb-kanji-detail mb-kanji-detail-placeholder mb-3" aria-hidden="true" /> : null}
       {selected ? (
         <div className="mb-card mb-kanji-detail mb-3" aria-live="polite">
           <StrokeAnimator key={selected.id} text={selected.char} size={150} />

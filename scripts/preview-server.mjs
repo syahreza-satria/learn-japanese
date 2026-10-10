@@ -2,6 +2,7 @@
 // melayani out/ di bawah basePath /learn-japanese, URL tanpa ekstensi, dan 404.html untuk path tak dikenal.
 // Pakai: node scripts/preview-server.mjs [port]
 import { createServer } from "node:http";
+import { gzipSync } from "node:zlib";
 import { existsSync, readFileSync, statSync } from "node:fs";
 import { extname, join, normalize } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -43,9 +44,14 @@ createServer((req, res) => {
   const file = inBase ? resolveFile(pathname.slice(BASE.length)) : null;
   const target = file ?? join(root, "404.html");
   const status = file ? 200 : 404;
-  res.writeHead(status, {
-    "Content-Type": TYPES[extname(target)] ?? "application/octet-stream",
-    "Cache-Control": "no-cache",
-  });
-  res.end(readFileSync(target));
+  const type = TYPES[extname(target)] ?? "application/octet-stream";
+  const headers = { "Content-Type": type, "Cache-Control": "no-cache" };
+  let body = readFileSync(target);
+  // GitHub Pages mengompresi teks; lakukan hal yang sama agar ukuran transfer realistis.
+  if (/text|json|javascript|svg|manifest/.test(type) && /gzip/.test(req.headers["accept-encoding"] ?? "")) {
+    body = gzipSync(body);
+    headers["Content-Encoding"] = "gzip";
+  }
+  res.writeHead(status, headers);
+  res.end(body);
 }).listen(port, () => console.log(`Manabii preview: http://localhost:${port}${BASE}/`));

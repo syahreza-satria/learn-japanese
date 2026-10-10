@@ -19,10 +19,18 @@ if(t!=="dark"&&t!=="light"){t=window.matchMedia&&window.matchMedia("(prefers-col
 document.documentElement.setAttribute("data-bs-theme",t);
 var l=document.createElement("link");l.rel="stylesheet";l.href=${JSON.stringify(FONTS_URL)};document.head.appendChild(l)})();`;
 
+// Ikon situs sebagai data URI: browser tidak lagi meminta /favicon.ico di akar domain (yang 404 di GitHub Pages).
+const ICON_SVG =
+  '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect x="4" y="4" width="56" height="56" rx="8" fill="#c8402f"/>' +
+  '<text x="32" y="45" text-anchor="middle" font-family="serif" font-size="38" font-weight="700" fill="#f7f3ea">学</text></svg>';
+
 export const metadata = {
   metadataBase: new URL(SITE.baseUrl),
   referrer: "no-referrer", // TTS online menolak permintaan yang membawa Referer
-  icons: { apple: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/icons/apple-touch-icon.png` },
+  icons: {
+    icon: `data:image/svg+xml,${encodeURIComponent(ICON_SVG)}`,
+    apple: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/icons/apple-touch-icon.png`,
+  },
   appleWebApp: { capable: true, title: "Manabii", statusBarStyle: "default" },
   title: { default: "Manabii (まなび) — Belajar Bahasa Jepang N5 Gratis", template: "%s — Manabii" },
   description:

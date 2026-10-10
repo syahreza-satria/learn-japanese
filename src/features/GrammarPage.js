@@ -185,6 +185,7 @@ export default function GrammarPage() {
       </div>
 
       {!grammar ? <p className="text-secondary">Memuat…</p> : null}
+      <div className="mb-min-tall">
       <Accordion alwaysOpen className="mb-card">
         {shown.map((g) => (
           <Accordion.Item eventKey={g.id} key={g.id}>
@@ -227,6 +228,7 @@ export default function GrammarPage() {
           </Accordion.Item>
         ))}
       </Accordion>
+      </div>
     </>
   );
 }

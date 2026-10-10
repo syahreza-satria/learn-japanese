@@ -809,7 +809,7 @@ a.mb-theme-card:hover {
   line-height: 1.2;
 }
 .mb-kanji-meaning {
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   color: var(--jp-stone-text);
   line-height: 1.1;
   text-align: center;
@@ -883,4 +883,17 @@ a.mb-theme-card:hover {
   border-bottom: 1px solid var(--bs-border-color);
   background: var(--jp-sakura);
   color: var(--bs-body-color);
+}
+
+/* Pesan ruang untuk konten yang dimuat belakangan (cegah layout shift) */
+.mb-min-tall {
+  min-height: 85vh;
+}
+.mb-kanji-detail-placeholder {
+  min-height: 19rem;
+}
+@media (max-width: 575.98px) {
+  .mb-kanji-detail-placeholder {
+    min-height: 34rem;
+  }
 }
