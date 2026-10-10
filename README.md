@@ -7,6 +7,12 @@ Tanpa akun; progres disimpan di `localStorage` browser. Situs statis (HTML + Boo
 
 > Status: **v1.0 (MVP)** — Kana, Kosakata, Flashcard SRS, Kuis, Progres. Kanji & tata bahasa menyusul (v1.1–v1.2).
 
+## Tampilan
+
+| Beranda | Kana | Flashcard | Kuis |
+| ------- | ---- | --------- | ---- |
+| ![Beranda](docs/screenshots/beranda.png) | ![Kana](docs/screenshots/kana-mobile.png) | ![Flashcard](docs/screenshots/flashcard-mobile.png) | ![Kuis](docs/screenshots/kuis-mobile.png) |
+
 ## Menjalankan secara lokal
 
 `fetch()` JSON tidak berjalan di `file://`, jadi gunakan static server:
@@ -33,7 +39,7 @@ node scripts/validate-data.mjs   # validasi data/*.json terhadap data/schema/*.j
 ```
 index.html · kana.html · kosakata.html · flashcard.html · kuis.html · progres.html · 404.html
 assets/css/      theme.css (design tokens + override Bootstrap), components.css
-assets/js/core/  storage, tts, data, ui, srs, romaji, stats, quiz-engine (modul inti, logika murni dipisah)
+assets/js/core/  storage, tts, data, ui, srs, romaji, stats, quiz-engine, random, config (modul inti; logika murni dipisah dari DOM)
 assets/js/features/  satu modul per halaman
 assets/img/      favicon & og-image (SVG)
 data/            hiragana, katakana, vocab-n5, themes (+ schema/)
@@ -62,4 +68,8 @@ Keputusan yang tidak tercakup di `context.md` dan dipilih seperti berikut (opsi 
 - **Romaji vokal panjang** ditulis sesuai kana (`ou`, `oo`, `uu`), bukan makron, supaya mudah diketik.
 - **Item SRS dibuat saat pertama kali dinilai**, ditambahkan dari Kosakata ("Tambahkan ke flashcard"), atau saat salah menjawab kuis. Dek Hiragana/Katakana/Kosakata menampilkan item baru dan yang jatuh tempo.
 - **`reviewed: false`** ditandai pada seluruh entri kosakata: materi belum ditinjau penutur asli/guru. Koreksi sangat diharapkan.
+- **Skrip tema kecil di `<head>`** (inline) menerapkan `data-bs-theme` sebelum render agar tidak ada kilatan tema.
+- **Performa:** CSS Google Fonts & Bootstrap Icons dimuat non-blocking (`media="print"` + `onload`), bobot font dibatasi (Inter 400/600, Noto Sans JP 400/700, Noto Serif JP 600), modul & JSON halaman di-`preload`, dan wadah konten dinamis diberi `min-height` untuk menekan layout shift.
+- **Kartu baru flashcard dibatasi 20 per sesi** agar sesi tetap 5–15 menit; bila tidak ada kartu jatuh tempo tersedia tombol "Latih tetap" (maks. 30 kartu acak, penilaian tetap memperbarui SRS).
+- **Impor data menimpa seluruh data** setelah konfirmasi, dan hanya menerima cadangan Manabii versi ≤ 1.
 - **og-image berformat SVG** sesuai rencana; sebagian platform sosial hanya menampilkan PNG/JPG, jadi ganti bila pratinjau tidak muncul.

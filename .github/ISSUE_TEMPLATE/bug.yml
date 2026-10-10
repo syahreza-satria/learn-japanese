@@ -1,0 +1,26 @@
+name: Laporan bug
+description: Ada yang tidak berfungsi atau tampil salah
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: Apa yang terjadi?
+      description: Jelaskan juga yang Anda harapkan.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Langkah untuk mengulang
+      placeholder: "1. Buka halaman Kuis\n2. ..."
+  - type: input
+    id: env
+    attributes:
+      label: Perangkat & browser
+      placeholder: Chrome 130 di Android 14
+  - type: textarea
+    id: console
+    attributes:
+      label: Pesan error di console (jika ada)
+      render: shell

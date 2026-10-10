@@ -53,10 +53,10 @@ export function applyTheme() {
 // ---- Toast & modal -------------------------------------------------------------
 
 const TOAST_STYLES = {
-  info: "text-bg-secondary",
-  success: "text-bg-success",
-  warning: "text-bg-warning",
-  danger: "text-bg-danger",
+  info: "mb-toast-info",
+  success: "mb-toast-success",
+  warning: "mb-toast-warning",
+  danger: "mb-toast-danger",
 };
 
 export function showToast(message, { type = "info", delay = 4500 } = {}) {
@@ -68,7 +68,7 @@ export function showToast(message, { type = "info", delay = 4500 } = {}) {
     document.body.append(container);
   }
   const toast = document.createElement("div");
-  toast.className = `toast align-items-center border-0 ${TOAST_STYLES[type] ?? TOAST_STYLES.info}`;
+  toast.className = `toast mb-toast align-items-center ${TOAST_STYLES[type] ?? TOAST_STYLES.info}`;
   toast.setAttribute("role", type === "danger" || type === "warning" ? "alert" : "status");
   toast.setAttribute("aria-live", "polite");
   toast.innerHTML = `<div class="d-flex"><div class="toast-body"></div>

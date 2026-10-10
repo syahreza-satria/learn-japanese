@@ -1,0 +1,26 @@
+name: Koreksi materi
+description: Terjemahan, romaji, bacaan, atau contoh kalimat yang keliru
+labels: [materi]
+body:
+  - type: input
+    id: item
+    attributes:
+      label: Item yang keliru
+      description: "ID atau kata, mis. v0012 (学生)"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Apa yang salah?
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Usulan perbaikan
+  - type: input
+    id: source
+    attributes:
+      label: Sumber / rujukan (opsional)
+      description: Pastikan sumber berlisensi terbuka bila dikutip.

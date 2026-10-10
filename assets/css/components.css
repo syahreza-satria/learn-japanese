@@ -548,6 +548,30 @@ a.mb-theme-card:hover {
   z-index: 2100;
 }
 
+.mb-toast {
+  --bs-toast-bg: var(--jp-surface);
+  --bs-toast-color: var(--bs-body-color);
+  --bs-toast-border-color: var(--bs-border-color);
+  border-left: 4px solid var(--jp-stone);
+}
+
+.mb-toast-success {
+  border-left-color: var(--jp-matcha);
+}
+
+.mb-toast-warning,
+.mb-toast-danger {
+  border-left-color: var(--jp-shu);
+}
+
+.mb-toast .btn-close {
+  filter: none;
+}
+
+[data-bs-theme="dark"] .mb-toast .btn-close {
+  filter: invert(1) grayscale(100%) brightness(200%);
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -569,4 +593,29 @@ a.mb-theme-card:hover {
 
 #mb-footer {
   min-height: 6rem;
+}
+
+/* Pesan ruang untuk konten yang dirender JS (cegah layout shift) */
+#deckPicker,
+#vocabContent,
+#progressContent {
+  min-height: 85vh;
+}
+
+#quizSetup {
+  min-height: 50vh;
+}
+
+#mbThemeToggle {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+}
+
+#kanaPreview {
+  min-height: 9.5rem;
+}
+
+#kanaGrid {
+  min-height: 40rem;
 }

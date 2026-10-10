@@ -1,0 +1,17 @@
+name: Usulan fitur
+description: Ide untuk membuat Manabii lebih baik
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Ide Anda
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Masalah apa yang diselesaikan?
+  - type: markdown
+    attributes:
+      value: "Catatan: v1 tidak memakai akun/login, backend, atau framework JS. Fitur semacam itu masuk rencana v2."
