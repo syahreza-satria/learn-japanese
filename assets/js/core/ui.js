@@ -158,3 +158,11 @@ export function renderLayout(activePage) {
     }),
   );
 }
+
+/** Tampilkan pesan galat pemuatan data di dalam container. */
+export function showLoadError(container, error) {
+  console.error(error);
+  container.innerHTML = `<div class="alert alert-danger" role="alert">
+    Gagal memuat materi. Jika membuka file langsung (<code>file://</code>), jalankan lewat static server
+    (<code>npx serve .</code>) lalu muat ulang halaman.</div>`;
+}

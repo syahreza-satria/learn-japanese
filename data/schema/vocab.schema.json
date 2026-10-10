@@ -8,7 +8,7 @@
     "additionalProperties": false,
     "required": ["id", "word", "kana", "romaji", "meaning", "theme", "level", "example"],
     "properties": {
-      "id": { "type": "string", "pattern": "^v\d{4}$" },
+      "id": { "type": "string", "pattern": "^v[0-9]{4}$" },
       "word": { "type": "string", "minLength": 1 },
       "kana": { "type": "string", "minLength": 1 },
       "romaji": { "type": "string", "pattern": "^[a-z' ]+$" },
