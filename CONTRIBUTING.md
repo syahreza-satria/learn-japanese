@@ -15,9 +15,12 @@ Terima kasih sudah membantu! Kontribusi paling berharga saat ini adalah **koreks
 ```bash
 npm install
 npm run dev            # http://localhost:3000
-npm run build          # static export ke out/
+npm run build          # static export ke out/ + precache service worker
+npm start              # pratinjau hasil build di /learn-japanese/
+npm run lint           # ESLint
 node --test            # tes logika murni & data
 node scripts/validate-data.mjs
+npm run test:e2e       # Playwright lintas browser (butuh build + `npx playwright install`)
 ```
 
 ## Menambah atau memperbaiki materi
@@ -50,9 +53,29 @@ node scripts/validate-data.mjs
 
 Isinya baku (104 karakter per aksara). Koreksi biasanya hanya pada `example` (contoh kata). Aturan khusus: `ん` berada di baris `nn`; `ぢ/づ` memakai `alt` (`di`/`du`) dan `を` memakai `alt` `o`.
 
+### Kanji (`data/kanji-n5.json`)
+
+`id` `j###`, `char`, `meaning`, `onyomi`/`kunyomi` (kana, tanpa okurigana), `strokes` (harus sama dengan jumlah path di `data/strokes.json`), `examples[]` (`word`, `kana`, `meaning`).
+Data goresan `data/strokes.json` berasal dari KanjiVG (CC BY-SA 3.0); jangan diedit manual.
+
+### Tata bahasa (`data/grammar-n5.json`)
+
+`id` `g###`, `category`, `pattern`, `title`, `explanation`, `examples[]` (`jp`, `id`), dan `exercise` (`prompt` memuat `___`, `answer`, `choices` termasuk jawaban, `hint` opsional).
+Pastikan **hanya satu** pilihan yang benar secara tata bahasa.
+
 ### Tema (`data/themes.json`)
 
 Tambahkan objek `{ id, label, icon, description }`; `icon` adalah nama kelas Bootstrap Icons (`bi-...`).
+
+## Meninjau materi (untuk penutur asli / guru)
+
+```bash
+npm run review-report                       # tabel entri "reviewed": false
+node scripts/review-report.mjs vocab --csv  # ekspor CSV (vocab | kanji | grammar)
+node scripts/mark-reviewed.mjs vocab v0001 v0002   # tandai sudah ditinjau (atau --all)
+```
+
+Perbaiki teks yang keliru langsung di JSON (jangan mengubah `id`), lalu tandai entri yang sudah benar dengan `mark-reviewed`.
 
 ## Validasi
 

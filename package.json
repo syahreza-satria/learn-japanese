@@ -8,9 +8,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && node scripts/postbuild-sw.mjs",
-    "start": "npx serve out",
+    "start": "node scripts/preview-server.mjs",
     "test": "node --test",
-    "validate": "node scripts/validate-data.mjs"
+    "validate": "node scripts/validate-data.mjs",
+    "lint": "eslint .",
+    "preview": "node scripts/preview-server.mjs",
+    "test:e2e": "playwright test",
+    "review-report": "node scripts/review-report.mjs"
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
@@ -19,5 +23,10 @@
     "react": "^19.3.0",
     "react-bootstrap": "^2.10.10",
     "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.4.0"
   }
 }

@@ -4,7 +4,8 @@
 > Baca seluruh file ini sebelum menulis kode. Ikuti instruksi di bagian **"Tugas sekarang"** di akhir dokumen.
 > Tip: simpan juga sebagai `CLAUDE.md` di root repo agar otomatis dibaca Claude Code di setiap sesi.
 >
-> **Revisi v1.1:** stack dimigrasi dari HTML + vanilla JS ke **Next.js (static export)**. Bagian §2, §3, §4, dan §11 sudah disesuaikan; fitur, desain, skema data, dan acceptance criteria (§5–§10) tidak berubah.
+> **Revisi v1.1:** stack dimigrasi dari HTML + vanilla JS ke **Next.js (static export)**. Bagian §2, §3, §4, dan §11 sudah disesuaikan.
+> **Revisi v1.2:** Kanji N5, Tata bahasa N5, animasi goresan, kosakata ±800 kata (22 tema), favorit & item lemah, mode kuis mendengar/arti→kata, statistik aktivitas, PWA offline, pengingat belajar, ESLint, dan tes e2e lintas browser sudah dikerjakan (lihat §6, §7 F6, §13).
 
 ---
 
@@ -49,8 +50,8 @@ Target pengguna: pemula total (mahasiswa, karyawan persiapan JLPT N5, guru eksku
 | Data           | File JSON statis di `data/` (di-code-split lewat dynamic `import()`)                             |
 | Penyimpanan    | `localStorage`, prefix key `manabii:v1:`                                                          |
 | Audio          | Web Speech API (`ja-JP`); cadangan: TTS online Google Translate bila tak ada voice Jepang         |
-| Offline (v1.1) | Service worker + `manifest.webmanifest` (belum dikerjakan)                                        |
-| Kualitas       | `node --test` untuk logika murni; validasi data via `scripts/validate-data.mjs`                  |
+| Offline (PWA)  | `public/sw.js` (precache seluruh situs) + `app/manifest.js`; daftar berkas dibuat `scripts/postbuild-sw.mjs`  |
+| Kualitas       | ESLint, `node --test` (logika murni), validasi data, Playwright (Chromium/Firefox/WebKit/mobile)  |
 | Hosting        | GitHub Pages + GitHub Actions (build `next build`, unggah `out/`)                                 |
 
 ---
@@ -63,7 +64,7 @@ manabii/
 ├── jsconfig.json          # alias @/ → src/
 ├── public/                # og-image.svg
 ├── src/
-│   ├── app/               # App Router
+│   ├── app/               # App Router (/, kana, kanji, kosakata, tata-bahasa, flashcard, kuis, progres)
 │   │   ├── layout.js      # Navbar, Footer, ToastHost, ThemeSync, skrip tema + font
 │   │   ├── page.js        # Beranda
 │   │   ├── kana/ kosakata/ flashcard/ kuis/ progres/   # page.js = metadata + <XxxPage />
@@ -75,11 +76,11 @@ manabii/
 │   └── styles/            # theme.css (design tokens + override Bootstrap), components.css
 ├── data/
 │   ├── hiragana.json · katakana.json · vocab-n5.json · themes.json
-│   ├── kanji-n5.json      # (v1.1)
-│   ├── grammar-n5.json    # (v1.2)
+│   ├── kanji-n5.json · grammar-n5.json · strokes.json (KanjiVG, CC BY-SA 3.0)
 │   └── schema/            # JSON Schema untuk validasi data
-├── scripts/validate-data.mjs
-├── tests/                 # node --test
+├── scripts/               # validate-data, postbuild-sw, preview-server, review-report, mark-reviewed
+├── tests/                 # node --test (logika murni & data)
+├── e2e/                   # Playwright (lintas browser)
 ├── .github/               # workflows (validasi data, deploy Pages), ISSUE_TEMPLATE
 ├── README.md · CONTRIBUTING.md · LICENSE (MIT) · ATTRIBUTION.md
 ```
@@ -203,10 +204,11 @@ Parameter URL boleh dipakai untuk deep link, contoh: `kuis.html?source=hiragana&
 - F5.4 Ekspor semua data `manabii:v1:*` ke file `manabii-backup-YYYY-MM-DD.json`; impor dengan validasi versi; reset dengan konfirmasi modal.
 - F5.5 Pengaturan: mode gelap (auto/terang/gelap), tampilkan romaji, kecepatan TTS (0.6–1.2), target harian, efek suara kuis (disintesis Web Audio, tanpa berkas audio).
 
-### F6 — Kanji & tata bahasa (v1.1–v1.2, JANGAN dikerjakan di MVP)
+### F6 — Kanji & tata bahasa (SUDAH dikerjakan di v1.2)
 
-- Kanji N5 (±100): onyomi, kunyomi, arti, jumlah goresan, contoh kata, SVG KanjiVG.
-- Tata bahasa N5 (±80 pola): pola, penjelasan Indonesia, contoh, latihan isian.
+- Kanji N5 (95 kanji): onyomi, kunyomi, arti, jumlah goresan, contoh kata, animasi goresan dari KanjiVG (`data/strokes.json`).
+- Tata bahasa N5 (81 pola): pola, penjelasan Indonesia, contoh + suara, latihan isian pilihan, mode latihan acak.
+- Tambahan: favorit (bintang), daftar item lemah (`mistakes`), arah flashcard Indonesia→Jepang, dek Kanji/Favorit/Item lemah, mode kuis arti→kata, mendengar, dan kanji, kalender & grafik aktivitas, pengingat belajar, PWA offline.
 
 ---
 
@@ -262,11 +264,14 @@ Key (semua berprefix `manabii:v1:`):
 
 | Key           | Isi                                                                      |
 | ------------- | ------------------------------------------------------------------------ |
-| `settings`    | `{ theme, showRomaji, ttsRate, dailyGoal, sfx }`                        |
+| `settings`    | `{ theme, showRomaji, ttsRate, dailyGoal, sfx, flashDirection, reminder, reminderTime }` |
 | `srs`         | `{ [itemId]: { ease, interval, reps, due, lastReviewed } }`              |
 | `quizHistory` | array `{ date, source, mode, total, correct }` (maks 100 entri terakhir) |
 | `activity`    | `{ "YYYY-MM-DD": jumlahReview }`                                         |
 | `lastLesson`  | `{ page, params, label }` untuk "Lanjutkan belajar"                      |
+| `favorites`   | array id item favorit                                                    |
+| `mistakes`    | `{ [itemId]: jumlahSalah }` untuk daftar item lemah                      |
+| `meta`        | `{ lastNotified, bannerDismissed }` (tanggal terakhir pengingat)        |
 
 - Semua akses `localStorage` dibungkus `try/catch`; jika gagal, aplikasi tetap jalan (state di memori) dan tampilkan toast peringatan sekali.
 - Ekspor/impor menyertakan `{ app: "manabii", version: 1, exportedAt, data }`.
@@ -333,8 +338,8 @@ Item baru: `ease = 2.5, interval = 0, reps = 0, due = hari ini`.
 | Fase 0 — Fondasi       | Minggu 1–2     | Struktur repo, design tokens, layout & navbar, core modules, data kana lengkap, schema |
 | Fase 1 — MVP v1.0      | Minggu 3–6     | Kana, kosakata ±300, flashcard SRS, kuis, progres, mode gelap, README, deploy          |
 | **Gerbang rilis v1.0** | akhir minggu 6 | Lighthouse ≥ 90 + uji coba ke 5 pengguna                                               |
-| Fase 2 — v1.1          | Minggu 7–9     | Kanji N5 + goresan SVG, PWA offline                                                    |
-| Fase 3 — v1.2          | Minggu 10–12   | Tata bahasa N5, kosakata ±800, review materi                                           |
+| Fase 2 — v1.1          | Minggu 7–9     | ✅ Kanji N5 + goresan SVG, PWA offline                                                 |
+| Fase 3 — v1.2          | Minggu 10–12   | ✅ Tata bahasa N5, kosakata ±800 · ⏳ review materi oleh penutur asli                  |
 | v2                     | setelah v1.2   | Login opsional, sinkron progres antar perangkat, materi N4                             |
 
 ---

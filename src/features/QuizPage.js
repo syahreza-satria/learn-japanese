@@ -195,7 +195,6 @@ export default function QuizPage() {
     });
   };
   const answerRef = useRef(answer);
-  answerRef.current = answer;
 
   const next = () => {
     if (!session?.answered) return;
@@ -217,7 +216,12 @@ export default function QuizPage() {
     setSession({ ...session, index, answered: null });
   };
   const nextHandler = useRef(next);
-  nextHandler.current = next;
+
+  // Simpan handler terbaru untuk timer & pintasan keyboard (tanpa menulis ref saat render).
+  useEffect(() => {
+    answerRef.current = answer;
+    nextHandler.current = next;
+  });
 
   // Timer per soal
   const timerSeconds = session?.config.timer ?? 0;

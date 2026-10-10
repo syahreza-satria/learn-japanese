@@ -7,3 +7,5 @@ Thumbs.db
 .vscode/
 .idea/
 next-env.d.ts
+test-results/
+playwright-report/

@@ -1,12 +1,12 @@
 // TTS bahasa Jepang: Web Speech API bila perangkat punya voice ja-JP,
 // jika tidak, cadangan suara online (endpoint TTS Google Translate yang tidak resmi).
+import { TTS_ONLINE_URL } from "./config.js";
 import { getSettings } from "./storage.js";
 import { showToast } from "./toast.js";
 
 const hasSynthesis = typeof window !== "undefined" && "speechSynthesis" in window;
 // Penting: permintaan tidak boleh membawa header Referer (layout.js menyetel meta referrer=no-referrer);
 // jika ada, endpoint ini membalas 404.
-const ONLINE_TTS = "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ja&q=";
 const MAX_ONLINE_CHARS = 180;
 
 let warned = false;
@@ -48,7 +48,7 @@ function speakOnline(text, rate) {
     return false;
   }
   stopAll();
-  audio = new Audio(`${ONLINE_TTS}${encodeURIComponent(text)}`);
+  audio = new Audio(TTS_ONLINE_URL.replace("{text}", encodeURIComponent(text)));
   audio.playbackRate = rate;
   audio.addEventListener("error", warnUnavailable, { once: true });
   audio.play().catch(warnUnavailable);
