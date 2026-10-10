@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kuis — Manabii</title>
+    <meta name="description" content="Uji kemampuan Hiragana, Katakana, dan kosakata N5 dengan kuis pilihan ganda atau ketik jawaban." />
+    <meta name="theme-color" content="#f7f3ea" />
+    <link rel="canonical" href="https://syahreza-satria.github.io/learn-japanese/kuis.html" />
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Manabii" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:title" content="Kuis — Manabii" />
+    <meta property="og:description" content="Uji kemampuan Hiragana, Katakana, dan kosakata N5 dengan kuis pilihan ganda atau ketik jawaban." />
+    <meta property="og:url" content="https://syahreza-satria.github.io/learn-japanese/kuis.html" />
+    <meta property="og:image" content="https://syahreza-satria.github.io/learn-japanese/assets/img/og-image.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="assets/css/theme.css" />
+    <link rel="stylesheet" href="assets/css/components.css" />
+    <script src="assets/js/theme-init.js"></script>
+  </head>
+  <body data-page="quiz">
+    <a class="skip-link" href="#main">Lewati ke konten</a>
+    <header id="mb-header"></header>
+    <main id="main" class="mb-main">
+      <div class="container">
+        <header class="mb-3">
+          <h1 class="mb-page-title"><span lang="ja">試験</span> Kuis</h1>
+          <p class="mb-lead mb-0">Uji hafalanmu. Jawaban salah otomatis masuk antrean review.</p>
+        </header>
+
+        <div id="quizSetup"><p class="text-secondary">Memuat…</p></div>
+        <div id="quizSession" hidden></div>
+
+        <div class="modal fade" id="resultModal" tabindex="-1" aria-labelledby="resultModalLabel" aria-hidden="true" data-bs-backdrop="static">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="modal-title h5" id="resultModalLabel">Hasil kuis</h2>
+              </div>
+              <div class="modal-body" id="resultBody"></div>
+              <div class="modal-footer flex-wrap" id="resultFooter"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer id="mb-footer" class="mb-footer"></footer>
+    <noscript><div class="container py-3">Manabii membutuhkan JavaScript untuk berjalan.</div></noscript>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script type="module" src="assets/js/main.js"></script>
+    <script type="module" src="assets/js/features/quiz.js"></script>
+  </body>
+</html>

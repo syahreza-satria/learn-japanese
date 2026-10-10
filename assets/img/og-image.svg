@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Manabii — belajar bahasa Jepang N5">
+  <rect width="1200" height="630" fill="#f7f3ea"/>
+  <rect x="40" y="40" width="1120" height="550" fill="none" stroke="#8c8578" stroke-width="2"/>
+  <rect x="100" y="110" width="150" height="150" rx="14" fill="#c8402f"/>
+  <text x="175" y="228" text-anchor="middle" font-family="'Noto Serif JP', serif" font-size="110" font-weight="700" fill="#f7f3ea">学</text>
+  <text x="290" y="205" font-family="'Noto Serif JP', serif" font-size="96" font-weight="700" fill="#1f1f1f">Manabii</text>
+  <text x="294" y="262" font-family="'Noto Serif JP', serif" font-size="44" fill="#c8402f">まなび</text>
+  <text x="100" y="400" font-family="Inter, sans-serif" font-size="46" fill="#1f1f1f">Belajar bahasa Jepang dari nol sampai JLPT N5</text>
+  <text x="100" y="465" font-family="Inter, sans-serif" font-size="32" fill="#615c52">Hiragana · Katakana · Kosakata · Flashcard · Kuis</text>
+  <text x="100" y="540" font-family="Inter, sans-serif" font-size="28" fill="#264653">Gratis · Open source · Tanpa akun</text>
+</svg>
