@@ -75,6 +75,7 @@ Keputusan yang tidak tercakup di `context.md` dan dipilih seperti berikut (opsi 
 - **Item SRS dibuat saat pertama kali dinilai**, ditambahkan dari Kosakata ("Tambahkan ke flashcard"), atau saat salah menjawab kuis. Dek Hiragana/Katakana/Kosakata menampilkan item baru dan yang jatuh tempo.
 - **`reviewed: false`** ditandai pada seluruh entri kosakata: materi belum ditinjau penutur asli/guru. Koreksi sangat diharapkan.
 - **Skrip kecil di `<head>`** (inline, di `layout.js`) menerapkan `data-bs-theme` sebelum render dan menyisipkan CSS Google Fonts secara non-blocking.
+- **TTS cadangan online:** bila perangkat tak punya voice Jepang, `tts.js` memutar audio dari endpoint `translate.google.com/translate_tts` (tidak resmi: bisa berubah atau dibatasi sewaktu-waktu, dan teks materi yang dibacakan dikirim ke Google). Voice bawaan perangkat tetap diprioritaskan; untuk TTS yang stabil, ganti dengan layanan resmi berkunci atau berkas audio.
 - **Data materi di-import dinamis** (`import()` JSON) sehingga ikut code-splitting per halaman; `Link` memakai `prefetch={false}` karena prefetch RSC pada static export menghasilkan 404 di console.
 - **Kartu baru flashcard dibatasi 20 per sesi** agar sesi tetap 5–15 menit; bila tidak ada kartu jatuh tempo tersedia tombol "Latih tetap" (maks. 30 kartu acak, penilaian tetap memperbarui SRS).
 - **Impor data menimpa seluruh data** setelah konfirmasi, dan hanya menerima cadangan Manabii versi ≤ 1.

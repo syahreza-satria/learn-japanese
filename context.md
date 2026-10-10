@@ -29,7 +29,7 @@ Target pengguna: pemula total (mahasiswa, karyawan persiapan JLPT N5, guru eksku
    - Library tambahan hanya jika benar-benar perlu; tanyakan dulu sebelum menambah.
 2. **Build step diperbolehkan** (`npm run build` → `out/`). Pengembangan lewat `npm run dev`. Hasil build memakai `basePath` `/learn-japanese` (hanya di produksi); untuk mengujinya secara lokal, salin `out/` ke folder bernama `learn-japanese` lalu sajikan folder induknya dengan `npx serve`.
 3. **Tanpa login di v1.** Jangan membuat sistem akun, auth, atau sinkron cloud (itu fitur v2).
-4. **Audio = TTS** lewat Web Speech API (`speechSynthesis`, voice `ja-JP`). Jangan menambahkan file audio MP3/OGG.
+4. **Audio = TTS** lewat Web Speech API (`speechSynthesis`, voice `ja-JP`). Bila perangkat tidak punya voice Jepang, **cadangannya** memutar TTS online (endpoint tidak resmi Google Translate, `src/lib/tts.js`). Jangan menambahkan file audio MP3/OGG ke repo.
 5. **Teks UI berbahasa Indonesia.** Nama file, variabel, fungsi, dan komentar kode dalam bahasa Inggris.
 6. Setiap teks Jepang dibungkus elemen dengan `lang="ja"`.
 7. Materi pelajaran **hanya** di file JSON di folder `data/` (di-import oleh `src/lib/data.js`) — jangan di-hardcode di komponen.
@@ -48,7 +48,7 @@ Target pengguna: pemula total (mahasiswa, karyawan persiapan JLPT N5, guru eksku
 | Logika         | Modul murni di `src/lib/` (SRS, romaji, quiz-engine, stats) + komponen client di `src/features/`  |
 | Data           | File JSON statis di `data/` (di-code-split lewat dynamic `import()`)                             |
 | Penyimpanan    | `localStorage`, prefix key `manabii:v1:`                                                          |
-| Audio          | Web Speech API (`speechSynthesis`, `lang = 'ja-JP'`)                                              |
+| Audio          | Web Speech API (`ja-JP`); cadangan: TTS online Google Translate bila tak ada voice Jepang         |
 | Offline (v1.1) | Service worker + `manifest.webmanifest` (belum dikerjakan)                                        |
 | Kualitas       | `node --test` untuk logika murni; validasi data via `scripts/validate-data.mjs`                  |
 | Hosting        | GitHub Pages + GitHub Actions (build `next build`, unggah `out/`)                                 |
@@ -288,7 +288,7 @@ Item baru: `ease = 2.5, interval = 0, reps = 0, due = hari ini`.
 
 - `speak(text, { rate })`: batalkan ucapan sebelumnya, lalu ucapkan dengan voice `ja-JP` terbaik yang tersedia.
 - Tangani `voiceschanged` (voice dimuat async di Chrome).
-- Jika tidak ada voice `ja-JP`: tombol audio tetap ada tetapi menampilkan toast "Suara bahasa Jepang tidak tersedia di perangkat ini" (sekali per sesi).
+- Jika tidak ada voice `ja-JP`: audio diputar dari TTS online (cadangan). Bila itu juga gagal (offline/diblokir), tampilkan toast peringatan sekali per sesi.
 
 ---
 
@@ -299,7 +299,7 @@ Item baru: `ease = 2.5, interval = 0, reps = 0, due = hari ini`.
 - WCAG 2.1 AA: navigasi keyboard penuh, fokus terlihat, `aria-label` pada tombol ikon, `lang="ja"` pada teks Jepang.
 - Browser: 2 versi terakhir Chrome, Firefox, Safari, Edge; Safari iOS 15+.
 - SEO: `<title>` & meta description unik per halaman, Open Graph, `sitemap.xml`, `robots.txt`, `<html lang="id">`.
-- Privasi: tidak ada data dikirim ke server. Tanpa cookie, tanpa tracker pihak ketiga.
+- Privasi: progres tidak pernah dikirim ke server. Satu-satunya pengecualian: bila perangkat tak punya voice Jepang, teks Jepang yang akan dibacakan (kata/kalimat materi, bukan data pengguna) dikirim ke layanan TTS Google. Tanpa cookie, tanpa tracker.
 
 ---
 

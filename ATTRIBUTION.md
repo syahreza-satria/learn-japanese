@@ -14,6 +14,10 @@ Kode Manabii dilisensikan di bawah [MIT](LICENSE).
 | Noto Serif JP, Noto Sans JP (Google Fonts, CDN) | SIL Open Font License 1.1 | https://fonts.google.com/noto |
 | Inter | SIL Open Font License 1.1 | https://rsms.me/inter |
 
+## Layanan online
+
+- Suara cadangan memakai endpoint TTS Google Translate (tidak resmi, tanpa jaminan layanan). Hanya dipakai bila perangkat tidak punya voice Jepang.
+
 ## Materi pelajaran
 
 - Daftar kana (Hiragana & Katakana), contoh kata, kosakata, terjemahan, dan contoh kalimat di `data/` ditulis sendiri untuk proyek ini dan dirilis di bawah lisensi yang sama dengan kode (MIT). Daftar kosakata mengikuti cakupan umum level JLPT N5, tetapi **bukan** salinan dari daftar resmi mana pun.

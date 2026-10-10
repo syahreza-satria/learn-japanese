@@ -19,6 +19,7 @@ var l=document.createElement("link");l.rel="stylesheet";l.href=${JSON.stringify(
 
 export const metadata = {
   metadataBase: new URL(SITE.baseUrl),
+  referrer: "no-referrer", // TTS online menolak permintaan yang membawa Referer
   title: { default: "Manabii (まなび) — Belajar Bahasa Jepang N5 Gratis", template: "%s — Manabii" },
   description:
     "Belajar bahasa Jepang dari nol sampai JLPT N5 secara gratis: Hiragana, Katakana, kosakata, flashcard SRS, dan kuis. Tanpa akun.",
