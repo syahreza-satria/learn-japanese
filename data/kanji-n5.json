@@ -1,0 +1,2404 @@
+[
+  {
+    "id": "j001",
+    "char": "日",
+    "meaning": "hari, matahari",
+    "onyomi": [
+      "ニチ",
+      "ジツ"
+    ],
+    "kunyomi": [
+      "ひ",
+      "か"
+    ],
+    "strokes": 4,
+    "examples": [
+      {
+        "word": "日曜日",
+        "kana": "にちようび",
+        "meaning": "hari Minggu"
+      },
+      {
+        "word": "毎日",
+        "kana": "まいにち",
+        "meaning": "setiap hari"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j002",
+    "char": "月",
+    "meaning": "bulan",
+    "onyomi": [
+      "ゲツ",
+      "ガツ"
+    ],
+    "kunyomi": [
+      "つき"
+    ],
+    "strokes": 4,
+    "examples": [
+      {
+        "word": "月曜日",
+        "kana": "げつようび",
+        "meaning": "hari Senin"
+      },
+      {
+        "word": "今月",
+        "kana": "こんげつ",
+        "meaning": "bulan ini"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j003",
+    "char": "火",
+    "meaning": "api",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "ひ"
+    ],
+    "strokes": 4,
+    "examples": [
+      {
+        "word": "火曜日",
+        "kana": "かようび",
+        "meaning": "hari Selasa"
+      },
+      {
+        "word": "火",
+        "kana": "ひ",
+        "meaning": "api"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j004",
+    "char": "水",
+    "meaning": "air",
+    "onyomi": [
+      "スイ"
+    ],
+    "kunyomi": [
+      "みず"
+    ],
+    "strokes": 4,
+    "examples": [
+      {
+        "word": "水曜日",
+        "kana": "すいようび",
+        "meaning": "hari Rabu"
+      },
+      {
+        "word": "水",
+        "kana": "みず",
+        "meaning": "air"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j005",
+    "char": "木",
+    "meaning": "pohon, kayu",
+    "onyomi": [
+      "モク",
+      "ボク"
+    ],
+    "kunyomi": [
+      "き"
+    ],
+    "strokes": 4,
+    "examples": [
+      {
+        "word": "木曜日",
+        "kana": "もくようび",
+        "meaning": "hari Kamis"
+      },
+      {
+        "word": "木",
+        "kana": "き",
+        "meaning": "pohon"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j006",
+    "char": "金",
+    "meaning": "emas, uang, logam",
+    "onyomi": [
+      "キン",
+      "コン"
+    ],
+    "kunyomi": [
+      "かね"
+    ],
+    "strokes": 8,
+    "examples": [
+      {
+        "word": "金曜日",
+        "kana": "きんようび",
+        "meaning": "hari Jumat"
+      },
+      {
+        "word": "お金",
+        "kana": "おかね",
+        "meaning": "uang"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j007",
+    "char": "土",
+    "meaning": "tanah",
+    "onyomi": [
+      "ド",
+      "ト"
+    ],
+    "kunyomi": [
+      "つち"
+    ],
+    "strokes": 3,
+    "examples": [
+      {
+        "word": "土曜日",
+        "kana": "どようび",
+        "meaning": "hari Sabtu"
+      },
+      {
+        "word": "土",
+        "kana": "つち",
+        "meaning": "tanah"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j008",
+    "char": "一",
+    "meaning": "satu",
+    "onyomi": [
+      "イチ",
+      "イツ"
+    ],
+    "kunyomi": [
+      "ひと"
+    ],
+    "strokes": 1,
+    "examples": [
+      {
+        "word": "一月",
+        "kana": "いちがつ",
+        "meaning": "bulan Januari"
+      },
+      {
+        "word": "一つ",
+        "kana": "ひとつ",
+        "meaning": "satu buah"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j009",
+    "char": "二",
+    "meaning": "dua",
+    "onyomi": [
+      "ニ"
+    ],
+    "kunyomi": [
+      "ふた"
+    ],
+    "strokes": 2,
+    "examples": [
+      {
+        "word": "二月",
+        "kana": "にがつ",
+        "meaning": "bulan Februari"
+      },
+      {
+        "word": "二人",
+        "kana": "ふたり",
+        "meaning": "dua orang"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j010",
+    "char": "三",
+    "meaning": "tiga",
+    "onyomi": [
+      "サン"
+    ],
+    "kunyomi": [
+      "み"
+    ],
+    "strokes": 3,
+    "examples": [
+      {
+        "word": "三月",
+        "kana": "さんがつ",
+        "meaning": "bulan Maret"
+      },
+      {
+        "word": "三つ",
+        "kana": "みっつ",
+        "meaning": "tiga buah"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j011",
+    "char": "四",
+    "meaning": "empat",
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [
+      "よ",
+      "よん"
+    ],
+    "strokes": 5,
+    "examples": [
+      {
+        "word": "四月",
+        "kana": "しがつ",
+        "meaning": "bulan April"
+      },
+      {
+        "word": "四つ",
+        "kana": "よっつ",
+        "meaning": "empat buah"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j012",
+    "char": "五",
+    "meaning": "lima",
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [
+      "いつ"
+    ],
+    "strokes": 4,
+    "examples": [
+      {
+        "word": "五月",
+        "kana": "ごがつ",
+        "meaning": "bulan Mei"
+      },
+      {
+        "word": "五つ",
+        "kana": "いつつ",
+        "meaning": "lima buah"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j013",
+    "char": "六",
+    "meaning": "enam",
+    "onyomi": [
+      "ロク"
+    ],
+    "kunyomi": [
+      "む"
+    ],
+    "strokes": 4,
+    "examples": [
+      {
+        "word": "六月",
+        "kana": "ろくがつ",
+        "meaning": "bulan Juni"
+      },
+      {
+        "word": "六つ",
+        "kana": "むっつ",
+        "meaning": "enam buah"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j014",
+    "char": "七",
+    "meaning": "tujuh",
+    "onyomi": [
+      "シチ"
+    ],
+    "kunyomi": [
+      "なな"
+    ],
+    "strokes": 2,
+    "examples": [
+      {
+        "word": "七月",
+        "kana": "しちがつ",
+        "meaning": "bulan Juli"
+      },
+      {
+        "word": "七つ",
+        "kana": "ななつ",
+        "meaning": "tujuh buah"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j015",
+    "char": "八",
+    "meaning": "delapan",
+    "onyomi": [
+      "ハチ"
+    ],
+    "kunyomi": [
+      "や"
+    ],
+    "strokes": 2,
+    "examples": [
+      {
+        "word": "八月",
+        "kana": "はちがつ",
+        "meaning": "bulan Agustus"
+      },
+      {
+        "word": "八つ",
+        "kana": "やっつ",
+        "meaning": "delapan buah"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j016",
+    "char": "九",
+    "meaning": "sembilan",
+    "onyomi": [
+      "キュウ",
+      "ク"
+    ],
+    "kunyomi": [
+      "ここの"
+    ],
+    "strokes": 2,
+    "examples": [
+      {
+        "word": "九月",
+        "kana": "くがつ",
+        "meaning": "bulan September"
+      },
+      {
+        "word": "九つ",
+        "kana": "ここのつ",
+        "meaning": "sembilan buah"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j017",
+    "char": "十",
+    "meaning": "sepuluh",
+    "onyomi": [
+      "ジュウ",
+      "ジッ"
+    ],
+    "kunyomi": [
+      "とお"
+    ],
+    "strokes": 2,
+    "examples": [
+      {
+        "word": "十月",
+        "kana": "じゅうがつ",
+        "meaning": "bulan Oktober"
+      },
+      {
+        "word": "十",
+        "kana": "とお",
+        "meaning": "sepuluh buah"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j018",
+    "char": "百",
+    "meaning": "seratus",
+    "onyomi": [
+      "ヒャク"
+    ],
+    "kunyomi": [],
+    "strokes": 6,
+    "examples": [
+      {
+        "word": "百円",
+        "kana": "ひゃくえん",
+        "meaning": "100 yen"
+      },
+      {
+        "word": "三百",
+        "kana": "さんびゃく",
+        "meaning": "300"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j019",
+    "char": "千",
+    "meaning": "seribu",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "ち"
+    ],
+    "strokes": 3,
+    "examples": [
+      {
+        "word": "千円",
+        "kana": "せんえん",
+        "meaning": "1.000 yen"
+      },
+      {
+        "word": "三千",
+        "kana": "さんぜん",
+        "meaning": "3.000"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j020",
+    "char": "万",
+    "meaning": "sepuluh ribu",
+    "onyomi": [
+      "マン",
+      "バン"
+    ],
+    "kunyomi": [],
+    "strokes": 3,
+    "examples": [
+      {
+        "word": "一万円",
+        "kana": "いちまんえん",
+        "meaning": "10.000 yen"
+      },
+      {
+        "word": "万年筆",
+        "kana": "まんねんひつ",
+        "meaning": "pulpen tinta"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j021",
+    "char": "円",
+    "meaning": "yen, bulat",
+    "onyomi": [
+      "エン"
+    ],
+    "kunyomi": [
+      "まる"
+    ],
+    "strokes": 4,
+    "examples": [
+      {
+        "word": "千円",
+        "kana": "せんえん",
+        "meaning": "1.000 yen"
+      },
+      {
+        "word": "円",
+        "kana": "えん",
+        "meaning": "yen"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j022",
+    "char": "年",
+    "meaning": "tahun",
+    "onyomi": [
+      "ネン"
+    ],
+    "kunyomi": [
+      "とし"
+    ],
+    "strokes": 6,
+    "examples": [
+      {
+        "word": "今年",
+        "kana": "ことし",
+        "meaning": "tahun ini"
+      },
+      {
+        "word": "来年",
+        "kana": "らいねん",
+        "meaning": "tahun depan"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j023",
+    "char": "時",
+    "meaning": "waktu, jam",
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "とき"
+    ],
+    "strokes": 10,
+    "examples": [
+      {
+        "word": "時間",
+        "kana": "じかん",
+        "meaning": "waktu"
+      },
+      {
+        "word": "一時",
+        "kana": "いちじ",
+        "meaning": "jam satu"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j024",
+    "char": "分",
+    "meaning": "menit, bagian, paham",
+    "onyomi": [
+      "ブン",
+      "フン",
+      "ブ"
+    ],
+    "kunyomi": [
+      "わ"
+    ],
+    "strokes": 4,
+    "examples": [
+      {
+        "word": "五分",
+        "kana": "ごふん",
+        "meaning": "lima menit"
+      },
+      {
+        "word": "分かる",
+        "kana": "わかる",
+        "meaning": "mengerti"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j025",
+    "char": "半",
+    "meaning": "setengah",
+    "onyomi": [
+      "ハン"
+    ],
+    "kunyomi": [
+      "なか"
+    ],
+    "strokes": 5,
+    "examples": [
+      {
+        "word": "半分",
+        "kana": "はんぶん",
+        "meaning": "setengah"
+      },
+      {
+        "word": "二時半",
+        "kana": "にじはん",
+        "meaning": "jam setengah tiga"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j026",
+    "char": "午",
+    "meaning": "tengah hari",
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "examples": [
+      {
+        "word": "午前",
+        "kana": "ごぜん",
+        "meaning": "pagi (sebelum tengah hari)"
+      },
+      {
+        "word": "午後",
+        "kana": "ごご",
+        "meaning": "sore (setelah tengah hari)"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j027",
+    "char": "前",
+    "meaning": "depan, sebelum",
+    "onyomi": [
+      "ゼン"
+    ],
+    "kunyomi": [
+      "まえ"
+    ],
+    "strokes": 9,
+    "examples": [
+      {
+        "word": "午前",
+        "kana": "ごぜん",
+        "meaning": "pagi (sebelum tengah hari)"
+      },
+      {
+        "word": "名前",
+        "kana": "なまえ",
+        "meaning": "nama"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j028",
+    "char": "後",
+    "meaning": "belakang, setelah",
+    "onyomi": [
+      "ゴ",
+      "コウ"
+    ],
+    "kunyomi": [
+      "うし",
+      "あと"
+    ],
+    "strokes": 9,
+    "examples": [
+      {
+        "word": "午後",
+        "kana": "ごご",
+        "meaning": "sore (setelah tengah hari)"
+      },
+      {
+        "word": "後ろ",
+        "kana": "うしろ",
+        "meaning": "belakang"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j029",
+    "char": "今",
+    "meaning": "sekarang",
+    "onyomi": [
+      "コン",
+      "キン"
+    ],
+    "kunyomi": [
+      "いま"
+    ],
+    "strokes": 4,
+    "examples": [
+      {
+        "word": "今日",
+        "kana": "きょう",
+        "meaning": "hari ini"
+      },
+      {
+        "word": "今",
+        "kana": "いま",
+        "meaning": "sekarang"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j030",
+    "char": "毎",
+    "meaning": "setiap",
+    "onyomi": [
+      "マイ"
+    ],
+    "kunyomi": [],
+    "strokes": 6,
+    "examples": [
+      {
+        "word": "毎日",
+        "kana": "まいにち",
+        "meaning": "setiap hari"
+      },
+      {
+        "word": "毎朝",
+        "kana": "まいあさ",
+        "meaning": "setiap pagi"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j031",
+    "char": "週",
+    "meaning": "minggu",
+    "onyomi": [
+      "シュウ"
+    ],
+    "kunyomi": [],
+    "strokes": 11,
+    "examples": [
+      {
+        "word": "今週",
+        "kana": "こんしゅう",
+        "meaning": "minggu ini"
+      },
+      {
+        "word": "来週",
+        "kana": "らいしゅう",
+        "meaning": "minggu depan"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j032",
+    "char": "曜",
+    "meaning": "hari (dalam seminggu)",
+    "onyomi": [
+      "ヨウ"
+    ],
+    "kunyomi": [],
+    "strokes": 18,
+    "examples": [
+      {
+        "word": "日曜日",
+        "kana": "にちようび",
+        "meaning": "hari Minggu"
+      },
+      {
+        "word": "何曜日",
+        "kana": "なんようび",
+        "meaning": "hari apa"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j033",
+    "char": "何",
+    "meaning": "apa",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "なに",
+      "なん"
+    ],
+    "strokes": 7,
+    "examples": [
+      {
+        "word": "何",
+        "kana": "なに",
+        "meaning": "apa"
+      },
+      {
+        "word": "何時",
+        "kana": "なんじ",
+        "meaning": "jam berapa"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j034",
+    "char": "人",
+    "meaning": "orang",
+    "onyomi": [
+      "ジン",
+      "ニン"
+    ],
+    "kunyomi": [
+      "ひと"
+    ],
+    "strokes": 2,
+    "examples": [
+      {
+        "word": "日本人",
+        "kana": "にほんじん",
+        "meaning": "orang Jepang"
+      },
+      {
+        "word": "三人",
+        "kana": "さんにん",
+        "meaning": "tiga orang"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j035",
+    "char": "男",
+    "meaning": "laki-laki",
+    "onyomi": [
+      "ダン",
+      "ナン"
+    ],
+    "kunyomi": [
+      "おとこ"
+    ],
+    "strokes": 7,
+    "examples": [
+      {
+        "word": "男の人",
+        "kana": "おとこのひと",
+        "meaning": "pria"
+      },
+      {
+        "word": "男の子",
+        "kana": "おとこのこ",
+        "meaning": "anak laki-laki"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j036",
+    "char": "女",
+    "meaning": "perempuan",
+    "onyomi": [
+      "ジョ",
+      "ニョ"
+    ],
+    "kunyomi": [
+      "おんな"
+    ],
+    "strokes": 3,
+    "examples": [
+      {
+        "word": "女の人",
+        "kana": "おんなのひと",
+        "meaning": "wanita"
+      },
+      {
+        "word": "女の子",
+        "kana": "おんなのこ",
+        "meaning": "anak perempuan"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j037",
+    "char": "子",
+    "meaning": "anak",
+    "onyomi": [
+      "シ",
+      "ス"
+    ],
+    "kunyomi": [
+      "こ"
+    ],
+    "strokes": 3,
+    "examples": [
+      {
+        "word": "子ども",
+        "kana": "こども",
+        "meaning": "anak"
+      },
+      {
+        "word": "女の子",
+        "kana": "おんなのこ",
+        "meaning": "anak perempuan"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j038",
+    "char": "父",
+    "meaning": "ayah",
+    "onyomi": [
+      "フ"
+    ],
+    "kunyomi": [
+      "ちち"
+    ],
+    "strokes": 4,
+    "examples": [
+      {
+        "word": "お父さん",
+        "kana": "おとうさん",
+        "meaning": "ayah"
+      },
+      {
+        "word": "父",
+        "kana": "ちち",
+        "meaning": "ayah (saya)"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j039",
+    "char": "母",
+    "meaning": "ibu",
+    "onyomi": [
+      "ボ"
+    ],
+    "kunyomi": [
+      "はは"
+    ],
+    "strokes": 5,
+    "examples": [
+      {
+        "word": "お母さん",
+        "kana": "おかあさん",
+        "meaning": "ibu"
+      },
+      {
+        "word": "母",
+        "kana": "はは",
+        "meaning": "ibu (saya)"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j040",
+    "char": "友",
+    "meaning": "teman",
+    "onyomi": [
+      "ユウ"
+    ],
+    "kunyomi": [
+      "とも"
+    ],
+    "strokes": 4,
+    "examples": [
+      {
+        "word": "友達",
+        "kana": "ともだち",
+        "meaning": "teman"
+      },
+      {
+        "word": "友人",
+        "kana": "ゆうじん",
+        "meaning": "kawan (formal)"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j041",
+    "char": "先",
+    "meaning": "lebih dulu, sebelumnya",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "さき"
+    ],
+    "strokes": 6,
+    "examples": [
+      {
+        "word": "先生",
+        "kana": "せんせい",
+        "meaning": "guru"
+      },
+      {
+        "word": "先週",
+        "kana": "せんしゅう",
+        "meaning": "minggu lalu"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j042",
+    "char": "生",
+    "meaning": "hidup, lahir, mentah",
+    "onyomi": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "い",
+      "う",
+      "なま"
+    ],
+    "strokes": 5,
+    "examples": [
+      {
+        "word": "学生",
+        "kana": "がくせい",
+        "meaning": "pelajar"
+      },
+      {
+        "word": "生まれる",
+        "kana": "うまれる",
+        "meaning": "lahir"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j043",
+    "char": "学",
+    "meaning": "belajar",
+    "onyomi": [
+      "ガク"
+    ],
+    "kunyomi": [
+      "まな"
+    ],
+    "strokes": 8,
+    "examples": [
+      {
+        "word": "学校",
+        "kana": "がっこう",
+        "meaning": "sekolah"
+      },
+      {
+        "word": "大学",
+        "kana": "だいがく",
+        "meaning": "universitas"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j044",
+    "char": "校",
+    "meaning": "sekolah",
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [],
+    "strokes": 10,
+    "examples": [
+      {
+        "word": "学校",
+        "kana": "がっこう",
+        "meaning": "sekolah"
+      },
+      {
+        "word": "高校",
+        "kana": "こうこう",
+        "meaning": "SMA"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j045",
+    "char": "大",
+    "meaning": "besar",
+    "onyomi": [
+      "ダイ",
+      "タイ"
+    ],
+    "kunyomi": [
+      "おお"
+    ],
+    "strokes": 3,
+    "examples": [
+      {
+        "word": "大学",
+        "kana": "だいがく",
+        "meaning": "universitas"
+      },
+      {
+        "word": "大きい",
+        "kana": "おおきい",
+        "meaning": "besar"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j046",
+    "char": "小",
+    "meaning": "kecil",
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "ちい",
+      "こ"
+    ],
+    "strokes": 3,
+    "examples": [
+      {
+        "word": "小さい",
+        "kana": "ちいさい",
+        "meaning": "kecil"
+      },
+      {
+        "word": "小学校",
+        "kana": "しょうがっこう",
+        "meaning": "sekolah dasar"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j047",
+    "char": "中",
+    "meaning": "tengah, dalam",
+    "onyomi": [
+      "チュウ",
+      "ジュウ"
+    ],
+    "kunyomi": [
+      "なか"
+    ],
+    "strokes": 4,
+    "examples": [
+      {
+        "word": "中国",
+        "kana": "ちゅうごく",
+        "meaning": "Tiongkok"
+      },
+      {
+        "word": "中",
+        "kana": "なか",
+        "meaning": "dalam"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j048",
+    "char": "外",
+    "meaning": "luar",
+    "onyomi": [
+      "ガイ",
+      "ゲ"
+    ],
+    "kunyomi": [
+      "そと"
+    ],
+    "strokes": 5,
+    "examples": [
+      {
+        "word": "外国",
+        "kana": "がいこく",
+        "meaning": "luar negeri"
+      },
+      {
+        "word": "外",
+        "kana": "そと",
+        "meaning": "luar"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j049",
+    "char": "上",
+    "meaning": "atas",
+    "onyomi": [
+      "ジョウ"
+    ],
+    "kunyomi": [
+      "うえ",
+      "あ"
+    ],
+    "strokes": 3,
+    "examples": [
+      {
+        "word": "上",
+        "kana": "うえ",
+        "meaning": "atas"
+      },
+      {
+        "word": "上手",
+        "kana": "じょうず",
+        "meaning": "pandai"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j050",
+    "char": "下",
+    "meaning": "bawah",
+    "onyomi": [
+      "カ",
+      "ゲ"
+    ],
+    "kunyomi": [
+      "した",
+      "さ"
+    ],
+    "strokes": 3,
+    "examples": [
+      {
+        "word": "下",
+        "kana": "した",
+        "meaning": "bawah"
+      },
+      {
+        "word": "下手",
+        "kana": "へた",
+        "meaning": "kurang pandai"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j051",
+    "char": "左",
+    "meaning": "kiri",
+    "onyomi": [
+      "サ"
+    ],
+    "kunyomi": [
+      "ひだり"
+    ],
+    "strokes": 5,
+    "examples": [
+      {
+        "word": "左",
+        "kana": "ひだり",
+        "meaning": "kiri"
+      },
+      {
+        "word": "左手",
+        "kana": "ひだりて",
+        "meaning": "tangan kiri"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j052",
+    "char": "右",
+    "meaning": "kanan",
+    "onyomi": [
+      "ウ",
+      "ユウ"
+    ],
+    "kunyomi": [
+      "みぎ"
+    ],
+    "strokes": 5,
+    "examples": [
+      {
+        "word": "右",
+        "kana": "みぎ",
+        "meaning": "kanan"
+      },
+      {
+        "word": "右手",
+        "kana": "みぎて",
+        "meaning": "tangan kanan"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j053",
+    "char": "北",
+    "meaning": "utara",
+    "onyomi": [
+      "ホク"
+    ],
+    "kunyomi": [
+      "きた"
+    ],
+    "strokes": 5,
+    "examples": [
+      {
+        "word": "北",
+        "kana": "きた",
+        "meaning": "utara"
+      },
+      {
+        "word": "北海道",
+        "kana": "ほっかいどう",
+        "meaning": "Hokkaido"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j054",
+    "char": "南",
+    "meaning": "selatan",
+    "onyomi": [
+      "ナン"
+    ],
+    "kunyomi": [
+      "みなみ"
+    ],
+    "strokes": 9,
+    "examples": [
+      {
+        "word": "南",
+        "kana": "みなみ",
+        "meaning": "selatan"
+      },
+      {
+        "word": "南口",
+        "kana": "みなみぐち",
+        "meaning": "pintu selatan"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j055",
+    "char": "東",
+    "meaning": "timur",
+    "onyomi": [
+      "トウ"
+    ],
+    "kunyomi": [
+      "ひがし"
+    ],
+    "strokes": 8,
+    "examples": [
+      {
+        "word": "東",
+        "kana": "ひがし",
+        "meaning": "timur"
+      },
+      {
+        "word": "東京",
+        "kana": "とうきょう",
+        "meaning": "Tokyo"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j056",
+    "char": "西",
+    "meaning": "barat",
+    "onyomi": [
+      "セイ",
+      "サイ"
+    ],
+    "kunyomi": [
+      "にし"
+    ],
+    "strokes": 6,
+    "examples": [
+      {
+        "word": "西",
+        "kana": "にし",
+        "meaning": "barat"
+      },
+      {
+        "word": "西口",
+        "kana": "にしぐち",
+        "meaning": "pintu barat"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j057",
+    "char": "高",
+    "meaning": "tinggi, mahal",
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "たか"
+    ],
+    "strokes": 10,
+    "examples": [
+      {
+        "word": "高い",
+        "kana": "たかい",
+        "meaning": "tinggi / mahal"
+      },
+      {
+        "word": "高校",
+        "kana": "こうこう",
+        "meaning": "SMA"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j058",
+    "char": "安",
+    "meaning": "murah, tenteram",
+    "onyomi": [
+      "アン"
+    ],
+    "kunyomi": [
+      "やす"
+    ],
+    "strokes": 6,
+    "examples": [
+      {
+        "word": "安い",
+        "kana": "やすい",
+        "meaning": "murah"
+      },
+      {
+        "word": "安心",
+        "kana": "あんしん",
+        "meaning": "lega"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j059",
+    "char": "新",
+    "meaning": "baru",
+    "onyomi": [
+      "シン"
+    ],
+    "kunyomi": [
+      "あたら"
+    ],
+    "strokes": 13,
+    "examples": [
+      {
+        "word": "新しい",
+        "kana": "あたらしい",
+        "meaning": "baru"
+      },
+      {
+        "word": "新聞",
+        "kana": "しんぶん",
+        "meaning": "koran"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j060",
+    "char": "古",
+    "meaning": "lama",
+    "onyomi": [
+      "コ"
+    ],
+    "kunyomi": [
+      "ふる"
+    ],
+    "strokes": 5,
+    "examples": [
+      {
+        "word": "古い",
+        "kana": "ふるい",
+        "meaning": "lama"
+      },
+      {
+        "word": "中古",
+        "kana": "ちゅうこ",
+        "meaning": "barang bekas"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j061",
+    "char": "長",
+    "meaning": "panjang, kepala",
+    "onyomi": [
+      "チョウ"
+    ],
+    "kunyomi": [
+      "なが"
+    ],
+    "strokes": 8,
+    "examples": [
+      {
+        "word": "長い",
+        "kana": "ながい",
+        "meaning": "panjang"
+      },
+      {
+        "word": "社長",
+        "kana": "しゃちょう",
+        "meaning": "direktur utama"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j062",
+    "char": "白",
+    "meaning": "putih",
+    "onyomi": [
+      "ハク",
+      "ビャク"
+    ],
+    "kunyomi": [
+      "しろ"
+    ],
+    "strokes": 5,
+    "examples": [
+      {
+        "word": "白い",
+        "kana": "しろい",
+        "meaning": "putih"
+      },
+      {
+        "word": "白",
+        "kana": "しろ",
+        "meaning": "warna putih"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j063",
+    "char": "食",
+    "meaning": "makan",
+    "onyomi": [
+      "ショク"
+    ],
+    "kunyomi": [
+      "た"
+    ],
+    "strokes": 9,
+    "examples": [
+      {
+        "word": "食べる",
+        "kana": "たべる",
+        "meaning": "makan"
+      },
+      {
+        "word": "食べ物",
+        "kana": "たべもの",
+        "meaning": "makanan"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j064",
+    "char": "飲",
+    "meaning": "minum",
+    "onyomi": [
+      "イン"
+    ],
+    "kunyomi": [
+      "の"
+    ],
+    "strokes": 12,
+    "examples": [
+      {
+        "word": "飲む",
+        "kana": "のむ",
+        "meaning": "minum"
+      },
+      {
+        "word": "飲み物",
+        "kana": "のみもの",
+        "meaning": "minuman"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j065",
+    "char": "見",
+    "meaning": "melihat",
+    "onyomi": [
+      "ケン"
+    ],
+    "kunyomi": [
+      "み"
+    ],
+    "strokes": 7,
+    "examples": [
+      {
+        "word": "見る",
+        "kana": "みる",
+        "meaning": "melihat"
+      },
+      {
+        "word": "見せる",
+        "kana": "みせる",
+        "meaning": "menunjukkan"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j066",
+    "char": "聞",
+    "meaning": "mendengar, bertanya",
+    "onyomi": [
+      "ブン",
+      "モン"
+    ],
+    "kunyomi": [
+      "き"
+    ],
+    "strokes": 14,
+    "examples": [
+      {
+        "word": "聞く",
+        "kana": "きく",
+        "meaning": "mendengar"
+      },
+      {
+        "word": "新聞",
+        "kana": "しんぶん",
+        "meaning": "koran"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j067",
+    "char": "読",
+    "meaning": "membaca",
+    "onyomi": [
+      "ドク"
+    ],
+    "kunyomi": [
+      "よ"
+    ],
+    "strokes": 14,
+    "examples": [
+      {
+        "word": "読む",
+        "kana": "よむ",
+        "meaning": "membaca"
+      },
+      {
+        "word": "読書",
+        "kana": "どくしょ",
+        "meaning": "membaca buku"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j068",
+    "char": "書",
+    "meaning": "menulis",
+    "onyomi": [
+      "ショ"
+    ],
+    "kunyomi": [
+      "か"
+    ],
+    "strokes": 10,
+    "examples": [
+      {
+        "word": "書く",
+        "kana": "かく",
+        "meaning": "menulis"
+      },
+      {
+        "word": "辞書",
+        "kana": "じしょ",
+        "meaning": "kamus"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j069",
+    "char": "話",
+    "meaning": "berbicara, cerita",
+    "onyomi": [
+      "ワ"
+    ],
+    "kunyomi": [
+      "はな"
+    ],
+    "strokes": 13,
+    "examples": [
+      {
+        "word": "話す",
+        "kana": "はなす",
+        "meaning": "berbicara"
+      },
+      {
+        "word": "電話",
+        "kana": "でんわ",
+        "meaning": "telepon"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j070",
+    "char": "行",
+    "meaning": "pergi",
+    "onyomi": [
+      "コウ",
+      "ギョウ"
+    ],
+    "kunyomi": [
+      "い",
+      "おこな"
+    ],
+    "strokes": 6,
+    "examples": [
+      {
+        "word": "行く",
+        "kana": "いく",
+        "meaning": "pergi"
+      },
+      {
+        "word": "銀行",
+        "kana": "ぎんこう",
+        "meaning": "bank"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j071",
+    "char": "来",
+    "meaning": "datang",
+    "onyomi": [
+      "ライ"
+    ],
+    "kunyomi": [
+      "く"
+    ],
+    "strokes": 7,
+    "examples": [
+      {
+        "word": "来る",
+        "kana": "くる",
+        "meaning": "datang"
+      },
+      {
+        "word": "来月",
+        "kana": "らいげつ",
+        "meaning": "bulan depan"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j072",
+    "char": "出",
+    "meaning": "keluar",
+    "onyomi": [
+      "シュツ"
+    ],
+    "kunyomi": [
+      "で",
+      "だ"
+    ],
+    "strokes": 5,
+    "examples": [
+      {
+        "word": "出る",
+        "kana": "でる",
+        "meaning": "keluar"
+      },
+      {
+        "word": "出口",
+        "kana": "でぐち",
+        "meaning": "pintu keluar"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j073",
+    "char": "入",
+    "meaning": "masuk",
+    "onyomi": [
+      "ニュウ"
+    ],
+    "kunyomi": [
+      "はい",
+      "い"
+    ],
+    "strokes": 2,
+    "examples": [
+      {
+        "word": "入る",
+        "kana": "はいる",
+        "meaning": "masuk"
+      },
+      {
+        "word": "入口",
+        "kana": "いりぐち",
+        "meaning": "pintu masuk"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j074",
+    "char": "休",
+    "meaning": "istirahat, libur",
+    "onyomi": [
+      "キュウ"
+    ],
+    "kunyomi": [
+      "やす"
+    ],
+    "strokes": 6,
+    "examples": [
+      {
+        "word": "休む",
+        "kana": "やすむ",
+        "meaning": "beristirahat"
+      },
+      {
+        "word": "休み",
+        "kana": "やすみ",
+        "meaning": "libur"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j075",
+    "char": "山",
+    "meaning": "gunung",
+    "onyomi": [
+      "サン"
+    ],
+    "kunyomi": [
+      "やま"
+    ],
+    "strokes": 3,
+    "examples": [
+      {
+        "word": "山",
+        "kana": "やま",
+        "meaning": "gunung"
+      },
+      {
+        "word": "富士山",
+        "kana": "ふじさん",
+        "meaning": "Gunung Fuji"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j076",
+    "char": "川",
+    "meaning": "sungai",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "かわ"
+    ],
+    "strokes": 3,
+    "examples": [
+      {
+        "word": "川",
+        "kana": "かわ",
+        "meaning": "sungai"
+      },
+      {
+        "word": "小川",
+        "kana": "おがわ",
+        "meaning": "anak sungai"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j077",
+    "char": "田",
+    "meaning": "sawah",
+    "onyomi": [
+      "デン"
+    ],
+    "kunyomi": [
+      "た"
+    ],
+    "strokes": 5,
+    "examples": [
+      {
+        "word": "田んぼ",
+        "kana": "たんぼ",
+        "meaning": "sawah"
+      },
+      {
+        "word": "田中",
+        "kana": "たなか",
+        "meaning": "Tanaka (nama keluarga)"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j078",
+    "char": "天",
+    "meaning": "langit",
+    "onyomi": [
+      "テン"
+    ],
+    "kunyomi": [
+      "あめ",
+      "あま"
+    ],
+    "strokes": 4,
+    "examples": [
+      {
+        "word": "天気",
+        "kana": "てんき",
+        "meaning": "cuaca"
+      },
+      {
+        "word": "天ぷら",
+        "kana": "てんぷら",
+        "meaning": "tempura"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j079",
+    "char": "気",
+    "meaning": "semangat, udara",
+    "onyomi": [
+      "キ",
+      "ケ"
+    ],
+    "kunyomi": [],
+    "strokes": 6,
+    "examples": [
+      {
+        "word": "天気",
+        "kana": "てんき",
+        "meaning": "cuaca"
+      },
+      {
+        "word": "元気",
+        "kana": "げんき",
+        "meaning": "sehat"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j080",
+    "char": "雨",
+    "meaning": "hujan",
+    "onyomi": [
+      "ウ"
+    ],
+    "kunyomi": [
+      "あめ"
+    ],
+    "strokes": 8,
+    "examples": [
+      {
+        "word": "雨",
+        "kana": "あめ",
+        "meaning": "hujan"
+      },
+      {
+        "word": "大雨",
+        "kana": "おおあめ",
+        "meaning": "hujan lebat"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j081",
+    "char": "花",
+    "meaning": "bunga",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "はな"
+    ],
+    "strokes": 7,
+    "examples": [
+      {
+        "word": "花",
+        "kana": "はな",
+        "meaning": "bunga"
+      },
+      {
+        "word": "花見",
+        "kana": "はなみ",
+        "meaning": "melihat bunga sakura"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j082",
+    "char": "国",
+    "meaning": "negara",
+    "onyomi": [
+      "コク"
+    ],
+    "kunyomi": [
+      "くに"
+    ],
+    "strokes": 8,
+    "examples": [
+      {
+        "word": "国",
+        "kana": "くに",
+        "meaning": "negara"
+      },
+      {
+        "word": "外国",
+        "kana": "がいこく",
+        "meaning": "luar negeri"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j083",
+    "char": "語",
+    "meaning": "bahasa, kata",
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [
+      "かた"
+    ],
+    "strokes": 14,
+    "examples": [
+      {
+        "word": "日本語",
+        "kana": "にほんご",
+        "meaning": "bahasa Jepang"
+      },
+      {
+        "word": "英語",
+        "kana": "えいご",
+        "meaning": "bahasa Inggris"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j084",
+    "char": "本",
+    "meaning": "buku, asal",
+    "onyomi": [
+      "ホン"
+    ],
+    "kunyomi": [
+      "もと"
+    ],
+    "strokes": 5,
+    "examples": [
+      {
+        "word": "本",
+        "kana": "ほん",
+        "meaning": "buku"
+      },
+      {
+        "word": "日本",
+        "kana": "にほん",
+        "meaning": "Jepang"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j085",
+    "char": "名",
+    "meaning": "nama",
+    "onyomi": [
+      "メイ",
+      "ミョウ"
+    ],
+    "kunyomi": [
+      "な"
+    ],
+    "strokes": 6,
+    "examples": [
+      {
+        "word": "名前",
+        "kana": "なまえ",
+        "meaning": "nama"
+      },
+      {
+        "word": "有名",
+        "kana": "ゆうめい",
+        "meaning": "terkenal"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j086",
+    "char": "車",
+    "meaning": "mobil, kendaraan",
+    "onyomi": [
+      "シャ"
+    ],
+    "kunyomi": [
+      "くるま"
+    ],
+    "strokes": 7,
+    "examples": [
+      {
+        "word": "車",
+        "kana": "くるま",
+        "meaning": "mobil"
+      },
+      {
+        "word": "電車",
+        "kana": "でんしゃ",
+        "meaning": "kereta listrik"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j087",
+    "char": "電",
+    "meaning": "listrik",
+    "onyomi": [
+      "デン"
+    ],
+    "kunyomi": [],
+    "strokes": 13,
+    "examples": [
+      {
+        "word": "電車",
+        "kana": "でんしゃ",
+        "meaning": "kereta listrik"
+      },
+      {
+        "word": "電話",
+        "kana": "でんわ",
+        "meaning": "telepon"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j088",
+    "char": "会",
+    "meaning": "bertemu, pertemuan",
+    "onyomi": [
+      "カイ",
+      "エ"
+    ],
+    "kunyomi": [
+      "あ"
+    ],
+    "strokes": 6,
+    "examples": [
+      {
+        "word": "会う",
+        "kana": "あう",
+        "meaning": "bertemu"
+      },
+      {
+        "word": "会社",
+        "kana": "かいしゃ",
+        "meaning": "perusahaan"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j089",
+    "char": "社",
+    "meaning": "perusahaan, kuil",
+    "onyomi": [
+      "シャ"
+    ],
+    "kunyomi": [
+      "やしろ"
+    ],
+    "strokes": 7,
+    "examples": [
+      {
+        "word": "会社",
+        "kana": "かいしゃ",
+        "meaning": "perusahaan"
+      },
+      {
+        "word": "社長",
+        "kana": "しゃちょう",
+        "meaning": "direktur utama"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j090",
+    "char": "店",
+    "meaning": "toko",
+    "onyomi": [
+      "テン"
+    ],
+    "kunyomi": [
+      "みせ"
+    ],
+    "strokes": 8,
+    "examples": [
+      {
+        "word": "店",
+        "kana": "みせ",
+        "meaning": "toko"
+      },
+      {
+        "word": "店員",
+        "kana": "てんいん",
+        "meaning": "pegawai toko"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j091",
+    "char": "口",
+    "meaning": "mulut",
+    "onyomi": [
+      "コウ",
+      "ク"
+    ],
+    "kunyomi": [
+      "くち"
+    ],
+    "strokes": 3,
+    "examples": [
+      {
+        "word": "口",
+        "kana": "くち",
+        "meaning": "mulut"
+      },
+      {
+        "word": "入口",
+        "kana": "いりぐち",
+        "meaning": "pintu masuk"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j092",
+    "char": "目",
+    "meaning": "mata",
+    "onyomi": [
+      "モク"
+    ],
+    "kunyomi": [
+      "め"
+    ],
+    "strokes": 5,
+    "examples": [
+      {
+        "word": "目",
+        "kana": "め",
+        "meaning": "mata"
+      },
+      {
+        "word": "右目",
+        "kana": "みぎめ",
+        "meaning": "mata kanan"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j093",
+    "char": "耳",
+    "meaning": "telinga",
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "みみ"
+    ],
+    "strokes": 6,
+    "examples": [
+      {
+        "word": "耳",
+        "kana": "みみ",
+        "meaning": "telinga"
+      },
+      {
+        "word": "右耳",
+        "kana": "みぎみみ",
+        "meaning": "telinga kanan"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j094",
+    "char": "手",
+    "meaning": "tangan",
+    "onyomi": [
+      "シュ"
+    ],
+    "kunyomi": [
+      "て"
+    ],
+    "strokes": 4,
+    "examples": [
+      {
+        "word": "手",
+        "kana": "て",
+        "meaning": "tangan"
+      },
+      {
+        "word": "上手",
+        "kana": "じょうず",
+        "meaning": "pandai"
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "j095",
+    "char": "足",
+    "meaning": "kaki, cukup",
+    "onyomi": [
+      "ソク"
+    ],
+    "kunyomi": [
+      "あし",
+      "た"
+    ],
+    "strokes": 7,
+    "examples": [
+      {
+        "word": "足",
+        "kana": "あし",
+        "meaning": "kaki"
+      },
+      {
+        "word": "足りる",
+        "kana": "たりる",
+        "meaning": "cukup"
+      }
+    ],
+    "reviewed": false
+  }
+]

@@ -1,0 +1,2270 @@
+[
+  {
+    "id": "g001",
+    "category": "Kalimat dasar",
+    "pattern": "N1 は N2 です",
+    "title": "X adalah Y",
+    "explanation": "Partikel は menandai topik kalimat dan dibaca “wa”. です menutup kalimat dengan sopan.",
+    "examples": [
+      {
+        "jp": "わたしは がくせいです。",
+        "id": "Saya pelajar."
+      },
+      {
+        "jp": "たなかさんは せんせいです。",
+        "id": "Tanaka adalah guru."
+      }
+    ],
+    "exercise": {
+      "prompt": "わたし___ がくせいです。（topik）",
+      "answer": "は",
+      "choices": [
+        "は",
+        "を",
+        "に",
+        "で"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g002",
+    "category": "Kalimat dasar",
+    "pattern": "N1 は N2 じゃありません",
+    "title": "X bukan Y",
+    "explanation": "Bentuk negatif です. Dalam tulisan formal dipakai ではありません.",
+    "examples": [
+      {
+        "jp": "わたしは せんせいじゃありません。",
+        "id": "Saya bukan guru."
+      },
+      {
+        "jp": "これは ほんじゃありません。",
+        "id": "Ini bukan buku."
+      }
+    ],
+    "exercise": {
+      "prompt": "これは ほん___ありません。",
+      "answer": "じゃ",
+      "choices": [
+        "じゃ",
+        "を",
+        "が",
+        "に"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g003",
+    "category": "Kalimat dasar",
+    "pattern": "〜ですか",
+    "title": "Kalimat tanya",
+    "explanation": "Tambahkan か di akhir kalimat untuk membuat pertanyaan ya/tidak. Nada naik, tanpa tanda tanya.",
+    "examples": [
+      {
+        "jp": "あなたは がくせいですか。",
+        "id": "Apakah Anda pelajar?"
+      },
+      {
+        "jp": "おげんきですか。",
+        "id": "Apa kabar?"
+      }
+    ],
+    "exercise": {
+      "prompt": "これは ほんです___。（bertanya）",
+      "answer": "か",
+      "choices": [
+        "か",
+        "ね",
+        "よ",
+        "を"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g004",
+    "category": "Kalimat dasar",
+    "pattern": "N も",
+    "title": "Juga",
+    "explanation": "も menggantikan は/が/を bila hal yang sama berlaku untuk topik lain.",
+    "examples": [
+      {
+        "jp": "わたしも がくせいです。",
+        "id": "Saya juga pelajar."
+      },
+      {
+        "jp": "ともだちも コーヒーを のみます。",
+        "id": "Teman saya juga minum kopi."
+      }
+    ],
+    "exercise": {
+      "prompt": "わたし___ にほんごを べんきょうします。（saya juga）",
+      "answer": "も",
+      "choices": [
+        "も",
+        "を",
+        "に",
+        "で"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g005",
+    "category": "Kalimat dasar",
+    "pattern": "N1 の N2",
+    "title": "Kepunyaan / hubungan",
+    "explanation": "の menghubungkan dua kata benda: pemilik, asal, atau keterangan.",
+    "examples": [
+      {
+        "jp": "これは わたしの ほんです。",
+        "id": "Ini bukuku."
+      },
+      {
+        "jp": "にほんごの せんせいです。",
+        "id": "Dia guru bahasa Jepang."
+      }
+    ],
+    "exercise": {
+      "prompt": "これは わたし___ かばんです。",
+      "answer": "の",
+      "choices": [
+        "の",
+        "を",
+        "が",
+        "も"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g006",
+    "category": "Kalimat dasar",
+    "pattern": "これ・それ・あれ",
+    "title": "Ini / itu / itu (jauh)",
+    "explanation": "これ dekat pembicara, それ dekat lawan bicara, あれ jauh dari keduanya. どれ = yang mana.",
+    "examples": [
+      {
+        "jp": "これは ほんです。",
+        "id": "Ini buku."
+      },
+      {
+        "jp": "あれは えきです。",
+        "id": "Itu (di sana) stasiun."
+      }
+    ],
+    "exercise": {
+      "prompt": "___は わたしの ペンです。（benda di tangan saya）",
+      "answer": "これ",
+      "choices": [
+        "これ",
+        "それ",
+        "あれ",
+        "どれ"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g007",
+    "category": "Kalimat dasar",
+    "pattern": "この・その・あの + N",
+    "title": "Ini / itu + benda",
+    "explanation": "Menerangkan kata benda: この dekat saya, その dekat Anda, あの jauh.",
+    "examples": [
+      {
+        "jp": "この ほんは おもしろいです。",
+        "id": "Buku ini menarik."
+      },
+      {
+        "jp": "あの ひとは せんせいです。",
+        "id": "Orang itu (di sana) guru."
+      }
+    ],
+    "exercise": {
+      "prompt": "___ ひとは せんせいです。（orang yang jauh dari kita berdua）",
+      "answer": "あの",
+      "choices": [
+        "この",
+        "その",
+        "あの",
+        "どの"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g008",
+    "category": "Kalimat dasar",
+    "pattern": "ここ・そこ・あそこ・どこ",
+    "title": "Tempat",
+    "explanation": "ここ (di sini), そこ (di situ), あそこ (di sana), どこ (di mana).",
+    "examples": [
+      {
+        "jp": "トイレは あそこです。",
+        "id": "Toilet ada di sana."
+      },
+      {
+        "jp": "えきは どこですか。",
+        "id": "Stasiun di mana?"
+      }
+    ],
+    "exercise": {
+      "prompt": "えきは ___ですか。（bertanya tempat）",
+      "answer": "どこ",
+      "choices": [
+        "どこ",
+        "だれ",
+        "なに",
+        "いつ"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g009",
+    "category": "Kalimat dasar",
+    "pattern": "だれ・なに(なん)",
+    "title": "Siapa / apa",
+    "explanation": "だれ untuk orang, なに/なん untuk benda. なん dipakai sebelum です, の, dan kata berawalan t/d/n.",
+    "examples": [
+      {
+        "jp": "あの ひとは だれですか。",
+        "id": "Siapa orang itu?"
+      },
+      {
+        "jp": "これは なんですか。",
+        "id": "Ini apa?"
+      }
+    ],
+    "exercise": {
+      "prompt": "これは ___ですか。（bertanya benda）",
+      "answer": "なん",
+      "choices": [
+        "なん",
+        "だれ",
+        "どこ",
+        "いつ"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g010",
+    "category": "Kalimat dasar",
+    "pattern": "N に あります／います",
+    "title": "Ada (benda / makhluk hidup)",
+    "explanation": "あります untuk benda mati, います untuk orang dan hewan. Lokasi ditandai に.",
+    "examples": [
+      {
+        "jp": "つくえの うえに ほんが あります。",
+        "id": "Ada buku di atas meja."
+      },
+      {
+        "jp": "にわに ねこが います。",
+        "id": "Ada kucing di halaman."
+      }
+    ],
+    "exercise": {
+      "prompt": "こうえんに ひとが ___。",
+      "answer": "います",
+      "choices": [
+        "います",
+        "あります",
+        "です",
+        "ます"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g011",
+    "category": "Partikel",
+    "pattern": "N が あります／います",
+    "title": "Subjek keberadaan",
+    "explanation": "が menandai hal yang ada (informasi baru).",
+    "examples": [
+      {
+        "jp": "へやに テレビが あります。",
+        "id": "Di kamar ada TV."
+      },
+      {
+        "jp": "ここに ほんが あります。",
+        "id": "Di sini ada buku."
+      }
+    ],
+    "exercise": {
+      "prompt": "ここに ほん___ あります。",
+      "answer": "が",
+      "choices": [
+        "が",
+        "を",
+        "の",
+        "で"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g012",
+    "category": "Partikel",
+    "pattern": "N を V",
+    "title": "Objek langsung",
+    "explanation": "を (dibaca “o”) menandai objek kata kerja.",
+    "examples": [
+      {
+        "jp": "パンを たべます。",
+        "id": "Saya makan roti."
+      },
+      {
+        "jp": "テレビを みます。",
+        "id": "Saya menonton TV."
+      }
+    ],
+    "exercise": {
+      "prompt": "みず___ のみます。",
+      "answer": "を",
+      "choices": [
+        "を",
+        "が",
+        "に",
+        "で"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g013",
+    "category": "Partikel",
+    "pattern": "N に いきます／きます／かえります",
+    "title": "Tujuan perjalanan",
+    "explanation": "に menandai tujuan gerakan. へ (dibaca “e”) juga bisa dipakai.",
+    "examples": [
+      {
+        "jp": "がっこうに いきます。",
+        "id": "Saya pergi ke sekolah."
+      },
+      {
+        "jp": "うちに かえります。",
+        "id": "Saya pulang ke rumah."
+      }
+    ],
+    "exercise": {
+      "prompt": "がっこう___ いきます。",
+      "answer": "に",
+      "choices": [
+        "に",
+        "を",
+        "で",
+        "と"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g014",
+    "category": "Partikel",
+    "pattern": "N へ",
+    "title": "Arah (dibaca “e”)",
+    "explanation": "へ menekankan arah, ditulis へ tetapi dibaca “e”.",
+    "examples": [
+      {
+        "jp": "とうきょうへ いきます。",
+        "id": "Saya pergi ke Tokyo."
+      },
+      {
+        "jp": "にほんへ きました。",
+        "id": "Saya datang ke Jepang."
+      }
+    ],
+    "exercise": {
+      "prompt": "とうきょう___ いきます。（arah）",
+      "answer": "へ",
+      "choices": [
+        "へ",
+        "を",
+        "が",
+        "も"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g015",
+    "category": "Partikel",
+    "pattern": "N で V (tempat)",
+    "title": "Tempat berlangsungnya aksi",
+    "explanation": "で menandai tempat suatu kegiatan dilakukan.",
+    "examples": [
+      {
+        "jp": "としょかんで べんきょうします。",
+        "id": "Saya belajar di perpustakaan."
+      },
+      {
+        "jp": "レストランで ごはんを たべます。",
+        "id": "Saya makan di restoran."
+      }
+    ],
+    "exercise": {
+      "prompt": "レストラン___ ごはんを たべます。",
+      "answer": "で",
+      "choices": [
+        "で",
+        "を",
+        "が",
+        "の"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g016",
+    "category": "Partikel",
+    "pattern": "N で V (alat / cara)",
+    "title": "Alat atau cara",
+    "explanation": "で juga menandai alat, bahan, atau kendaraan.",
+    "examples": [
+      {
+        "jp": "バスで いきます。",
+        "id": "Saya pergi naik bus."
+      },
+      {
+        "jp": "はしで たべます。",
+        "id": "Saya makan dengan sumpit."
+      }
+    ],
+    "exercise": {
+      "prompt": "えんぴつ___ かきます。（pakai pensil）",
+      "answer": "で",
+      "choices": [
+        "で",
+        "を",
+        "が",
+        "の"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g017",
+    "category": "Partikel",
+    "pattern": "N と",
+    "title": "Dengan / dan",
+    "explanation": "と menandai teman bertindak atau menyambung daftar benda.",
+    "examples": [
+      {
+        "jp": "ともだちと えいがを みます。",
+        "id": "Saya menonton film dengan teman."
+      },
+      {
+        "jp": "ほんと ノートを かいます。",
+        "id": "Saya membeli buku dan buku catatan."
+      }
+    ],
+    "exercise": {
+      "prompt": "ともだち___ いきます。（bersama teman）",
+      "answer": "と",
+      "choices": [
+        "と",
+        "を",
+        "が",
+        "で"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g018",
+    "category": "Partikel",
+    "pattern": "N から N まで",
+    "title": "Dari … sampai …",
+    "explanation": "から (dari) dan まで (sampai) untuk waktu maupun tempat.",
+    "examples": [
+      {
+        "jp": "9じから 5じまで はたらきます。",
+        "id": "Saya bekerja dari jam 9 sampai jam 5."
+      },
+      {
+        "jp": "うちから がっこうまで あるきます。",
+        "id": "Saya berjalan dari rumah ke sekolah."
+      }
+    ],
+    "exercise": {
+      "prompt": "9じ___ 5じまで はたらきます。",
+      "answer": "から",
+      "choices": [
+        "から",
+        "まで",
+        "に",
+        "で"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g019",
+    "category": "Partikel",
+    "pattern": "N から きました",
+    "title": "Asal",
+    "explanation": "から menyatakan asal atau titik awal.",
+    "examples": [
+      {
+        "jp": "わたしは インドネシアから きました。",
+        "id": "Saya berasal dari Indonesia."
+      },
+      {
+        "jp": "ともだちから てがみが きました。",
+        "id": "Surat datang dari teman."
+      }
+    ],
+    "exercise": {
+      "prompt": "わたしは インドネシア___ きました。",
+      "answer": "から",
+      "choices": [
+        "から",
+        "まで",
+        "で",
+        "を"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g020",
+    "category": "Partikel",
+    "pattern": "N に (waktu)",
+    "title": "Pada waktu tertentu",
+    "explanation": "に menandai waktu spesifik (jam, tanggal, hari). Tidak dipakai untuk きょう, あした, まいにち.",
+    "examples": [
+      {
+        "jp": "7じに おきます。",
+        "id": "Saya bangun jam 7."
+      },
+      {
+        "jp": "にちようびに かいものを します。",
+        "id": "Hari Minggu saya berbelanja."
+      }
+    ],
+    "exercise": {
+      "prompt": "7じ___ おきます。",
+      "answer": "に",
+      "choices": [
+        "に",
+        "を",
+        "で",
+        "が"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g021",
+    "category": "Partikel",
+    "pattern": "N1 や N2",
+    "title": "Dan (contoh daftar)",
+    "explanation": "や menyebut beberapa contoh dari banyak benda (dan sebagainya).",
+    "examples": [
+      {
+        "jp": "つくえの うえに ほんや ノートが あります。",
+        "id": "Di atas meja ada buku, buku catatan, dan lain-lain."
+      },
+      {
+        "jp": "りんごや みかんを かいました。",
+        "id": "Saya membeli apel, jeruk, dan sebagainya."
+      }
+    ],
+    "exercise": {
+      "prompt": "ほん___ ノートが あります。（buku, buku catatan, dll.）",
+      "answer": "や",
+      "choices": [
+        "や",
+        "と",
+        "か",
+        "を"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g022",
+    "category": "Partikel",
+    "pattern": "N1 か N2",
+    "title": "Atau",
+    "explanation": "か menghubungkan pilihan.",
+    "examples": [
+      {
+        "jp": "おちゃか コーヒーを のみます。",
+        "id": "Saya minum teh atau kopi."
+      },
+      {
+        "jp": "バスか でんしゃで いきます。",
+        "id": "Saya pergi naik bus atau kereta."
+      }
+    ],
+    "exercise": {
+      "prompt": "おちゃ___ コーヒーを ください。（atau）",
+      "answer": "か",
+      "choices": [
+        "か",
+        "と",
+        "や",
+        "も"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g023",
+    "category": "Partikel",
+    "pattern": "N が すき／きらい",
+    "title": "Suka / tidak suka",
+    "explanation": "Objek rasa suka ditandai が.",
+    "examples": [
+      {
+        "jp": "ねこが すきです。",
+        "id": "Saya suka kucing."
+      },
+      {
+        "jp": "さかなが きらいです。",
+        "id": "Saya tidak suka ikan."
+      }
+    ],
+    "exercise": {
+      "prompt": "わたしは ねこ___ すきです。",
+      "answer": "が",
+      "choices": [
+        "が",
+        "を",
+        "に",
+        "で"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g024",
+    "category": "Partikel",
+    "pattern": "N が わかります",
+    "title": "Mengerti",
+    "explanation": "Hal yang dimengerti ditandai が.",
+    "examples": [
+      {
+        "jp": "にほんごが わかります。",
+        "id": "Saya mengerti bahasa Jepang."
+      },
+      {
+        "jp": "この もんだいが わかりません。",
+        "id": "Saya tidak mengerti soal ini."
+      }
+    ],
+    "exercise": {
+      "prompt": "えいご___ わかります。",
+      "answer": "が",
+      "choices": [
+        "が",
+        "を",
+        "に",
+        "へ"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g025",
+    "category": "Partikel",
+    "pattern": "N が じょうず／へた",
+    "title": "Pandai / kurang pandai",
+    "explanation": "Keahlian ditandai が dan diikuti じょうず atau へた.",
+    "examples": [
+      {
+        "jp": "わたしは うたが じょうずです。",
+        "id": "Saya pandai bernyanyi."
+      },
+      {
+        "jp": "ははは りょうりが じょうずです。",
+        "id": "Ibu saya pandai memasak."
+      }
+    ],
+    "exercise": {
+      "prompt": "ははは りょうり___ じょうずです。",
+      "answer": "が",
+      "choices": [
+        "が",
+        "を",
+        "に",
+        "で"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g026",
+    "category": "Partikel",
+    "pattern": "N1 より N2 が 〜",
+    "title": "Perbandingan: lebih … daripada …",
+    "explanation": "より menandai pembanding; yang lebih tinggi ditandai が.",
+    "examples": [
+      {
+        "jp": "ねこより いぬが おおきいです。",
+        "id": "Anjing lebih besar daripada kucing."
+      },
+      {
+        "jp": "バスより でんしゃが はやいです。",
+        "id": "Kereta lebih cepat daripada bus."
+      }
+    ],
+    "exercise": {
+      "prompt": "ねこ___ いぬが おおきいです。",
+      "answer": "より",
+      "choices": [
+        "より",
+        "から",
+        "まで",
+        "と"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g027",
+    "category": "Partikel",
+    "pattern": "N で N が いちばん 〜",
+    "title": "Paling …",
+    "explanation": "いちばん dipakai untuk superlatif; kelompok pembanding ditandai で.",
+    "examples": [
+      {
+        "jp": "くだもので りんごが いちばん すきです。",
+        "id": "Di antara buah, saya paling suka apel."
+      },
+      {
+        "jp": "クラスで アリさんが いちばん せが たかいです。",
+        "id": "Di kelas, Ali yang paling tinggi."
+      }
+    ],
+    "exercise": {
+      "prompt": "くだもので りんごが ___ すきです。",
+      "answer": "いちばん",
+      "choices": [
+        "いちばん",
+        "とても",
+        "あまり",
+        "ちょっと"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g028",
+    "category": "Partikel",
+    "pattern": "〜ね／〜よ",
+    "title": "Partikel akhir kalimat",
+    "explanation": "ね meminta persetujuan (“…, ya?”); よ memberi tahu informasi baru (“…, lho”).",
+    "examples": [
+      {
+        "jp": "いい てんきですね。",
+        "id": "Cuacanya bagus, ya."
+      },
+      {
+        "jp": "あしたは やすみですよ。",
+        "id": "Besok libur, lho."
+      }
+    ],
+    "exercise": {
+      "prompt": "いい てんきです___。（meminta persetujuan）",
+      "answer": "ね",
+      "choices": [
+        "ね",
+        "よ",
+        "か",
+        "の"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g029",
+    "category": "Kata kerja",
+    "pattern": "V ます",
+    "title": "Bentuk sopan (kini/akan)",
+    "explanation": "Bentuk -ます dipakai untuk kebiasaan, fakta, atau rencana.",
+    "examples": [
+      {
+        "jp": "まいにち にほんごを べんきょうします。",
+        "id": "Setiap hari saya belajar bahasa Jepang."
+      },
+      {
+        "jp": "あした ともだちに あいます。",
+        "id": "Besok saya bertemu teman."
+      }
+    ],
+    "exercise": {
+      "prompt": "まいあさ パンを たべ___。",
+      "answer": "ます",
+      "choices": [
+        "ます",
+        "ません",
+        "ました",
+        "ましょう"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g030",
+    "category": "Kata kerja",
+    "pattern": "V ません",
+    "title": "Negatif sopan",
+    "explanation": "Ganti -ます menjadi -ません.",
+    "examples": [
+      {
+        "jp": "コーヒーを のみません。",
+        "id": "Saya tidak minum kopi."
+      },
+      {
+        "jp": "にくを たべません。",
+        "id": "Saya tidak makan daging."
+      }
+    ],
+    "exercise": {
+      "prompt": "わたしは おさけを のみ___。（tidak minum）",
+      "answer": "ません",
+      "choices": [
+        "ません",
+        "ます",
+        "ました",
+        "ましょう"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g031",
+    "category": "Kata kerja",
+    "pattern": "V ました",
+    "title": "Lampau sopan",
+    "explanation": "Ganti -ます menjadi -ました untuk peristiwa yang sudah terjadi.",
+    "examples": [
+      {
+        "jp": "きのう えいがを みました。",
+        "id": "Kemarin saya menonton film."
+      },
+      {
+        "jp": "けさ 6じに おきました。",
+        "id": "Pagi ini saya bangun jam 6."
+      }
+    ],
+    "exercise": {
+      "prompt": "きのう えいがを み___。",
+      "answer": "ました",
+      "choices": [
+        "ました",
+        "ます",
+        "ません",
+        "ましょう"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g032",
+    "category": "Kata kerja",
+    "pattern": "V ませんでした",
+    "title": "Negatif lampau sopan",
+    "explanation": "Ganti -ます menjadi -ませんでした.",
+    "examples": [
+      {
+        "jp": "きのう べんきょうしませんでした。",
+        "id": "Kemarin saya tidak belajar."
+      },
+      {
+        "jp": "けさ あさごはんを たべませんでした。",
+        "id": "Pagi ini saya tidak sarapan."
+      }
+    ],
+    "exercise": {
+      "prompt": "きのう どこへも いき___。（tidak pergi）",
+      "answer": "ませんでした",
+      "choices": [
+        "ませんでした",
+        "ません",
+        "ました",
+        "ます"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g033",
+    "category": "Kata kerja",
+    "pattern": "V ませんか",
+    "title": "Ajakan: “Maukah…?”",
+    "explanation": "Pertanyaan negatif dipakai untuk mengajak dengan sopan.",
+    "examples": [
+      {
+        "jp": "いっしょに いきませんか。",
+        "id": "Maukah pergi bersama?"
+      },
+      {
+        "jp": "コーヒーを のみませんか。",
+        "id": "Maukah minum kopi?"
+      }
+    ],
+    "exercise": {
+      "prompt": "いっしょに えいがを み___。（ajakan sopan）",
+      "answer": "ませんか",
+      "choices": [
+        "ませんか",
+        "ませんでした",
+        "ましたか",
+        "ましょう"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g034",
+    "category": "Kata kerja",
+    "pattern": "V ましょう",
+    "title": "Ajakan: “Mari…”",
+    "explanation": "Bentuk ajakan atau usul bersama; sering menjawab ませんか.",
+    "examples": [
+      {
+        "jp": "いっしょに たべましょう。",
+        "id": "Mari makan bersama."
+      },
+      {
+        "jp": "もう かえりましょう。",
+        "id": "Mari kita pulang."
+      }
+    ],
+    "exercise": {
+      "prompt": "いっしょに ひるごはんを たべ___。（mari）",
+      "answer": "ましょう",
+      "choices": [
+        "ましょう",
+        "ます",
+        "ません",
+        "ました"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g035",
+    "category": "Kata kerja",
+    "pattern": "V ましょうか",
+    "title": "Tawaran: “Mau saya…?”",
+    "explanation": "Menawarkan bantuan atau meminta pendapat.",
+    "examples": [
+      {
+        "jp": "にもつを もちましょうか。",
+        "id": "Mau saya bawakan barangnya?"
+      },
+      {
+        "jp": "まどを あけましょうか。",
+        "id": "Mau saya bukakan jendelanya?"
+      }
+    ],
+    "exercise": {
+      "prompt": "てつだい___。（mau saya bantu?）",
+      "answer": "ましょうか",
+      "choices": [
+        "ましょうか",
+        "ませんか",
+        "ましたか",
+        "ますか"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g036",
+    "category": "Kata kerja",
+    "pattern": "V たいです",
+    "title": "Ingin melakukan",
+    "explanation": "Ganti -ます dengan -たい; menyatakan keinginan pembicara.",
+    "examples": [
+      {
+        "jp": "にほんへ いきたいです。",
+        "id": "Saya ingin pergi ke Jepang."
+      },
+      {
+        "jp": "みずを のみたいです。",
+        "id": "Saya ingin minum air."
+      }
+    ],
+    "exercise": {
+      "prompt": "すしを たべ___。（ingin makan）",
+      "answer": "たいです",
+      "choices": [
+        "たいです",
+        "ません",
+        "ました",
+        "ましょう"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g037",
+    "category": "Kata kerja",
+    "pattern": "V に いきます／きます",
+    "title": "Pergi untuk melakukan",
+    "explanation": "Bentuk -ます tanpa ます + に + いきます menyatakan tujuan.",
+    "examples": [
+      {
+        "jp": "かいものに いきます。",
+        "id": "Saya pergi berbelanja."
+      },
+      {
+        "jp": "えいがを みに いきます。",
+        "id": "Saya pergi menonton film."
+      }
+    ],
+    "exercise": {
+      "prompt": "ほんを かい___ いきます。（pergi untuk membeli）",
+      "answer": "に",
+      "choices": [
+        "に",
+        "を",
+        "で",
+        "と"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g038",
+    "category": "Kata kerja",
+    "pattern": "V て ください",
+    "title": "Tolong lakukan",
+    "explanation": "Bentuk -te + ください untuk permintaan sopan.",
+    "examples": [
+      {
+        "jp": "ここに なまえを かいて ください。",
+        "id": "Tolong tulis nama di sini."
+      },
+      {
+        "jp": "ちょっと まって ください。",
+        "id": "Tolong tunggu sebentar."
+      }
+    ],
+    "exercise": {
+      "prompt": "ゆっくり はなして ___。（tolong）",
+      "answer": "ください",
+      "choices": [
+        "ください",
+        "ましょう",
+        "ません",
+        "ます"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g039",
+    "category": "Kata kerja",
+    "pattern": "V ないで ください",
+    "title": "Tolong jangan",
+    "explanation": "Bentuk -nai + で + ください untuk larangan halus.",
+    "examples": [
+      {
+        "jp": "ここで たばこを すわないで ください。",
+        "id": "Tolong jangan merokok di sini."
+      },
+      {
+        "jp": "ドアを あけないで ください。",
+        "id": "Tolong jangan buka pintunya."
+      }
+    ],
+    "exercise": {
+      "prompt": "ここで はしらない___ ください。（tolong jangan）",
+      "answer": "で",
+      "choices": [
+        "で",
+        "に",
+        "を",
+        "が"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g040",
+    "category": "Kata kerja",
+    "pattern": "V ている",
+    "title": "Sedang / keadaan berlanjut",
+    "explanation": "Bentuk -te + いる: tindakan berlangsung atau keadaan sebagai hasil.",
+    "examples": [
+      {
+        "jp": "いま ごはんを たべています。",
+        "id": "Sekarang saya sedang makan."
+      },
+      {
+        "jp": "とうきょうに すんでいます。",
+        "id": "Saya tinggal di Tokyo."
+      }
+    ],
+    "exercise": {
+      "prompt": "いま テレビを み___。（sedang menonton）",
+      "answer": "ています",
+      "choices": [
+        "ています",
+        "ます",
+        "ました",
+        "ません"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g041",
+    "category": "Kata kerja",
+    "pattern": "V てもいいです",
+    "title": "Boleh",
+    "explanation": "Bentuk -te + も いいです meminta atau memberi izin.",
+    "examples": [
+      {
+        "jp": "ここに すわっても いいですか。",
+        "id": "Bolehkah saya duduk di sini?"
+      },
+      {
+        "jp": "しゃしんを とっても いいです。",
+        "id": "Boleh mengambil foto."
+      }
+    ],
+    "exercise": {
+      "prompt": "ここで しゃしんを とっ___ いいですか。（bolehkah）",
+      "answer": "ても",
+      "choices": [
+        "ても",
+        "ては",
+        "ないで",
+        "から"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g042",
+    "category": "Kata kerja",
+    "pattern": "V てはいけません",
+    "title": "Tidak boleh",
+    "explanation": "Bentuk -te + は いけません menyatakan larangan.",
+    "examples": [
+      {
+        "jp": "ここで はしっては いけません。",
+        "id": "Tidak boleh berlari di sini."
+      },
+      {
+        "jp": "ここに くるまを とめては いけません。",
+        "id": "Tidak boleh memarkir mobil di sini."
+      }
+    ],
+    "exercise": {
+      "prompt": "ここで たべ___ いけません。（dilarang）",
+      "answer": "ては",
+      "choices": [
+        "ては",
+        "ても",
+        "ないで",
+        "から"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g043",
+    "category": "Kata kerja",
+    "pattern": "V たことが あります",
+    "title": "Pernah",
+    "explanation": "Bentuk lampau (-ta) + ことが あります menyatakan pengalaman.",
+    "examples": [
+      {
+        "jp": "にほんへ いったことが あります。",
+        "id": "Saya pernah pergi ke Jepang."
+      },
+      {
+        "jp": "すしを たべたことが ありません。",
+        "id": "Saya belum pernah makan sushi."
+      }
+    ],
+    "exercise": {
+      "prompt": "ふじさんに のぼった___ あります。（pernah）",
+      "answer": "ことが",
+      "choices": [
+        "ことが",
+        "ことを",
+        "ことに",
+        "ことで"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g044",
+    "category": "Kata kerja",
+    "pattern": "V て、V",
+    "title": "Urutan tindakan: lalu…",
+    "explanation": "Bentuk -te menyambung beberapa tindakan berurutan.",
+    "examples": [
+      {
+        "jp": "あさ おきて、ごはんを たべます。",
+        "id": "Pagi hari saya bangun lalu makan."
+      },
+      {
+        "jp": "うちへ かえって、ねます。",
+        "id": "Saya pulang ke rumah lalu tidur."
+      }
+    ],
+    "exercise": {
+      "prompt": "あさ おき___、ごはんを たべます。",
+      "answer": "て",
+      "choices": [
+        "て",
+        "で",
+        "に",
+        "と"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g045",
+    "category": "Kata kerja",
+    "pattern": "V たあとで",
+    "title": "Setelah melakukan",
+    "explanation": "Bentuk lampau + あとで menyatakan “setelah”.",
+    "examples": [
+      {
+        "jp": "ごはんを たべたあとで、はを みがきます。",
+        "id": "Setelah makan, saya menyikat gigi."
+      },
+      {
+        "jp": "しごとが おわったあとで、かいものに いきます。",
+        "id": "Setelah pekerjaan selesai, saya berbelanja."
+      }
+    ],
+    "exercise": {
+      "prompt": "ごはんを たべた___、はを みがきます。",
+      "answer": "あとで",
+      "choices": [
+        "あとで",
+        "まえに",
+        "ながら",
+        "から"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g046",
+    "category": "Kata kerja",
+    "pattern": "V るまえに",
+    "title": "Sebelum melakukan",
+    "explanation": "Bentuk kamus + まえに menyatakan “sebelum”.",
+    "examples": [
+      {
+        "jp": "ねるまえに ほんを よみます。",
+        "id": "Sebelum tidur saya membaca buku."
+      },
+      {
+        "jp": "たべるまえに てを あらいます。",
+        "id": "Sebelum makan saya mencuci tangan."
+      }
+    ],
+    "exercise": {
+      "prompt": "ねる___ ほんを よみます。",
+      "answer": "まえに",
+      "choices": [
+        "まえに",
+        "あとで",
+        "ながら",
+        "から"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g047",
+    "category": "Kata kerja",
+    "pattern": "V ながら",
+    "title": "Sambil melakukan",
+    "explanation": "Bentuk -ます tanpa ます + ながら: dua tindakan sekaligus.",
+    "examples": [
+      {
+        "jp": "おんがくを ききながら べんきょうします。",
+        "id": "Saya belajar sambil mendengarkan musik."
+      },
+      {
+        "jp": "あるきながら はなします。",
+        "id": "Saya berbicara sambil berjalan."
+      }
+    ],
+    "exercise": {
+      "prompt": "テレビを み___ ごはんを たべます。",
+      "answer": "ながら",
+      "choices": [
+        "ながら",
+        "あとで",
+        "まえに",
+        "から"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g048",
+    "category": "Kata kerja",
+    "pattern": "〜から (alasan)",
+    "title": "Karena…",
+    "explanation": "Kalimat alasan + から + kalimat akibat.",
+    "examples": [
+      {
+        "jp": "あついですから、まどを あけます。",
+        "id": "Karena panas, saya membuka jendela."
+      },
+      {
+        "jp": "いそがしいですから、いけません。",
+        "id": "Karena sibuk, saya tidak bisa pergi."
+      }
+    ],
+    "exercise": {
+      "prompt": "あつい___、まどを あけます。（karena）",
+      "answer": "ですから",
+      "choices": [
+        "ですから",
+        "ですが",
+        "ですね",
+        "ですか"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g049",
+    "category": "Kata kerja",
+    "pattern": "あげます／もらいます",
+    "title": "Memberi / menerima",
+    "explanation": "あげます: memberi (kepada orang lain); もらいます: menerima (dari ...).",
+    "examples": [
+      {
+        "jp": "ともだちに ほんを あげます。",
+        "id": "Saya memberi buku kepada teman."
+      },
+      {
+        "jp": "ともだちに プレゼントを もらいました。",
+        "id": "Saya menerima hadiah dari teman."
+      }
+    ],
+    "exercise": {
+      "prompt": "ははに はなを あげ___。（memberi, sekarang/akan）",
+      "answer": "ます",
+      "choices": [
+        "ます",
+        "ません",
+        "ました",
+        "たい"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g050",
+    "category": "Kata kerja",
+    "pattern": "V ない",
+    "title": "Bentuk biasa negatif",
+    "explanation": "Bentuk akrab/kamus negatif: -nai. Dipakai dengan teman atau dalam pola lain.",
+    "examples": [
+      {
+        "jp": "あした がっこうへ いかない。",
+        "id": "Besok saya tidak pergi ke sekolah."
+      },
+      {
+        "jp": "にくを たべない。",
+        "id": "Saya tidak makan daging."
+      }
+    ],
+    "exercise": {
+      "prompt": "おさけを のま___。（bentuk akrab, tidak minum）",
+      "answer": "ない",
+      "choices": [
+        "ない",
+        "ます",
+        "ません",
+        "たい"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g051",
+    "category": "Kata kerja",
+    "pattern": "V ることが できます",
+    "title": "Bisa melakukan",
+    "explanation": "Bentuk kamus + ことが できます menyatakan kemampuan.",
+    "examples": [
+      {
+        "jp": "およぐことが できます。",
+        "id": "Saya bisa berenang."
+      },
+      {
+        "jp": "にほんごを はなすことが できます。",
+        "id": "Saya bisa berbicara bahasa Jepang."
+      }
+    ],
+    "exercise": {
+      "prompt": "ピアノを ひく___ できます。",
+      "answer": "ことが",
+      "choices": [
+        "ことが",
+        "ことを",
+        "ことに",
+        "ことで"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g052",
+    "category": "Kata sifat",
+    "pattern": "い-adj + です",
+    "title": "Kata sifat i (kini)",
+    "explanation": "Kata sifat berakhiran い diikuti です untuk kesopanan.",
+    "examples": [
+      {
+        "jp": "この ほんは たかいです。",
+        "id": "Buku ini mahal."
+      },
+      {
+        "jp": "ラーメンは おいしいです。",
+        "id": "Ramen itu enak."
+      }
+    ],
+    "exercise": {
+      "prompt": "きょうは あつ___。",
+      "answer": "いです",
+      "choices": [
+        "いです",
+        "です",
+        "なです",
+        "いでした"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g053",
+    "category": "Kata sifat",
+    "pattern": "い-adj くないです",
+    "title": "Kata sifat i negatif",
+    "explanation": "Ganti い dengan くない + です.",
+    "examples": [
+      {
+        "jp": "この ほんは たかくないです。",
+        "id": "Buku ini tidak mahal."
+      },
+      {
+        "jp": "きょうは さむくないです。",
+        "id": "Hari ini tidak dingin."
+      }
+    ],
+    "exercise": {
+      "prompt": "この くるまは やす___ないです。",
+      "answer": "く",
+      "choices": [
+        "く",
+        "で",
+        "に",
+        "な"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g054",
+    "category": "Kata sifat",
+    "pattern": "い-adj かったです",
+    "title": "Kata sifat i lampau",
+    "explanation": "Ganti い dengan かった + です.",
+    "examples": [
+      {
+        "jp": "きのうは あつかったです。",
+        "id": "Kemarin panas."
+      },
+      {
+        "jp": "えいがは おもしろかったです。",
+        "id": "Filmnya menarik."
+      }
+    ],
+    "exercise": {
+      "prompt": "きのうは さむ___です。（lampau）",
+      "answer": "かった",
+      "choices": [
+        "かった",
+        "くない",
+        "くて",
+        "な"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g055",
+    "category": "Kata sifat",
+    "pattern": "い-adj くなかったです",
+    "title": "Kata sifat i negatif lampau",
+    "explanation": "Ganti い dengan くなかった + です.",
+    "examples": [
+      {
+        "jp": "テストは むずかしくなかったです。",
+        "id": "Ujiannya tidak sulit."
+      },
+      {
+        "jp": "きのうは あつくなかったです。",
+        "id": "Kemarin tidak panas."
+      }
+    ],
+    "exercise": {
+      "prompt": "ごはんは おいし___です。（tidak enak, lampau）",
+      "answer": "くなかった",
+      "choices": [
+        "くなかった",
+        "かった",
+        "くない",
+        "くて"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g056",
+    "category": "Kata sifat",
+    "pattern": "な-adj + です",
+    "title": "Kata sifat na",
+    "explanation": "Kata sifat na (しずか, きれい, げんき…) langsung diikuti です tanpa な.",
+    "examples": [
+      {
+        "jp": "この まちは しずかです。",
+        "id": "Kota ini tenang."
+      },
+      {
+        "jp": "へやは きれいです。",
+        "id": "Kamarnya bersih."
+      }
+    ],
+    "exercise": {
+      "prompt": "この へやは きれい___。",
+      "answer": "です",
+      "choices": [
+        "です",
+        "いです",
+        "なです",
+        "くです"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g057",
+    "category": "Kata sifat",
+    "pattern": "な-adj じゃありません",
+    "title": "Kata sifat na negatif",
+    "explanation": "Tambahkan じゃありません setelah kata sifat na.",
+    "examples": [
+      {
+        "jp": "ここは しずかじゃありません。",
+        "id": "Di sini tidak tenang."
+      },
+      {
+        "jp": "かれは げんきじゃありません。",
+        "id": "Dia tidak sehat."
+      }
+    ],
+    "exercise": {
+      "prompt": "ここは しずか___ありません。",
+      "answer": "じゃ",
+      "choices": [
+        "じゃ",
+        "く",
+        "な",
+        "で"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g058",
+    "category": "Kata sifat",
+    "pattern": "い-adj + N",
+    "title": "Kata sifat i sebelum benda",
+    "explanation": "Kata sifat i langsung mendahului kata benda tanpa perubahan.",
+    "examples": [
+      {
+        "jp": "おおきい いえです。",
+        "id": "Ini rumah besar."
+      },
+      {
+        "jp": "あたらしい かばんを かいました。",
+        "id": "Saya membeli tas baru."
+      }
+    ],
+    "exercise": {
+      "prompt": "これは ___ ほんです。（besar）",
+      "answer": "おおきい",
+      "choices": [
+        "おおきい",
+        "おおきな",
+        "おおきく",
+        "おおきで"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g059",
+    "category": "Kata sifat",
+    "pattern": "な-adj な + N",
+    "title": "Kata sifat na sebelum benda",
+    "explanation": "Kata sifat na memakai な sebelum kata benda.",
+    "examples": [
+      {
+        "jp": "しずかな まちです。",
+        "id": "Ini kota yang tenang."
+      },
+      {
+        "jp": "きれいな へやです。",
+        "id": "Ini kamar yang bersih."
+      }
+    ],
+    "exercise": {
+      "prompt": "きれい___ へやです。",
+      "answer": "な",
+      "choices": [
+        "な",
+        "の",
+        "に",
+        "で"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g060",
+    "category": "Kata sifat",
+    "pattern": "い-adj くて",
+    "title": "Menyambung kata sifat i",
+    "explanation": "Ganti い dengan くて untuk menyambung dua sifat.",
+    "examples": [
+      {
+        "jp": "この ラーメンは やすくて おいしいです。",
+        "id": "Ramen ini murah dan enak."
+      },
+      {
+        "jp": "へやは ひろくて あかるいです。",
+        "id": "Kamarnya luas dan terang."
+      }
+    ],
+    "exercise": {
+      "prompt": "やす___ おいしいです。",
+      "answer": "くて",
+      "choices": [
+        "くて",
+        "で",
+        "に",
+        "くない"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g061",
+    "category": "Kata sifat",
+    "pattern": "な-adj で",
+    "title": "Menyambung kata sifat na",
+    "explanation": "Kata sifat na memakai で untuk menyambung.",
+    "examples": [
+      {
+        "jp": "ここは しずかで きれいです。",
+        "id": "Di sini tenang dan bersih."
+      },
+      {
+        "jp": "かのじょは げんきで しんせつです。",
+        "id": "Dia sehat dan baik hati."
+      }
+    ],
+    "exercise": {
+      "prompt": "ここは しずか___ きれいです。",
+      "answer": "で",
+      "choices": [
+        "で",
+        "くて",
+        "に",
+        "な"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g062",
+    "category": "Kata sifat",
+    "pattern": "い-adj く なります",
+    "title": "Menjadi (kata sifat i)",
+    "explanation": "Ganti い dengan く + なります.",
+    "examples": [
+      {
+        "jp": "さむく なりました。",
+        "id": "Menjadi dingin."
+      },
+      {
+        "jp": "そらが くらく なりました。",
+        "id": "Langit menjadi gelap."
+      }
+    ],
+    "exercise": {
+      "prompt": "あつ___ なります。",
+      "answer": "く",
+      "choices": [
+        "く",
+        "に",
+        "で",
+        "な"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g063",
+    "category": "Kata sifat",
+    "pattern": "な-adj に なります",
+    "title": "Menjadi (kata sifat na)",
+    "explanation": "Kata sifat na + に + なります.",
+    "examples": [
+      {
+        "jp": "まちが きれいに なりました。",
+        "id": "Kotanya menjadi bersih."
+      },
+      {
+        "jp": "げんきに なりました。",
+        "id": "Saya menjadi sehat."
+      }
+    ],
+    "exercise": {
+      "prompt": "へやが きれい___ なりました。",
+      "answer": "に",
+      "choices": [
+        "に",
+        "く",
+        "で",
+        "な"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g064",
+    "category": "Bilangan & waktu",
+    "pattern": "〜じ 〜ふん",
+    "title": "Menyebut jam",
+    "explanation": "Jam: 〜じ, menit: 〜ふん/ぷん. なんじ = jam berapa.",
+    "examples": [
+      {
+        "jp": "いま 3じ 15ふんです。",
+        "id": "Sekarang jam 3.15."
+      },
+      {
+        "jp": "なんじに おきますか。",
+        "id": "Jam berapa Anda bangun?"
+      }
+    ],
+    "exercise": {
+      "prompt": "いま ___ですか。（tanya jam）",
+      "answer": "なんじ",
+      "choices": [
+        "なんじ",
+        "なんにち",
+        "なんがつ",
+        "なんさい"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g065",
+    "category": "Bilangan & waktu",
+    "pattern": "いくら",
+    "title": "Menanyakan harga",
+    "explanation": "いくら = berapa harganya. Mata uang: 〜えん.",
+    "examples": [
+      {
+        "jp": "これは いくらですか。",
+        "id": "Ini berapa harganya?"
+      },
+      {
+        "jp": "ひゃくえんです。",
+        "id": "Harganya 100 yen."
+      }
+    ],
+    "exercise": {
+      "prompt": "この ほんは ___ですか。（harga）",
+      "answer": "いくら",
+      "choices": [
+        "いくら",
+        "いくつ",
+        "だれ",
+        "どこ"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g066",
+    "category": "Bilangan & waktu",
+    "pattern": "ひとつ・ふたつ…とお",
+    "title": "Menghitung benda (1–10)",
+    "explanation": "Hitungan umum: ひとつ, ふたつ, みっつ, よっつ, いつつ, むっつ, ななつ, やっつ, ここのつ, とお.",
+    "examples": [
+      {
+        "jp": "りんごを ふたつ ください。",
+        "id": "Tolong beri saya dua apel."
+      },
+      {
+        "jp": "たまごが みっつ あります。",
+        "id": "Ada tiga telur."
+      }
+    ],
+    "exercise": {
+      "prompt": "りんごを ___ ください。（dua buah）",
+      "answer": "ふたつ",
+      "choices": [
+        "ふたつ",
+        "ひとつ",
+        "みっつ",
+        "よっつ"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g067",
+    "category": "Bilangan & waktu",
+    "pattern": "〜にん",
+    "title": "Menghitung orang",
+    "explanation": "ひとり (1), ふたり (2), lalu さんにん, よにん, ごにん…",
+    "examples": [
+      {
+        "jp": "ふたりで たべます。",
+        "id": "Kami makan berdua."
+      },
+      {
+        "jp": "かぞくは よにんです。",
+        "id": "Keluarga saya empat orang."
+      }
+    ],
+    "exercise": {
+      "prompt": "かぞくは ___です。（empat orang）",
+      "answer": "よにん",
+      "choices": [
+        "よにん",
+        "さんにん",
+        "ふたり",
+        "ひとり"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g068",
+    "category": "Bilangan & waktu",
+    "pattern": "〜まい・〜ほん・〜だい",
+    "title": "Pencacah benda",
+    "explanation": "〜まい untuk benda pipih, 〜ほん untuk benda panjang, 〜だい untuk mesin/kendaraan.",
+    "examples": [
+      {
+        "jp": "かみを 3まい ください。",
+        "id": "Tolong beri saya tiga lembar kertas."
+      },
+      {
+        "jp": "えんぴつを 2ほん かいました。",
+        "id": "Saya membeli dua pensil."
+      }
+    ],
+    "exercise": {
+      "prompt": "くるまが 2___ あります。（2 unit mobil）",
+      "answer": "だい",
+      "choices": [
+        "だい",
+        "まい",
+        "ほん",
+        "にん"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g069",
+    "category": "Bilangan & waktu",
+    "pattern": "〜さい",
+    "title": "Umur",
+    "explanation": "〜さい = tahun (umur). なんさい = umur berapa. 20 tahun: はたち.",
+    "examples": [
+      {
+        "jp": "わたしは 20さいです。",
+        "id": "Umur saya 20 tahun."
+      },
+      {
+        "jp": "あなたは なんさいですか。",
+        "id": "Umur Anda berapa?"
+      }
+    ],
+    "exercise": {
+      "prompt": "いもうとは 12___です。",
+      "answer": "さい",
+      "choices": [
+        "さい",
+        "ねん",
+        "かい",
+        "まい"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g070",
+    "category": "Bilangan & waktu",
+    "pattern": "〜がつ 〜にち",
+    "title": "Bulan dan tanggal",
+    "explanation": "Bulan: 1月 いちがつ…; tanggal: 1日 ついたち, 2日 ふつか…",
+    "examples": [
+      {
+        "jp": "たんじょうびは 5がつ 3日です。",
+        "id": "Ulang tahun saya tanggal 3 Mei."
+      },
+      {
+        "jp": "きょうは なんがつ なんにちですか。",
+        "id": "Hari ini tanggal berapa?"
+      }
+    ],
+    "exercise": {
+      "prompt": "いま ___ですか。（tanya bulan）",
+      "answer": "なんがつ",
+      "choices": [
+        "なんがつ",
+        "なんじ",
+        "なんさい",
+        "なんにん"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g071",
+    "category": "Bilangan & waktu",
+    "pattern": "〜じかん 〜ぐらい",
+    "title": "Durasi dan kira-kira",
+    "explanation": "〜じかん = jam (durasi); 〜ぐらい = kira-kira.",
+    "examples": [
+      {
+        "jp": "まいにち 2じかん べんきょうします。",
+        "id": "Setiap hari saya belajar 2 jam."
+      },
+      {
+        "jp": "えきまで 10ぷんぐらい かかります。",
+        "id": "Ke stasiun kira-kira 10 menit."
+      }
+    ],
+    "exercise": {
+      "prompt": "うちから えきまで 10ぷん___ かかります。",
+      "answer": "ぐらい",
+      "choices": [
+        "ぐらい",
+        "から",
+        "まで",
+        "より"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g072",
+    "category": "Lain-lain",
+    "pattern": "いつも・よく・ときどき・あまり",
+    "title": "Kata keterangan frekuensi",
+    "explanation": "いつも (selalu), よく (sering), ときどき (kadang-kadang), あまり + negatif (jarang).",
+    "examples": [
+      {
+        "jp": "わたしは いつも 6じに おきます。",
+        "id": "Saya selalu bangun jam 6."
+      },
+      {
+        "jp": "ときどき えいがを みます。",
+        "id": "Kadang-kadang saya menonton film."
+      }
+    ],
+    "exercise": {
+      "prompt": "コーヒーは ___ のみません。（jarang minum）",
+      "answer": "あまり",
+      "choices": [
+        "あまり",
+        "いつも",
+        "よく",
+        "とても"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g073",
+    "category": "Lain-lain",
+    "pattern": "とても・ちょっと",
+    "title": "Sangat / sedikit",
+    "explanation": "とても menguatkan, ちょっと melunakkan atau berarti “sedikit”.",
+    "examples": [
+      {
+        "jp": "この ラーメンは とても おいしいです。",
+        "id": "Ramen ini enak sekali."
+      },
+      {
+        "jp": "ちょっと さむいです。",
+        "id": "Agak dingin."
+      }
+    ],
+    "exercise": {
+      "prompt": "この ほんは ___ おもしろいです。（sangat）",
+      "answer": "とても",
+      "choices": [
+        "とても",
+        "あまり",
+        "ちょっと",
+        "ぜんぜん"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g074",
+    "category": "Lain-lain",
+    "pattern": "もう／まだ",
+    "title": "Sudah / belum",
+    "explanation": "もう + lampau = sudah; まだ + ています/ません = belum.",
+    "examples": [
+      {
+        "jp": "もう ごはんを たべました。",
+        "id": "Saya sudah makan."
+      },
+      {
+        "jp": "まだ たべていません。",
+        "id": "Saya belum makan."
+      }
+    ],
+    "exercise": {
+      "prompt": "___ しゅくだいを しました。（sudah）",
+      "answer": "もう",
+      "choices": [
+        "もう",
+        "まだ",
+        "いつも",
+        "よく"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g075",
+    "category": "Lain-lain",
+    "pattern": "どんな N",
+    "title": "Seperti apa",
+    "explanation": "どんな menanyakan sifat atau jenis benda.",
+    "examples": [
+      {
+        "jp": "どんな ひとですか。",
+        "id": "Orang seperti apa dia?"
+      },
+      {
+        "jp": "どんな おんがくが すきですか。",
+        "id": "Musik seperti apa yang kamu suka?"
+      }
+    ],
+    "exercise": {
+      "prompt": "___ たべものが すきですか。（seperti apa）",
+      "answer": "どんな",
+      "choices": [
+        "どんな",
+        "どこ",
+        "だれ",
+        "いくら"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g076",
+    "category": "Lain-lain",
+    "pattern": "どうして〜か",
+    "title": "Mengapa",
+    "explanation": "どうして menanyakan alasan; jawaban memakai から.",
+    "examples": [
+      {
+        "jp": "どうして おくれましたか。",
+        "id": "Mengapa Anda terlambat?"
+      },
+      {
+        "jp": "どうして にほんごを べんきょうしますか。",
+        "id": "Mengapa Anda belajar bahasa Jepang?"
+      }
+    ],
+    "exercise": {
+      "prompt": "___ おくれましたか。（mengapa）",
+      "answer": "どうして",
+      "choices": [
+        "どうして",
+        "どんな",
+        "いつ",
+        "どこ"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g077",
+    "category": "Lain-lain",
+    "pattern": "そして・でも",
+    "title": "Penghubung kalimat",
+    "explanation": "そして = dan lalu; でも = tetapi (awal kalimat).",
+    "examples": [
+      {
+        "jp": "あさ おきます。そして、ごはんを たべます。",
+        "id": "Pagi bangun. Lalu makan."
+      },
+      {
+        "jp": "にほんごは むずかしいです。でも、おもしろいです。",
+        "id": "Bahasa Jepang sulit. Tetapi menarik."
+      }
+    ],
+    "exercise": {
+      "prompt": "むずかしいです。___、おもしろいです。（tetapi）",
+      "answer": "でも",
+      "choices": [
+        "でも",
+        "そして",
+        "から",
+        "と"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g078",
+    "category": "Lain-lain",
+    "pattern": "〜ですが",
+    "title": "Tetapi (dalam kalimat)",
+    "explanation": "が di tengah kalimat berarti “tetapi”, juga sebagai pembuka sopan.",
+    "examples": [
+      {
+        "jp": "すみませんが、トイレは どこですか。",
+        "id": "Maaf, di mana toilet?"
+      },
+      {
+        "jp": "たかいですが、おいしいです。",
+        "id": "Mahal, tetapi enak."
+      }
+    ],
+    "exercise": {
+      "prompt": "やすいです___、あまり おいしくないです。（tetapi）",
+      "answer": "が",
+      "choices": [
+        "が",
+        "を",
+        "に",
+        "も"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g079",
+    "category": "Lain-lain",
+    "pattern": "〜と いいます",
+    "title": "Disebut / namanya",
+    "explanation": "Mengutip nama atau ucapan dengan と いいます.",
+    "examples": [
+      {
+        "jp": "わたしは アリと いいます。",
+        "id": "Nama saya Ali."
+      },
+      {
+        "jp": "これは にほんごで なんと いいますか。",
+        "id": "Ini disebut apa dalam bahasa Jepang?"
+      }
+    ],
+    "exercise": {
+      "prompt": "わたしは アリ___ いいます。",
+      "answer": "と",
+      "choices": [
+        "と",
+        "を",
+        "に",
+        "が"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g080",
+    "category": "Lain-lain",
+    "pattern": "〜を おねがいします",
+    "title": "Meminta (tolong)",
+    "explanation": "N + を おねがいします dipakai ketika memesan atau meminta sesuatu.",
+    "examples": [
+      {
+        "jp": "コーヒーを おねがいします。",
+        "id": "Tolong (saya pesan) kopi."
+      },
+      {
+        "jp": "これを おねがいします。",
+        "id": "Tolong yang ini."
+      }
+    ],
+    "exercise": {
+      "prompt": "コーヒー___ おねがいします。",
+      "answer": "を",
+      "choices": [
+        "を",
+        "が",
+        "に",
+        "の"
+      ]
+    },
+    "reviewed": false
+  },
+  {
+    "id": "g081",
+    "category": "Lain-lain",
+    "pattern": "〜でしょうか／〜ください",
+    "title": "Meminta dengan sopan",
+    "explanation": "N + を ください = tolong beri saya N.",
+    "examples": [
+      {
+        "jp": "みずを ください。",
+        "id": "Tolong beri saya air."
+      },
+      {
+        "jp": "メニューを ください。",
+        "id": "Tolong beri saya menu."
+      }
+    ],
+    "exercise": {
+      "prompt": "みず___ ください。",
+      "answer": "を",
+      "choices": [
+        "を",
+        "が",
+        "に",
+        "で"
+      ]
+    },
+    "reviewed": false
+  }
+]

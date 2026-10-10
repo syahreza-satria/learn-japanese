@@ -1,12 +1,134 @@
 [
-  { "id": "salam", "label": "Salam & ungkapan", "icon": "bi-chat-heart", "description": "Sapaan, terima kasih, dan ungkapan sehari-hari" },
-  { "id": "angka", "label": "Angka", "icon": "bi-123", "description": "Bilangan, hitungan, dan uang" },
-  { "id": "waktu", "label": "Waktu & hari", "icon": "bi-calendar3", "description": "Hari, bulan, jam, dan musim" },
-  { "id": "keluarga", "label": "Keluarga", "icon": "bi-people", "description": "Anggota keluarga" },
-  { "id": "orang-pekerjaan", "label": "Orang & pekerjaan", "icon": "bi-person-badge", "description": "Orang, kebangsaan, dan profesi" },
-  { "id": "sekolah", "label": "Sekolah", "icon": "bi-backpack", "description": "Kelas, alat tulis, dan pelajaran" },
-  { "id": "makanan-minuman", "label": "Makanan & minuman", "icon": "bi-cup-hot", "description": "Makanan, minuman, dan waktu makan" },
-  { "id": "tempat", "label": "Tempat", "icon": "bi-geo-alt", "description": "Tempat umum, rumah, dan arah" },
-  { "id": "kata-kerja", "label": "Kata kerja dasar", "icon": "bi-lightning", "description": "Kata kerja yang paling sering dipakai" },
-  { "id": "kata-sifat", "label": "Kata sifat dasar", "icon": "bi-brush", "description": "Kata sifat i dan na yang umum" }
+  {
+    "id": "salam",
+    "label": "Salam & ungkapan",
+    "icon": "bi-chat-heart",
+    "description": "Sapaan, terima kasih, dan ungkapan sehari-hari"
+  },
+  {
+    "id": "angka",
+    "label": "Angka",
+    "icon": "bi-123",
+    "description": "Bilangan, hitungan, dan uang"
+  },
+  {
+    "id": "waktu",
+    "label": "Waktu & hari",
+    "icon": "bi-calendar3",
+    "description": "Hari, bulan, jam, dan musim"
+  },
+  {
+    "id": "keluarga",
+    "label": "Keluarga",
+    "icon": "bi-people",
+    "description": "Anggota keluarga"
+  },
+  {
+    "id": "orang-pekerjaan",
+    "label": "Orang & pekerjaan",
+    "icon": "bi-person-badge",
+    "description": "Orang, kebangsaan, dan profesi"
+  },
+  {
+    "id": "sekolah",
+    "label": "Sekolah",
+    "icon": "bi-backpack",
+    "description": "Kelas, alat tulis, dan pelajaran"
+  },
+  {
+    "id": "makanan-minuman",
+    "label": "Makanan & minuman",
+    "icon": "bi-cup-hot",
+    "description": "Makanan, minuman, dan waktu makan"
+  },
+  {
+    "id": "tempat",
+    "label": "Tempat",
+    "icon": "bi-geo-alt",
+    "description": "Tempat umum, rumah, dan arah"
+  },
+  {
+    "id": "kata-kerja",
+    "label": "Kata kerja dasar",
+    "icon": "bi-lightning",
+    "description": "Kata kerja yang paling sering dipakai"
+  },
+  {
+    "id": "kata-sifat",
+    "label": "Kata sifat dasar",
+    "icon": "bi-brush",
+    "description": "Kata sifat i dan na yang umum"
+  },
+  {
+    "id": "hewan",
+    "label": "Hewan",
+    "icon": "bi-bug",
+    "description": "Hewan peliharaan, ternak, dan satwa liar"
+  },
+  {
+    "id": "tubuh",
+    "label": "Tubuh",
+    "icon": "bi-person-arms-up",
+    "description": "Anggota tubuh"
+  },
+  {
+    "id": "pakaian",
+    "label": "Pakaian & aksesori",
+    "icon": "bi-handbag",
+    "description": "Pakaian, sepatu, dan perlengkapan"
+  },
+  {
+    "id": "cuaca-alam",
+    "label": "Cuaca & alam",
+    "icon": "bi-cloud-sun",
+    "description": "Cuaca, musim, dan alam sekitar"
+  },
+  {
+    "id": "transportasi",
+    "label": "Transportasi",
+    "icon": "bi-bus-front",
+    "description": "Kendaraan, stasiun, dan perjalanan"
+  },
+  {
+    "id": "rumah-benda",
+    "label": "Rumah & benda",
+    "icon": "bi-house-door",
+    "description": "Isi rumah dan peralatan sehari-hari"
+  },
+  {
+    "id": "warna-bentuk",
+    "label": "Warna & bentuk",
+    "icon": "bi-palette",
+    "description": "Warna dan bentuk dasar"
+  },
+  {
+    "id": "kata-keterangan",
+    "label": "Kata keterangan & penghubung",
+    "icon": "bi-chat-left-text",
+    "description": "Frekuensi, tingkat, dan kata sambung"
+  },
+  {
+    "id": "belanja",
+    "label": "Belanja & uang",
+    "icon": "bi-cart",
+    "description": "Berbelanja, memesan, dan membayar"
+  },
+  {
+    "id": "kesehatan",
+    "label": "Kesehatan",
+    "icon": "bi-bandaid",
+    "description": "Sakit, obat, dan kondisi badan"
+  },
+  {
+    "id": "hobi",
+    "label": "Hobi & kegiatan",
+    "icon": "bi-music-note-beamed",
+    "description": "Hobi, olahraga, dan hiburan"
+  },
+  {
+    "id": "perasaan",
+    "label": "Perasaan & kondisi",
+    "icon": "bi-emoji-smile",
+    "description": "Perasaan dan penilaian"
+  }
 ]

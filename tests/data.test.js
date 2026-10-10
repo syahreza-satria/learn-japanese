@@ -26,10 +26,19 @@ for (const script of ["hiragana", "katakana"]) {
   });
 }
 
-test("kosakata: ±300 kata, 10 tema, tiap tema terisi", () => {
+test("kosakata: ±800 kata, tiap tema terisi", () => {
   const vocab = read("vocab-n5");
   const themes = read("themes");
-  assert.equal(themes.length, 10);
-  assert.ok(vocab.length >= 290 && vocab.length <= 330, `jumlah kata ${vocab.length}`);
-  for (const theme of themes) assert.ok(vocab.filter((v) => v.theme === theme.id).length >= 25, theme.id);
+  assert.ok(vocab.length >= 750 && vocab.length <= 850, `jumlah kata ${vocab.length}`);
+  for (const theme of themes) assert.ok(vocab.filter((v) => v.theme === theme.id).length >= 20, theme.id);
+});
+
+test("kanji N5: ±100 kanji, goresan tersedia", () => {
+  const kanji = read("kanji-n5");
+  assert.ok(kanji.length >= 90 && kanji.length <= 110, `jumlah kanji ${kanji.length}`);
+});
+
+test("tata bahasa N5: ±80 pola dengan latihan", () => {
+  const grammar = read("grammar-n5");
+  assert.ok(grammar.length >= 75 && grammar.length <= 90, `jumlah pola ${grammar.length}`);
 });

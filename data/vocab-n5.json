@@ -4338,5 +4338,6697 @@
       "id": "Saya suka kucing."
     },
     "reviewed": false
+  },
+  {
+    "id": "v0311",
+    "word": "動物",
+    "kana": "どうぶつ",
+    "romaji": "doubutsu",
+    "meaning": "hewan",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "どうぶつが すきです。",
+      "id": "Saya suka hewan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0312",
+    "word": "犬",
+    "kana": "いぬ",
+    "romaji": "inu",
+    "meaning": "anjing",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "いぬと さんぽします。",
+      "id": "Saya berjalan-jalan dengan anjing."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0313",
+    "word": "猫",
+    "kana": "ねこ",
+    "romaji": "neko",
+    "meaning": "kucing",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "ねこが ねています。",
+      "id": "Kucing sedang tidur."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0314",
+    "word": "鳥",
+    "kana": "とり",
+    "romaji": "tori",
+    "meaning": "burung",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "とりが とんでいます。",
+      "id": "Burung sedang terbang."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0315",
+    "word": "馬",
+    "kana": "うま",
+    "romaji": "uma",
+    "meaning": "kuda",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "うまに のりたいです。",
+      "id": "Saya ingin naik kuda."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0316",
+    "word": "牛",
+    "kana": "うし",
+    "romaji": "ushi",
+    "meaning": "sapi",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "うしが くさを たべます。",
+      "id": "Sapi makan rumput."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0317",
+    "word": "豚",
+    "kana": "ぶた",
+    "romaji": "buta",
+    "meaning": "babi",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "ぶたは ピンクです。",
+      "id": "Babi berwarna merah muda."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0318",
+    "word": "羊",
+    "kana": "ひつじ",
+    "romaji": "hitsuji",
+    "meaning": "domba",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "ひつじが たくさん います。",
+      "id": "Ada banyak domba."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0319",
+    "word": "鶏",
+    "kana": "にわとり",
+    "romaji": "niwatori",
+    "meaning": "ayam",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "にわとりが たまごを うみます。",
+      "id": "Ayam bertelur."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0320",
+    "word": "あひる",
+    "kana": "あひる",
+    "romaji": "ahiru",
+    "meaning": "bebek",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "あひるが およいでいます。",
+      "id": "Bebek sedang berenang."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0321",
+    "word": "兎",
+    "kana": "うさぎ",
+    "romaji": "usagi",
+    "meaning": "kelinci",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "うさぎは かわいいです。",
+      "id": "Kelinci itu lucu."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0322",
+    "word": "鼠",
+    "kana": "ねずみ",
+    "romaji": "nezumi",
+    "meaning": "tikus",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "ねずみが へやに います。",
+      "id": "Ada tikus di kamar."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0323",
+    "word": "猿",
+    "kana": "さる",
+    "romaji": "saru",
+    "meaning": "monyet",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "さるが きに のぼります。",
+      "id": "Monyet memanjat pohon."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0324",
+    "word": "象",
+    "kana": "ぞう",
+    "romaji": "zou",
+    "meaning": "gajah",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "ぞうは おおきいです。",
+      "id": "Gajah itu besar."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0325",
+    "word": "虎",
+    "kana": "とら",
+    "romaji": "tora",
+    "meaning": "harimau",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "とらは こわいです。",
+      "id": "Harimau itu menakutkan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0326",
+    "word": "ライオン",
+    "kana": "ライオン",
+    "romaji": "raion",
+    "meaning": "singa",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "ライオンを みました。",
+      "id": "Saya melihat singa."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0327",
+    "word": "熊",
+    "kana": "くま",
+    "romaji": "kuma",
+    "meaning": "beruang",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "くまは やまに すんでいます。",
+      "id": "Beruang tinggal di gunung."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0328",
+    "word": "きりん",
+    "kana": "きりん",
+    "romaji": "kirin",
+    "meaning": "jerapah",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "きりんは くびが ながいです。",
+      "id": "Jerapah lehernya panjang."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0329",
+    "word": "かえる",
+    "kana": "かえる",
+    "romaji": "kaeru",
+    "meaning": "katak",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "かえるが ないています。",
+      "id": "Katak sedang berbunyi."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0330",
+    "word": "蛇",
+    "kana": "へび",
+    "romaji": "hebi",
+    "meaning": "ular",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "へびは こわいです。",
+      "id": "Ular itu menakutkan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0331",
+    "word": "亀",
+    "kana": "かめ",
+    "romaji": "kame",
+    "meaning": "kura-kura",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "かめは ゆっくり あるきます。",
+      "id": "Kura-kura berjalan pelan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0332",
+    "word": "蝶",
+    "kana": "ちょうちょう",
+    "romaji": "chouchou",
+    "meaning": "kupu-kupu",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "ちょうちょうが はなに とまります。",
+      "id": "Kupu-kupu hinggap di bunga."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0333",
+    "word": "蜂",
+    "kana": "はち",
+    "romaji": "hachi",
+    "meaning": "lebah",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "はちに さされました。",
+      "id": "Saya disengat lebah."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0334",
+    "word": "蟻",
+    "kana": "あり",
+    "romaji": "ari",
+    "meaning": "semut",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "ありが さとうに います。",
+      "id": "Ada semut di gula."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0335",
+    "word": "蚊",
+    "kana": "か",
+    "romaji": "ka",
+    "meaning": "nyamuk",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "かに さされました。",
+      "id": "Saya digigit nyamuk."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0336",
+    "word": "虫",
+    "kana": "むし",
+    "romaji": "mushi",
+    "meaning": "serangga",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "むしが きらいです。",
+      "id": "Saya tidak suka serangga."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0337",
+    "word": "ペット",
+    "kana": "ペット",
+    "romaji": "petto",
+    "meaning": "hewan peliharaan",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "ペットを かっていますか。",
+      "id": "Apakah Anda memelihara hewan?"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0338",
+    "word": "パンダ",
+    "kana": "パンダ",
+    "romaji": "panda",
+    "meaning": "panda",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "パンダは たけを たべます。",
+      "id": "Panda makan bambu."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0339",
+    "word": "鯨",
+    "kana": "くじら",
+    "romaji": "kujira",
+    "meaning": "paus",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "くじらは うみに います。",
+      "id": "Paus ada di laut."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0340",
+    "word": "蛸",
+    "kana": "たこ",
+    "romaji": "tako",
+    "meaning": "gurita",
+    "theme": "hewan",
+    "level": "N5",
+    "example": {
+      "jp": "たこは あしが はちほん あります。",
+      "id": "Gurita punya delapan kaki."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0341",
+    "word": "体",
+    "kana": "からだ",
+    "romaji": "karada",
+    "meaning": "badan, tubuh",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "からだが つかれました。",
+      "id": "Badan saya lelah."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0342",
+    "word": "頭",
+    "kana": "あたま",
+    "romaji": "atama",
+    "meaning": "kepala",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "あたまが いたいです。",
+      "id": "Kepala saya sakit."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0343",
+    "word": "顔",
+    "kana": "かお",
+    "romaji": "kao",
+    "meaning": "wajah",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "かおを あらいます。",
+      "id": "Saya mencuci muka."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0344",
+    "word": "目",
+    "kana": "め",
+    "romaji": "me",
+    "meaning": "mata",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "めが きれいです。",
+      "id": "Matanya indah."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0345",
+    "word": "耳",
+    "kana": "みみ",
+    "romaji": "mimi",
+    "meaning": "telinga",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "みみが いたいです。",
+      "id": "Telinga saya sakit."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0346",
+    "word": "鼻",
+    "kana": "はな",
+    "romaji": "hana",
+    "meaning": "hidung",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "はなが たかいです。",
+      "id": "Hidungnya mancung."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0347",
+    "word": "口",
+    "kana": "くち",
+    "romaji": "kuchi",
+    "meaning": "mulut",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "くちを あけて ください。",
+      "id": "Tolong buka mulut Anda."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0348",
+    "word": "歯",
+    "kana": "は",
+    "romaji": "ha",
+    "meaning": "gigi",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "まいあさ はを みがきます。",
+      "id": "Setiap pagi saya menyikat gigi."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0349",
+    "word": "髪",
+    "kana": "かみ",
+    "romaji": "kami",
+    "meaning": "rambut",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "かみが ながいです。",
+      "id": "Rambutnya panjang."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0350",
+    "word": "首",
+    "kana": "くび",
+    "romaji": "kubi",
+    "meaning": "leher",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "くびが いたいです。",
+      "id": "Leher saya sakit."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0351",
+    "word": "喉",
+    "kana": "のど",
+    "romaji": "nodo",
+    "meaning": "tenggorokan",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "のどが いたいです。",
+      "id": "Tenggorokan saya sakit."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0352",
+    "word": "肩",
+    "kana": "かた",
+    "romaji": "kata",
+    "meaning": "bahu",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "かたが こっています。",
+      "id": "Bahu saya pegal."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0353",
+    "word": "腕",
+    "kana": "うで",
+    "romaji": "ude",
+    "meaning": "lengan",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "うでが いたいです。",
+      "id": "Lengan saya sakit."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0354",
+    "word": "手",
+    "kana": "て",
+    "romaji": "te",
+    "meaning": "tangan",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "てを あらいます。",
+      "id": "Saya mencuci tangan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0355",
+    "word": "指",
+    "kana": "ゆび",
+    "romaji": "yubi",
+    "meaning": "jari",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "ゆびを けがしました。",
+      "id": "Jari saya terluka."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0356",
+    "word": "胸",
+    "kana": "むね",
+    "romaji": "mune",
+    "meaning": "dada",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "むねが どきどきします。",
+      "id": "Dada saya berdebar."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0357",
+    "word": "お腹",
+    "kana": "おなか",
+    "romaji": "onaka",
+    "meaning": "perut",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "おなかが すきました。",
+      "id": "Saya lapar."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0358",
+    "word": "背中",
+    "kana": "せなか",
+    "romaji": "senaka",
+    "meaning": "punggung",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "せなかが いたいです。",
+      "id": "Punggung saya sakit."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0359",
+    "word": "腰",
+    "kana": "こし",
+    "romaji": "koshi",
+    "meaning": "pinggang",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "こしが いたいです。",
+      "id": "Pinggang saya sakit."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0360",
+    "word": "足",
+    "kana": "あし",
+    "romaji": "ashi",
+    "meaning": "kaki",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "あしが ながいです。",
+      "id": "Kakinya panjang."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0361",
+    "word": "膝",
+    "kana": "ひざ",
+    "romaji": "hiza",
+    "meaning": "lutut",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "ひざを うちました。",
+      "id": "Lutut saya terbentur."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0362",
+    "word": "爪",
+    "kana": "つめ",
+    "romaji": "tsume",
+    "meaning": "kuku",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "つめを きります。",
+      "id": "Saya memotong kuku."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0363",
+    "word": "骨",
+    "kana": "ほね",
+    "romaji": "hone",
+    "meaning": "tulang",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "ほねが おれました。",
+      "id": "Tulang saya patah."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0364",
+    "word": "血",
+    "kana": "ち",
+    "romaji": "chi",
+    "meaning": "darah",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "ちが でました。",
+      "id": "Darah keluar."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0365",
+    "word": "声",
+    "kana": "こえ",
+    "romaji": "koe",
+    "meaning": "suara",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "おおきい こえで はなします。",
+      "id": "Saya berbicara dengan suara keras."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0366",
+    "word": "背",
+    "kana": "せ",
+    "romaji": "se",
+    "meaning": "tinggi badan",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "せが たかいです。",
+      "id": "Tinggi badannya tinggi."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0367",
+    "word": "頬",
+    "kana": "ほお",
+    "romaji": "hoo",
+    "meaning": "pipi",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "ほおが あかいです。",
+      "id": "Pipinya merah."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0368",
+    "word": "眉毛",
+    "kana": "まゆげ",
+    "romaji": "mayuge",
+    "meaning": "alis",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "まゆげが こいです。",
+      "id": "Alisnya tebal."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0369",
+    "word": "髭",
+    "kana": "ひげ",
+    "romaji": "hige",
+    "meaning": "kumis, janggut",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "ちちは ひげが あります。",
+      "id": "Ayah saya berkumis."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0370",
+    "word": "しっぽ",
+    "kana": "しっぽ",
+    "romaji": "shippo",
+    "meaning": "ekor",
+    "theme": "tubuh",
+    "level": "N5",
+    "example": {
+      "jp": "いぬが しっぽを ふります。",
+      "id": "Anjing mengibaskan ekornya."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0371",
+    "word": "服",
+    "kana": "ふく",
+    "romaji": "fuku",
+    "meaning": "pakaian",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "あたらしい ふくを かいました。",
+      "id": "Saya membeli pakaian baru."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0372",
+    "word": "靴",
+    "kana": "くつ",
+    "romaji": "kutsu",
+    "meaning": "sepatu",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "くつを はきます。",
+      "id": "Saya memakai sepatu."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0373",
+    "word": "靴下",
+    "kana": "くつした",
+    "romaji": "kutsushita",
+    "meaning": "kaus kaki",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "くつしたを はきます。",
+      "id": "Saya memakai kaus kaki."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0374",
+    "word": "帽子",
+    "kana": "ぼうし",
+    "romaji": "boushi",
+    "meaning": "topi",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "ぼうしを かぶります。",
+      "id": "Saya memakai topi."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0375",
+    "word": "シャツ",
+    "kana": "シャツ",
+    "romaji": "shatsu",
+    "meaning": "kemeja",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "しろい シャツを きます。",
+      "id": "Saya memakai kemeja putih."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0376",
+    "word": "ズボン",
+    "kana": "ズボン",
+    "romaji": "zubon",
+    "meaning": "celana",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "ズボンを はきます。",
+      "id": "Saya memakai celana."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0377",
+    "word": "スカート",
+    "kana": "スカート",
+    "romaji": "sukaato",
+    "meaning": "rok",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "スカートを かいました。",
+      "id": "Saya membeli rok."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0378",
+    "word": "セーター",
+    "kana": "セーター",
+    "romaji": "seetaa",
+    "meaning": "sweter",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "セーターは あたたかいです。",
+      "id": "Sweter itu hangat."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0379",
+    "word": "コート",
+    "kana": "コート",
+    "romaji": "kooto",
+    "meaning": "mantel",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "さむいですから、コートを きます。",
+      "id": "Karena dingin, saya memakai mantel."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0380",
+    "word": "ジャケット",
+    "kana": "ジャケット",
+    "romaji": "jaketto",
+    "meaning": "jaket",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "ジャケットを ぬぎます。",
+      "id": "Saya melepas jaket."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0381",
+    "word": "ネクタイ",
+    "kana": "ネクタイ",
+    "romaji": "nekutai",
+    "meaning": "dasi",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "ネクタイを します。",
+      "id": "Saya memakai dasi."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0382",
+    "word": "ベルト",
+    "kana": "ベルト",
+    "romaji": "beruto",
+    "meaning": "ikat pinggang",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "ベルトを かいます。",
+      "id": "Saya membeli ikat pinggang."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0383",
+    "word": "眼鏡",
+    "kana": "めがね",
+    "romaji": "megane",
+    "meaning": "kacamata",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "めがねを かけます。",
+      "id": "Saya memakai kacamata."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0384",
+    "word": "手袋",
+    "kana": "てぶくろ",
+    "romaji": "tebukuro",
+    "meaning": "sarung tangan",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "てぶくろを します。",
+      "id": "Saya memakai sarung tangan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0385",
+    "word": "マフラー",
+    "kana": "マフラー",
+    "romaji": "mafuraa",
+    "meaning": "syal",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "マフラーを まきます。",
+      "id": "Saya melilitkan syal."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0386",
+    "word": "ハンカチ",
+    "kana": "ハンカチ",
+    "romaji": "hankachi",
+    "meaning": "saputangan",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "ハンカチを もっていますか。",
+      "id": "Apakah Anda membawa saputangan?"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0387",
+    "word": "ワンピース",
+    "kana": "ワンピース",
+    "romaji": "wanpiisu",
+    "meaning": "gaun terusan",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "あかい ワンピースを きます。",
+      "id": "Saya memakai gaun merah."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0388",
+    "word": "パジャマ",
+    "kana": "パジャマ",
+    "romaji": "pajama",
+    "meaning": "piyama",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "パジャマを きて ねます。",
+      "id": "Saya tidur memakai piyama."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0389",
+    "word": "スリッパ",
+    "kana": "スリッパ",
+    "romaji": "surippa",
+    "meaning": "sandal rumah",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "スリッパを はきます。",
+      "id": "Saya memakai sandal rumah."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0390",
+    "word": "サンダル",
+    "kana": "サンダル",
+    "romaji": "sandaru",
+    "meaning": "sandal",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "なつは サンダルを はきます。",
+      "id": "Saat musim panas saya memakai sandal."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0391",
+    "word": "着物",
+    "kana": "きもの",
+    "romaji": "kimono",
+    "meaning": "kimono",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "きものを きたことが ありますか。",
+      "id": "Pernahkah Anda memakai kimono?"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0392",
+    "word": "上着",
+    "kana": "うわぎ",
+    "romaji": "uwagi",
+    "meaning": "jaket luar",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "うわぎを わすれました。",
+      "id": "Saya lupa jaket luar saya."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0393",
+    "word": "下着",
+    "kana": "したぎ",
+    "romaji": "shitagi",
+    "meaning": "pakaian dalam",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "したぎを かいます。",
+      "id": "Saya membeli pakaian dalam."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0394",
+    "word": "時計",
+    "kana": "とけい",
+    "romaji": "tokei",
+    "meaning": "jam tangan, jam",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "とけいを かいました。",
+      "id": "Saya membeli jam tangan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0395",
+    "word": "指輪",
+    "kana": "ゆびわ",
+    "romaji": "yubiwa",
+    "meaning": "cincin",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "ゆびわを しています。",
+      "id": "Dia memakai cincin."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0396",
+    "word": "財布",
+    "kana": "さいふ",
+    "romaji": "saifu",
+    "meaning": "dompet",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "さいふを おとしました。",
+      "id": "Saya menjatuhkan dompet."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0397",
+    "word": "傘",
+    "kana": "かさ",
+    "romaji": "kasa",
+    "meaning": "payung",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "かさを もって いきます。",
+      "id": "Saya pergi sambil membawa payung."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0398",
+    "word": "ポケット",
+    "kana": "ポケット",
+    "romaji": "poketto",
+    "meaning": "saku",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "ポケットに かぎが あります。",
+      "id": "Ada kunci di saku."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0399",
+    "word": "ボタン",
+    "kana": "ボタン",
+    "romaji": "botan",
+    "meaning": "kancing",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "ボタンが とれました。",
+      "id": "Kancingnya lepas."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0400",
+    "word": "サイズ",
+    "kana": "サイズ",
+    "romaji": "saizu",
+    "meaning": "ukuran",
+    "theme": "pakaian",
+    "level": "N5",
+    "example": {
+      "jp": "サイズは なんですか。",
+      "id": "Ukurannya berapa?"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0401",
+    "word": "天気",
+    "kana": "てんき",
+    "romaji": "tenki",
+    "meaning": "cuaca",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "きょうは いい てんきです。",
+      "id": "Cuaca hari ini bagus."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0402",
+    "word": "晴れ",
+    "kana": "はれ",
+    "romaji": "hare",
+    "meaning": "cerah",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "あしたは はれです。",
+      "id": "Besok cerah."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0403",
+    "word": "曇り",
+    "kana": "くもり",
+    "romaji": "kumori",
+    "meaning": "berawan",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "きょうは くもりです。",
+      "id": "Hari ini berawan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0404",
+    "word": "雨",
+    "kana": "あめ",
+    "romaji": "ame",
+    "meaning": "hujan",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "あめが ふっています。",
+      "id": "Hujan sedang turun."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0405",
+    "word": "雪",
+    "kana": "ゆき",
+    "romaji": "yuki",
+    "meaning": "salju",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "ふゆは ゆきが ふります。",
+      "id": "Musim dingin salju turun."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0406",
+    "word": "風",
+    "kana": "かぜ",
+    "romaji": "kaze",
+    "meaning": "angin",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "かぜが つよいです。",
+      "id": "Anginnya kencang."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0407",
+    "word": "台風",
+    "kana": "たいふう",
+    "romaji": "taifuu",
+    "meaning": "topan",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "たいふうが きます。",
+      "id": "Topan akan datang."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0408",
+    "word": "雷",
+    "kana": "かみなり",
+    "romaji": "kaminari",
+    "meaning": "petir",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "かみなりが なっています。",
+      "id": "Petir sedang menggelegar."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0409",
+    "word": "空",
+    "kana": "そら",
+    "romaji": "sora",
+    "meaning": "langit",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "そらが あおいです。",
+      "id": "Langitnya biru."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0410",
+    "word": "太陽",
+    "kana": "たいよう",
+    "romaji": "taiyou",
+    "meaning": "matahari",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "たいようが あついです。",
+      "id": "Mataharinya panas."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0411",
+    "word": "月",
+    "kana": "つき",
+    "romaji": "tsuki",
+    "meaning": "bulan (di langit)",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "つきが きれいです。",
+      "id": "Bulannya indah."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0412",
+    "word": "星",
+    "kana": "ほし",
+    "romaji": "hoshi",
+    "meaning": "bintang",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "ほしが みえます。",
+      "id": "Bintang terlihat."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0413",
+    "word": "雲",
+    "kana": "くも",
+    "romaji": "kumo",
+    "meaning": "awan",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "しろい くもが あります。",
+      "id": "Ada awan putih."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0414",
+    "word": "湖",
+    "kana": "みずうみ",
+    "romaji": "mizuumi",
+    "meaning": "danau",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "みずうみは ひろいです。",
+      "id": "Danaunya luas."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0415",
+    "word": "池",
+    "kana": "いけ",
+    "romaji": "ike",
+    "meaning": "kolam",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "いけに さかなが います。",
+      "id": "Ada ikan di kolam."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0416",
+    "word": "森",
+    "kana": "もり",
+    "romaji": "mori",
+    "meaning": "hutan",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "もりを あるきます。",
+      "id": "Saya berjalan di hutan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0417",
+    "word": "木",
+    "kana": "き",
+    "romaji": "ki",
+    "meaning": "pohon",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "おおきい きが あります。",
+      "id": "Ada pohon besar."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0418",
+    "word": "草",
+    "kana": "くさ",
+    "romaji": "kusa",
+    "meaning": "rumput",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "くさが みどりです。",
+      "id": "Rumputnya hijau."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0419",
+    "word": "石",
+    "kana": "いし",
+    "romaji": "ishi",
+    "meaning": "batu",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "いしを ひろいました。",
+      "id": "Saya memungut batu."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0420",
+    "word": "砂",
+    "kana": "すな",
+    "romaji": "suna",
+    "meaning": "pasir",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "すなの うえを あるきます。",
+      "id": "Saya berjalan di atas pasir."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0421",
+    "word": "火",
+    "kana": "ひ",
+    "romaji": "hi",
+    "meaning": "api",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "ひを つけます。",
+      "id": "Saya menyalakan api."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0422",
+    "word": "氷",
+    "kana": "こおり",
+    "romaji": "koori",
+    "meaning": "es",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "こおりを いれて ください。",
+      "id": "Tolong beri es."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0423",
+    "word": "地球",
+    "kana": "ちきゅう",
+    "romaji": "chikyuu",
+    "meaning": "bumi",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "ちきゅうは まるいです。",
+      "id": "Bumi itu bulat."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0424",
+    "word": "自然",
+    "kana": "しぜん",
+    "romaji": "shizen",
+    "meaning": "alam",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "しぜんが だいすきです。",
+      "id": "Saya sangat suka alam."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0425",
+    "word": "季節",
+    "kana": "きせつ",
+    "romaji": "kisetsu",
+    "meaning": "musim",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "すきな きせつは はるです。",
+      "id": "Musim favorit saya musim semi."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0426",
+    "word": "秋",
+    "kana": "あき",
+    "romaji": "aki",
+    "meaning": "musim gugur",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "あきは すずしいです。",
+      "id": "Musim gugur sejuk."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0427",
+    "word": "冬",
+    "kana": "ふゆ",
+    "romaji": "fuyu",
+    "meaning": "musim dingin",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "ふゆは さむいです。",
+      "id": "Musim dingin itu dingin."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0428",
+    "word": "梅雨",
+    "kana": "つゆ",
+    "romaji": "tsuyu",
+    "meaning": "musim hujan (Jepang)",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "つゆは あめが おおいです。",
+      "id": "Musim hujan banyak hujan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0429",
+    "word": "桜",
+    "kana": "さくら",
+    "romaji": "sakura",
+    "meaning": "bunga sakura",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "さくらが さきました。",
+      "id": "Bunga sakura telah mekar."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0430",
+    "word": "島",
+    "kana": "しま",
+    "romaji": "shima",
+    "meaning": "pulau",
+    "theme": "cuaca-alam",
+    "level": "N5",
+    "example": {
+      "jp": "しまに いきたいです。",
+      "id": "Saya ingin pergi ke pulau."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0431",
+    "word": "電車",
+    "kana": "でんしゃ",
+    "romaji": "densha",
+    "meaning": "kereta listrik",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "でんしゃで かいしゃへ いきます。",
+      "id": "Saya pergi ke kantor naik kereta."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0432",
+    "word": "バス",
+    "kana": "バス",
+    "romaji": "basu",
+    "meaning": "bus",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "バスを まちます。",
+      "id": "Saya menunggu bus."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0433",
+    "word": "タクシー",
+    "kana": "タクシー",
+    "romaji": "takushii",
+    "meaning": "taksi",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "タクシーで かえります。",
+      "id": "Saya pulang naik taksi."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0434",
+    "word": "車",
+    "kana": "くるま",
+    "romaji": "kuruma",
+    "meaning": "mobil",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "くるまを うんてんします。",
+      "id": "Saya mengemudikan mobil."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0435",
+    "word": "自転車",
+    "kana": "じてんしゃ",
+    "romaji": "jitensha",
+    "meaning": "sepeda",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "じてんしゃで がっこうへ いきます。",
+      "id": "Saya pergi ke sekolah naik sepeda."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0436",
+    "word": "バイク",
+    "kana": "バイク",
+    "romaji": "baiku",
+    "meaning": "sepeda motor",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "バイクに のります。",
+      "id": "Saya naik sepeda motor."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0437",
+    "word": "飛行機",
+    "kana": "ひこうき",
+    "romaji": "hikouki",
+    "meaning": "pesawat terbang",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "ひこうきで にほんへ いきます。",
+      "id": "Saya pergi ke Jepang naik pesawat."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0438",
+    "word": "船",
+    "kana": "ふね",
+    "romaji": "fune",
+    "meaning": "kapal",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "ふねで しまへ いきます。",
+      "id": "Saya pergi ke pulau naik kapal."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0439",
+    "word": "地下鉄",
+    "kana": "ちかてつ",
+    "romaji": "chikatetsu",
+    "meaning": "kereta bawah tanah",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "ちかてつは はやいです。",
+      "id": "Kereta bawah tanah itu cepat."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0440",
+    "word": "新幹線",
+    "kana": "しんかんせん",
+    "romaji": "shinkansen",
+    "meaning": "kereta cepat Shinkansen",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "しんかんせんで きょうとへ いきます。",
+      "id": "Saya pergi ke Kyoto naik Shinkansen."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0441",
+    "word": "切符",
+    "kana": "きっぷ",
+    "romaji": "kippu",
+    "meaning": "tiket",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "きっぷを かいます。",
+      "id": "Saya membeli tiket."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0442",
+    "word": "ホーム",
+    "kana": "ホーム",
+    "romaji": "hoomu",
+    "meaning": "peron",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "ホームで まちます。",
+      "id": "Saya menunggu di peron."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0443",
+    "word": "出口",
+    "kana": "でぐち",
+    "romaji": "deguchi",
+    "meaning": "pintu keluar",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "でぐちは どこですか。",
+      "id": "Pintu keluar di mana?"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0444",
+    "word": "入口",
+    "kana": "いりぐち",
+    "romaji": "iriguchi",
+    "meaning": "pintu masuk",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "いりぐちは あちらです。",
+      "id": "Pintu masuk ada di sebelah sana."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0445",
+    "word": "改札",
+    "kana": "かいさつ",
+    "romaji": "kaisatsu",
+    "meaning": "gerbang tiket",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "かいさつの まえで あいましょう。",
+      "id": "Mari bertemu di depan gerbang tiket."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0446",
+    "word": "交差点",
+    "kana": "こうさてん",
+    "romaji": "kousaten",
+    "meaning": "persimpangan",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "こうさてんを ひだりに まがります。",
+      "id": "Belok kiri di persimpangan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0447",
+    "word": "信号",
+    "kana": "しんごう",
+    "romaji": "shingou",
+    "meaning": "lampu lalu lintas",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "しんごうが あかです。",
+      "id": "Lampu lalu lintasnya merah."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0448",
+    "word": "橋",
+    "kana": "はし",
+    "romaji": "hashi",
+    "meaning": "jembatan",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "はしを わたります。",
+      "id": "Saya menyeberangi jembatan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0449",
+    "word": "道路",
+    "kana": "どうろ",
+    "romaji": "douro",
+    "meaning": "jalan raya",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "どうろが こんでいます。",
+      "id": "Jalan rayanya macet."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0450",
+    "word": "駐車場",
+    "kana": "ちゅうしゃじょう",
+    "romaji": "chuushajou",
+    "meaning": "tempat parkir",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "ちゅうしゃじょうは どこですか。",
+      "id": "Tempat parkir di mana?"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0451",
+    "word": "運転",
+    "kana": "うんてん",
+    "romaji": "unten",
+    "meaning": "mengemudi",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "うんてんが じょうずです。",
+      "id": "Dia pandai mengemudi."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0452",
+    "word": "乗り換え",
+    "kana": "のりかえ",
+    "romaji": "norikae",
+    "meaning": "pindah kereta, transit",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "しんじゅくで のりかえます。",
+      "id": "Saya pindah kereta di Shinjuku."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0453",
+    "word": "地図",
+    "kana": "ちず",
+    "romaji": "chizu",
+    "meaning": "peta",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "ちずを みます。",
+      "id": "Saya melihat peta."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0454",
+    "word": "片道",
+    "kana": "かたみち",
+    "romaji": "katamichi",
+    "meaning": "sekali jalan",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "かたみちの きっぷを ください。",
+      "id": "Tolong beri saya tiket sekali jalan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0455",
+    "word": "往復",
+    "kana": "おうふく",
+    "romaji": "oufuku",
+    "meaning": "pulang-pergi",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "おうふくの きっぷを かいます。",
+      "id": "Saya membeli tiket pulang-pergi."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0456",
+    "word": "旅行",
+    "kana": "りょこう",
+    "romaji": "ryokou",
+    "meaning": "perjalanan wisata",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "なつに りょこうします。",
+      "id": "Saya berwisata saat musim panas."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0457",
+    "word": "案内",
+    "kana": "あんない",
+    "romaji": "annai",
+    "meaning": "panduan, memandu",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "まちを あんないします。",
+      "id": "Saya memandu keliling kota."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0458",
+    "word": "次",
+    "kana": "つぎ",
+    "romaji": "tsugi",
+    "meaning": "berikutnya",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "つぎの えきで おります。",
+      "id": "Saya turun di stasiun berikutnya."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0459",
+    "word": "迷子",
+    "kana": "まいご",
+    "romaji": "maigo",
+    "meaning": "anak yang tersesat",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "まいごに なりました。",
+      "id": "Saya tersesat."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0460",
+    "word": "ガソリンスタンド",
+    "kana": "ガソリンスタンド",
+    "romaji": "gasorinsutando",
+    "meaning": "pom bensin",
+    "theme": "transportasi",
+    "level": "N5",
+    "example": {
+      "jp": "ガソリンスタンドは ちかくに ありますか。",
+      "id": "Apakah ada pom bensin di dekat sini?"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0461",
+    "word": "ドア",
+    "kana": "ドア",
+    "romaji": "doa",
+    "meaning": "pintu",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "ドアを あけます。",
+      "id": "Saya membuka pintu."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0462",
+    "word": "窓",
+    "kana": "まど",
+    "romaji": "mado",
+    "meaning": "jendela",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "まどを しめて ください。",
+      "id": "Tolong tutup jendelanya."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0463",
+    "word": "壁",
+    "kana": "かべ",
+    "romaji": "kabe",
+    "meaning": "dinding",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "かべに えが あります。",
+      "id": "Ada lukisan di dinding."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0464",
+    "word": "床",
+    "kana": "ゆか",
+    "romaji": "yuka",
+    "meaning": "lantai",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "ゆかを そうじします。",
+      "id": "Saya membersihkan lantai."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0465",
+    "word": "階段",
+    "kana": "かいだん",
+    "romaji": "kaidan",
+    "meaning": "tangga",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "かいだんを のぼります。",
+      "id": "Saya menaiki tangga."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0466",
+    "word": "エレベーター",
+    "kana": "エレベーター",
+    "romaji": "erebeetaa",
+    "meaning": "lift",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "エレベーターに のります。",
+      "id": "Saya naik lift."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0467",
+    "word": "玄関",
+    "kana": "げんかん",
+    "romaji": "genkan",
+    "meaning": "pintu depan rumah",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "げんかんで くつを ぬぎます。",
+      "id": "Saya melepas sepatu di pintu depan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0468",
+    "word": "風呂",
+    "kana": "ふろ",
+    "romaji": "furo",
+    "meaning": "bak mandi, mandi",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "ふろに はいります。",
+      "id": "Saya mandi berendam."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0469",
+    "word": "シャワー",
+    "kana": "シャワー",
+    "romaji": "shawaa",
+    "meaning": "pancuran mandi",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "シャワーを あびます。",
+      "id": "Saya mandi dengan pancuran."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0470",
+    "word": "ベッド",
+    "kana": "ベッド",
+    "romaji": "beddo",
+    "meaning": "tempat tidur",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "ベッドで ねます。",
+      "id": "Saya tidur di tempat tidur."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0471",
+    "word": "テーブル",
+    "kana": "テーブル",
+    "romaji": "teeburu",
+    "meaning": "meja makan",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "テーブルに さらを おきます。",
+      "id": "Saya menaruh piring di meja."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0472",
+    "word": "棚",
+    "kana": "たな",
+    "romaji": "tana",
+    "meaning": "rak",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "ほんを たなに おきます。",
+      "id": "Saya menaruh buku di rak."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0473",
+    "word": "冷蔵庫",
+    "kana": "れいぞうこ",
+    "romaji": "reizouko",
+    "meaning": "kulkas",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "ぎゅうにゅうは れいぞうこに あります。",
+      "id": "Susu ada di kulkas."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0474",
+    "word": "洗濯機",
+    "kana": "せんたくき",
+    "romaji": "sentakuki",
+    "meaning": "mesin cuci",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "せんたくきで ふくを あらいます。",
+      "id": "Saya mencuci pakaian dengan mesin cuci."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0475",
+    "word": "テレビ",
+    "kana": "テレビ",
+    "romaji": "terebi",
+    "meaning": "televisi",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "テレビを けします。",
+      "id": "Saya mematikan televisi."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0476",
+    "word": "電話",
+    "kana": "でんわ",
+    "romaji": "denwa",
+    "meaning": "telepon",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "でんわが なっています。",
+      "id": "Telepon sedang berdering."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0477",
+    "word": "パソコン",
+    "kana": "パソコン",
+    "romaji": "pasokon",
+    "meaning": "komputer pribadi",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "パソコンを つかいます。",
+      "id": "Saya memakai komputer."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0478",
+    "word": "スマホ",
+    "kana": "スマホ",
+    "romaji": "sumaho",
+    "meaning": "ponsel pintar",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "スマホを わすれました。",
+      "id": "Saya lupa ponsel."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0479",
+    "word": "ラジオ",
+    "kana": "ラジオ",
+    "romaji": "rajio",
+    "meaning": "radio",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "ラジオを ききます。",
+      "id": "Saya mendengarkan radio."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0480",
+    "word": "エアコン",
+    "kana": "エアコン",
+    "romaji": "eakon",
+    "meaning": "pendingin ruangan",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "エアコンを つけます。",
+      "id": "Saya menyalakan AC."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0481",
+    "word": "電気",
+    "kana": "でんき",
+    "romaji": "denki",
+    "meaning": "listrik, lampu",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "でんきを けして ください。",
+      "id": "Tolong matikan lampunya."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0482",
+    "word": "鍵",
+    "kana": "かぎ",
+    "romaji": "kagi",
+    "meaning": "kunci",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "かぎを かけます。",
+      "id": "Saya mengunci."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0483",
+    "word": "はさみ",
+    "kana": "はさみ",
+    "romaji": "hasami",
+    "meaning": "gunting",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "はさみで かみを きります。",
+      "id": "Saya memotong kertas dengan gunting."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0484",
+    "word": "ナイフ",
+    "kana": "ナイフ",
+    "romaji": "naifu",
+    "meaning": "pisau",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "ナイフで にくを きります。",
+      "id": "Saya memotong daging dengan pisau."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0485",
+    "word": "フォーク",
+    "kana": "フォーク",
+    "romaji": "fooku",
+    "meaning": "garpu",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "フォークで たべます。",
+      "id": "Saya makan dengan garpu."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0486",
+    "word": "スプーン",
+    "kana": "スプーン",
+    "romaji": "supuun",
+    "meaning": "sendok",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "スプーンで スープを のみます。",
+      "id": "Saya minum sup dengan sendok."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0487",
+    "word": "お皿",
+    "kana": "おさら",
+    "romaji": "osara",
+    "meaning": "piring",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "おさらを あらいます。",
+      "id": "Saya mencuci piring."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0488",
+    "word": "コップ",
+    "kana": "コップ",
+    "romaji": "koppu",
+    "meaning": "gelas",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "コップに みずを いれます。",
+      "id": "Saya menuang air ke gelas."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0489",
+    "word": "箸",
+    "kana": "はし",
+    "romaji": "hashi",
+    "meaning": "sumpit",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "はしで たべます。",
+      "id": "Saya makan dengan sumpit."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0490",
+    "word": "タオル",
+    "kana": "タオル",
+    "romaji": "taoru",
+    "meaning": "handuk",
+    "theme": "rumah-benda",
+    "level": "N5",
+    "example": {
+      "jp": "タオルで かおを ふきます。",
+      "id": "Saya mengelap wajah dengan handuk."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0491",
+    "word": "色",
+    "kana": "いろ",
+    "romaji": "iro",
+    "meaning": "warna",
+    "theme": "warna-bentuk",
+    "level": "N5",
+    "example": {
+      "jp": "すきな いろは なんですか。",
+      "id": "Warna kesukaanmu apa?"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0492",
+    "word": "赤",
+    "kana": "あか",
+    "romaji": "aka",
+    "meaning": "merah",
+    "theme": "warna-bentuk",
+    "level": "N5",
+    "example": {
+      "jp": "あかい くるまです。",
+      "id": "Ini mobil merah."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0493",
+    "word": "青",
+    "kana": "あお",
+    "romaji": "ao",
+    "meaning": "biru",
+    "theme": "warna-bentuk",
+    "level": "N5",
+    "example": {
+      "jp": "あおい そらです。",
+      "id": "Ini langit biru."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0494",
+    "word": "白",
+    "kana": "しろ",
+    "romaji": "shiro",
+    "meaning": "putih",
+    "theme": "warna-bentuk",
+    "level": "N5",
+    "example": {
+      "jp": "しろい シャツを きます。",
+      "id": "Saya memakai kemeja putih."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0495",
+    "word": "黒",
+    "kana": "くろ",
+    "romaji": "kuro",
+    "meaning": "hitam",
+    "theme": "warna-bentuk",
+    "level": "N5",
+    "example": {
+      "jp": "くろい ねこが います。",
+      "id": "Ada kucing hitam."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0496",
+    "word": "黄色",
+    "kana": "きいろ",
+    "romaji": "kiiro",
+    "meaning": "kuning",
+    "theme": "warna-bentuk",
+    "level": "N5",
+    "example": {
+      "jp": "きいろい はなが さきました。",
+      "id": "Bunga kuning telah mekar."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0497",
+    "word": "緑",
+    "kana": "みどり",
+    "romaji": "midori",
+    "meaning": "hijau",
+    "theme": "warna-bentuk",
+    "level": "N5",
+    "example": {
+      "jp": "みどりの はっぱです。",
+      "id": "Ini daun hijau."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0498",
+    "word": "茶色",
+    "kana": "ちゃいろ",
+    "romaji": "chairo",
+    "meaning": "cokelat",
+    "theme": "warna-bentuk",
+    "level": "N5",
+    "example": {
+      "jp": "ちゃいろの くつを かいました。",
+      "id": "Saya membeli sepatu cokelat."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0499",
+    "word": "紫",
+    "kana": "むらさき",
+    "romaji": "murasaki",
+    "meaning": "ungu",
+    "theme": "warna-bentuk",
+    "level": "N5",
+    "example": {
+      "jp": "むらさきの はなです。",
+      "id": "Ini bunga ungu."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0500",
+    "word": "ピンク",
+    "kana": "ピンク",
+    "romaji": "pinku",
+    "meaning": "merah muda",
+    "theme": "warna-bentuk",
+    "level": "N5",
+    "example": {
+      "jp": "ピンクの スカートです。",
+      "id": "Ini rok merah muda."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0501",
+    "word": "オレンジ",
+    "kana": "オレンジ",
+    "romaji": "orenji",
+    "meaning": "jingga",
+    "theme": "warna-bentuk",
+    "level": "N5",
+    "example": {
+      "jp": "オレンジの ふくを きます。",
+      "id": "Saya memakai baju jingga."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0502",
+    "word": "灰色",
+    "kana": "はいいろ",
+    "romaji": "haiiro",
+    "meaning": "abu-abu",
+    "theme": "warna-bentuk",
+    "level": "N5",
+    "example": {
+      "jp": "はいいろの くもです。",
+      "id": "Ini awan abu-abu."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0503",
+    "word": "金色",
+    "kana": "きんいろ",
+    "romaji": "kin'iro",
+    "meaning": "warna emas",
+    "theme": "warna-bentuk",
+    "level": "N5",
+    "example": {
+      "jp": "きんいろの とけいです。",
+      "id": "Ini jam berwarna emas."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0504",
+    "word": "銀色",
+    "kana": "ぎんいろ",
+    "romaji": "gin'iro",
+    "meaning": "warna perak",
+    "theme": "warna-bentuk",
+    "level": "N5",
+    "example": {
+      "jp": "ぎんいろの くるまです。",
+      "id": "Ini mobil berwarna perak."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0505",
+    "word": "赤い",
+    "kana": "あかい",
+    "romaji": "akai",
+    "meaning": "merah (kata sifat)",
+    "theme": "warna-bentuk",
+    "level": "N5",
+    "example": {
+      "jp": "あかい りんごを たべます。",
+      "id": "Saya makan apel merah."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0506",
+    "word": "青い",
+    "kana": "あおい",
+    "romaji": "aoi",
+    "meaning": "biru (kata sifat)",
+    "theme": "warna-bentuk",
+    "level": "N5",
+    "example": {
+      "jp": "うみは あおいです。",
+      "id": "Lautnya biru."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0507",
+    "word": "黄色い",
+    "kana": "きいろい",
+    "romaji": "kiiroi",
+    "meaning": "kuning (kata sifat)",
+    "theme": "warna-bentuk",
+    "level": "N5",
+    "example": {
+      "jp": "バナナは きいろいです。",
+      "id": "Pisang itu kuning."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0508",
+    "word": "黒い",
+    "kana": "くろい",
+    "romaji": "kuroi",
+    "meaning": "hitam (kata sifat)",
+    "theme": "warna-bentuk",
+    "level": "N5",
+    "example": {
+      "jp": "くろい かばんを もっています。",
+      "id": "Saya membawa tas hitam."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0509",
+    "word": "形",
+    "kana": "かたち",
+    "romaji": "katachi",
+    "meaning": "bentuk",
+    "theme": "warna-bentuk",
+    "level": "N5",
+    "example": {
+      "jp": "おもしろい かたちですね。",
+      "id": "Bentuknya menarik, ya."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0510",
+    "word": "丸",
+    "kana": "まる",
+    "romaji": "maru",
+    "meaning": "lingkaran, bulat",
+    "theme": "warna-bentuk",
+    "level": "N5",
+    "example": {
+      "jp": "まるを かきます。",
+      "id": "Saya menggambar lingkaran."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0511",
+    "word": "四角",
+    "kana": "しかく",
+    "romaji": "shikaku",
+    "meaning": "persegi",
+    "theme": "warna-bentuk",
+    "level": "N5",
+    "example": {
+      "jp": "しかくい はこです。",
+      "id": "Ini kotak persegi."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0512",
+    "word": "三角",
+    "kana": "さんかく",
+    "romaji": "sankaku",
+    "meaning": "segitiga",
+    "theme": "warna-bentuk",
+    "level": "N5",
+    "example": {
+      "jp": "さんかくの おにぎりです。",
+      "id": "Ini onigiri berbentuk segitiga."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0513",
+    "word": "模様",
+    "kana": "もよう",
+    "romaji": "moyou",
+    "meaning": "motif",
+    "theme": "warna-bentuk",
+    "level": "N5",
+    "example": {
+      "jp": "きれいな もようですね。",
+      "id": "Motifnya bagus, ya."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0514",
+    "word": "カラー",
+    "kana": "カラー",
+    "romaji": "karaa",
+    "meaning": "warna (serapan)",
+    "theme": "warna-bentuk",
+    "level": "N5",
+    "example": {
+      "jp": "カラーの しゃしんです。",
+      "id": "Ini foto berwarna."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0515",
+    "word": "とても",
+    "kana": "とても",
+    "romaji": "totemo",
+    "meaning": "sangat",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "とても おいしいです。",
+      "id": "Enak sekali."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0516",
+    "word": "ちょっと",
+    "kana": "ちょっと",
+    "romaji": "chotto",
+    "meaning": "sedikit, sebentar",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "ちょっと まって ください。",
+      "id": "Tolong tunggu sebentar."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0517",
+    "word": "少し",
+    "kana": "すこし",
+    "romaji": "sukoshi",
+    "meaning": "sedikit",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "すこし つかれました。",
+      "id": "Saya agak lelah."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0518",
+    "word": "たくさん",
+    "kana": "たくさん",
+    "romaji": "takusan",
+    "meaning": "banyak",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "ほんが たくさん あります。",
+      "id": "Ada banyak buku."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0519",
+    "word": "全部",
+    "kana": "ぜんぶ",
+    "romaji": "zenbu",
+    "meaning": "semuanya",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "ぜんぶ たべました。",
+      "id": "Saya menghabiskan semuanya."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0520",
+    "word": "いつも",
+    "kana": "いつも",
+    "romaji": "itsumo",
+    "meaning": "selalu",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "いつも ここで べんきょうします。",
+      "id": "Saya selalu belajar di sini."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0521",
+    "word": "よく",
+    "kana": "よく",
+    "romaji": "yoku",
+    "meaning": "sering",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "よく えいがを みます。",
+      "id": "Saya sering menonton film."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0522",
+    "word": "時々",
+    "kana": "ときどき",
+    "romaji": "tokidoki",
+    "meaning": "kadang-kadang",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "ときどき さんぽします。",
+      "id": "Kadang-kadang saya berjalan-jalan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0523",
+    "word": "あまり",
+    "kana": "あまり",
+    "romaji": "amari",
+    "meaning": "tidak begitu (dengan negatif)",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "あまり すきじゃ ありません。",
+      "id": "Saya tidak begitu suka."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0524",
+    "word": "全然",
+    "kana": "ぜんぜん",
+    "romaji": "zenzen",
+    "meaning": "sama sekali (dengan negatif)",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "ぜんぜん わかりません。",
+      "id": "Saya sama sekali tidak mengerti."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0525",
+    "word": "もう",
+    "kana": "もう",
+    "romaji": "mou",
+    "meaning": "sudah, lagi",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "もう たべました。",
+      "id": "Saya sudah makan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0526",
+    "word": "まだ",
+    "kana": "まだ",
+    "romaji": "mada",
+    "meaning": "masih, belum",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "まだ おわっていません。",
+      "id": "Belum selesai."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0527",
+    "word": "すぐ",
+    "kana": "すぐ",
+    "romaji": "sugu",
+    "meaning": "segera",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "すぐ いきます。",
+      "id": "Saya segera pergi."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0528",
+    "word": "ゆっくり",
+    "kana": "ゆっくり",
+    "romaji": "yukkuri",
+    "meaning": "pelan-pelan",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "ゆっくり はなして ください。",
+      "id": "Tolong bicara pelan-pelan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0529",
+    "word": "早く",
+    "kana": "はやく",
+    "romaji": "hayaku",
+    "meaning": "cepat, lebih awal",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "はやく おきます。",
+      "id": "Saya bangun lebih awal."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0530",
+    "word": "また",
+    "kana": "また",
+    "romaji": "mata",
+    "meaning": "lagi",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "また きます。",
+      "id": "Saya akan datang lagi."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0531",
+    "word": "一緒に",
+    "kana": "いっしょに",
+    "romaji": "isshoni",
+    "meaning": "bersama-sama",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "いっしょに いきましょう。",
+      "id": "Mari pergi bersama."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0532",
+    "word": "一人で",
+    "kana": "ひとりで",
+    "romaji": "hitoride",
+    "meaning": "sendirian",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "ひとりで いきます。",
+      "id": "Saya pergi sendirian."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0533",
+    "word": "ぜひ",
+    "kana": "ぜひ",
+    "romaji": "zehi",
+    "meaning": "sungguh-sungguh, pasti",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "ぜひ きて ください。",
+      "id": "Silakan datang, ya."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0534",
+    "word": "多分",
+    "kana": "たぶん",
+    "romaji": "tabun",
+    "meaning": "mungkin",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "たぶん あした あめです。",
+      "id": "Mungkin besok hujan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0535",
+    "word": "本当に",
+    "kana": "ほんとうに",
+    "romaji": "hontouni",
+    "meaning": "sungguh",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "ほんとうに ありがとう。",
+      "id": "Terima kasih sungguh."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0536",
+    "word": "一番",
+    "kana": "いちばん",
+    "romaji": "ichiban",
+    "meaning": "paling",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "これが いちばん すきです。",
+      "id": "Saya paling suka yang ini."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0537",
+    "word": "もっと",
+    "kana": "もっと",
+    "romaji": "motto",
+    "meaning": "lebih (banyak)",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "もっと ください。",
+      "id": "Tolong beri lebih banyak."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0538",
+    "word": "だいたい",
+    "kana": "だいたい",
+    "romaji": "daitai",
+    "meaning": "kurang lebih",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "だいたい わかりました。",
+      "id": "Saya kurang lebih mengerti."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0539",
+    "word": "そして",
+    "kana": "そして",
+    "romaji": "soshite",
+    "meaning": "dan, lalu",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "あさ おきて、そして はしります。",
+      "id": "Pagi bangun, lalu berlari."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0540",
+    "word": "でも",
+    "kana": "でも",
+    "romaji": "demo",
+    "meaning": "tetapi",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "むずかしいです。でも、おもしろいです。",
+      "id": "Sulit. Tetapi menarik."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0541",
+    "word": "しかし",
+    "kana": "しかし",
+    "romaji": "shikashi",
+    "meaning": "akan tetapi",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "たかいです。しかし、いい ものです。",
+      "id": "Mahal. Akan tetapi barangnya bagus."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0542",
+    "word": "それから",
+    "kana": "それから",
+    "romaji": "sorekara",
+    "meaning": "setelah itu",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "ごはんを たべて、それから ねます。",
+      "id": "Makan, setelah itu tidur."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0543",
+    "word": "だから",
+    "kana": "だから",
+    "romaji": "dakara",
+    "meaning": "karena itu",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "あついです。だから、まどを あけます。",
+      "id": "Panas. Karena itu saya membuka jendela."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0544",
+    "word": "例えば",
+    "kana": "たとえば",
+    "romaji": "tatoeba",
+    "meaning": "misalnya",
+    "theme": "kata-keterangan",
+    "level": "N5",
+    "example": {
+      "jp": "たとえば、すしです。",
+      "id": "Misalnya, sushi."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0545",
+    "word": "買い物",
+    "kana": "かいもの",
+    "romaji": "kaimono",
+    "meaning": "belanja",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "かいものに いきます。",
+      "id": "Saya pergi berbelanja."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0546",
+    "word": "お金",
+    "kana": "おかね",
+    "romaji": "okane",
+    "meaning": "uang",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "おかねが ありません。",
+      "id": "Saya tidak punya uang."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0547",
+    "word": "値段",
+    "kana": "ねだん",
+    "romaji": "nedan",
+    "meaning": "harga",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "ねだんが たかいです。",
+      "id": "Harganya mahal."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0548",
+    "word": "お釣り",
+    "kana": "おつり",
+    "romaji": "otsuri",
+    "meaning": "uang kembalian",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "おつりを ください。",
+      "id": "Tolong berikan kembaliannya."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0549",
+    "word": "レジ",
+    "kana": "レジ",
+    "romaji": "reji",
+    "meaning": "kasir",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "レジは あちらです。",
+      "id": "Kasirnya di sebelah sana."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0550",
+    "word": "レシート",
+    "kana": "レシート",
+    "romaji": "reshiito",
+    "meaning": "struk",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "レシートを ください。",
+      "id": "Tolong beri saya struknya."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0551",
+    "word": "袋",
+    "kana": "ふくろ",
+    "romaji": "fukuro",
+    "meaning": "kantong",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "ふくろを ください。",
+      "id": "Tolong beri saya kantong."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0552",
+    "word": "クレジットカード",
+    "kana": "クレジットカード",
+    "romaji": "kurejittokaado",
+    "meaning": "kartu kredit",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "クレジットカードを つかえますか。",
+      "id": "Bisakah memakai kartu kredit?"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0553",
+    "word": "現金",
+    "kana": "げんきん",
+    "romaji": "genkin",
+    "meaning": "uang tunai",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "げんきんで はらいます。",
+      "id": "Saya membayar tunai."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0554",
+    "word": "セール",
+    "kana": "セール",
+    "romaji": "seeru",
+    "meaning": "obral",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "セールを しています。",
+      "id": "Sedang ada obral."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0555",
+    "word": "両替",
+    "kana": "りょうがえ",
+    "romaji": "ryougae",
+    "meaning": "penukaran uang",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "りょうがえを したいです。",
+      "id": "Saya ingin menukar uang."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0556",
+    "word": "注文",
+    "kana": "ちゅうもん",
+    "romaji": "chuumon",
+    "meaning": "pesanan, memesan",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "ちゅうもんを おねがいします。",
+      "id": "Saya ingin memesan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0557",
+    "word": "メニュー",
+    "kana": "メニュー",
+    "romaji": "menyuu",
+    "meaning": "menu",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "メニューを ください。",
+      "id": "Tolong beri saya menu."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0558",
+    "word": "定食",
+    "kana": "ていしょく",
+    "romaji": "teishoku",
+    "meaning": "menu set",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "さかなの ていしょくを たべます。",
+      "id": "Saya makan menu set ikan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0559",
+    "word": "おすすめ",
+    "kana": "おすすめ",
+    "romaji": "osusume",
+    "meaning": "rekomendasi",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "おすすめは なんですか。",
+      "id": "Apa rekomendasinya?"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0560",
+    "word": "別々",
+    "kana": "べつべつ",
+    "romaji": "betsubetsu",
+    "meaning": "terpisah",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "べつべつに はらいます。",
+      "id": "Kami membayar terpisah."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0561",
+    "word": "無料",
+    "kana": "むりょう",
+    "romaji": "muryou",
+    "meaning": "gratis",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "コーヒーは むりょうです。",
+      "id": "Kopinya gratis."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0562",
+    "word": "支払い",
+    "kana": "しはらい",
+    "romaji": "shiharai",
+    "meaning": "pembayaran",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "しはらいは げんきんです。",
+      "id": "Pembayarannya tunai."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0563",
+    "word": "割引",
+    "kana": "わりびき",
+    "romaji": "waribiki",
+    "meaning": "diskon",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "わりびきが あります。",
+      "id": "Ada diskon."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0564",
+    "word": "値引き",
+    "kana": "ねびき",
+    "romaji": "nebiki",
+    "meaning": "potongan harga",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "ねびきを おねがいします。",
+      "id": "Mohon potongan harga."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0565",
+    "word": "売り場",
+    "kana": "うりば",
+    "romaji": "uriba",
+    "meaning": "bagian penjualan",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "くつの うりばは にかいです。",
+      "id": "Bagian sepatu ada di lantai dua."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0566",
+    "word": "ちょうど",
+    "kana": "ちょうど",
+    "romaji": "choudo",
+    "meaning": "pas, tepat",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "ちょうど ひゃくえんです。",
+      "id": "Pas seratus yen."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0567",
+    "word": "商品",
+    "kana": "しょうひん",
+    "romaji": "shouhin",
+    "meaning": "barang dagangan",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "あたらしい しょうひんです。",
+      "id": "Ini barang baru."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0568",
+    "word": "在庫",
+    "kana": "ざいこ",
+    "romaji": "zaiko",
+    "meaning": "stok",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "ざいこが ありません。",
+      "id": "Stoknya habis."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0569",
+    "word": "プレゼント",
+    "kana": "プレゼント",
+    "romaji": "purezento",
+    "meaning": "hadiah",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "プレゼントを かいました。",
+      "id": "Saya membeli hadiah."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0570",
+    "word": "おみやげ",
+    "kana": "おみやげ",
+    "romaji": "omiyage",
+    "meaning": "oleh-oleh",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "おみやげを かいます。",
+      "id": "Saya membeli oleh-oleh."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0571",
+    "word": "ポイント",
+    "kana": "ポイント",
+    "romaji": "pointo",
+    "meaning": "poin",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "ポイントが たまりました。",
+      "id": "Poinnya sudah terkumpul."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0572",
+    "word": "税金",
+    "kana": "ぜいきん",
+    "romaji": "zeikin",
+    "meaning": "pajak",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "ぜいきんを はらいます。",
+      "id": "Saya membayar pajak."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0573",
+    "word": "閉店",
+    "kana": "へいてん",
+    "romaji": "heiten",
+    "meaning": "tutup toko",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "もうすぐ へいてんです。",
+      "id": "Sebentar lagi toko tutup."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0574",
+    "word": "営業",
+    "kana": "えいぎょう",
+    "romaji": "eigyou",
+    "meaning": "jam buka usaha",
+    "theme": "belanja",
+    "level": "N5",
+    "example": {
+      "jp": "えいぎょうは 9じからです。",
+      "id": "Buka mulai jam 9."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0575",
+    "word": "病気",
+    "kana": "びょうき",
+    "romaji": "byouki",
+    "meaning": "sakit, penyakit",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "びょうきに なりました。",
+      "id": "Saya jatuh sakit."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0576",
+    "word": "風邪",
+    "kana": "かぜ",
+    "romaji": "kaze",
+    "meaning": "flu, masuk angin",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "かぜを ひきました。",
+      "id": "Saya terkena flu."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0577",
+    "word": "熱",
+    "kana": "ねつ",
+    "romaji": "netsu",
+    "meaning": "demam",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "ねつが あります。",
+      "id": "Saya demam."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0578",
+    "word": "咳",
+    "kana": "せき",
+    "romaji": "seki",
+    "meaning": "batuk",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "せきが でます。",
+      "id": "Saya batuk."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0579",
+    "word": "薬",
+    "kana": "くすり",
+    "romaji": "kusuri",
+    "meaning": "obat",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "くすりを のみます。",
+      "id": "Saya minum obat."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0580",
+    "word": "怪我",
+    "kana": "けが",
+    "romaji": "kega",
+    "meaning": "luka, cedera",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "けがを しました。",
+      "id": "Saya terluka."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0581",
+    "word": "注射",
+    "kana": "ちゅうしゃ",
+    "romaji": "chuusha",
+    "meaning": "suntikan",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "ちゅうしゃは いたいです。",
+      "id": "Disuntik itu sakit."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0582",
+    "word": "マスク",
+    "kana": "マスク",
+    "romaji": "masuku",
+    "meaning": "masker",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "マスクを します。",
+      "id": "Saya memakai masker."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0583",
+    "word": "体温",
+    "kana": "たいおん",
+    "romaji": "taion",
+    "meaning": "suhu tubuh",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "たいおんを はかります。",
+      "id": "Saya mengukur suhu tubuh."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0584",
+    "word": "健康",
+    "kana": "けんこう",
+    "romaji": "kenkou",
+    "meaning": "kesehatan",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "けんこうが いちばんです。",
+      "id": "Kesehatan itu yang terpenting."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0585",
+    "word": "寝不足",
+    "kana": "ねぶそく",
+    "romaji": "nebusoku",
+    "meaning": "kurang tidur",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "ねぶそくで つかれています。",
+      "id": "Saya lelah karena kurang tidur."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0586",
+    "word": "薬局",
+    "kana": "やっきょく",
+    "romaji": "yakkyoku",
+    "meaning": "apotek",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "やっきょくで くすりを かいます。",
+      "id": "Saya membeli obat di apotek."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0587",
+    "word": "保険証",
+    "kana": "ほけんしょう",
+    "romaji": "hokenshou",
+    "meaning": "kartu asuransi kesehatan",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "ほけんしょうを もって いきます。",
+      "id": "Saya pergi sambil membawa kartu asuransi."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0588",
+    "word": "予約",
+    "kana": "よやく",
+    "romaji": "yoyaku",
+    "meaning": "reservasi",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "よやくを しました。",
+      "id": "Saya sudah reservasi."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0589",
+    "word": "救急車",
+    "kana": "きゅうきゅうしゃ",
+    "romaji": "kyuukyuusha",
+    "meaning": "ambulans",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "きゅうきゅうしゃを よびます。",
+      "id": "Saya memanggil ambulans."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0590",
+    "word": "診察",
+    "kana": "しんさつ",
+    "romaji": "shinsatsu",
+    "meaning": "pemeriksaan medis",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "しんさつを うけます。",
+      "id": "Saya menjalani pemeriksaan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0591",
+    "word": "アレルギー",
+    "kana": "アレルギー",
+    "romaji": "arerugii",
+    "meaning": "alergi",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "たまごの アレルギーが あります。",
+      "id": "Saya alergi telur."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0592",
+    "word": "具合",
+    "kana": "ぐあい",
+    "romaji": "guai",
+    "meaning": "kondisi tubuh",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "ぐあいが わるいです。",
+      "id": "Kondisi saya kurang baik."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0593",
+    "word": "汗",
+    "kana": "あせ",
+    "romaji": "ase",
+    "meaning": "keringat",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "あせが でます。",
+      "id": "Keringat keluar."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0594",
+    "word": "食欲",
+    "kana": "しょくよく",
+    "romaji": "shokuyoku",
+    "meaning": "nafsu makan",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "しょくよくが ありません。",
+      "id": "Saya tidak nafsu makan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0595",
+    "word": "鼻水",
+    "kana": "はなみず",
+    "romaji": "hanamizu",
+    "meaning": "ingus",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "はなみずが でます。",
+      "id": "Ingus saya keluar."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0596",
+    "word": "痛い",
+    "kana": "いたい",
+    "romaji": "itai",
+    "meaning": "sakit, nyeri",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "あたまが いたいです。",
+      "id": "Kepala saya sakit."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0597",
+    "word": "眠い",
+    "kana": "ねむい",
+    "romaji": "nemui",
+    "meaning": "mengantuk",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "ねむいですから、ねます。",
+      "id": "Karena mengantuk, saya tidur."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0598",
+    "word": "疲れる",
+    "kana": "つかれる",
+    "romaji": "tsukareru",
+    "meaning": "menjadi lelah",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "しごとで つかれました。",
+      "id": "Saya lelah karena pekerjaan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0599",
+    "word": "治る",
+    "kana": "なおる",
+    "romaji": "naoru",
+    "meaning": "sembuh",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "かぜが なおりました。",
+      "id": "Fluku sudah sembuh."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0600",
+    "word": "休憩",
+    "kana": "きゅうけい",
+    "romaji": "kyuukei",
+    "meaning": "istirahat sejenak",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "ちょっと きゅうけいしましょう。",
+      "id": "Mari istirahat sebentar."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0601",
+    "word": "ストレス",
+    "kana": "ストレス",
+    "romaji": "sutoresu",
+    "meaning": "stres",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "ストレスが たまっています。",
+      "id": "Stres saya menumpuk."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0602",
+    "word": "運動",
+    "kana": "うんどう",
+    "romaji": "undou",
+    "meaning": "olahraga",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "まいにち うんどうします。",
+      "id": "Setiap hari saya berolahraga."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0603",
+    "word": "ダイエット",
+    "kana": "ダイエット",
+    "romaji": "daietto",
+    "meaning": "diet",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "ダイエットを しています。",
+      "id": "Saya sedang diet."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0604",
+    "word": "お大事に",
+    "kana": "おだいじに",
+    "romaji": "odaijini",
+    "meaning": "semoga lekas sembuh",
+    "theme": "kesehatan",
+    "level": "N5",
+    "example": {
+      "jp": "おだいじに。",
+      "id": "Semoga lekas sembuh."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0605",
+    "word": "趣味",
+    "kana": "しゅみ",
+    "romaji": "shumi",
+    "meaning": "hobi",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "しゅみは なんですか。",
+      "id": "Apa hobimu?"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0606",
+    "word": "音楽",
+    "kana": "おんがく",
+    "romaji": "ongaku",
+    "meaning": "musik",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "おんがくが すきです。",
+      "id": "Saya suka musik."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0607",
+    "word": "映画",
+    "kana": "えいが",
+    "romaji": "eiga",
+    "meaning": "film",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "えいがを みます。",
+      "id": "Saya menonton film."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0608",
+    "word": "スポーツ",
+    "kana": "スポーツ",
+    "romaji": "supootsu",
+    "meaning": "olahraga",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "スポーツが すきです。",
+      "id": "Saya suka olahraga."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0609",
+    "word": "サッカー",
+    "kana": "サッカー",
+    "romaji": "sakkaa",
+    "meaning": "sepak bola",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "サッカーを します。",
+      "id": "Saya bermain sepak bola."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0610",
+    "word": "野球",
+    "kana": "やきゅう",
+    "romaji": "yakyuu",
+    "meaning": "bisbol",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "やきゅうを みに いきます。",
+      "id": "Saya pergi menonton bisbol."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0611",
+    "word": "テニス",
+    "kana": "テニス",
+    "romaji": "tenisu",
+    "meaning": "tenis",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "テニスを します。",
+      "id": "Saya bermain tenis."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0612",
+    "word": "水泳",
+    "kana": "すいえい",
+    "romaji": "suiei",
+    "meaning": "renang",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "すいえいが じょうずです。",
+      "id": "Dia pandai berenang."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0613",
+    "word": "読書",
+    "kana": "どくしょ",
+    "romaji": "dokusho",
+    "meaning": "membaca buku",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "しゅみは どくしょです。",
+      "id": "Hobi saya membaca buku."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0614",
+    "word": "写真",
+    "kana": "しゃしん",
+    "romaji": "shashin",
+    "meaning": "foto",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "しゃしんを とります。",
+      "id": "Saya mengambil foto."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0615",
+    "word": "ゲーム",
+    "kana": "ゲーム",
+    "romaji": "geemu",
+    "meaning": "permainan, game",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "ゲームを します。",
+      "id": "Saya bermain game."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0616",
+    "word": "歌",
+    "kana": "うた",
+    "romaji": "uta",
+    "meaning": "lagu",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "にほんの うたを うたいます。",
+      "id": "Saya menyanyikan lagu Jepang."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0617",
+    "word": "ギター",
+    "kana": "ギター",
+    "romaji": "gitaa",
+    "meaning": "gitar",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "ギターを ひきます。",
+      "id": "Saya bermain gitar."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0618",
+    "word": "ピアノ",
+    "kana": "ピアノ",
+    "romaji": "piano",
+    "meaning": "piano",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "ピアノを ならっています。",
+      "id": "Saya belajar piano."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0619",
+    "word": "絵",
+    "kana": "え",
+    "romaji": "e",
+    "meaning": "gambar, lukisan",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "えを かきます。",
+      "id": "Saya menggambar."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0620",
+    "word": "マンガ",
+    "kana": "マンガ",
+    "romaji": "manga",
+    "meaning": "komik",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "マンガを よみます。",
+      "id": "Saya membaca komik."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0621",
+    "word": "アニメ",
+    "kana": "アニメ",
+    "romaji": "anime",
+    "meaning": "anime",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "アニメを みます。",
+      "id": "Saya menonton anime."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0622",
+    "word": "散歩",
+    "kana": "さんぽ",
+    "romaji": "sanpo",
+    "meaning": "jalan-jalan santai",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "まいあさ さんぽします。",
+      "id": "Setiap pagi saya jalan-jalan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0623",
+    "word": "釣り",
+    "kana": "つり",
+    "romaji": "tsuri",
+    "meaning": "memancing",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "つりが すきです。",
+      "id": "Saya suka memancing."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0624",
+    "word": "キャンプ",
+    "kana": "キャンプ",
+    "romaji": "kyanpu",
+    "meaning": "berkemah",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "なつに キャンプを します。",
+      "id": "Saya berkemah saat musim panas."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0625",
+    "word": "ダンス",
+    "kana": "ダンス",
+    "romaji": "dansu",
+    "meaning": "dansa, menari",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "ダンスを ならいます。",
+      "id": "Saya belajar menari."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0626",
+    "word": "ドライブ",
+    "kana": "ドライブ",
+    "romaji": "doraibu",
+    "meaning": "berkendara santai",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "ドライブに いきます。",
+      "id": "Saya pergi berkendara."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0627",
+    "word": "パーティー",
+    "kana": "パーティー",
+    "romaji": "paatii",
+    "meaning": "pesta",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "パーティーに いきます。",
+      "id": "Saya pergi ke pesta."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0628",
+    "word": "祭り",
+    "kana": "まつり",
+    "romaji": "matsuri",
+    "meaning": "festival",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "なつまつりに いきます。",
+      "id": "Saya pergi ke festival musim panas."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0629",
+    "word": "遊園地",
+    "kana": "ゆうえんち",
+    "romaji": "yuuenchi",
+    "meaning": "taman hiburan",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "ゆうえんちで あそびます。",
+      "id": "Saya bermain di taman hiburan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0630",
+    "word": "インターネット",
+    "kana": "インターネット",
+    "romaji": "intaanetto",
+    "meaning": "internet",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "インターネットで しらべます。",
+      "id": "Saya mencari lewat internet."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0631",
+    "word": "メール",
+    "kana": "メール",
+    "romaji": "meeru",
+    "meaning": "surel, email",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "メールを おくります。",
+      "id": "Saya mengirim surel."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0632",
+    "word": "カメラ",
+    "kana": "カメラ",
+    "romaji": "kamera",
+    "meaning": "kamera",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "カメラを もって いきます。",
+      "id": "Saya membawa kamera."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0633",
+    "word": "バスケットボール",
+    "kana": "バスケットボール",
+    "romaji": "basukettobooru",
+    "meaning": "bola basket",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "バスケットボールを します。",
+      "id": "Saya bermain bola basket."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0634",
+    "word": "旅",
+    "kana": "たび",
+    "romaji": "tabi",
+    "meaning": "perjalanan (puitis)",
+    "theme": "hobi",
+    "level": "N5",
+    "example": {
+      "jp": "ひとりで たびを します。",
+      "id": "Saya bepergian sendirian."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0635",
+    "word": "嬉しい",
+    "kana": "うれしい",
+    "romaji": "ureshii",
+    "meaning": "senang",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "プレゼントが うれしいです。",
+      "id": "Saya senang dengan hadiahnya."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0636",
+    "word": "悲しい",
+    "kana": "かなしい",
+    "romaji": "kanashii",
+    "meaning": "sedih",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "かなしい えいがでした。",
+      "id": "Itu film yang sedih."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0637",
+    "word": "寂しい",
+    "kana": "さびしい",
+    "romaji": "sabishii",
+    "meaning": "kesepian",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "ひとりで さびしいです。",
+      "id": "Saya kesepian sendirian."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0638",
+    "word": "怖い",
+    "kana": "こわい",
+    "romaji": "kowai",
+    "meaning": "takut, menakutkan",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "いぬが こわいです。",
+      "id": "Saya takut anjing."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0639",
+    "word": "恥ずかしい",
+    "kana": "はずかしい",
+    "romaji": "hazukashii",
+    "meaning": "malu",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "ちょっと はずかしいです。",
+      "id": "Saya agak malu."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0640",
+    "word": "つまらない",
+    "kana": "つまらない",
+    "romaji": "tsumaranai",
+    "meaning": "membosankan",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "この えいがは つまらないです。",
+      "id": "Film ini membosankan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0641",
+    "word": "大好き",
+    "kana": "だいすき",
+    "romaji": "daisuki",
+    "meaning": "sangat suka",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "ねこが だいすきです。",
+      "id": "Saya sangat suka kucing."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0642",
+    "word": "心配",
+    "kana": "しんぱい",
+    "romaji": "shinpai",
+    "meaning": "khawatir",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "しけんが しんぱいです。",
+      "id": "Saya khawatir soal ujian."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0643",
+    "word": "びっくり",
+    "kana": "びっくり",
+    "romaji": "bikkuri",
+    "meaning": "terkejut",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "おとが して びっくりしました。",
+      "id": "Ada suara dan saya terkejut."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0644",
+    "word": "大変",
+    "kana": "たいへん",
+    "romaji": "taihen",
+    "meaning": "repot, berat, gawat",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "しごとが たいへんです。",
+      "id": "Pekerjaan saya berat."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0645",
+    "word": "暇",
+    "kana": "ひま",
+    "romaji": "hima",
+    "meaning": "waktu senggang",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "きょうは ひまです。",
+      "id": "Hari ini saya senggang."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0646",
+    "word": "欲しい",
+    "kana": "ほしい",
+    "romaji": "hoshii",
+    "meaning": "ingin (punya)",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "あたらしい かばんが ほしいです。",
+      "id": "Saya ingin tas baru."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0647",
+    "word": "すごい",
+    "kana": "すごい",
+    "romaji": "sugoi",
+    "meaning": "hebat, luar biasa",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "すごいですね。",
+      "id": "Hebat sekali, ya."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0648",
+    "word": "素晴らしい",
+    "kana": "すばらしい",
+    "romaji": "subarashii",
+    "meaning": "luar biasa, bagus sekali",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "すばらしい てんきです。",
+      "id": "Cuacanya luar biasa."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0649",
+    "word": "残念",
+    "kana": "ざんねん",
+    "romaji": "zannen",
+    "meaning": "sayang sekali",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "ざんねんですね。",
+      "id": "Sayang sekali, ya."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0650",
+    "word": "かわいそう",
+    "kana": "かわいそう",
+    "romaji": "kawaisou",
+    "meaning": "kasihan",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "かわいそうな いぬです。",
+      "id": "Itu anjing yang kasihan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0651",
+    "word": "にぎやか",
+    "kana": "にぎやか",
+    "romaji": "nigiyaka",
+    "meaning": "ramai",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "にぎやかな まちです。",
+      "id": "Ini kota yang ramai."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0652",
+    "word": "簡単",
+    "kana": "かんたん",
+    "romaji": "kantan",
+    "meaning": "mudah, sederhana",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "この もんだいは かんたんです。",
+      "id": "Soal ini mudah."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0653",
+    "word": "丁寧",
+    "kana": "ていねい",
+    "romaji": "teinei",
+    "meaning": "sopan, teliti",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "ていねいに はなします。",
+      "id": "Saya berbicara dengan sopan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0654",
+    "word": "ぴったり",
+    "kana": "ぴったり",
+    "romaji": "pittari",
+    "meaning": "pas, cocok",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "この くつは ぴったりです。",
+      "id": "Sepatu ini pas."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0655",
+    "word": "危ない",
+    "kana": "あぶない",
+    "romaji": "abunai",
+    "meaning": "berbahaya",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "あぶないですから、きを つけて ください。",
+      "id": "Karena berbahaya, hati-hati."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0656",
+    "word": "嫌",
+    "kana": "いや",
+    "romaji": "iya",
+    "meaning": "tidak suka, enggan",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "ひとごみは いやです。",
+      "id": "Saya tidak suka keramaian."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0657",
+    "word": "幸せ",
+    "kana": "しあわせ",
+    "romaji": "shiawase",
+    "meaning": "bahagia",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "とても しあわせです。",
+      "id": "Saya sangat bahagia."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0658",
+    "word": "うるさい",
+    "kana": "うるさい",
+    "romaji": "urusai",
+    "meaning": "berisik",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "となりが うるさいです。",
+      "id": "Tetangga berisik."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0659",
+    "word": "汚い",
+    "kana": "きたない",
+    "romaji": "kitanai",
+    "meaning": "kotor",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "へやが きたないです。",
+      "id": "Kamarnya kotor."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0660",
+    "word": "大切",
+    "kana": "たいせつ",
+    "romaji": "taisetsu",
+    "meaning": "penting, berharga",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "かぞくは たいせつです。",
+      "id": "Keluarga itu berharga."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0661",
+    "word": "便利",
+    "kana": "べんり",
+    "romaji": "benri",
+    "meaning": "praktis, nyaman",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "この アプリは べんりです。",
+      "id": "Aplikasi ini praktis."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0662",
+    "word": "不便",
+    "kana": "ふべん",
+    "romaji": "fuben",
+    "meaning": "tidak praktis",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "ここは ふべんです。",
+      "id": "Di sini tidak praktis."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0663",
+    "word": "だめ",
+    "kana": "だめ",
+    "romaji": "dame",
+    "meaning": "tidak boleh, tidak bisa",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "ここでは だめです。",
+      "id": "Di sini tidak boleh."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0664",
+    "word": "いろいろ",
+    "kana": "いろいろ",
+    "romaji": "iroiro",
+    "meaning": "bermacam-macam",
+    "theme": "perasaan",
+    "level": "N5",
+    "example": {
+      "jp": "いろいろな ひとが います。",
+      "id": "Ada bermacam-macam orang."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0665",
+    "word": "売る",
+    "kana": "うる",
+    "romaji": "uru",
+    "meaning": "menjual",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "ほんを うります。",
+      "id": "Saya menjual buku."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0666",
+    "word": "借りる",
+    "kana": "かりる",
+    "romaji": "kariru",
+    "meaning": "meminjam",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "としょかんで ほんを かります。",
+      "id": "Saya meminjam buku di perpustakaan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0667",
+    "word": "貸す",
+    "kana": "かす",
+    "romaji": "kasu",
+    "meaning": "meminjamkan",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "ペンを かして ください。",
+      "id": "Tolong pinjamkan pulpen."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0668",
+    "word": "返す",
+    "kana": "かえす",
+    "romaji": "kaesu",
+    "meaning": "mengembalikan",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "ほんを かえします。",
+      "id": "Saya mengembalikan buku."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0669",
+    "word": "覚える",
+    "kana": "おぼえる",
+    "romaji": "oboeru",
+    "meaning": "menghafal, mengingat",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "ことばを おぼえます。",
+      "id": "Saya menghafal kata."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0670",
+    "word": "忘れる",
+    "kana": "わすれる",
+    "romaji": "wasureru",
+    "meaning": "lupa",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "かさを わすれました。",
+      "id": "Saya lupa membawa payung."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0671",
+    "word": "考える",
+    "kana": "かんがえる",
+    "romaji": "kangaeru",
+    "meaning": "berpikir",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "よく かんがえます。",
+      "id": "Saya berpikir baik-baik."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0672",
+    "word": "始める",
+    "kana": "はじめる",
+    "romaji": "hajimeru",
+    "meaning": "memulai",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "べんきょうを はじめます。",
+      "id": "Saya mulai belajar."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0673",
+    "word": "終わる",
+    "kana": "おわる",
+    "romaji": "owaru",
+    "meaning": "selesai",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "じゅぎょうが おわります。",
+      "id": "Pelajaran selesai."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0674",
+    "word": "止まる",
+    "kana": "とまる",
+    "romaji": "tomaru",
+    "meaning": "berhenti",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "バスが とまります。",
+      "id": "Bus berhenti."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0675",
+    "word": "止める",
+    "kana": "とめる",
+    "romaji": "tomeru",
+    "meaning": "menghentikan, memarkir",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "くるまを とめます。",
+      "id": "Saya memarkir mobil."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0676",
+    "word": "持つ",
+    "kana": "もつ",
+    "romaji": "motsu",
+    "meaning": "membawa, memegang",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "かばんを もちます。",
+      "id": "Saya membawa tas."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0677",
+    "word": "取る",
+    "kana": "とる",
+    "romaji": "toru",
+    "meaning": "mengambil",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "しおを とって ください。",
+      "id": "Tolong ambilkan garam."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0678",
+    "word": "撮る",
+    "kana": "とる",
+    "romaji": "toru",
+    "meaning": "memotret",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "しゃしんを とります。",
+      "id": "Saya mengambil foto."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0679",
+    "word": "切る",
+    "kana": "きる",
+    "romaji": "kiru",
+    "meaning": "memotong",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "にくを きります。",
+      "id": "Saya memotong daging."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0680",
+    "word": "着る",
+    "kana": "きる",
+    "romaji": "kiru",
+    "meaning": "mengenakan (baju)",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "コートを きます。",
+      "id": "Saya mengenakan mantel."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0681",
+    "word": "脱ぐ",
+    "kana": "ぬぐ",
+    "romaji": "nugu",
+    "meaning": "melepas (pakaian)",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "くつを ぬぎます。",
+      "id": "Saya melepas sepatu."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0682",
+    "word": "履く",
+    "kana": "はく",
+    "romaji": "haku",
+    "meaning": "memakai (sepatu, celana)",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "くつを はきます。",
+      "id": "Saya memakai sepatu."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0683",
+    "word": "掛ける",
+    "kana": "かける",
+    "romaji": "kakeru",
+    "meaning": "menggantung, memakai (kacamata)",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "めがねを かけます。",
+      "id": "Saya memakai kacamata."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0684",
+    "word": "付ける",
+    "kana": "つける",
+    "romaji": "tsukeru",
+    "meaning": "memasang, menempelkan",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "でんきを つけます。",
+      "id": "Saya menyalakan lampu."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0685",
+    "word": "消す",
+    "kana": "けす",
+    "romaji": "kesu",
+    "meaning": "mematikan, menghapus",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "テレビを けします。",
+      "id": "Saya mematikan televisi."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0686",
+    "word": "開く",
+    "kana": "あく",
+    "romaji": "aku",
+    "meaning": "terbuka",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "ドアが あきます。",
+      "id": "Pintunya terbuka."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0687",
+    "word": "閉まる",
+    "kana": "しまる",
+    "romaji": "shimaru",
+    "meaning": "tertutup",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "みせが しまります。",
+      "id": "Tokonya tutup."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0688",
+    "word": "呼ぶ",
+    "kana": "よぶ",
+    "romaji": "yobu",
+    "meaning": "memanggil",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "ともだちを よびます。",
+      "id": "Saya memanggil teman."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0689",
+    "word": "立つ",
+    "kana": "たつ",
+    "romaji": "tatsu",
+    "meaning": "berdiri",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "ここに たって ください。",
+      "id": "Tolong berdiri di sini."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0690",
+    "word": "座る",
+    "kana": "すわる",
+    "romaji": "suwaru",
+    "meaning": "duduk",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "いすに すわります。",
+      "id": "Saya duduk di kursi."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0691",
+    "word": "泊まる",
+    "kana": "とまる",
+    "romaji": "tomaru",
+    "meaning": "menginap",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "ホテルに とまります。",
+      "id": "Saya menginap di hotel."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0692",
+    "word": "遊ぶ",
+    "kana": "あそぶ",
+    "romaji": "asobu",
+    "meaning": "bermain",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "こうえんで あそびます。",
+      "id": "Saya bermain di taman."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0693",
+    "word": "歌う",
+    "kana": "うたう",
+    "romaji": "utau",
+    "meaning": "bernyanyi",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "うたを うたいます。",
+      "id": "Saya bernyanyi."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0694",
+    "word": "踊る",
+    "kana": "おどる",
+    "romaji": "odoru",
+    "meaning": "menari",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "ダンスを おどります。",
+      "id": "Saya menari."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0695",
+    "word": "洗う",
+    "kana": "あらう",
+    "romaji": "arau",
+    "meaning": "mencuci",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "てを あらいます。",
+      "id": "Saya mencuci tangan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0696",
+    "word": "磨く",
+    "kana": "みがく",
+    "romaji": "migaku",
+    "meaning": "menggosok, menyikat",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "はを みがきます。",
+      "id": "Saya menyikat gigi."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0697",
+    "word": "掃除する",
+    "kana": "そうじする",
+    "romaji": "soujisuru",
+    "meaning": "membersihkan",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "へやを そうじします。",
+      "id": "Saya membersihkan kamar."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0698",
+    "word": "洗濯する",
+    "kana": "せんたくする",
+    "romaji": "sentakusuru",
+    "meaning": "mencuci pakaian",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "ふくを せんたくします。",
+      "id": "Saya mencuci pakaian."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0699",
+    "word": "結婚する",
+    "kana": "けっこんする",
+    "romaji": "kekkonsuru",
+    "meaning": "menikah",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "らいねん けっこんします。",
+      "id": "Tahun depan saya menikah."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0700",
+    "word": "笑う",
+    "kana": "わらう",
+    "romaji": "warau",
+    "meaning": "tertawa",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "みんなで わらいました。",
+      "id": "Kami semua tertawa."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0701",
+    "word": "泣く",
+    "kana": "なく",
+    "romaji": "naku",
+    "meaning": "menangis",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "あかちゃんが ないています。",
+      "id": "Bayi sedang menangis."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0702",
+    "word": "生まれる",
+    "kana": "うまれる",
+    "romaji": "umareru",
+    "meaning": "lahir",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "とうきょうで うまれました。",
+      "id": "Saya lahir di Tokyo."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0703",
+    "word": "手伝う",
+    "kana": "てつだう",
+    "romaji": "tetsudau",
+    "meaning": "membantu",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "ははを てつだいます。",
+      "id": "Saya membantu ibu."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0704",
+    "word": "急ぐ",
+    "kana": "いそぐ",
+    "romaji": "isogu",
+    "meaning": "bergegas",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "いそいで いきます。",
+      "id": "Saya pergi dengan bergegas."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0705",
+    "word": "送る",
+    "kana": "おくる",
+    "romaji": "okuru",
+    "meaning": "mengirim, mengantar",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "てがみを おくります。",
+      "id": "Saya mengirim surat."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0706",
+    "word": "払う",
+    "kana": "はらう",
+    "romaji": "harau",
+    "meaning": "membayar",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "おかねを はらいます。",
+      "id": "Saya membayar uang."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0707",
+    "word": "頼む",
+    "kana": "たのむ",
+    "romaji": "tanomu",
+    "meaning": "meminta, memesan",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "コーヒーを たのみます。",
+      "id": "Saya memesan kopi."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0708",
+    "word": "答える",
+    "kana": "こたえる",
+    "romaji": "kotaeru",
+    "meaning": "menjawab",
+    "theme": "kata-kerja",
+    "level": "N5",
+    "example": {
+      "jp": "しつもんに こたえます。",
+      "id": "Saya menjawab pertanyaan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0709",
+    "word": "重い",
+    "kana": "おもい",
+    "romaji": "omoi",
+    "meaning": "berat",
+    "theme": "kata-sifat",
+    "level": "N5",
+    "example": {
+      "jp": "このかばんは おもいです。",
+      "id": "Tas ini berat."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0710",
+    "word": "軽い",
+    "kana": "かるい",
+    "romaji": "karui",
+    "meaning": "ringan",
+    "theme": "kata-sifat",
+    "level": "N5",
+    "example": {
+      "jp": "この パソコンは かるいです。",
+      "id": "Komputer ini ringan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0711",
+    "word": "強い",
+    "kana": "つよい",
+    "romaji": "tsuyoi",
+    "meaning": "kuat",
+    "theme": "kata-sifat",
+    "level": "N5",
+    "example": {
+      "jp": "かぜが つよいです。",
+      "id": "Anginnya kencang."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0712",
+    "word": "弱い",
+    "kana": "よわい",
+    "romaji": "yowai",
+    "meaning": "lemah",
+    "theme": "kata-sifat",
+    "level": "N5",
+    "example": {
+      "jp": "からだが よわいです。",
+      "id": "Badan saya lemah."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0713",
+    "word": "若い",
+    "kana": "わかい",
+    "romaji": "wakai",
+    "meaning": "muda",
+    "theme": "kata-sifat",
+    "level": "N5",
+    "example": {
+      "jp": "せんせいは わかいです。",
+      "id": "Gurunya masih muda."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0714",
+    "word": "暖かい",
+    "kana": "あたたかい",
+    "romaji": "atatakai",
+    "meaning": "hangat",
+    "theme": "kata-sifat",
+    "level": "N5",
+    "example": {
+      "jp": "へやが あたたかいです。",
+      "id": "Kamarnya hangat."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0715",
+    "word": "涼しい",
+    "kana": "すずしい",
+    "romaji": "suzushii",
+    "meaning": "sejuk",
+    "theme": "kata-sifat",
+    "level": "N5",
+    "example": {
+      "jp": "あきは すずしいです。",
+      "id": "Musim gugur sejuk."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0716",
+    "word": "狭い",
+    "kana": "せまい",
+    "romaji": "semai",
+    "meaning": "sempit",
+    "theme": "kata-sifat",
+    "level": "N5",
+    "example": {
+      "jp": "へやが せまいです。",
+      "id": "Kamarnya sempit."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0717",
+    "word": "太い",
+    "kana": "ふとい",
+    "romaji": "futoi",
+    "meaning": "tebal, gemuk (benda)",
+    "theme": "kata-sifat",
+    "level": "N5",
+    "example": {
+      "jp": "ふとい きです。",
+      "id": "Ini pohon yang tebal."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0718",
+    "word": "細い",
+    "kana": "ほそい",
+    "romaji": "hosoi",
+    "meaning": "ramping, tipis",
+    "theme": "kata-sifat",
+    "level": "N5",
+    "example": {
+      "jp": "ほそい みちです。",
+      "id": "Ini jalan yang sempit."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0719",
+    "word": "近い",
+    "kana": "ちかい",
+    "romaji": "chikai",
+    "meaning": "dekat",
+    "theme": "kata-sifat",
+    "level": "N5",
+    "example": {
+      "jp": "えきは ちかいです。",
+      "id": "Stasiunnya dekat."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0720",
+    "word": "遠い",
+    "kana": "とおい",
+    "romaji": "tooi",
+    "meaning": "jauh",
+    "theme": "kata-sifat",
+    "level": "N5",
+    "example": {
+      "jp": "がっこうは とおいです。",
+      "id": "Sekolahnya jauh."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0721",
+    "word": "熱い",
+    "kana": "あつい",
+    "romaji": "atsui",
+    "meaning": "panas (benda)",
+    "theme": "kata-sifat",
+    "level": "N5",
+    "example": {
+      "jp": "おちゃが あついです。",
+      "id": "Tehnya panas."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0722",
+    "word": "厚い",
+    "kana": "あつい",
+    "romaji": "atsui",
+    "meaning": "tebal",
+    "theme": "kata-sifat",
+    "level": "N5",
+    "example": {
+      "jp": "あつい ほんです。",
+      "id": "Ini buku yang tebal."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0723",
+    "word": "薄い",
+    "kana": "うすい",
+    "romaji": "usui",
+    "meaning": "tipis, encer",
+    "theme": "kata-sifat",
+    "level": "N5",
+    "example": {
+      "jp": "うすい ノートです。",
+      "id": "Ini buku catatan tipis."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0724",
+    "word": "深い",
+    "kana": "ふかい",
+    "romaji": "fukai",
+    "meaning": "dalam",
+    "theme": "kata-sifat",
+    "level": "N5",
+    "example": {
+      "jp": "この かわは ふかいです。",
+      "id": "Sungai ini dalam."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0725",
+    "word": "浅い",
+    "kana": "あさい",
+    "romaji": "asai",
+    "meaning": "dangkal",
+    "theme": "kata-sifat",
+    "level": "N5",
+    "example": {
+      "jp": "この うみは あさいです。",
+      "id": "Laut ini dangkal."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0726",
+    "word": "同じ",
+    "kana": "おなじ",
+    "romaji": "onaji",
+    "meaning": "sama",
+    "theme": "kata-sifat",
+    "level": "N5",
+    "example": {
+      "jp": "おなじ ふくです。",
+      "id": "Bajunya sama."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0727",
+    "word": "丈夫",
+    "kana": "じょうぶ",
+    "romaji": "joubu",
+    "meaning": "kuat, awet (na)",
+    "theme": "kata-sifat",
+    "level": "N5",
+    "example": {
+      "jp": "じょうぶな くつです。",
+      "id": "Ini sepatu yang awet."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0728",
+    "word": "親切",
+    "kana": "しんせつ",
+    "romaji": "shinsetsu",
+    "meaning": "ramah, baik hati (na)",
+    "theme": "kata-sifat",
+    "level": "N5",
+    "example": {
+      "jp": "しんせつな ひとです。",
+      "id": "Dia orang yang baik hati."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0729",
+    "word": "嫌い",
+    "kana": "きらい",
+    "romaji": "kirai",
+    "meaning": "tidak suka (na)",
+    "theme": "kata-sifat",
+    "level": "N5",
+    "example": {
+      "jp": "にんじんが きらいです。",
+      "id": "Saya tidak suka wortel."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0730",
+    "word": "真面目",
+    "kana": "まじめ",
+    "romaji": "majime",
+    "meaning": "rajin, serius (na)",
+    "theme": "kata-sifat",
+    "level": "N5",
+    "example": {
+      "jp": "まじめな がくせいです。",
+      "id": "Dia pelajar yang rajin."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0731",
+    "word": "無理",
+    "kana": "むり",
+    "romaji": "muri",
+    "meaning": "mustahil, memaksakan (na)",
+    "theme": "kata-sifat",
+    "level": "N5",
+    "example": {
+      "jp": "それは むりです。",
+      "id": "Itu mustahil."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0732",
+    "word": "必要",
+    "kana": "ひつよう",
+    "romaji": "hitsuyou",
+    "meaning": "perlu (na)",
+    "theme": "kata-sifat",
+    "level": "N5",
+    "example": {
+      "jp": "おかねが ひつようです。",
+      "id": "Uang diperlukan."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0733",
+    "word": "酷い",
+    "kana": "ひどい",
+    "romaji": "hidoi",
+    "meaning": "parah, kejam",
+    "theme": "kata-sifat",
+    "level": "N5",
+    "example": {
+      "jp": "ひどい てんきです。",
+      "id": "Cuacanya parah."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0734",
+    "word": "ケーキ",
+    "kana": "ケーキ",
+    "romaji": "keeki",
+    "meaning": "kue",
+    "theme": "makanan-minuman",
+    "level": "N5",
+    "example": {
+      "jp": "ケーキを たべます。",
+      "id": "Saya makan kue."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0735",
+    "word": "チョコレート",
+    "kana": "チョコレート",
+    "romaji": "chokoreeto",
+    "meaning": "cokelat",
+    "theme": "makanan-minuman",
+    "level": "N5",
+    "example": {
+      "jp": "チョコレートが すきです。",
+      "id": "Saya suka cokelat."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0736",
+    "word": "アイスクリーム",
+    "kana": "アイスクリーム",
+    "romaji": "aisukuriimu",
+    "meaning": "es krim",
+    "theme": "makanan-minuman",
+    "level": "N5",
+    "example": {
+      "jp": "アイスクリームを たべたいです。",
+      "id": "Saya ingin makan es krim."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0737",
+    "word": "サラダ",
+    "kana": "サラダ",
+    "romaji": "sarada",
+    "meaning": "salad",
+    "theme": "makanan-minuman",
+    "level": "N5",
+    "example": {
+      "jp": "サラダを つくります。",
+      "id": "Saya membuat salad."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0738",
+    "word": "スープ",
+    "kana": "スープ",
+    "romaji": "suupu",
+    "meaning": "sup",
+    "theme": "makanan-minuman",
+    "level": "N5",
+    "example": {
+      "jp": "あついスープを のみます。",
+      "id": "Saya minum sup panas."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0739",
+    "word": "サンドイッチ",
+    "kana": "サンドイッチ",
+    "romaji": "sandoitchi",
+    "meaning": "sandwich",
+    "theme": "makanan-minuman",
+    "level": "N5",
+    "example": {
+      "jp": "サンドイッチを たべます。",
+      "id": "Saya makan sandwich."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0740",
+    "word": "ハンバーガー",
+    "kana": "ハンバーガー",
+    "romaji": "hanbaagaa",
+    "meaning": "burger",
+    "theme": "makanan-minuman",
+    "level": "N5",
+    "example": {
+      "jp": "ハンバーガーを ふたつ ください。",
+      "id": "Tolong beri saya dua burger."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0741",
+    "word": "うどん",
+    "kana": "うどん",
+    "romaji": "udon",
+    "meaning": "udon",
+    "theme": "makanan-minuman",
+    "level": "N5",
+    "example": {
+      "jp": "うどんを たべます。",
+      "id": "Saya makan udon."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0742",
+    "word": "おにぎり",
+    "kana": "おにぎり",
+    "romaji": "onigiri",
+    "meaning": "onigiri, nasi kepal",
+    "theme": "makanan-minuman",
+    "level": "N5",
+    "example": {
+      "jp": "おにぎりを つくります。",
+      "id": "Saya membuat onigiri."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0743",
+    "word": "玉ねぎ",
+    "kana": "たまねぎ",
+    "romaji": "tamanegi",
+    "meaning": "bawang bombai",
+    "theme": "makanan-minuman",
+    "level": "N5",
+    "example": {
+      "jp": "たまねぎを きります。",
+      "id": "Saya memotong bawang bombai."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0744",
+    "word": "じゃがいも",
+    "kana": "じゃがいも",
+    "romaji": "jagaimo",
+    "meaning": "kentang",
+    "theme": "makanan-minuman",
+    "level": "N5",
+    "example": {
+      "jp": "じゃがいもが すきです。",
+      "id": "Saya suka kentang."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0745",
+    "word": "トマト",
+    "kana": "トマト",
+    "romaji": "tomato",
+    "meaning": "tomat",
+    "theme": "makanan-minuman",
+    "level": "N5",
+    "example": {
+      "jp": "トマトを かいました。",
+      "id": "Saya membeli tomat."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0746",
+    "word": "きゅうり",
+    "kana": "きゅうり",
+    "romaji": "kyuuri",
+    "meaning": "mentimun",
+    "theme": "makanan-minuman",
+    "level": "N5",
+    "example": {
+      "jp": "きゅうりを たべます。",
+      "id": "Saya makan mentimun."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0747",
+    "word": "キャベツ",
+    "kana": "キャベツ",
+    "romaji": "kyabetsu",
+    "meaning": "kubis",
+    "theme": "makanan-minuman",
+    "level": "N5",
+    "example": {
+      "jp": "キャベツは やすいです。",
+      "id": "Kubis itu murah."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0748",
+    "word": "醤油",
+    "kana": "しょうゆ",
+    "romaji": "shouyu",
+    "meaning": "kecap asin",
+    "theme": "makanan-minuman",
+    "level": "N5",
+    "example": {
+      "jp": "しょうゆを かけます。",
+      "id": "Saya menuangkan kecap asin."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0749",
+    "word": "バター",
+    "kana": "バター",
+    "romaji": "bataa",
+    "meaning": "mentega",
+    "theme": "makanan-minuman",
+    "level": "N5",
+    "example": {
+      "jp": "パンに バターを ぬります。",
+      "id": "Saya mengoleskan mentega pada roti."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0750",
+    "word": "チーズ",
+    "kana": "チーズ",
+    "romaji": "chiizu",
+    "meaning": "keju",
+    "theme": "makanan-minuman",
+    "level": "N5",
+    "example": {
+      "jp": "チーズが すきです。",
+      "id": "Saya suka keju."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0751",
+    "word": "すいか",
+    "kana": "すいか",
+    "romaji": "suika",
+    "meaning": "semangka",
+    "theme": "makanan-minuman",
+    "level": "N5",
+    "example": {
+      "jp": "すいかは なつの くだものです。",
+      "id": "Semangka itu buah musim panas."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0752",
+    "word": "いちご",
+    "kana": "いちご",
+    "romaji": "ichigo",
+    "meaning": "stroberi",
+    "theme": "makanan-minuman",
+    "level": "N5",
+    "example": {
+      "jp": "いちごは あまいです。",
+      "id": "Stroberi itu manis."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0753",
+    "word": "カレー",
+    "kana": "カレー",
+    "romaji": "karee",
+    "meaning": "kari",
+    "theme": "makanan-minuman",
+    "level": "N5",
+    "example": {
+      "jp": "カレーを たべます。",
+      "id": "Saya makan kari."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0754",
+    "word": "美術館",
+    "kana": "びじゅつかん",
+    "romaji": "bijutsukan",
+    "meaning": "museum seni",
+    "theme": "tempat",
+    "level": "N5",
+    "example": {
+      "jp": "びじゅつかんへ いきます。",
+      "id": "Saya pergi ke museum seni."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0755",
+    "word": "博物館",
+    "kana": "はくぶつかん",
+    "romaji": "hakubutsukan",
+    "meaning": "museum",
+    "theme": "tempat",
+    "level": "N5",
+    "example": {
+      "jp": "はくぶつかんは あそこです。",
+      "id": "Museumnya ada di sana."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0756",
+    "word": "動物園",
+    "kana": "どうぶつえん",
+    "romaji": "doubutsuen",
+    "meaning": "kebun binatang",
+    "theme": "tempat",
+    "level": "N5",
+    "example": {
+      "jp": "どうぶつえんで ぞうを みました。",
+      "id": "Saya melihat gajah di kebun binatang."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0757",
+    "word": "プール",
+    "kana": "プール",
+    "romaji": "puuru",
+    "meaning": "kolam renang",
+    "theme": "tempat",
+    "level": "N5",
+    "example": {
+      "jp": "プールで およぎます。",
+      "id": "Saya berenang di kolam renang."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0758",
+    "word": "ジム",
+    "kana": "ジム",
+    "romaji": "jimu",
+    "meaning": "pusat kebugaran",
+    "theme": "tempat",
+    "level": "N5",
+    "example": {
+      "jp": "ジムに かよっています。",
+      "id": "Saya rutin ke pusat kebugaran."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0759",
+    "word": "交番",
+    "kana": "こうばん",
+    "romaji": "kouban",
+    "meaning": "pos polisi",
+    "theme": "tempat",
+    "level": "N5",
+    "example": {
+      "jp": "こうばんで みちを ききます。",
+      "id": "Saya bertanya jalan di pos polisi."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0760",
+    "word": "近く",
+    "kana": "ちかく",
+    "romaji": "chikaku",
+    "meaning": "dekat, sekitar",
+    "theme": "tempat",
+    "level": "N5",
+    "example": {
+      "jp": "えきの ちかくに あります。",
+      "id": "Ada di dekat stasiun."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0761",
+    "word": "向かい",
+    "kana": "むかい",
+    "romaji": "mukai",
+    "meaning": "seberang",
+    "theme": "tempat",
+    "level": "N5",
+    "example": {
+      "jp": "ぎんこうの むかいに あります。",
+      "id": "Ada di seberang bank."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0762",
+    "word": "横",
+    "kana": "よこ",
+    "romaji": "yoko",
+    "meaning": "samping",
+    "theme": "tempat",
+    "level": "N5",
+    "example": {
+      "jp": "ほんやの よこです。",
+      "id": "Di samping toko buku."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0763",
+    "word": "隣",
+    "kana": "となり",
+    "romaji": "tonari",
+    "meaning": "sebelah",
+    "theme": "tempat",
+    "level": "N5",
+    "example": {
+      "jp": "となりに こうえんが あります。",
+      "id": "Di sebelah ada taman."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0764",
+    "word": "後ろ",
+    "kana": "うしろ",
+    "romaji": "ushiro",
+    "meaning": "belakang",
+    "theme": "tempat",
+    "level": "N5",
+    "example": {
+      "jp": "えきの うしろです。",
+      "id": "Di belakang stasiun."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0765",
+    "word": "間",
+    "kana": "あいだ",
+    "romaji": "aida",
+    "meaning": "di antara",
+    "theme": "tempat",
+    "level": "N5",
+    "example": {
+      "jp": "ぎんこうと ゆうびんきょくの あいだです。",
+      "id": "Di antara bank dan kantor pos."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0766",
+    "word": "向こう",
+    "kana": "むこう",
+    "romaji": "mukou",
+    "meaning": "seberang sana",
+    "theme": "tempat",
+    "level": "N5",
+    "example": {
+      "jp": "かわの むこうです。",
+      "id": "Di seberang sungai."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0767",
+    "word": "コンビニ",
+    "kana": "コンビニ",
+    "romaji": "konbini",
+    "meaning": "minimarket",
+    "theme": "tempat",
+    "level": "N5",
+    "example": {
+      "jp": "コンビニで パンを かいます。",
+      "id": "Saya membeli roti di minimarket."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0768",
+    "word": "大使館",
+    "kana": "たいしかん",
+    "romaji": "taishikan",
+    "meaning": "kedutaan besar",
+    "theme": "tempat",
+    "level": "N5",
+    "example": {
+      "jp": "たいしかんへ いきます。",
+      "id": "Saya pergi ke kedutaan besar."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0769",
+    "word": "あさって",
+    "kana": "あさって",
+    "romaji": "asatte",
+    "meaning": "lusa",
+    "theme": "waktu",
+    "level": "N5",
+    "example": {
+      "jp": "あさって いきます。",
+      "id": "Saya pergi lusa."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0770",
+    "word": "おととい",
+    "kana": "おととい",
+    "romaji": "ototoi",
+    "meaning": "kemarin lusa",
+    "theme": "waktu",
+    "level": "N5",
+    "example": {
+      "jp": "おととい あいました。",
+      "id": "Kami bertemu kemarin lusa."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0771",
+    "word": "毎晩",
+    "kana": "まいばん",
+    "romaji": "maiban",
+    "meaning": "setiap malam",
+    "theme": "waktu",
+    "level": "N5",
+    "example": {
+      "jp": "まいばん ほんを よみます。",
+      "id": "Setiap malam saya membaca buku."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0772",
+    "word": "夕方",
+    "kana": "ゆうがた",
+    "romaji": "yuugata",
+    "meaning": "sore hari",
+    "theme": "waktu",
+    "level": "N5",
+    "example": {
+      "jp": "ゆうがた かえります。",
+      "id": "Saya pulang sore hari."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0773",
+    "word": "昼間",
+    "kana": "ひるま",
+    "romaji": "hiruma",
+    "meaning": "siang hari",
+    "theme": "waktu",
+    "level": "N5",
+    "example": {
+      "jp": "ひるまは いそがしいです。",
+      "id": "Siang hari saya sibuk."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0774",
+    "word": "週末",
+    "kana": "しゅうまつ",
+    "romaji": "shuumatsu",
+    "meaning": "akhir pekan",
+    "theme": "waktu",
+    "level": "N5",
+    "example": {
+      "jp": "しゅうまつは やすみです。",
+      "id": "Akhir pekan libur."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0775",
+    "word": "平日",
+    "kana": "へいじつ",
+    "romaji": "heijitsu",
+    "meaning": "hari kerja",
+    "theme": "waktu",
+    "level": "N5",
+    "example": {
+      "jp": "へいじつは しごとです。",
+      "id": "Hari kerja saya bekerja."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0776",
+    "word": "誕生日",
+    "kana": "たんじょうび",
+    "romaji": "tanjoubi",
+    "meaning": "ulang tahun",
+    "theme": "waktu",
+    "level": "N5",
+    "example": {
+      "jp": "あした たんじょうびです。",
+      "id": "Besok ulang tahun saya."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0777",
+    "word": "このごろ",
+    "kana": "このごろ",
+    "romaji": "konogoro",
+    "meaning": "akhir-akhir ini",
+    "theme": "waktu",
+    "level": "N5",
+    "example": {
+      "jp": "このごろ さむいです。",
+      "id": "Akhir-akhir ini dingin."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0778",
+    "word": "ずっと",
+    "kana": "ずっと",
+    "romaji": "zutto",
+    "meaning": "terus-menerus",
+    "theme": "waktu",
+    "level": "N5",
+    "example": {
+      "jp": "ずっと まっていました。",
+      "id": "Saya menunggu terus-menerus."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0779",
+    "word": "消しゴム",
+    "kana": "けしゴム",
+    "romaji": "keshigomu",
+    "meaning": "penghapus",
+    "theme": "sekolah",
+    "level": "N5",
+    "example": {
+      "jp": "けしゴムを かして ください。",
+      "id": "Tolong pinjamkan penghapus."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0780",
+    "word": "定規",
+    "kana": "じょうぎ",
+    "romaji": "jougi",
+    "meaning": "penggaris",
+    "theme": "sekolah",
+    "level": "N5",
+    "example": {
+      "jp": "じょうぎで せんを ひきます。",
+      "id": "Saya menarik garis dengan penggaris."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0781",
+    "word": "生徒",
+    "kana": "せいと",
+    "romaji": "seito",
+    "meaning": "murid",
+    "theme": "sekolah",
+    "level": "N5",
+    "example": {
+      "jp": "せいとが いっぱい います。",
+      "id": "Ada banyak murid."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0782",
+    "word": "クラス",
+    "kana": "クラス",
+    "romaji": "kurasu",
+    "meaning": "kelas (kelompok)",
+    "theme": "sekolah",
+    "level": "N5",
+    "example": {
+      "jp": "おなじ クラスです。",
+      "id": "Kita satu kelas."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0783",
+    "word": "時間割",
+    "kana": "じかんわり",
+    "romaji": "jikanwari",
+    "meaning": "jadwal pelajaran",
+    "theme": "sekolah",
+    "level": "N5",
+    "example": {
+      "jp": "じかんわりを みます。",
+      "id": "Saya melihat jadwal pelajaran."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0784",
+    "word": "卒業",
+    "kana": "そつぎょう",
+    "romaji": "sotsugyou",
+    "meaning": "kelulusan",
+    "theme": "sekolah",
+    "level": "N5",
+    "example": {
+      "jp": "らいねん そつぎょうします。",
+      "id": "Tahun depan saya lulus."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0785",
+    "word": "入学",
+    "kana": "にゅうがく",
+    "romaji": "nyuugaku",
+    "meaning": "masuk sekolah",
+    "theme": "sekolah",
+    "level": "N5",
+    "example": {
+      "jp": "しがつに にゅうがくします。",
+      "id": "Saya masuk sekolah bulan April."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0786",
+    "word": "発音",
+    "kana": "はつおん",
+    "romaji": "hatsuon",
+    "meaning": "pelafalan",
+    "theme": "sekolah",
+    "level": "N5",
+    "example": {
+      "jp": "はつおんが むずかしいです。",
+      "id": "Pelafalannya sulit."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0787",
+    "word": "文法",
+    "kana": "ぶんぽう",
+    "romaji": "bunpou",
+    "meaning": "tata bahasa",
+    "theme": "sekolah",
+    "level": "N5",
+    "example": {
+      "jp": "ぶんぽうを べんきょうします。",
+      "id": "Saya belajar tata bahasa."
+    },
+    "reviewed": false
+  },
+  {
+    "id": "v0788",
+    "word": "テスト",
+    "kana": "テスト",
+    "romaji": "tesuto",
+    "meaning": "tes, ujian",
+    "theme": "sekolah",
+    "level": "N5",
+    "example": {
+      "jp": "あした テストが あります。",
+      "id": "Besok ada ujian."
+    },
+    "reviewed": false
   }
 ]

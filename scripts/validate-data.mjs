@@ -59,6 +59,25 @@ export function validateAll() {
   const themes = check("themes.json", "themes.schema.json");
   const vocab = check("vocab-n5.json", "vocab.schema.json");
 
+  const kanji = check("kanji-n5.json", "kanji.schema.json");
+  const grammar = check("grammar-n5.json", "grammar.schema.json");
+  const strokes = read("strokes.json").strokes;
+
+  // Setiap karakter kana & kanji harus punya data goresan; jumlah goresan kanji harus cocok.
+  const kana = ["hiragana.json", "katakana.json"].flatMap((f) => read(f).map((i) => i.char));
+  for (const char of new Set([...kana.flatMap((c) => [...c]), ...kanji.map((k) => k.char)])) {
+    if (!strokes[char]) errors.push(`strokes.json: goresan "${char}" tidak ada`);
+  }
+  for (const k of kanji) {
+    if (strokes[k.char] && strokes[k.char].length !== k.strokes) {
+      errors.push(`kanji-n5.json ${k.id}: strokes ${k.strokes} != ${strokes[k.char].length} di strokes.json`);
+    }
+  }
+  for (const g of grammar) {
+    if (!g.exercise.choices.includes(g.exercise.answer)) errors.push(`grammar-n5.json ${g.id}: jawaban tidak ada di pilihan`);
+    if (new Set(g.exercise.choices).size !== g.exercise.choices.length) errors.push(`grammar-n5.json ${g.id}: pilihan ganda`);
+  }
+
   const themeIds = new Set(themes.map((t) => t.id));
   for (const word of vocab) {
     if (!themeIds.has(word.theme)) errors.push(`vocab-n5.json ${word.id}: tema "${word.theme}" tidak ada di themes.json`);
