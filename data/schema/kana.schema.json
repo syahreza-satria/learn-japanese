@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Kana (hiragana / katakana)",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "char", "romaji", "group", "row", "col", "example"],
+    "properties": {
+      "id": { "type": "string", "pattern": "^[hk]-[a-z]+$" },
+      "char": { "type": "string", "minLength": 1, "maxLength": 2 },
+      "romaji": { "type": "string", "pattern": "^[a-z]+$" },
+      "alt": { "type": "array", "items": { "type": "string", "pattern": "^[a-z]+$" } },
+      "group": { "type": "string", "enum": ["gojuon", "dakuten", "handakuten", "yoon"] },
+      "row": { "type": "string", "pattern": "^[a-z]+$" },
+      "col": { "type": "string", "enum": ["a", "i", "u", "e", "o", "n"] },
+      "example": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["word", "romaji", "meaning"],
+        "properties": {
+          "word": { "type": "string", "minLength": 1 },
+          "romaji": { "type": "string", "minLength": 1 },
+          "meaning": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}

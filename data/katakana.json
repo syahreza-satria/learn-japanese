@@ -1,0 +1,1363 @@
+[
+  {
+    "id": "k-a",
+    "char": "ア",
+    "romaji": "a",
+    "group": "gojuon",
+    "row": "a",
+    "col": "a",
+    "example": {
+      "word": "アメリカ",
+      "romaji": "amerika",
+      "meaning": "Amerika"
+    }
+  },
+  {
+    "id": "k-i",
+    "char": "イ",
+    "romaji": "i",
+    "group": "gojuon",
+    "row": "a",
+    "col": "i",
+    "example": {
+      "word": "インク",
+      "romaji": "inku",
+      "meaning": "tinta"
+    }
+  },
+  {
+    "id": "k-u",
+    "char": "ウ",
+    "romaji": "u",
+    "group": "gojuon",
+    "row": "a",
+    "col": "u",
+    "example": {
+      "word": "ウイスキー",
+      "romaji": "uisukii",
+      "meaning": "wiski"
+    }
+  },
+  {
+    "id": "k-e",
+    "char": "エ",
+    "romaji": "e",
+    "group": "gojuon",
+    "row": "a",
+    "col": "e",
+    "example": {
+      "word": "エアコン",
+      "romaji": "eakon",
+      "meaning": "AC / pendingin udara"
+    }
+  },
+  {
+    "id": "k-o",
+    "char": "オ",
+    "romaji": "o",
+    "group": "gojuon",
+    "row": "a",
+    "col": "o",
+    "example": {
+      "word": "オレンジ",
+      "romaji": "orenji",
+      "meaning": "jeruk"
+    }
+  },
+  {
+    "id": "k-ka",
+    "char": "カ",
+    "romaji": "ka",
+    "group": "gojuon",
+    "row": "k",
+    "col": "a",
+    "example": {
+      "word": "カメラ",
+      "romaji": "kamera",
+      "meaning": "kamera"
+    }
+  },
+  {
+    "id": "k-ki",
+    "char": "キ",
+    "romaji": "ki",
+    "group": "gojuon",
+    "row": "k",
+    "col": "i",
+    "example": {
+      "word": "キー",
+      "romaji": "kii",
+      "meaning": "kunci (tombol)"
+    }
+  },
+  {
+    "id": "k-ku",
+    "char": "ク",
+    "romaji": "ku",
+    "group": "gojuon",
+    "row": "k",
+    "col": "u",
+    "example": {
+      "word": "クラス",
+      "romaji": "kurasu",
+      "meaning": "kelas"
+    }
+  },
+  {
+    "id": "k-ke",
+    "char": "ケ",
+    "romaji": "ke",
+    "group": "gojuon",
+    "row": "k",
+    "col": "e",
+    "example": {
+      "word": "ケーキ",
+      "romaji": "keeki",
+      "meaning": "kue"
+    }
+  },
+  {
+    "id": "k-ko",
+    "char": "コ",
+    "romaji": "ko",
+    "group": "gojuon",
+    "row": "k",
+    "col": "o",
+    "example": {
+      "word": "コーヒー",
+      "romaji": "koohii",
+      "meaning": "kopi"
+    }
+  },
+  {
+    "id": "k-sa",
+    "char": "サ",
+    "romaji": "sa",
+    "group": "gojuon",
+    "row": "s",
+    "col": "a",
+    "example": {
+      "word": "サラダ",
+      "romaji": "sarada",
+      "meaning": "salad"
+    }
+  },
+  {
+    "id": "k-shi",
+    "char": "シ",
+    "romaji": "shi",
+    "group": "gojuon",
+    "row": "s",
+    "col": "i",
+    "example": {
+      "word": "システム",
+      "romaji": "shisutemu",
+      "meaning": "sistem"
+    }
+  },
+  {
+    "id": "k-su",
+    "char": "ス",
+    "romaji": "su",
+    "group": "gojuon",
+    "row": "s",
+    "col": "u",
+    "example": {
+      "word": "スプーン",
+      "romaji": "supuun",
+      "meaning": "sendok"
+    }
+  },
+  {
+    "id": "k-se",
+    "char": "セ",
+    "romaji": "se",
+    "group": "gojuon",
+    "row": "s",
+    "col": "e",
+    "example": {
+      "word": "セーター",
+      "romaji": "seetaa",
+      "meaning": "sweter"
+    }
+  },
+  {
+    "id": "k-so",
+    "char": "ソ",
+    "romaji": "so",
+    "group": "gojuon",
+    "row": "s",
+    "col": "o",
+    "example": {
+      "word": "ソファ",
+      "romaji": "sofa",
+      "meaning": "sofa"
+    }
+  },
+  {
+    "id": "k-ta",
+    "char": "タ",
+    "romaji": "ta",
+    "group": "gojuon",
+    "row": "t",
+    "col": "a",
+    "example": {
+      "word": "タクシー",
+      "romaji": "takushii",
+      "meaning": "taksi"
+    }
+  },
+  {
+    "id": "k-chi",
+    "char": "チ",
+    "romaji": "chi",
+    "group": "gojuon",
+    "row": "t",
+    "col": "i",
+    "example": {
+      "word": "チーズ",
+      "romaji": "chiizu",
+      "meaning": "keju"
+    }
+  },
+  {
+    "id": "k-tsu",
+    "char": "ツ",
+    "romaji": "tsu",
+    "group": "gojuon",
+    "row": "t",
+    "col": "u",
+    "example": {
+      "word": "ツアー",
+      "romaji": "tsuaa",
+      "meaning": "tur wisata"
+    }
+  },
+  {
+    "id": "k-te",
+    "char": "テ",
+    "romaji": "te",
+    "group": "gojuon",
+    "row": "t",
+    "col": "e",
+    "example": {
+      "word": "テレビ",
+      "romaji": "terebi",
+      "meaning": "televisi"
+    }
+  },
+  {
+    "id": "k-to",
+    "char": "ト",
+    "romaji": "to",
+    "group": "gojuon",
+    "row": "t",
+    "col": "o",
+    "example": {
+      "word": "トマト",
+      "romaji": "tomato",
+      "meaning": "tomat"
+    }
+  },
+  {
+    "id": "k-na",
+    "char": "ナ",
+    "romaji": "na",
+    "group": "gojuon",
+    "row": "n",
+    "col": "a",
+    "example": {
+      "word": "ナイフ",
+      "romaji": "naifu",
+      "meaning": "pisau"
+    }
+  },
+  {
+    "id": "k-ni",
+    "char": "ニ",
+    "romaji": "ni",
+    "group": "gojuon",
+    "row": "n",
+    "col": "i",
+    "example": {
+      "word": "ニュース",
+      "romaji": "nyuusu",
+      "meaning": "berita"
+    }
+  },
+  {
+    "id": "k-nu",
+    "char": "ヌ",
+    "romaji": "nu",
+    "group": "gojuon",
+    "row": "n",
+    "col": "u",
+    "example": {
+      "word": "ヌードル",
+      "romaji": "nuudoru",
+      "meaning": "mi"
+    }
+  },
+  {
+    "id": "k-ne",
+    "char": "ネ",
+    "romaji": "ne",
+    "group": "gojuon",
+    "row": "n",
+    "col": "e",
+    "example": {
+      "word": "ネクタイ",
+      "romaji": "nekutai",
+      "meaning": "dasi"
+    }
+  },
+  {
+    "id": "k-no",
+    "char": "ノ",
+    "romaji": "no",
+    "group": "gojuon",
+    "row": "n",
+    "col": "o",
+    "example": {
+      "word": "ノート",
+      "romaji": "nooto",
+      "meaning": "buku catatan"
+    }
+  },
+  {
+    "id": "k-ha",
+    "char": "ハ",
+    "romaji": "ha",
+    "group": "gojuon",
+    "row": "h",
+    "col": "a",
+    "example": {
+      "word": "ハンバーガー",
+      "romaji": "hanbaagaa",
+      "meaning": "burger"
+    }
+  },
+  {
+    "id": "k-hi",
+    "char": "ヒ",
+    "romaji": "hi",
+    "group": "gojuon",
+    "row": "h",
+    "col": "i",
+    "example": {
+      "word": "ヒーター",
+      "romaji": "hiitaa",
+      "meaning": "pemanas"
+    }
+  },
+  {
+    "id": "k-fu",
+    "char": "フ",
+    "romaji": "fu",
+    "group": "gojuon",
+    "row": "h",
+    "col": "u",
+    "example": {
+      "word": "フォーク",
+      "romaji": "fooku",
+      "meaning": "garpu"
+    }
+  },
+  {
+    "id": "k-he",
+    "char": "ヘ",
+    "romaji": "he",
+    "group": "gojuon",
+    "row": "h",
+    "col": "e",
+    "example": {
+      "word": "ヘリコプター",
+      "romaji": "herikoputaa",
+      "meaning": "helikopter"
+    }
+  },
+  {
+    "id": "k-ho",
+    "char": "ホ",
+    "romaji": "ho",
+    "group": "gojuon",
+    "row": "h",
+    "col": "o",
+    "example": {
+      "word": "ホテル",
+      "romaji": "hoteru",
+      "meaning": "hotel"
+    }
+  },
+  {
+    "id": "k-ma",
+    "char": "マ",
+    "romaji": "ma",
+    "group": "gojuon",
+    "row": "m",
+    "col": "a",
+    "example": {
+      "word": "マスク",
+      "romaji": "masuku",
+      "meaning": "masker"
+    }
+  },
+  {
+    "id": "k-mi",
+    "char": "ミ",
+    "romaji": "mi",
+    "group": "gojuon",
+    "row": "m",
+    "col": "i",
+    "example": {
+      "word": "ミルク",
+      "romaji": "miruku",
+      "meaning": "susu"
+    }
+  },
+  {
+    "id": "k-mu",
+    "char": "ム",
+    "romaji": "mu",
+    "group": "gojuon",
+    "row": "m",
+    "col": "u",
+    "example": {
+      "word": "ムード",
+      "romaji": "muudo",
+      "meaning": "suasana"
+    }
+  },
+  {
+    "id": "k-me",
+    "char": "メ",
+    "romaji": "me",
+    "group": "gojuon",
+    "row": "m",
+    "col": "e",
+    "example": {
+      "word": "メール",
+      "romaji": "meeru",
+      "meaning": "surel / email"
+    }
+  },
+  {
+    "id": "k-mo",
+    "char": "モ",
+    "romaji": "mo",
+    "group": "gojuon",
+    "row": "m",
+    "col": "o",
+    "example": {
+      "word": "モデル",
+      "romaji": "moderu",
+      "meaning": "model"
+    }
+  },
+  {
+    "id": "k-ya",
+    "char": "ヤ",
+    "romaji": "ya",
+    "group": "gojuon",
+    "row": "y",
+    "col": "a",
+    "example": {
+      "word": "タイヤ",
+      "romaji": "taiya",
+      "meaning": "ban"
+    }
+  },
+  {
+    "id": "k-yu",
+    "char": "ユ",
+    "romaji": "yu",
+    "group": "gojuon",
+    "row": "y",
+    "col": "u",
+    "example": {
+      "word": "ユーモア",
+      "romaji": "yuumoa",
+      "meaning": "humor"
+    }
+  },
+  {
+    "id": "k-yo",
+    "char": "ヨ",
+    "romaji": "yo",
+    "group": "gojuon",
+    "row": "y",
+    "col": "o",
+    "example": {
+      "word": "ヨーグルト",
+      "romaji": "yooguruto",
+      "meaning": "yoghurt"
+    }
+  },
+  {
+    "id": "k-ra",
+    "char": "ラ",
+    "romaji": "ra",
+    "group": "gojuon",
+    "row": "r",
+    "col": "a",
+    "example": {
+      "word": "ラジオ",
+      "romaji": "rajio",
+      "meaning": "radio"
+    }
+  },
+  {
+    "id": "k-ri",
+    "char": "リ",
+    "romaji": "ri",
+    "group": "gojuon",
+    "row": "r",
+    "col": "i",
+    "example": {
+      "word": "リモコン",
+      "romaji": "rimokon",
+      "meaning": "remote"
+    }
+  },
+  {
+    "id": "k-ru",
+    "char": "ル",
+    "romaji": "ru",
+    "group": "gojuon",
+    "row": "r",
+    "col": "u",
+    "example": {
+      "word": "ルール",
+      "romaji": "ruuru",
+      "meaning": "aturan"
+    }
+  },
+  {
+    "id": "k-re",
+    "char": "レ",
+    "romaji": "re",
+    "group": "gojuon",
+    "row": "r",
+    "col": "e",
+    "example": {
+      "word": "レストラン",
+      "romaji": "resutoran",
+      "meaning": "restoran"
+    }
+  },
+  {
+    "id": "k-ro",
+    "char": "ロ",
+    "romaji": "ro",
+    "group": "gojuon",
+    "row": "r",
+    "col": "o",
+    "example": {
+      "word": "ロボット",
+      "romaji": "robotto",
+      "meaning": "robot"
+    }
+  },
+  {
+    "id": "k-wa",
+    "char": "ワ",
+    "romaji": "wa",
+    "group": "gojuon",
+    "row": "w",
+    "col": "a",
+    "example": {
+      "word": "ワイン",
+      "romaji": "wain",
+      "meaning": "anggur (wine)"
+    }
+  },
+  {
+    "id": "k-wo",
+    "char": "ヲ",
+    "romaji": "wo",
+    "group": "gojuon",
+    "row": "w",
+    "col": "o",
+    "alt": [
+      "o"
+    ],
+    "example": {
+      "word": "コーヒー ヲ ノム",
+      "romaji": "koohii o nomu",
+      "meaning": "minum kopi (ヲ = partikel を)"
+    }
+  },
+  {
+    "id": "k-n",
+    "char": "ン",
+    "romaji": "n",
+    "group": "gojuon",
+    "row": "nn",
+    "col": "n",
+    "example": {
+      "word": "パン",
+      "romaji": "pan",
+      "meaning": "roti"
+    }
+  },
+  {
+    "id": "k-ga",
+    "char": "ガ",
+    "romaji": "ga",
+    "group": "dakuten",
+    "row": "g",
+    "col": "a",
+    "example": {
+      "word": "ガス",
+      "romaji": "gasu",
+      "meaning": "gas"
+    }
+  },
+  {
+    "id": "k-gi",
+    "char": "ギ",
+    "romaji": "gi",
+    "group": "dakuten",
+    "row": "g",
+    "col": "i",
+    "example": {
+      "word": "ギター",
+      "romaji": "gitaa",
+      "meaning": "gitar"
+    }
+  },
+  {
+    "id": "k-gu",
+    "char": "グ",
+    "romaji": "gu",
+    "group": "dakuten",
+    "row": "g",
+    "col": "u",
+    "example": {
+      "word": "グラス",
+      "romaji": "gurasu",
+      "meaning": "gelas"
+    }
+  },
+  {
+    "id": "k-ge",
+    "char": "ゲ",
+    "romaji": "ge",
+    "group": "dakuten",
+    "row": "g",
+    "col": "e",
+    "example": {
+      "word": "ゲーム",
+      "romaji": "geemu",
+      "meaning": "permainan"
+    }
+  },
+  {
+    "id": "k-go",
+    "char": "ゴ",
+    "romaji": "go",
+    "group": "dakuten",
+    "row": "g",
+    "col": "o",
+    "example": {
+      "word": "ゴルフ",
+      "romaji": "gorufu",
+      "meaning": "golf"
+    }
+  },
+  {
+    "id": "k-za",
+    "char": "ザ",
+    "romaji": "za",
+    "group": "dakuten",
+    "row": "z",
+    "col": "a",
+    "example": {
+      "word": "ピザ",
+      "romaji": "piza",
+      "meaning": "pizza"
+    }
+  },
+  {
+    "id": "k-ji",
+    "char": "ジ",
+    "romaji": "ji",
+    "group": "dakuten",
+    "row": "z",
+    "col": "i",
+    "example": {
+      "word": "ジーンズ",
+      "romaji": "jiinzu",
+      "meaning": "jeans"
+    }
+  },
+  {
+    "id": "k-zu",
+    "char": "ズ",
+    "romaji": "zu",
+    "group": "dakuten",
+    "row": "z",
+    "col": "u",
+    "example": {
+      "word": "ズボン",
+      "romaji": "zubon",
+      "meaning": "celana"
+    }
+  },
+  {
+    "id": "k-ze",
+    "char": "ゼ",
+    "romaji": "ze",
+    "group": "dakuten",
+    "row": "z",
+    "col": "e",
+    "example": {
+      "word": "ゼロ",
+      "romaji": "zero",
+      "meaning": "nol"
+    }
+  },
+  {
+    "id": "k-zo",
+    "char": "ゾ",
+    "romaji": "zo",
+    "group": "dakuten",
+    "row": "z",
+    "col": "o",
+    "example": {
+      "word": "ゾウ",
+      "romaji": "zou",
+      "meaning": "gajah"
+    }
+  },
+  {
+    "id": "k-da",
+    "char": "ダ",
+    "romaji": "da",
+    "group": "dakuten",
+    "row": "d",
+    "col": "a",
+    "example": {
+      "word": "ダンス",
+      "romaji": "dansu",
+      "meaning": "dansa"
+    }
+  },
+  {
+    "id": "k-di",
+    "char": "ヂ",
+    "romaji": "ji",
+    "group": "dakuten",
+    "row": "d",
+    "col": "i",
+    "alt": [
+      "di"
+    ],
+    "example": {
+      "word": "ハナヂ",
+      "romaji": "hanaji",
+      "meaning": "mimisan (jarang ditulis katakana)"
+    }
+  },
+  {
+    "id": "k-du",
+    "char": "ヅ",
+    "romaji": "zu",
+    "group": "dakuten",
+    "row": "d",
+    "col": "u",
+    "alt": [
+      "du"
+    ],
+    "example": {
+      "word": "コヅツミ",
+      "romaji": "kozutsumi",
+      "meaning": "paket kecil (jarang ditulis katakana)"
+    }
+  },
+  {
+    "id": "k-de",
+    "char": "デ",
+    "romaji": "de",
+    "group": "dakuten",
+    "row": "d",
+    "col": "e",
+    "example": {
+      "word": "デパート",
+      "romaji": "depaato",
+      "meaning": "toserba"
+    }
+  },
+  {
+    "id": "k-do",
+    "char": "ド",
+    "romaji": "do",
+    "group": "dakuten",
+    "row": "d",
+    "col": "o",
+    "example": {
+      "word": "ドア",
+      "romaji": "doa",
+      "meaning": "pintu"
+    }
+  },
+  {
+    "id": "k-ba",
+    "char": "バ",
+    "romaji": "ba",
+    "group": "dakuten",
+    "row": "b",
+    "col": "a",
+    "example": {
+      "word": "バス",
+      "romaji": "basu",
+      "meaning": "bus"
+    }
+  },
+  {
+    "id": "k-bi",
+    "char": "ビ",
+    "romaji": "bi",
+    "group": "dakuten",
+    "row": "b",
+    "col": "i",
+    "example": {
+      "word": "ビール",
+      "romaji": "biiru",
+      "meaning": "bir"
+    }
+  },
+  {
+    "id": "k-bu",
+    "char": "ブ",
+    "romaji": "bu",
+    "group": "dakuten",
+    "row": "b",
+    "col": "u",
+    "example": {
+      "word": "ブラシ",
+      "romaji": "burashi",
+      "meaning": "sikat"
+    }
+  },
+  {
+    "id": "k-be",
+    "char": "ベ",
+    "romaji": "be",
+    "group": "dakuten",
+    "row": "b",
+    "col": "e",
+    "example": {
+      "word": "ベッド",
+      "romaji": "beddo",
+      "meaning": "tempat tidur"
+    }
+  },
+  {
+    "id": "k-bo",
+    "char": "ボ",
+    "romaji": "bo",
+    "group": "dakuten",
+    "row": "b",
+    "col": "o",
+    "example": {
+      "word": "ボール",
+      "romaji": "booru",
+      "meaning": "bola"
+    }
+  },
+  {
+    "id": "k-pa",
+    "char": "パ",
+    "romaji": "pa",
+    "group": "handakuten",
+    "row": "p",
+    "col": "a",
+    "example": {
+      "word": "パソコン",
+      "romaji": "pasokon",
+      "meaning": "komputer pribadi"
+    }
+  },
+  {
+    "id": "k-pi",
+    "char": "ピ",
+    "romaji": "pi",
+    "group": "handakuten",
+    "row": "p",
+    "col": "i",
+    "example": {
+      "word": "ピアノ",
+      "romaji": "piano",
+      "meaning": "piano"
+    }
+  },
+  {
+    "id": "k-pu",
+    "char": "プ",
+    "romaji": "pu",
+    "group": "handakuten",
+    "row": "p",
+    "col": "u",
+    "example": {
+      "word": "プール",
+      "romaji": "puuru",
+      "meaning": "kolam renang"
+    }
+  },
+  {
+    "id": "k-pe",
+    "char": "ペ",
+    "romaji": "pe",
+    "group": "handakuten",
+    "row": "p",
+    "col": "e",
+    "example": {
+      "word": "ペン",
+      "romaji": "pen",
+      "meaning": "pena"
+    }
+  },
+  {
+    "id": "k-po",
+    "char": "ポ",
+    "romaji": "po",
+    "group": "handakuten",
+    "row": "p",
+    "col": "o",
+    "example": {
+      "word": "ポスト",
+      "romaji": "posuto",
+      "meaning": "kotak pos"
+    }
+  },
+  {
+    "id": "k-kya",
+    "char": "キャ",
+    "romaji": "kya",
+    "group": "yoon",
+    "row": "ky",
+    "col": "a",
+    "example": {
+      "word": "キャベツ",
+      "romaji": "kyabetsu",
+      "meaning": "kubis"
+    }
+  },
+  {
+    "id": "k-kyu",
+    "char": "キュ",
+    "romaji": "kyu",
+    "group": "yoon",
+    "row": "ky",
+    "col": "u",
+    "example": {
+      "word": "キューブ",
+      "romaji": "kyuubu",
+      "meaning": "kubus"
+    }
+  },
+  {
+    "id": "k-kyo",
+    "char": "キョ",
+    "romaji": "kyo",
+    "group": "yoon",
+    "row": "ky",
+    "col": "o",
+    "example": {
+      "word": "キョウリュウ",
+      "romaji": "kyouryuu",
+      "meaning": "dinosaurus"
+    }
+  },
+  {
+    "id": "k-sha",
+    "char": "シャ",
+    "romaji": "sha",
+    "group": "yoon",
+    "row": "sh",
+    "col": "a",
+    "example": {
+      "word": "シャツ",
+      "romaji": "shatsu",
+      "meaning": "kemeja"
+    }
+  },
+  {
+    "id": "k-shu",
+    "char": "シュ",
+    "romaji": "shu",
+    "group": "yoon",
+    "row": "sh",
+    "col": "u",
+    "example": {
+      "word": "シューズ",
+      "romaji": "shuuzu",
+      "meaning": "sepatu"
+    }
+  },
+  {
+    "id": "k-sho",
+    "char": "ショ",
+    "romaji": "sho",
+    "group": "yoon",
+    "row": "sh",
+    "col": "o",
+    "example": {
+      "word": "ショップ",
+      "romaji": "shoppu",
+      "meaning": "toko"
+    }
+  },
+  {
+    "id": "k-cha",
+    "char": "チャ",
+    "romaji": "cha",
+    "group": "yoon",
+    "row": "ch",
+    "col": "a",
+    "example": {
+      "word": "チャンス",
+      "romaji": "chansu",
+      "meaning": "kesempatan"
+    }
+  },
+  {
+    "id": "k-chu",
+    "char": "チュ",
+    "romaji": "chu",
+    "group": "yoon",
+    "row": "ch",
+    "col": "u",
+    "example": {
+      "word": "チューリップ",
+      "romaji": "chuurippu",
+      "meaning": "tulip"
+    }
+  },
+  {
+    "id": "k-cho",
+    "char": "チョ",
+    "romaji": "cho",
+    "group": "yoon",
+    "row": "ch",
+    "col": "o",
+    "example": {
+      "word": "チョコレート",
+      "romaji": "chokoreeto",
+      "meaning": "cokelat"
+    }
+  },
+  {
+    "id": "k-nya",
+    "char": "ニャ",
+    "romaji": "nya",
+    "group": "yoon",
+    "row": "ny",
+    "col": "a",
+    "example": {
+      "word": "ニャンコ",
+      "romaji": "nyanko",
+      "meaning": "kucing (bahasa gaul)"
+    }
+  },
+  {
+    "id": "k-nyu",
+    "char": "ニュ",
+    "romaji": "nyu",
+    "group": "yoon",
+    "row": "ny",
+    "col": "u",
+    "example": {
+      "word": "ニュース",
+      "romaji": "nyuusu",
+      "meaning": "berita"
+    }
+  },
+  {
+    "id": "k-nyo",
+    "char": "ニョ",
+    "romaji": "nyo",
+    "group": "yoon",
+    "row": "ny",
+    "col": "o",
+    "example": {
+      "word": "ニョッキ",
+      "romaji": "nyokki",
+      "meaning": "gnocchi"
+    }
+  },
+  {
+    "id": "k-hya",
+    "char": "ヒャ",
+    "romaji": "hya",
+    "group": "yoon",
+    "row": "hy",
+    "col": "a",
+    "example": {
+      "word": "ヒャッホー",
+      "romaji": "hyahhoo",
+      "meaning": "seruan gembira"
+    }
+  },
+  {
+    "id": "k-hyu",
+    "char": "ヒュ",
+    "romaji": "hyu",
+    "group": "yoon",
+    "row": "hy",
+    "col": "u",
+    "example": {
+      "word": "ヒューマン",
+      "romaji": "hyuuman",
+      "meaning": "manusia"
+    }
+  },
+  {
+    "id": "k-hyo",
+    "char": "ヒョ",
+    "romaji": "hyo",
+    "group": "yoon",
+    "row": "hy",
+    "col": "o",
+    "example": {
+      "word": "ヒョウ",
+      "romaji": "hyou",
+      "meaning": "macan tutul"
+    }
+  },
+  {
+    "id": "k-mya",
+    "char": "ミャ",
+    "romaji": "mya",
+    "group": "yoon",
+    "row": "my",
+    "col": "a",
+    "example": {
+      "word": "ミャンマー",
+      "romaji": "myanmaa",
+      "meaning": "Myanmar"
+    }
+  },
+  {
+    "id": "k-myu",
+    "char": "ミュ",
+    "romaji": "myu",
+    "group": "yoon",
+    "row": "my",
+    "col": "u",
+    "example": {
+      "word": "ミュージック",
+      "romaji": "myuujikku",
+      "meaning": "musik"
+    }
+  },
+  {
+    "id": "k-myo",
+    "char": "ミョ",
+    "romaji": "myo",
+    "group": "yoon",
+    "row": "my",
+    "col": "o",
+    "example": {
+      "word": "ミョウガ",
+      "romaji": "myouga",
+      "meaning": "jahe Jepang (myoga)"
+    }
+  },
+  {
+    "id": "k-rya",
+    "char": "リャ",
+    "romaji": "rya",
+    "group": "yoon",
+    "row": "ry",
+    "col": "a",
+    "example": {
+      "word": "リャマ",
+      "romaji": "ryama",
+      "meaning": "llama"
+    }
+  },
+  {
+    "id": "k-ryu",
+    "char": "リュ",
+    "romaji": "ryu",
+    "group": "yoon",
+    "row": "ry",
+    "col": "u",
+    "example": {
+      "word": "リュック",
+      "romaji": "ryukku",
+      "meaning": "ransel"
+    }
+  },
+  {
+    "id": "k-ryo",
+    "char": "リョ",
+    "romaji": "ryo",
+    "group": "yoon",
+    "row": "ry",
+    "col": "o",
+    "example": {
+      "word": "リョカン",
+      "romaji": "ryokan",
+      "meaning": "penginapan tradisional"
+    }
+  },
+  {
+    "id": "k-gya",
+    "char": "ギャ",
+    "romaji": "gya",
+    "group": "yoon",
+    "row": "gy",
+    "col": "a",
+    "example": {
+      "word": "ギャラリー",
+      "romaji": "gyararii",
+      "meaning": "galeri"
+    }
+  },
+  {
+    "id": "k-gyu",
+    "char": "ギュ",
+    "romaji": "gyu",
+    "group": "yoon",
+    "row": "gy",
+    "col": "u",
+    "example": {
+      "word": "ギュウドン",
+      "romaji": "gyuudon",
+      "meaning": "mangkuk nasi daging sapi"
+    }
+  },
+  {
+    "id": "k-gyo",
+    "char": "ギョ",
+    "romaji": "gyo",
+    "group": "yoon",
+    "row": "gy",
+    "col": "o",
+    "example": {
+      "word": "ギョウザ",
+      "romaji": "gyouza",
+      "meaning": "pangsit"
+    }
+  },
+  {
+    "id": "k-ja",
+    "char": "ジャ",
+    "romaji": "ja",
+    "group": "yoon",
+    "row": "j",
+    "col": "a",
+    "example": {
+      "word": "ジャム",
+      "romaji": "jamu",
+      "meaning": "selai"
+    }
+  },
+  {
+    "id": "k-ju",
+    "char": "ジュ",
+    "romaji": "ju",
+    "group": "yoon",
+    "row": "j",
+    "col": "u",
+    "example": {
+      "word": "ジュース",
+      "romaji": "juusu",
+      "meaning": "jus"
+    }
+  },
+  {
+    "id": "k-jo",
+    "char": "ジョ",
+    "romaji": "jo",
+    "group": "yoon",
+    "row": "j",
+    "col": "o",
+    "example": {
+      "word": "ジョギング",
+      "romaji": "jogingu",
+      "meaning": "jogging"
+    }
+  },
+  {
+    "id": "k-bya",
+    "char": "ビャ",
+    "romaji": "bya",
+    "group": "yoon",
+    "row": "by",
+    "col": "a",
+    "example": {
+      "word": "ビャクダン",
+      "romaji": "byakudan",
+      "meaning": "cendana"
+    }
+  },
+  {
+    "id": "k-byu",
+    "char": "ビュ",
+    "romaji": "byu",
+    "group": "yoon",
+    "row": "by",
+    "col": "u",
+    "example": {
+      "word": "ビュッフェ",
+      "romaji": "byuffe",
+      "meaning": "prasmanan"
+    }
+  },
+  {
+    "id": "k-byo",
+    "char": "ビョ",
+    "romaji": "byo",
+    "group": "yoon",
+    "row": "by",
+    "col": "o",
+    "example": {
+      "word": "ビョーキ",
+      "romaji": "byooki",
+      "meaning": "sakit (gaya penulisan)"
+    }
+  },
+  {
+    "id": "k-pya",
+    "char": "ピャ",
+    "romaji": "pya",
+    "group": "yoon",
+    "row": "py",
+    "col": "a",
+    "example": {
+      "word": "ピャーピャー",
+      "romaji": "pyaapyaa",
+      "meaning": "suara menjerit-jerit"
+    }
+  },
+  {
+    "id": "k-pyu",
+    "char": "ピュ",
+    "romaji": "pyu",
+    "group": "yoon",
+    "row": "py",
+    "col": "u",
+    "example": {
+      "word": "ピューマ",
+      "romaji": "pyuuma",
+      "meaning": "puma"
+    }
+  },
+  {
+    "id": "k-pyo",
+    "char": "ピョ",
+    "romaji": "pyo",
+    "group": "yoon",
+    "row": "py",
+    "col": "o",
+    "example": {
+      "word": "ピョンヤン",
+      "romaji": "pyon'yan",
+      "meaning": "Pyongyang"
+    }
+  }
+]

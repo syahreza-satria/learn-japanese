@@ -1,0 +1,1363 @@
+[
+  {
+    "id": "h-a",
+    "char": "あ",
+    "romaji": "a",
+    "group": "gojuon",
+    "row": "a",
+    "col": "a",
+    "example": {
+      "word": "あめ",
+      "romaji": "ame",
+      "meaning": "hujan"
+    }
+  },
+  {
+    "id": "h-i",
+    "char": "い",
+    "romaji": "i",
+    "group": "gojuon",
+    "row": "a",
+    "col": "i",
+    "example": {
+      "word": "いぬ",
+      "romaji": "inu",
+      "meaning": "anjing"
+    }
+  },
+  {
+    "id": "h-u",
+    "char": "う",
+    "romaji": "u",
+    "group": "gojuon",
+    "row": "a",
+    "col": "u",
+    "example": {
+      "word": "うみ",
+      "romaji": "umi",
+      "meaning": "laut"
+    }
+  },
+  {
+    "id": "h-e",
+    "char": "え",
+    "romaji": "e",
+    "group": "gojuon",
+    "row": "a",
+    "col": "e",
+    "example": {
+      "word": "えき",
+      "romaji": "eki",
+      "meaning": "stasiun"
+    }
+  },
+  {
+    "id": "h-o",
+    "char": "お",
+    "romaji": "o",
+    "group": "gojuon",
+    "row": "a",
+    "col": "o",
+    "example": {
+      "word": "おちゃ",
+      "romaji": "ocha",
+      "meaning": "teh"
+    }
+  },
+  {
+    "id": "h-ka",
+    "char": "か",
+    "romaji": "ka",
+    "group": "gojuon",
+    "row": "k",
+    "col": "a",
+    "example": {
+      "word": "かさ",
+      "romaji": "kasa",
+      "meaning": "payung"
+    }
+  },
+  {
+    "id": "h-ki",
+    "char": "き",
+    "romaji": "ki",
+    "group": "gojuon",
+    "row": "k",
+    "col": "i",
+    "example": {
+      "word": "き",
+      "romaji": "ki",
+      "meaning": "pohon"
+    }
+  },
+  {
+    "id": "h-ku",
+    "char": "く",
+    "romaji": "ku",
+    "group": "gojuon",
+    "row": "k",
+    "col": "u",
+    "example": {
+      "word": "くつ",
+      "romaji": "kutsu",
+      "meaning": "sepatu"
+    }
+  },
+  {
+    "id": "h-ke",
+    "char": "け",
+    "romaji": "ke",
+    "group": "gojuon",
+    "row": "k",
+    "col": "e",
+    "example": {
+      "word": "けしゴム",
+      "romaji": "keshigomu",
+      "meaning": "penghapus"
+    }
+  },
+  {
+    "id": "h-ko",
+    "char": "こ",
+    "romaji": "ko",
+    "group": "gojuon",
+    "row": "k",
+    "col": "o",
+    "example": {
+      "word": "こえ",
+      "romaji": "koe",
+      "meaning": "suara"
+    }
+  },
+  {
+    "id": "h-sa",
+    "char": "さ",
+    "romaji": "sa",
+    "group": "gojuon",
+    "row": "s",
+    "col": "a",
+    "example": {
+      "word": "さかな",
+      "romaji": "sakana",
+      "meaning": "ikan"
+    }
+  },
+  {
+    "id": "h-shi",
+    "char": "し",
+    "romaji": "shi",
+    "group": "gojuon",
+    "row": "s",
+    "col": "i",
+    "example": {
+      "word": "しお",
+      "romaji": "shio",
+      "meaning": "garam"
+    }
+  },
+  {
+    "id": "h-su",
+    "char": "す",
+    "romaji": "su",
+    "group": "gojuon",
+    "row": "s",
+    "col": "u",
+    "example": {
+      "word": "すし",
+      "romaji": "sushi",
+      "meaning": "sushi"
+    }
+  },
+  {
+    "id": "h-se",
+    "char": "せ",
+    "romaji": "se",
+    "group": "gojuon",
+    "row": "s",
+    "col": "e",
+    "example": {
+      "word": "せなか",
+      "romaji": "senaka",
+      "meaning": "punggung"
+    }
+  },
+  {
+    "id": "h-so",
+    "char": "そ",
+    "romaji": "so",
+    "group": "gojuon",
+    "row": "s",
+    "col": "o",
+    "example": {
+      "word": "そら",
+      "romaji": "sora",
+      "meaning": "langit"
+    }
+  },
+  {
+    "id": "h-ta",
+    "char": "た",
+    "romaji": "ta",
+    "group": "gojuon",
+    "row": "t",
+    "col": "a",
+    "example": {
+      "word": "たまご",
+      "romaji": "tamago",
+      "meaning": "telur"
+    }
+  },
+  {
+    "id": "h-chi",
+    "char": "ち",
+    "romaji": "chi",
+    "group": "gojuon",
+    "row": "t",
+    "col": "i",
+    "example": {
+      "word": "ちず",
+      "romaji": "chizu",
+      "meaning": "peta"
+    }
+  },
+  {
+    "id": "h-tsu",
+    "char": "つ",
+    "romaji": "tsu",
+    "group": "gojuon",
+    "row": "t",
+    "col": "u",
+    "example": {
+      "word": "つくえ",
+      "romaji": "tsukue",
+      "meaning": "meja"
+    }
+  },
+  {
+    "id": "h-te",
+    "char": "て",
+    "romaji": "te",
+    "group": "gojuon",
+    "row": "t",
+    "col": "e",
+    "example": {
+      "word": "てがみ",
+      "romaji": "tegami",
+      "meaning": "surat"
+    }
+  },
+  {
+    "id": "h-to",
+    "char": "と",
+    "romaji": "to",
+    "group": "gojuon",
+    "row": "t",
+    "col": "o",
+    "example": {
+      "word": "とり",
+      "romaji": "tori",
+      "meaning": "burung"
+    }
+  },
+  {
+    "id": "h-na",
+    "char": "な",
+    "romaji": "na",
+    "group": "gojuon",
+    "row": "n",
+    "col": "a",
+    "example": {
+      "word": "なつ",
+      "romaji": "natsu",
+      "meaning": "musim panas"
+    }
+  },
+  {
+    "id": "h-ni",
+    "char": "に",
+    "romaji": "ni",
+    "group": "gojuon",
+    "row": "n",
+    "col": "i",
+    "example": {
+      "word": "にく",
+      "romaji": "niku",
+      "meaning": "daging"
+    }
+  },
+  {
+    "id": "h-nu",
+    "char": "ぬ",
+    "romaji": "nu",
+    "group": "gojuon",
+    "row": "n",
+    "col": "u",
+    "example": {
+      "word": "ぬの",
+      "romaji": "nuno",
+      "meaning": "kain"
+    }
+  },
+  {
+    "id": "h-ne",
+    "char": "ね",
+    "romaji": "ne",
+    "group": "gojuon",
+    "row": "n",
+    "col": "e",
+    "example": {
+      "word": "ねこ",
+      "romaji": "neko",
+      "meaning": "kucing"
+    }
+  },
+  {
+    "id": "h-no",
+    "char": "の",
+    "romaji": "no",
+    "group": "gojuon",
+    "row": "n",
+    "col": "o",
+    "example": {
+      "word": "のり",
+      "romaji": "nori",
+      "meaning": "rumput laut kering"
+    }
+  },
+  {
+    "id": "h-ha",
+    "char": "は",
+    "romaji": "ha",
+    "group": "gojuon",
+    "row": "h",
+    "col": "a",
+    "example": {
+      "word": "はな",
+      "romaji": "hana",
+      "meaning": "bunga"
+    }
+  },
+  {
+    "id": "h-hi",
+    "char": "ひ",
+    "romaji": "hi",
+    "group": "gojuon",
+    "row": "h",
+    "col": "i",
+    "example": {
+      "word": "ひと",
+      "romaji": "hito",
+      "meaning": "orang"
+    }
+  },
+  {
+    "id": "h-fu",
+    "char": "ふ",
+    "romaji": "fu",
+    "group": "gojuon",
+    "row": "h",
+    "col": "u",
+    "example": {
+      "word": "ふね",
+      "romaji": "fune",
+      "meaning": "kapal"
+    }
+  },
+  {
+    "id": "h-he",
+    "char": "へ",
+    "romaji": "he",
+    "group": "gojuon",
+    "row": "h",
+    "col": "e",
+    "example": {
+      "word": "へや",
+      "romaji": "heya",
+      "meaning": "kamar"
+    }
+  },
+  {
+    "id": "h-ho",
+    "char": "ほ",
+    "romaji": "ho",
+    "group": "gojuon",
+    "row": "h",
+    "col": "o",
+    "example": {
+      "word": "ほし",
+      "romaji": "hoshi",
+      "meaning": "bintang"
+    }
+  },
+  {
+    "id": "h-ma",
+    "char": "ま",
+    "romaji": "ma",
+    "group": "gojuon",
+    "row": "m",
+    "col": "a",
+    "example": {
+      "word": "まど",
+      "romaji": "mado",
+      "meaning": "jendela"
+    }
+  },
+  {
+    "id": "h-mi",
+    "char": "み",
+    "romaji": "mi",
+    "group": "gojuon",
+    "row": "m",
+    "col": "i",
+    "example": {
+      "word": "みず",
+      "romaji": "mizu",
+      "meaning": "air"
+    }
+  },
+  {
+    "id": "h-mu",
+    "char": "む",
+    "romaji": "mu",
+    "group": "gojuon",
+    "row": "m",
+    "col": "u",
+    "example": {
+      "word": "むし",
+      "romaji": "mushi",
+      "meaning": "serangga"
+    }
+  },
+  {
+    "id": "h-me",
+    "char": "め",
+    "romaji": "me",
+    "group": "gojuon",
+    "row": "m",
+    "col": "e",
+    "example": {
+      "word": "めがね",
+      "romaji": "megane",
+      "meaning": "kacamata"
+    }
+  },
+  {
+    "id": "h-mo",
+    "char": "も",
+    "romaji": "mo",
+    "group": "gojuon",
+    "row": "m",
+    "col": "o",
+    "example": {
+      "word": "もも",
+      "romaji": "momo",
+      "meaning": "persik"
+    }
+  },
+  {
+    "id": "h-ya",
+    "char": "や",
+    "romaji": "ya",
+    "group": "gojuon",
+    "row": "y",
+    "col": "a",
+    "example": {
+      "word": "やま",
+      "romaji": "yama",
+      "meaning": "gunung"
+    }
+  },
+  {
+    "id": "h-yu",
+    "char": "ゆ",
+    "romaji": "yu",
+    "group": "gojuon",
+    "row": "y",
+    "col": "u",
+    "example": {
+      "word": "ゆき",
+      "romaji": "yuki",
+      "meaning": "salju"
+    }
+  },
+  {
+    "id": "h-yo",
+    "char": "よ",
+    "romaji": "yo",
+    "group": "gojuon",
+    "row": "y",
+    "col": "o",
+    "example": {
+      "word": "よる",
+      "romaji": "yoru",
+      "meaning": "malam"
+    }
+  },
+  {
+    "id": "h-ra",
+    "char": "ら",
+    "romaji": "ra",
+    "group": "gojuon",
+    "row": "r",
+    "col": "a",
+    "example": {
+      "word": "らくだ",
+      "romaji": "rakuda",
+      "meaning": "unta"
+    }
+  },
+  {
+    "id": "h-ri",
+    "char": "り",
+    "romaji": "ri",
+    "group": "gojuon",
+    "row": "r",
+    "col": "i",
+    "example": {
+      "word": "りんご",
+      "romaji": "ringo",
+      "meaning": "apel"
+    }
+  },
+  {
+    "id": "h-ru",
+    "char": "る",
+    "romaji": "ru",
+    "group": "gojuon",
+    "row": "r",
+    "col": "u",
+    "example": {
+      "word": "るす",
+      "romaji": "rusu",
+      "meaning": "tidak ada di rumah"
+    }
+  },
+  {
+    "id": "h-re",
+    "char": "れ",
+    "romaji": "re",
+    "group": "gojuon",
+    "row": "r",
+    "col": "e",
+    "example": {
+      "word": "れいぞうこ",
+      "romaji": "reizouko",
+      "meaning": "kulkas"
+    }
+  },
+  {
+    "id": "h-ro",
+    "char": "ろ",
+    "romaji": "ro",
+    "group": "gojuon",
+    "row": "r",
+    "col": "o",
+    "example": {
+      "word": "ろうそく",
+      "romaji": "rousoku",
+      "meaning": "lilin"
+    }
+  },
+  {
+    "id": "h-wa",
+    "char": "わ",
+    "romaji": "wa",
+    "group": "gojuon",
+    "row": "w",
+    "col": "a",
+    "example": {
+      "word": "わたし",
+      "romaji": "watashi",
+      "meaning": "saya"
+    }
+  },
+  {
+    "id": "h-wo",
+    "char": "を",
+    "romaji": "wo",
+    "group": "gojuon",
+    "row": "w",
+    "col": "o",
+    "alt": [
+      "o"
+    ],
+    "example": {
+      "word": "ほん を よむ",
+      "romaji": "hon o yomu",
+      "meaning": "membaca buku (を = partikel objek)"
+    }
+  },
+  {
+    "id": "h-n",
+    "char": "ん",
+    "romaji": "n",
+    "group": "gojuon",
+    "row": "nn",
+    "col": "n",
+    "example": {
+      "word": "ほん",
+      "romaji": "hon",
+      "meaning": "buku"
+    }
+  },
+  {
+    "id": "h-ga",
+    "char": "が",
+    "romaji": "ga",
+    "group": "dakuten",
+    "row": "g",
+    "col": "a",
+    "example": {
+      "word": "がっこう",
+      "romaji": "gakkou",
+      "meaning": "sekolah"
+    }
+  },
+  {
+    "id": "h-gi",
+    "char": "ぎ",
+    "romaji": "gi",
+    "group": "dakuten",
+    "row": "g",
+    "col": "i",
+    "example": {
+      "word": "ぎんこう",
+      "romaji": "ginkou",
+      "meaning": "bank"
+    }
+  },
+  {
+    "id": "h-gu",
+    "char": "ぐ",
+    "romaji": "gu",
+    "group": "dakuten",
+    "row": "g",
+    "col": "u",
+    "example": {
+      "word": "ぐあい",
+      "romaji": "guai",
+      "meaning": "kondisi"
+    }
+  },
+  {
+    "id": "h-ge",
+    "char": "げ",
+    "romaji": "ge",
+    "group": "dakuten",
+    "row": "g",
+    "col": "e",
+    "example": {
+      "word": "げんき",
+      "romaji": "genki",
+      "meaning": "sehat"
+    }
+  },
+  {
+    "id": "h-go",
+    "char": "ご",
+    "romaji": "go",
+    "group": "dakuten",
+    "row": "g",
+    "col": "o",
+    "example": {
+      "word": "ごはん",
+      "romaji": "gohan",
+      "meaning": "nasi / makan"
+    }
+  },
+  {
+    "id": "h-za",
+    "char": "ざ",
+    "romaji": "za",
+    "group": "dakuten",
+    "row": "z",
+    "col": "a",
+    "example": {
+      "word": "ざっし",
+      "romaji": "zasshi",
+      "meaning": "majalah"
+    }
+  },
+  {
+    "id": "h-ji",
+    "char": "じ",
+    "romaji": "ji",
+    "group": "dakuten",
+    "row": "z",
+    "col": "i",
+    "example": {
+      "word": "じかん",
+      "romaji": "jikan",
+      "meaning": "waktu"
+    }
+  },
+  {
+    "id": "h-zu",
+    "char": "ず",
+    "romaji": "zu",
+    "group": "dakuten",
+    "row": "z",
+    "col": "u",
+    "example": {
+      "word": "ずっと",
+      "romaji": "zutto",
+      "meaning": "terus-menerus"
+    }
+  },
+  {
+    "id": "h-ze",
+    "char": "ぜ",
+    "romaji": "ze",
+    "group": "dakuten",
+    "row": "z",
+    "col": "e",
+    "example": {
+      "word": "ぜんぶ",
+      "romaji": "zenbu",
+      "meaning": "semuanya"
+    }
+  },
+  {
+    "id": "h-zo",
+    "char": "ぞ",
+    "romaji": "zo",
+    "group": "dakuten",
+    "row": "z",
+    "col": "o",
+    "example": {
+      "word": "ぞう",
+      "romaji": "zou",
+      "meaning": "gajah"
+    }
+  },
+  {
+    "id": "h-da",
+    "char": "だ",
+    "romaji": "da",
+    "group": "dakuten",
+    "row": "d",
+    "col": "a",
+    "example": {
+      "word": "だいがく",
+      "romaji": "daigaku",
+      "meaning": "universitas"
+    }
+  },
+  {
+    "id": "h-di",
+    "char": "ぢ",
+    "romaji": "ji",
+    "group": "dakuten",
+    "row": "d",
+    "col": "i",
+    "alt": [
+      "di"
+    ],
+    "example": {
+      "word": "はなぢ",
+      "romaji": "hanaji",
+      "meaning": "mimisan"
+    }
+  },
+  {
+    "id": "h-du",
+    "char": "づ",
+    "romaji": "zu",
+    "group": "dakuten",
+    "row": "d",
+    "col": "u",
+    "alt": [
+      "du"
+    ],
+    "example": {
+      "word": "つづく",
+      "romaji": "tsuzuku",
+      "meaning": "berlanjut"
+    }
+  },
+  {
+    "id": "h-de",
+    "char": "で",
+    "romaji": "de",
+    "group": "dakuten",
+    "row": "d",
+    "col": "e",
+    "example": {
+      "word": "でんわ",
+      "romaji": "denwa",
+      "meaning": "telepon"
+    }
+  },
+  {
+    "id": "h-do",
+    "char": "ど",
+    "romaji": "do",
+    "group": "dakuten",
+    "row": "d",
+    "col": "o",
+    "example": {
+      "word": "どうぶつ",
+      "romaji": "doubutsu",
+      "meaning": "hewan"
+    }
+  },
+  {
+    "id": "h-ba",
+    "char": "ば",
+    "romaji": "ba",
+    "group": "dakuten",
+    "row": "b",
+    "col": "a",
+    "example": {
+      "word": "ばら",
+      "romaji": "bara",
+      "meaning": "mawar"
+    }
+  },
+  {
+    "id": "h-bi",
+    "char": "び",
+    "romaji": "bi",
+    "group": "dakuten",
+    "row": "b",
+    "col": "i",
+    "example": {
+      "word": "びょういん",
+      "romaji": "byouin",
+      "meaning": "rumah sakit"
+    }
+  },
+  {
+    "id": "h-bu",
+    "char": "ぶ",
+    "romaji": "bu",
+    "group": "dakuten",
+    "row": "b",
+    "col": "u",
+    "example": {
+      "word": "ぶた",
+      "romaji": "buta",
+      "meaning": "babi"
+    }
+  },
+  {
+    "id": "h-be",
+    "char": "べ",
+    "romaji": "be",
+    "group": "dakuten",
+    "row": "b",
+    "col": "e",
+    "example": {
+      "word": "べんとう",
+      "romaji": "bentou",
+      "meaning": "bekal makan"
+    }
+  },
+  {
+    "id": "h-bo",
+    "char": "ぼ",
+    "romaji": "bo",
+    "group": "dakuten",
+    "row": "b",
+    "col": "o",
+    "example": {
+      "word": "ぼうし",
+      "romaji": "boushi",
+      "meaning": "topi"
+    }
+  },
+  {
+    "id": "h-pa",
+    "char": "ぱ",
+    "romaji": "pa",
+    "group": "handakuten",
+    "row": "p",
+    "col": "a",
+    "example": {
+      "word": "ぱんだ",
+      "romaji": "panda",
+      "meaning": "panda"
+    }
+  },
+  {
+    "id": "h-pi",
+    "char": "ぴ",
+    "romaji": "pi",
+    "group": "handakuten",
+    "row": "p",
+    "col": "i",
+    "example": {
+      "word": "ぴかぴか",
+      "romaji": "pikapika",
+      "meaning": "berkilau"
+    }
+  },
+  {
+    "id": "h-pu",
+    "char": "ぷ",
+    "romaji": "pu",
+    "group": "handakuten",
+    "row": "p",
+    "col": "u",
+    "example": {
+      "word": "ぷりん",
+      "romaji": "purin",
+      "meaning": "puding"
+    }
+  },
+  {
+    "id": "h-pe",
+    "char": "ぺ",
+    "romaji": "pe",
+    "group": "handakuten",
+    "row": "p",
+    "col": "e",
+    "example": {
+      "word": "ぺらぺら",
+      "romaji": "perapera",
+      "meaning": "fasih (berbahasa)"
+    }
+  },
+  {
+    "id": "h-po",
+    "char": "ぽ",
+    "romaji": "po",
+    "group": "handakuten",
+    "row": "p",
+    "col": "o",
+    "example": {
+      "word": "ぽすと",
+      "romaji": "posuto",
+      "meaning": "kotak pos"
+    }
+  },
+  {
+    "id": "h-kya",
+    "char": "きゃ",
+    "romaji": "kya",
+    "group": "yoon",
+    "row": "ky",
+    "col": "a",
+    "example": {
+      "word": "きゃく",
+      "romaji": "kyaku",
+      "meaning": "tamu"
+    }
+  },
+  {
+    "id": "h-kyu",
+    "char": "きゅ",
+    "romaji": "kyu",
+    "group": "yoon",
+    "row": "ky",
+    "col": "u",
+    "example": {
+      "word": "きゅう",
+      "romaji": "kyuu",
+      "meaning": "sembilan"
+    }
+  },
+  {
+    "id": "h-kyo",
+    "char": "きょ",
+    "romaji": "kyo",
+    "group": "yoon",
+    "row": "ky",
+    "col": "o",
+    "example": {
+      "word": "きょう",
+      "romaji": "kyou",
+      "meaning": "hari ini"
+    }
+  },
+  {
+    "id": "h-sha",
+    "char": "しゃ",
+    "romaji": "sha",
+    "group": "yoon",
+    "row": "sh",
+    "col": "a",
+    "example": {
+      "word": "しゃしん",
+      "romaji": "shashin",
+      "meaning": "foto"
+    }
+  },
+  {
+    "id": "h-shu",
+    "char": "しゅ",
+    "romaji": "shu",
+    "group": "yoon",
+    "row": "sh",
+    "col": "u",
+    "example": {
+      "word": "しゅくだい",
+      "romaji": "shukudai",
+      "meaning": "pekerjaan rumah"
+    }
+  },
+  {
+    "id": "h-sho",
+    "char": "しょ",
+    "romaji": "sho",
+    "group": "yoon",
+    "row": "sh",
+    "col": "o",
+    "example": {
+      "word": "しょくじ",
+      "romaji": "shokuji",
+      "meaning": "makan"
+    }
+  },
+  {
+    "id": "h-cha",
+    "char": "ちゃ",
+    "romaji": "cha",
+    "group": "yoon",
+    "row": "ch",
+    "col": "a",
+    "example": {
+      "word": "ちゃいろ",
+      "romaji": "chairo",
+      "meaning": "cokelat (warna)"
+    }
+  },
+  {
+    "id": "h-chu",
+    "char": "ちゅ",
+    "romaji": "chu",
+    "group": "yoon",
+    "row": "ch",
+    "col": "u",
+    "example": {
+      "word": "ちゅうごく",
+      "romaji": "chuugoku",
+      "meaning": "Tiongkok"
+    }
+  },
+  {
+    "id": "h-cho",
+    "char": "ちょ",
+    "romaji": "cho",
+    "group": "yoon",
+    "row": "ch",
+    "col": "o",
+    "example": {
+      "word": "ちょうちょ",
+      "romaji": "choucho",
+      "meaning": "kupu-kupu"
+    }
+  },
+  {
+    "id": "h-nya",
+    "char": "にゃ",
+    "romaji": "nya",
+    "group": "yoon",
+    "row": "ny",
+    "col": "a",
+    "example": {
+      "word": "こんにゃく",
+      "romaji": "konnyaku",
+      "meaning": "konnyaku"
+    }
+  },
+  {
+    "id": "h-nyu",
+    "char": "にゅ",
+    "romaji": "nyu",
+    "group": "yoon",
+    "row": "ny",
+    "col": "u",
+    "example": {
+      "word": "ぎゅうにゅう",
+      "romaji": "gyuunyuu",
+      "meaning": "susu sapi"
+    }
+  },
+  {
+    "id": "h-nyo",
+    "char": "にょ",
+    "romaji": "nyo",
+    "group": "yoon",
+    "row": "ny",
+    "col": "o",
+    "example": {
+      "word": "にょろにょろ",
+      "romaji": "nyoronyoro",
+      "meaning": "meliuk-liuk (menggeliat)"
+    }
+  },
+  {
+    "id": "h-hya",
+    "char": "ひゃ",
+    "romaji": "hya",
+    "group": "yoon",
+    "row": "hy",
+    "col": "a",
+    "example": {
+      "word": "ひゃく",
+      "romaji": "hyaku",
+      "meaning": "seratus"
+    }
+  },
+  {
+    "id": "h-hyu",
+    "char": "ひゅ",
+    "romaji": "hyu",
+    "group": "yoon",
+    "row": "hy",
+    "col": "u",
+    "example": {
+      "word": "ひゅうひゅう",
+      "romaji": "hyuuhyuu",
+      "meaning": "suara angin berdesir"
+    }
+  },
+  {
+    "id": "h-hyo",
+    "char": "ひょ",
+    "romaji": "hyo",
+    "group": "yoon",
+    "row": "hy",
+    "col": "o",
+    "example": {
+      "word": "ひょうげん",
+      "romaji": "hyougen",
+      "meaning": "ekspresi"
+    }
+  },
+  {
+    "id": "h-mya",
+    "char": "みゃ",
+    "romaji": "mya",
+    "group": "yoon",
+    "row": "my",
+    "col": "a",
+    "example": {
+      "word": "みゃく",
+      "romaji": "myaku",
+      "meaning": "denyut nadi"
+    }
+  },
+  {
+    "id": "h-myu",
+    "char": "みゅ",
+    "romaji": "myu",
+    "group": "yoon",
+    "row": "my",
+    "col": "u",
+    "example": {
+      "word": "みゅーじっく",
+      "romaji": "myuujikku",
+      "meaning": "musik"
+    }
+  },
+  {
+    "id": "h-myo",
+    "char": "みょ",
+    "romaji": "myo",
+    "group": "yoon",
+    "row": "my",
+    "col": "o",
+    "example": {
+      "word": "みょうじ",
+      "romaji": "myouji",
+      "meaning": "nama keluarga"
+    }
+  },
+  {
+    "id": "h-rya",
+    "char": "りゃ",
+    "romaji": "rya",
+    "group": "yoon",
+    "row": "ry",
+    "col": "a",
+    "example": {
+      "word": "りゃく",
+      "romaji": "ryaku",
+      "meaning": "singkatan"
+    }
+  },
+  {
+    "id": "h-ryu",
+    "char": "りゅ",
+    "romaji": "ryu",
+    "group": "yoon",
+    "row": "ry",
+    "col": "u",
+    "example": {
+      "word": "りゅうがく",
+      "romaji": "ryuugaku",
+      "meaning": "belajar di luar negeri"
+    }
+  },
+  {
+    "id": "h-ryo",
+    "char": "りょ",
+    "romaji": "ryo",
+    "group": "yoon",
+    "row": "ry",
+    "col": "o",
+    "example": {
+      "word": "りょうり",
+      "romaji": "ryouri",
+      "meaning": "masakan"
+    }
+  },
+  {
+    "id": "h-gya",
+    "char": "ぎゃ",
+    "romaji": "gya",
+    "group": "yoon",
+    "row": "gy",
+    "col": "a",
+    "example": {
+      "word": "ぎゃく",
+      "romaji": "gyaku",
+      "meaning": "kebalikan"
+    }
+  },
+  {
+    "id": "h-gyu",
+    "char": "ぎゅ",
+    "romaji": "gyu",
+    "group": "yoon",
+    "row": "gy",
+    "col": "u",
+    "example": {
+      "word": "ぎゅうにく",
+      "romaji": "gyuuniku",
+      "meaning": "daging sapi"
+    }
+  },
+  {
+    "id": "h-gyo",
+    "char": "ぎょ",
+    "romaji": "gyo",
+    "group": "yoon",
+    "row": "gy",
+    "col": "o",
+    "example": {
+      "word": "ぎょうざ",
+      "romaji": "gyouza",
+      "meaning": "pangsit"
+    }
+  },
+  {
+    "id": "h-ja",
+    "char": "じゃ",
+    "romaji": "ja",
+    "group": "yoon",
+    "row": "j",
+    "col": "a",
+    "example": {
+      "word": "じゃがいも",
+      "romaji": "jagaimo",
+      "meaning": "kentang"
+    }
+  },
+  {
+    "id": "h-ju",
+    "char": "じゅ",
+    "romaji": "ju",
+    "group": "yoon",
+    "row": "j",
+    "col": "u",
+    "example": {
+      "word": "じゅぎょう",
+      "romaji": "jugyou",
+      "meaning": "pelajaran"
+    }
+  },
+  {
+    "id": "h-jo",
+    "char": "じょ",
+    "romaji": "jo",
+    "group": "yoon",
+    "row": "j",
+    "col": "o",
+    "example": {
+      "word": "じょうず",
+      "romaji": "jouzu",
+      "meaning": "pandai"
+    }
+  },
+  {
+    "id": "h-bya",
+    "char": "びゃ",
+    "romaji": "bya",
+    "group": "yoon",
+    "row": "by",
+    "col": "a",
+    "example": {
+      "word": "さんびゃく",
+      "romaji": "sanbyaku",
+      "meaning": "tiga ratus"
+    }
+  },
+  {
+    "id": "h-byu",
+    "char": "びゅ",
+    "romaji": "byu",
+    "group": "yoon",
+    "row": "by",
+    "col": "u",
+    "example": {
+      "word": "びゅうびゅう",
+      "romaji": "byuubyuu",
+      "meaning": "suara angin kencang"
+    }
+  },
+  {
+    "id": "h-byo",
+    "char": "びょ",
+    "romaji": "byo",
+    "group": "yoon",
+    "row": "by",
+    "col": "o",
+    "example": {
+      "word": "びょうき",
+      "romaji": "byouki",
+      "meaning": "sakit"
+    }
+  },
+  {
+    "id": "h-pya",
+    "char": "ぴゃ",
+    "romaji": "pya",
+    "group": "yoon",
+    "row": "py",
+    "col": "a",
+    "example": {
+      "word": "ろっぴゃく",
+      "romaji": "roppyaku",
+      "meaning": "enam ratus"
+    }
+  },
+  {
+    "id": "h-pyu",
+    "char": "ぴゅ",
+    "romaji": "pyu",
+    "group": "yoon",
+    "row": "py",
+    "col": "u",
+    "example": {
+      "word": "ぴゅうぴゅう",
+      "romaji": "pyuupyuu",
+      "meaning": "suara angin bersiul"
+    }
+  },
+  {
+    "id": "h-pyo",
+    "char": "ぴょ",
+    "romaji": "pyo",
+    "group": "yoon",
+    "row": "py",
+    "col": "o",
+    "example": {
+      "word": "ぴょんぴょん",
+      "romaji": "pyonpyon",
+      "meaning": "melompat-lompat"
+    }
+  }
+]
